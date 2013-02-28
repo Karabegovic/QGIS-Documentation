@@ -1,0 +1,565 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:11
+# 196b9087b1014d6d961b8753aaa925ff
+msgid "General Tools"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:16
+# dc308b5dab464c1e938b109189c4e8d3
+msgid "Keyboard shortcuts"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:21
+# 5a9304fc591549fdb988aa07ff937b7f
+msgid "QGIS provides default keyboard shortcuts for many features. You find them in Section :ref:`label_menubar`. Additionally the menu option :menuselection:`Settings --> Configure Shortcuts` allows to change the default keyboard shortcuts and to add new keyboard shortcuts to QGIS features."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:39
+# d522903cc7d44e4c917280418b80c882
+msgid "Configuration is very simple. Just select a feature from the list and click on **[Change]**, **[Set none]** or **[Set default]**. Once you have found your configuration, you can save it as XML file and load it to another QGIS installation."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:47
+# de166faaad6e4d408331f6453df1c138
+msgid "Context help"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:52
+# eb55f2d3205242a4b919b01465bc53ad
+msgid "When you need help on a specific topic, you can access context help via the :guilabel:`Help` button available in most dialogs - please note that third-party plugins can point to dedicated web pages."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:59
+# 40e10741df4849d5a918aa2c626e1574
+msgid "Rendering"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:63
+# c83f3957696f408b8ba6ccc425718835
+msgid "By default, QGIS renders all visible layers whenever the map canvas must be refreshed. The events that trigger a refresh of the map canvas include:"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:66
+# dbeaec596ec84bd58cf2d5728ec3903a
+msgid "Adding a layer"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:67
+# 2c692cd914c546998c5e457d6d377012
+msgid "Panning or zooming"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:68
+# b9299cb918e1402681a82b06c45c1a84
+msgid "Resizing the QGIS window"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:69
+# 0aaa139b1cae4088a3dc5e6564c37ae7
+msgid "Changing the visibility of a layer or layers"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:71
+# 00e1ec5c537a45deb5ccc549a651d338
+msgid "QGIS allows you to control the rendering process in a number of ways."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:76
+# 8b233583531844c5a7cc1023063aa92b
+msgid "Scale Dependent Rendering"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:80
+# 414ba904a8ea40ce912511c23c15c6f5
+msgid "Scale dependent rendering allows you to specify the minimum and maximum scales at which a layer will be visible.  To set scale dependency rendering, open the :guilabel:`Properties` dialog by double-clicking on the layer in the legend. On the :guilabel:`General` tab, set the minimum and maximum scale values and then click on the |checkbox|:guilabel:`Use scale dependent rendering` checkbox."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:86
+# 2cbafc0f43774b8f88b4c88027de8bfb
+msgid "You can determine the scale values by first zooming to the level you want to use and noting the scale value in the QGIS status bar."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:95
+# f9ca43bfb68649bdadcff3e387b2f914
+msgid "Controlling Map Rendering"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:97
+# caa25497376e48bab5cf2f65c7c36ac9
+msgid "Map rendering can be controlled in the following ways:"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:102
+# f58010be84154df8adc99cdbc2691102
+msgid "Suspending Rendering"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:106
+# 1293c43e865c4e799ced85b544ba4885
+msgid "To suspend rendering, click the |checkbox| :guilabel:`Render` checkbox in the lower right corner of the statusbar. When the |checkbox| :guilabel:`Render` checkbox is not checked, QGIS does not redraw the canvas in response to any of the events described in Section :ref:`redraw_events`. Examples of when you might want to suspend rendering include:"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:112
+# 35944c1b87244d99be2ca55b6b3032f2
+msgid "Add many layers and symbolize them prior to drawing"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:113
+# 9df9622760de4e00870be31450cb5960
+msgid "Add one or more large layers and set scale dependency before drawing"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:114
+# d159afd9830542aca7c01313e663c416
+msgid "Add one or more large layers and zoom to a specific view before drawing"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:115
+# 920bd727f63a4686b59fd501afc02d4a
+msgid "Any combination of the above"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:117
+# b987631506e14167aa3112ad69ce652c
+msgid "Checking the |checkbox| :guilabel:`Render` checkbox enables rendering and causes an immediate refresh of the map canvas."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:123
+# 35b2678a3fd04f568f1a85ac9b53a633
+msgid "Setting Layer Add Option"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:128
+# ab54a56f9bef40fcbe6d19aed195da98
+msgid "You can set an option to always load new layers without drawing them. This means the layer will be added to the map, but its visibility checkbox in the legend will be unchecked by default. To set this option, choose menu option :menuselection:`Settings --> Options -->` and click on the :guilabel:`Rendering` tab. Uncheck the |checkbox| :guilabel:`By default new layers added to the map should be displayed` checkbox. Any layer added to the map will be off (invisible) by default."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:137
+# fa817fa1eb804e3897731bd264e98962
+msgid "Stopping Rendering"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:144
+# c8adeff9d49a48d6bbbe939563bfdc34
+msgid "To stop the map drawing, press the :kbd:`ESC` key. This will halt the refresh of the map canvas and leave the map partially drawn. It may take a bit of time between pressing :kbd:`ESC` and the time the map drawing is halted."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:149
+# e9cb3b747b9646ddb288bf485369f960
+msgid "It is currently not possible to stop rendering - this was disabled in qt4 port because of User Interface (UI) problems and crashes."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:155
+# e3b01a8f3bb94937b2906c781a03b4fa
+msgid "Updating the Map Display During Rendering"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:160
+# 570a67912bc3447b901075a5912d29a9
+msgid "You can set an option to update the map display as features are drawn. By default, QGIS does not display any features for a layer until the entire layer has been rendered. To update the display as features are read from the datastore, choose menu option :menuselection:`Settings --> Options` click on the :guilabel:`Rendering` tab. Set the feature count to an appropriate value to update the display during rendering. Setting a value of 0 disables update during drawing (this is the default). Setting a value too low will result in poor performance as the map canvas is continually updated during the reading of the features. A suggested value to start with is 500."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:173
+# 8ee4d90cee0647d59e06f8bf57adf6ce
+msgid "Influence Rendering Quality"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:178
+# 3bd0fc88691e4b32a916264596071333
+msgid "To influence the rendering quality of the map you have 3 options. Choose menu option :menuselection:`Settings --> Options` click on the :guilabel:`Rendering` tab and select or deselect following checkboxes."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:183
+# c17f5577a5084bbeac41886acb3a7a3e
+msgid "|checkbox| :guilabel:`Make lines appear less jagged at the expense of some drawing performance`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:185
+# 14c1ee797bc740f6b792e15432ceef4b
+msgid "|checkbox| :guilabel:`Fix problems with incorrectly filled polygons`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:190
+# 0fe02d514dc9424397410f3a16706801
+msgid "Measuring"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:194
+# 497d98bcaa464b14a3c2eb700967b8f1
+msgid "Measuring works within projected coordinate systems (e.g., UTM) and unprojected data. If the loaded map is defined with a geographic coordinate system (latitude/longitude), the results from line or area measurements will be incorrect. To fix this you need to set an appropriate map coordinate system (See Section :ref:`label_projections`). All measuring modules also use the snapping settings from the digitizing module. This is useful, if you want to measure along lines or areas in vector layers."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:202
+# d6bb884dabb940b6911ab741573116c6
+msgid "To select a measure tool click on |mActionMeasure| and select the tool you want to use."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:206
+# 422893d4c72c4bd2b48cf7da5109c7c7
+msgid "Measure length, areas and angles"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:215
+# f830f0636e934f15a8abc6d2bd5f751d
+msgid "|mActionMeasure| QGIS is able to measure real distances between given points according to a defined ellipsoid. To configure this, choose menu option :menuselection:`Settings --> Options`, click on the :guilabel:`Map tools` tab and choose the appropriate ellipsoid. There you can also define a rubberband color and your preferred measurement units (meters or feet) and angle units (degrees, radians and gon). The tools then allows you to click points on the map. Each segment-length as well as the total shows up in the measure-window. To stop measuring click your right mouse button."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:236
+# 466e729f7975400281d26931df785cd6
+msgid "|mActionMeasureArea| Areas can also be measured.  In the measure window the accumulated area size appears. In addition, the measuring tool will snap to the currently selected layer, provided that layer has its snapping tolerance set. (See Section :ref:`snapping_tolerance`).  So if you want to measure exactly along a line feature, or around a polygon feature, first set its snapping tolerance, then select the layer. Now, when using the measuring tools, each mouse click (within the tolerance setting) will snap to that layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:256
+# 5649c25184f547c8b888586f4023f85d
+msgid "|mActionMeasureAngle| You can also measure angles, selecting Measure Angle tool. The cursor becomes cross-shaped. Click to draw the first segment of the angle you wish to measure, then move the the cursor to draw the desired angle. The measure is displayed in a popup dialog."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:276
+# f292d05364de478bae043df757d7f76e
+msgid "Select and deselect features"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:278
+# d57e99f30c7948de9ef97e0e8ee85e41
+msgid "The QGIS toolbar provides several tools to select features in the map canvas. To select one or several features just click on |mActionSelect| and select your tool:"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:282
+# b684c0a1b7234e4da9c140d796e0c203
+msgid "|mActionSelect| :sup:`Select single feature`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:283
+# ee00388b78554a4faa9433f822c2598b
+msgid "|mActionSelectRectangle| :sup:`Select features by rectangle`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:284
+# 1afa0e0cb1224700a523fd391dbaba4f
+msgid "|mActionSelectPolygon| :sup:`Select features by polygon`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:285
+# 362d35cd38224bcbb8109677234e4aa5
+msgid "|mActionSelectFreehand| :sup:`Select features by freehand`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:286
+# b42da27c6efb44158d2895560ed1183c
+msgid "|mActionSelectRadius| :sup:`Select features by radius`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:288
+# fc198d635edf4d24ab4b3a9ac6404473
+msgid "To deselect all selected features click on |mActionDeselectAll|."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:294
+# e0f2e85418914c5baeddeeb5569b042c
+msgid "Decorations"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:297
+# 8207fefdb4334174934324c2c4a38daf
+msgid "The Decorations of QGIS includes the Copyright Label, the North Arrow and the Scale Bar. They are used to 'decorate' the map by adding cartographic elements."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:302
+# cbc87f5c20db4c3b8e59a4e92b0b81d5
+msgid "Before QGIS 1.8 the same functionality was provided by the Decoration Plugin."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:307
+# c025cce1179541b9aff6e918c4b54dac
+msgid "Copyright Label"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:310
+# 1f185af5a388405e87063e0d9990755d
+msgid "|copyright_label| :guilabel:`Copyright label` adds a Copyright label using the text you prefer to the map."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:326
+# 531a6764e2bd4a9e8c29d9d571b50c4d
+msgid "Select from menu :menuselection:`View --> Decorations --> Copyright Label`. The dialog starts (see figure_decorations_1_)."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:328
+# d3ff5f4873d5472abde64af69273fb0f
+msgid "Enter the text you want to place on the map. You can use HTML as shown in the example"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:330
+# 2fd2b0187a764490bb95ce8e839d6d37
+msgid "Choose the placement of the label from the :guilabel:`Placement` 'Bottom Right' drop-down box"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:332
+# d0c4b038051c41fabcf57f212073e90d
+msgid "Make sure the |checkbox| :guilabel:`Enable Copyright Label` checkbox is checked"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:334
+#: ../../source/docs/user_manual/introduction/general_tools.rst:405
+# 22c6716c4cf446cba096a1c04987ffd2
+# 13cec664b4654b0ca3f39b93374e2637
+msgid "Click **[OK]**"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:337
+# 6f4cc71bdac94b14975d2759ee587872
+msgid "In the example above (default) QGIS places a copyright symbol followed by the date in the lower right hand corner of the map canvas."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:342
+# 2969d1391c114a3491214445fc9b6bba
+msgid "North Arrow"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:345
+# ea7b26e4093e43709523d947135d4e96
+msgid "|north_arrow| :guilabel:`North Arrow` places a simple north arrow on the map canvas. At present there is only one style available. You can adjust the angle of the arrow or let QGIS set the direction automatically. If you choose to let QGIS determine the direction, it makes its best guess as to how the arrow should be oriented. For placement of the arrow you have four options, corresponding to the four corners of the map canvas."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:366
+# 87c3005019c84cc3b9c5e436219991ce
+msgid "Scale Bar"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:369
+# 07fc9140b7f447778a1399747e727e68
+msgid "|scale_bar| :guilabel:`Scale Bar` adds a simple scale bar to the map canvas. You control the style and placement, as well as the labeling of the bar."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:385
+# 258dadbb49f1437eafba51f3a1917d35
+msgid "QGIS only supports displaying the scale in the same units as your map frame. So if the units of your layers are in meters, you can't create a scale bar in feet. Likewise if you are using decimal degrees, you can't create a scale bar to display distance in meters."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:390
+# 814deedee2a647dfa4585e488c0e4cb4
+msgid "To add a scale bar:"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:393
+# f51af7e8bad4466491015e5bc1185149
+msgid "Select from menu :menuselection:`View --> Decorations --> Scale Bar` The dialog starts (see figure_decorations_3_)"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:395
+# 4331ff4e19004c6393e69b230b6d98d8
+msgid "Choose the placement from the :guilabel:`Placement` 'Bottom Left' drop-down list"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:397
+# 1304872b064c4382a1c13768a5c71642
+msgid "Choose the style from the :guilabel:`Scale bar style` 'Tick Down' list"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:398
+# 2f1621d03d3149198123f578c74515f1
+msgid "Select the color for the bar :guilabel:`Color of bar` 'black' or use the default black color"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:400
+# 0dd0226f6a1e4604808c50a506f573d6
+msgid "Set the size of the bar and its label :guilabel:`Size of bar` '30 degrees'"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:401
+# 24213a4f0a6449f0bd834c59f5531714
+msgid "Make sure the |checkbox| :guilabel:`Enable scale bar` checkbox is checked"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:402
+# 73ac1e34899d43b188b5744320d39f6a
+msgid "Optionally choose to automatically snap to a round number when the canvas is resized |checkbox| :guilabel:`Automatically snap to round number on resize`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:408
+# bc1501fb475945ba9c1fd4335575e43c
+msgid "Settings of Decorations"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:410
+# 2fb0a3863a1b4cc09afa62a947cb3d75
+msgid "When you save a .qgs project, any changes you have made to NorthArrow, ScaleBar and Copyright will be saved in the project and restored the next time you load the project."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:420
+# f127a83572204c2f9b01ab8d3a6290bb
+msgid "Annotation Tools"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:423
+# 4d5efece69084d12972f133b3a44bac5
+msgid "The |mActionTextAnnotation| :guilabel:`Text Annotation` tools in the attribute toolbar provides the possibility to place formatted text in a balloon on the QGIS map canvas. Use the :guilabel:`Text Annotation` tool and click into the map canvas."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:439
+# abfaabc61d7c4250b3c2c1dc5007cef7
+msgid "Double click on the item opens a dialog with various options. There is the text editor to enter the formatted text and other item settings. E.g. there is the choice of having the item placed on a map position (displayed by a marker symbol) or to have the item on a screen position (not related to the map). The item can be moved by map position (drag the map marker) or by moving only the balloon. The icons are part of GIS theme, and are used by default in the other themes too."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:447
+# 033622b56d6c41cb80f919d73aab2447
+msgid "The |mActionAnnotation| :guilabel:`Move Annotation` tool allows to move the annotation on the map canvas."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:451
+# 0e20c814d5a24e798a27b8c4588ca936
+msgid "Form annotations"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:456
+# 8451232cbd6343e3a93e0d4196c7d113
+msgid "Additionally you can also create your own annotation forms. The |mActionFormAnnotation| :guilabel:`Form Annotation` tool is useful to display attributes of a vector layer in a customized qt designer form (see figure_custom_annotation_). It is similar to the designer forms for the :guilabel:`Identify features` tool, but displayed in an annotation item. Also see QGIS blog http://blog.qgis.org/node/143 for more information."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:476
+# d0c5ddc02b404b75bd5799414b91ea31
+msgid "If you press :kbd:`Ctrl+T` while an :guilabel:`Annotation` tool is active (move annotation, text annotation, form annotation), the visibility states of the items are inverted."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:483
+# 45259e5a847e4333a81452def9836521
+msgid "Spatial Bookmarks"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:490
+# 9cf7cc79cda1434aba6ea65a513c5d6f
+msgid "Spatial Bookmarks allow you to \"bookmark\" a geographic location and return to it later."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:494
+# ba5e3f49078a4112aa5c8bb3008f59d3
+msgid "Creating a Bookmark"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:496
+# 4d5f7af0c4404780a35f06aace0cc124
+msgid "To create a bookmark:"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:498
+# fb14cee2dc1e4b0e9bf62d87f808b2b7
+msgid "Zoom or pan to the area of interest."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:499
+# aea92fcf706e47e6bc2602e2802fa94a
+msgid "Select the menu option :menuselection:`View --> New Bookmark` or press :kbd:`Ctrl-B`."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:500
+# d1194753f05e4110bc48d30846b69bb0
+msgid "Enter a descriptive name for the bookmark (up to 255 characters)."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:501
+# 92bd8b86fb3b485185a30480f8a71b1e
+msgid "Press :kbd:`Enter` to add the bookmark or **[Delete]** to remove the bookmark."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:503
+# 21aedbb3528e4b7bbc8d0b2783edef65
+msgid "Note that you can have multiple bookmarks with the same name."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:506
+# 115a1dd08dbe49c9b2a57d8adb5f8009
+msgid "Working with Bookmarks"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:508
+# f790b1b4343a48569daa33630ba34fba
+msgid "To use or manage bookmarks, select the menu option :menuselection:`View --> Show Bookmarks`. The :guilabel:`Geospatial Bookmarks` dialog allows you to zoom to or delete a bookmark. You can not edit the bookmark name or coordinates."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:514
+# 188a711cf2bd4200a9a313c807777ee8
+msgid "Zooming to a Bookmark"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:516
+# a35fa9091f4844d28b6bbffb9a4957c6
+msgid "From the :guilabel:`Geospatial Bookmarks` dialog, select the desired bookmark by clicking on it, then click **[Zoom To]**. You can also zoom to a bookmark by double-clicking on it."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:521
+# 0674255c3e084de39d71a6bd999ecc8a
+msgid "Deleting a Bookmark"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:523
+# 6f59728f928544a39f39cf0c4f26718a
+msgid "To delete a bookmark from the :guilabel:`Geospatial Bookmarks` dialog, click on it then click **[Delete]**. Confirm your choice by clicking **[Yes]** or cancel the delete by clicking **[No]**."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:531
+# 855e41d669034ac385252d28088b70a9
+msgid "Nesting Projects"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:535
+# f93236218e3b4de692d1a88c44e16de0
+msgid "If you want to embed content from other project files into your project you can choose :menuselection:`Layer --> Embed Layers and Groups`."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:539
+# bc02ded11b9c40f0a54c656204262135
+msgid "Embedding layers"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:541
+# a79575478d874f44883d3196861d84a2
+msgid "The following dialog allows you to embed layers from other projects:"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:543
+# 848b8f3007e440aeaabae16de718783d
+msgid "Press |browsebutton| to look for another project from the Alaska dataset."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:544
+# c79e4c009097421499a4796bead7e939
+msgid "Select the project file grassland. You can see the content of the project (see figure_embed_dialog_)."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:545
+# 73f8117d8da14c03aa58c3ac8a3656fc
+msgid "Press :kbd:`Ctrl` and klick on the layers grassland and regions. The layers are embedded in the map legend and the map view now."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:560
+# d884523950af45ae90527f2e1985c3e7
+msgid "While the embedded layers are editable you can't change it's properties like Style and Labeling."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:562
+# 4427dd4404b1410188aa0409e05c783f
+msgid "**Removing embedded layers**"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/general_tools.rst:564
+# 514f1d0877dd4796ab627e7c40d3c329
+msgid "Right-click on the embedded layer and choose |mActionRemoveLayer| :guilabel:`Remove` ."
+msgstr ""
+

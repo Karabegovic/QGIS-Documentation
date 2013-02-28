@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/website/development/index.rst:8
+# c14d505c926649498b53547ee64044da
+msgid "QGIS Development"
+msgstr ""
+
+#: ../../source/website/development/index.rst:13
+# 43673f3e678f48cbaf1c85cbb5bc0007
+msgid "Welcome to Quantum GIS Development"
+msgstr ""
+
+#: ../../source/website/development/index.rst:17
+# f1ead7d99b674629a57597905a3d7fd3
+msgid "CPP and QT development"
+msgstr ""
+
+#: ../../source/website/development/index.rst:20
+# d9405a2ffa9a4b55a0c0f7a140f4593c
+msgid "Python Plugins"
+msgstr ""
+

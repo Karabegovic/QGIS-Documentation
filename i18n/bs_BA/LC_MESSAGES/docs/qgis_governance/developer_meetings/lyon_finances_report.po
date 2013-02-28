@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:7
+# 50fb5fbd112c4ff9a360bef3bbdcae5e
+msgid "Lyon, april 2012"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:10
+# 761f78267e934dbca0ce3b3386120a55
+msgid "Finances"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:13
+# 73f4972b4fd44061bddd616fca1b1bfe
+msgid "Situation"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:15
+# 2bf86312a43447c098919f6cb7ad61c8
+msgid "finances moved from **GFOSS.it** to **QGIS-CH**"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:16
+# 391e6d9101a94ed2b20b551ecf903de3
+msgid "income 2011"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:18
+# 113c3880bd944d119dfbcb90ad57a363
+msgid "donation & sponsor  17,000 € (avg 219 €, median 33 €, stdev 730 €)"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:22
+# 3658e46b1e21485798f91b937ec9e291
+msgid "expenses"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:24
+# d16f35c2075647e1820dcc270ad8e18f
+msgid "HF"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:26
+# 31f773a17359408f9a1214c8a584fbb7
+msgid "2011 Lisbon       4,400 €"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:27
+# 0b5662add6634075bdd4ea5afad8114f
+msgid "2011 Zuerich      6,400 €"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:28
+# 4786368feaf745259898dd30f7274af9
+msgid "2012 Lyon (?)     7,500 €"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:30
+# 06657117375647529fc4c41a6ee53d20
+msgid "Japanese gold sponsor"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:33
+# 9ba45c2e3b9e43138757c03ffb690bfd
+msgid "Problems"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:35
+# bf58f0d7dbc64ac1a0f4dc131b1fb790
+msgid "costs are rising more than incomes"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:37
+# cf4cb1c7046e4a1ca0ff80e9424f3f82
+msgid "still positive balance though"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:39
+# c73a02f9de7844099b5056873a26ebda
+msgid "handling of donations cumbersome (by hand)"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:40
+# e8bc319a5e044848b328d9bdb59fbc7d
+msgid "accounting is more complex than we would like"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:42
+# a09039412f7a4bd78fb77bfb1ad18370
+msgid "some of the expenses are paid directly by local sponsors"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:44
+# e9bac93dc9544bd1b771510e2b3d910a
+msgid "fiscal requests: sponsoring receipt for tax office"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:47
+# 0aa9c5122dd342cf901542dee47a1d0f
+msgid "Proposals"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:49
+# 986385d8a2f74fb5915c44d3481f4fea
+msgid "split the functions of Treasurer (Horst) and PSC"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:51
+# 41b97228c42542bf81f374cab8dfecc4
+msgid "more formal annual and HF budgets"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:53
+# 4687b38a6cd64c34825ac568cf80b924
+msgid "automatic handling of donations, e.g."
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:55
+# abb1e7c7e69b4eb195a8447458ca8568
+msgid "http://www-old.gnome.org/friends/"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:56
+# e5b28a99f8054488ae8f9508bf715926
+msgid "http://documentfreedom.org/donate/"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:58
+# b83b5bd827da4fe98cae33bdbd83a85d
+msgid "*QGIS friendly* courses"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:59
+# d12e0002f59f49939d894429f8beb10b
+msgid "money from OSGEO (GSoC)?"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:60
+# 1f21711da51543dfb2eb67a5710fb9c2
+msgid "from Otto: a wiki page with:"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:62
+# dd5c5f3f96cd46aa9de8b7b69571fad1
+msgid "tasks"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:63
+# 1d740c67286b4bf0a2aaaa3a61223082
+msgid "developer (with contact address)"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:64
+# 4e84a1d5ca2c421da67b16d298a0052d
+msgid "amount requested"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/developer_meetings/lyon_finances_report.rst:65
+# e8de27e5d02b4535817caa9ccd44ac5f
+msgid "list of people willing to donate"
+msgstr ""
+

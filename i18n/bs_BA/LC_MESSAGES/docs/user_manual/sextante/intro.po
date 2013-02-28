@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/user_manual/sextante/intro.rst:9
+# d161d7559c5e415e87cd936dc5d9b092
+msgid "Introduction"
+msgstr ""
+
+#: ../../source/docs/user_manual/sextante/intro.rst:12
+# 971aa215a9964e82946dbcb7f1182eac
+msgid "This chapter introduces SEXTANTE, the powerful geospatial analysis framework of QGIS. SEXTANTE is a geoprocessing environment that can be used to call native and third party algorithms from QGIS, making your spatial analysis tasks more productive and easy to accomplish."
+msgstr ""
+
+#: ../../source/docs/user_manual/sextante/intro.rst:17
+# a41a4bad90694de7b6c2db0cba4e1c50
+msgid "In the following sections we will review how to use the graphical elements of SEXTANTE and take the most out of each one of them"
+msgstr ""
+
+#: ../../source/docs/user_manual/sextante/intro.rst:21
+# 00723262c6b94e659bd502c2f3565a83
+msgid "Basic elements of the SEXTANTE GUI"
+msgstr ""
+
+#: ../../source/docs/user_manual/sextante/intro.rst:23
+# 51f2bed3098c49ac8a8ded1df2b11dea
+msgid "There are four basic elements in the SEXTANTE GUI, which are used to run SEXTANTE algorithms for different purposes. Choosing one tool or another will depend on the kind of analysis that is to be performed and the particular characteristics of each user and project. All of them (except for the batch processing interface, which is called from the toolbox, as we will see) can be accessed from the *SEXTANTE* menu item (you will see more than four entries. The remaining ones are not used to execute algorithms and will be explained later in this chapter)."
+msgstr ""
+
+#: ../../source/docs/user_manual/sextante/intro.rst:32
+# 605beec8d0c14664b12ba64c78fe43ae
+msgid "The SEXTANTE toolbox. The main element of the SEXTANTE GUI, it is used to execute a single algorithm or run a batch process based on that algorithm."
+msgstr ""
+
+#: ../../source/docs/user_manual/sextante/intro.rst:49
+# 41d1a19fcfda41a0bfa926ee1b028525
+msgid "The SEXTANTE graphical modeler. Several algorithms can be combined graphically using the modeler to define a workflow, creating a single process that involves several sub-processes"
+msgstr ""
+
+#: ../../source/docs/user_manual/sextante/intro.rst:65
+# 1bb05d13e510452c9d10cd4bf42a6fe6
+msgid "The SEXTANTE history manager. All actions performed using any of the aforementioned elements are stored in a history file and can be later easily reproduced using the history manager"
+msgstr ""
+
+#: ../../source/docs/user_manual/sextante/intro.rst:81
+# 402f16edf4614470a764e26c0c3fa398
+msgid "The SEXTANTE batch processing interface manager. This interface allows you to execute batch processes and automate the execution of a single algorithm on multiple datasets."
+msgstr ""
+
+#: ../../source/docs/user_manual/sextante/intro.rst:98
+# 114bcbb76ddb499589df1fb8970a0048
+msgid "Along the following sections we will review each one of this elements in detail."
+msgstr ""
+

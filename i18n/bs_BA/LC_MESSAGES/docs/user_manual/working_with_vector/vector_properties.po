@@ -1,0 +1,1279 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:10
+# af096cad40344639b44dd1f96a2f7351
+msgid "The Vector Properties Dialog"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:12
+# a38081d37e0845aeaa6cc84622eb6ae2
+msgid "The :guilabel:`Layer Properties` dialog for a vector layer provides information about the layer, symbology settings and labeling options. If your vector layer has been loaded from a PostgreSQL/PostGIS datastore, you can also alter the underlying SQL for the layer by invoking the :guilabel:`Query Builder` dialog on the ``General`` tab. To access the :guilabel:`Layer Properties` dialog, double-click on a layer in the legend or right-click on the layer and select :menuselection:`Properties` from the popup menu."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:40
+# 64d75adc831842b0acbef0a14eb5d048
+msgid "Style Tab"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:44
+# 624bcc52c478492eb7fc159670a6a802
+msgid "|symbology| Since |qg| 1.4.0 a new symbology was integrated in parallel to improve and finally replace the old symbology. |qg| 1.8 now uses the new symbology as default, which provides a variety of improvements and new features."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:48
+# bfb77b9b1bdb4a9d81c0162b4fb46deb
+msgid "A description of the old symbology is available in section :ref:`vector_old_symbology`."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:51
+# 8357e9b954fc4a24ab2acb67ce6632c4
+msgid "There are three types of symbols: marker symbols (for points), line symbols (for lines) and fill and outline symbols (for polygons). Symbols can consist of one or more symbol layers. It is possible to define the color of a symbol and this color is then defined for all symbol layers. Some layers may have the color locked - for those the color can not be altered. This is useful when you define the color of a multilayer symbol. Similarly, it is possible to define the width for line symbols, as well as size and rotation for marker symbols."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:66
+# 60488357945a427bb8b35ae4f65a6ec9
+msgid "**Available symbol layer types**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:69
+# 2fca4d8f1f314ce89d50f712b11941f8
+msgid "Point layers"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:71
+# 9727e6200faf4d26b09db6c7a7ce9352
+msgid "**Font marker**: Rendering with a font."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:72
+# 9948bc58869940ecaacb752646464b85
+msgid "**Simple marker**: Rendering with a hardcoded marker."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:73
+# 97609548490b45ada454ce4c7b635734
+msgid "**SVG marker**: Rendering with a SVG picture."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:74
+# 1431c455f6ac4cd38bcccb2c04799daf
+msgid "**Ellipse marker**: Rendering with ellipse shapes derived from attributes."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:75
+# 2d2e414240c048899de3e9191c6cbe18
+msgid "**Vector field marker**: Rendering with vector fields derived from attributes."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:77
+# a92ec10aed064a4489de74c861749079
+msgid "Line layers"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:79
+# e98b8f1050284e919858c2dfef2810b5
+msgid "**Line decoration**: Add a line decoration, e.g an arrow to indicate line direction."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:81
+# 35ecbf9cb8eb4702a6af3c9243eadb7d
+msgid "**Marker line**: A line rendered by repeating a marker symbol."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:82
+# 943bb01fa089401c91a1dbf75e443c3b
+msgid "**Simple line**: Usual rendering of a line (with specified width color and pen style)."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:85
+# e30d6dc0e64a42ffbb04387cc6031a8b
+msgid "Polygon layers"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:87
+# 6b225c7a879541899868bc42b0d0d8cf
+msgid "**Centroid fill**: Fill a polygon centroid with a hardcoded marker."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:88
+# 1227751cba994998ad8b4c21b97a1ecd
+msgid "**SVG fill**: Fill a polygon with a SVG symbol."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:89
+# 1d87d6527e8c43c08cc44ba7b5b8c5fe
+msgid "**Simple fill**: Usual rendering of a polygon (with defined fill color, fill pattern and outline)."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:91
+# b368f4c064964776b34ebd684ddafb83
+msgid "**Line pattern fill**: Fill a polygon with a line pattern."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:92
+# c568424e50d94a838b9d66b8edcad03d
+msgid "**Point pattern fill**: Fill a polygon with a point pattern."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:93
+# 774fa47c596048179eb4366df1a56d33
+msgid "**Outline: Line decoration**: Add a line decoration, e.g an arrow to indicate line direction."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:95
+# 994e0f8295974e919fa8e2e55a5908df
+msgid "**Outline: Marker line**: Use a hardcoded marker as area outline."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:96
+# 4a81b4c9294e4d82a24d0d49e8bcf4a9
+msgid "**Outline: Simple line**: Define width, color and pen style as area outline."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:101
+# df0c8a0dcbc748deba1bb014807e4b41
+msgid "**Color ramps**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:103
+# 82e85e9d880442db81035de58efa68ad
+msgid "Color ramps are used to define a range of colors that can be used during the creation of renderers. The symbol's color will be set from the color ramp."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:106
+# 21f06bfb0f4f4e158964863ae9c4bc92
+msgid "There are three types of color ramps:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:108
+# caa7405c18444251b5015f6fc65c55d4
+msgid "**Gradient**: Linear gradient from one color to some other."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:109
+# eae86486d7274d0da02e466f03e40871
+msgid "**Random**: Randomly generated colors from a specified area of color space."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:110
+# 44beb12f227d4baba9195b50a2da7537
+msgid "**ColorBrewer**: Create color area from a color shema and a defined number of color classes."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:113
+# eb063261d4e54017b7eb81f5137d19ba
+msgid "Color ramps can be defined in the :guilabel:`Color ramp` tab of the :guilabel:`Style Manager` by clicking the **[Add]** button and then choosing a color ramp type (see section vector_style_manager_ )."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:117
+# dbdd79e6159c43c5a8745b275a56166f
+msgid "**Styles**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:119
+# 73c52c605b0f42cdb97e03d887f10077
+msgid "A style groups a set of various symbols and color ramps. You can define your prefered or frequently used symbols, and can use it  without having to recreate it everytime. Style items (symbols and color ramps) have always a name by which they can be queried from the style. There is at least one default style in |qg| (modifiable) and the user can add further styles. In the lower part of the Style tab there are four buttons for managing styles: Use **[Restore Default Style]** to get back to your default settings, **[Save As Default]** to save your style as default, **[Load Style...]** to get to your own styles and **[Save Style]** to save your own styles. Layer styles can also be transferred from one layer to another layer. Activate a layer and choose :menuselection:`Layer -->` |mActionEditCopy| :guilabel:`Copy style` and switch to another layer. Then choose :menuselection:`Layer -->` |mActionEditPaste| :guilabel:`Paste style`."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:134
+# 7f8d7af725304a33b97c625e295c3265
+msgid "**Renderers**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:136
+# 048d7c7d723e451bad5fca8fda0cd996
+msgid "The renderer is responsible for drawing a feature together with the correct symbol. There are four types of renderers: single symbol, categorized (called unique color in the old symbology), graduated and rule-based. There is no continuous color renderer, because it is in fact only a special case of the graduated renderer. The categorized and graduated renderer can be created by specifying a symbol and a color ramp \\- they will set the colors for symbols appropriately."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:146
+# 55e5d4b2b4674f5f97bc9f8dcec355f4
+msgid "**Working with the New Generation Symbology**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:149
+# f0ee08dfa75441c28ae957b1c8511192
+msgid "In the :guilabel:`Style` tab you can choose one of the four renderers: single symbol, categorized, graduated, rule-based and point displacement. For each data type (points, lines and polygons) vector symbol layer types are available (see vector_symbol_types_). Depending on the chosen renderer, the symbology tab provides different settings and options, that will be described in the following sections. The new generation symbology dialog also provides a **[Style Manager]** button which gives access to the Style Manager (see Section vector_style_manager_). The Style Manager allows you to edit and remove existing symbols and add new ones."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:163
+# 9f60749084a840d49b80e1a8dcf94f77
+msgid "**Select and change multiple symbols**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:165
+# 5deca2de6a894f448d3ad488db38f18e
+msgid "The New Generation Symbology allows to select multiple symbols and right click to change color, transparency, size, or outline width of selected entries."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:171
+# fbbaa556731145d6a746f14aa15a727d
+msgid "**Single Symbol Renderer**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:173
+# 63b553641de6441eae735c21af4d9b95
+msgid "The Single Symbol Renderer is used to render all features of the layer using a single user-defined symbol. The properties, that can be adjusted in the ``Style`` tab, depend partially on the type of the layer, but all types share the following structure. In the top left part of the tab, there is a preview of the current symbol to be rendered. In the bottom part of the tab, there is a list of symbols already defined for the current style, prepared to be used via selecting them from the list. The current symbol can be modified using the **[Change]** button below the preview, which opens a :guilabel:`Symbol Properties` dialog, or the **[Change]** button right of the preview, which opens an ordinary :guilabel:`Color` dialog."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:196
+# 6d08c089126f4049a3722f6253a7fa08
+msgid "In the :guilabel:`Style` tab you can apart from a general layer transparency also define to use millimeter or map units for the size scale. In the **[Advanced]** button next to the **[Save as style]** button you can use data-defined size scale and rotation. Here the :menuselection:`Symbol levels -->` menu allows to enable and define the order in which the symbol layers are rendered (if the symbol consists of more than one layer)."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:203
+# 2a6ff791a2fa4ac199849e4c37c9ac3d
+msgid "After having done any needed changes, the symbol can be added to the list of current style symbols (using the **[Save as style]** button) and then easily be used in the future. Furthermore you can use the **[Save Style]** button to save the symbol as a QGIS layer style file (.qml) or SLD file(.sld). Currently in version 1.8 SLDs can be exported from any type of renderer: single symbol, categorized, graduated or rule-based, but when importing an SLD, either a single symbol or rule-based renderer is created. That means that categorized or graduated styles are converted to rule-based. If you want to preserve those renderers, you have to stick to the QML format. On the other hand, it could be very handy sometimes to have this easy way of converting styles to rule-based."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:217
+# ccf37e92457b4e2da01962f4578dce70
+msgid "**Categorized Renderer**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:220
+# e6dc9ea8731444bc8a7e89760c8eb540
+msgid "The Categorized Renderer is used to render all features from a layer, using a single user-defined symbol, which color reflects the value of a selected feature's attribute. The :guilabel:`Style` tab allows you to select:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:225
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:296
+# fcb9023a73c0486d8e56f507a12ba7ad
+# f57c30f6e46d45e58284e1f68c1ab803
+msgid "The attribute (using the Column listbox)"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:226
+# bed62a9cea794322a1d6bf122e350fea
+msgid "The symbol (using the Symbol dialog)"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:227
+# cdd6c7a31b784de29c512b11e6c3a86b
+msgid "The colors (using the Color Ramp listbox)"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:230
+# 9425c0ed75824230aa94100243dc2b52
+msgid "The **[Advanced]** button in the lower right corner of the dialog allows to set the fields containing rotation and size scale information. For convenience, the list in the bottom part of the tab lists the values of all currently selected attributes together, including the symbols that will be rendered."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:236
+# 77a8c8ad8f5a4be7b2288da6683a893f
+msgid "The example in figure_symbology_2_ shows the category rendering dialog used for the rivers layer of the |qg| sample dataset."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:253
+# cd8a3a7e41094960b7e21a4cebae4441
+msgid "You can create a custom color ramp choosing :menuselection:`New color ramp...` from the Color ramp dropdown menu. A dialog will prompt for the ramp type: Gradient, Random, ColorBrewer, then each one has options for number of steps and/or multiple stops in the color ramp. See figure_symbology_3_ for an example of custom color ramp."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:274
+# bc864b537cfd4c1fadf87f309f1390b6
+msgid "**Graduated Renderer**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:276
+# bc108feb2d614be1868d962e29b3d0ee
+msgid "The Graduated Renderer is used to render all the features from a layer, using a single user-defined symbol, whose color reflects the classification of a selected feature's attribute to a class. Like Categorized Renderer, it allows to define rotation and size scale from specified columns."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:293
+# d48d06d36eba4a3cafd39a77ca20ce5f
+msgid "Analogue to the categorized rendered, the :guilabel:`Style` tab allows you to select:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:297
+# 558d837ca8e94e3984c8365387e1e0e5
+msgid "The symbol (using the Symbol Properties button)"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:298
+# 644ac33b1fe3403bbce1c192c42a74a1
+msgid "The colors (using the Color Ramp list)"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:300
+# 6cfb59f3cd3e4c1bb9ba273925493020
+msgid "Additionally, you can specify the number of classes and also the mode how to classify features inside the classes (using the Mode list). The available modes are:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:304
+# 3b51ae27a9754713ae07911b77417eb9
+msgid "Equal Interval"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:305
+# a74bd59c01e84cff8b5001bf3bfe9675
+msgid "Quantile"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:306
+# c7b3bfc2f9bf4b929698b1451f9b88cc
+msgid "Natural Breaks (Jenks)"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:307
+# 0a7ba364baae47258ecb0b430bb74689
+msgid "Standard Deviation"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:308
+# 6a6f3841de0f4bca929d5cdf1720ccef
+msgid "Pretty Breaks"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:311
+# 04447f7c4e6040a4bc007c08c3d0e304
+msgid "The listbox in the  bottom part of the :guilabel:`Style` tab lists the classes together with their ranges, labels and symbols that will be rendered."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:314
+# dafda7e902764fdd8744b664d6e3cf12
+msgid "The example in figure_symbology_4_ shows the graduated rendering dialog for the rivers layer of the |qg| sample dataset."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:319
+# 2e89ef2b99f14812b56929f63e492e09
+msgid "**Rule-based rendering**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:322
+# 45a3dd8de7564d9ba136545499d6cef8
+msgid "The rule-based renderer is used to render all the features from a layer, using rule based symbols, whose color reflects the classification of a selected feature's attribute to a class. The rules are based on SQL statements. The dialog allows rule grouping by filter or scale and you can decide if you want to enable symbol levels or use only first matched rule."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:328
+# 55e52bbbdb7e4fd79fe1a719620fafb4
+msgid "The example in figure_symbology_5_ shows the rule-based rendering dialog for the rivers layer of the |qg| sample dataset."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:331
+# 1da0817fdd534a699b72e56ed2f71749
+msgid "To create a rule, activate an existing row by clicking on it or click on '+' and click on the new rule. Then press the **[Edit]** button. In the Rule properties dialog you can define a label for the rule. Press the |browsebutton| button to open the Expression string builder. In the **Function List**, click on :guilabel:`>-Fields and Values` to view all attributes of the attribute table to be searched. To add an attribute to the Field calculator **Expression** field, double click its name in the :guilabel:`>-Fields and Values` list. Generally you can use the various fields, values and functions to construct the calculation expression or you can just type it into the box (see :ref:`vector_field_calculator`)."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:355
+# 60f41e3db0f94af08a83673dd0e646af
+msgid "**Point displacement**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:357
+# aefc2ee58ac141e9849d6660494687fe
+msgid "The point displacement renderer offers to visualize all features of a point layer, even if they have the same location. To do this, the symbols of the points are placed on a displacement circle around a center symbol."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:375
+# daa21090086e4a03b5255a109ddeb728
+msgid "**Symbol Properties**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:377
+# e032668972454b248fc10ef8a2504346
+msgid "The symbol properties dialog allows the user to specify different properties of the symbol to be rendered. In the bottom left part of the dialog, you find a preview of the current symbol as it will be displayed in the map canvas. Above the preview is the list of symbol layers. To start the symbol properties dialog, click the **[** |mActionOptions| **Change...]** button in the :guilabel:`Style` tab of the :guilabel:`Layer Properties` dialog."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:384
+# 43b222e36171418596be990bd0aba7bf
+msgid "The control panels allow adding or removing layers, changing the position of layers, or locking layers for color changes. In the right part of the dialog, there are shown the settings applicable to the single symbol layer selected in the symbol layer list. The most important is the 'Symbol Layer Type' combo box, which allows you to choose the layer type. The available options depend on the layer type (Point, Line, Polygon). The symbol layer type options are described in section vector_symbol_types_. You can also change the symbol layer properties in the right part of the dialog. For example if you have chosen an SVG marker for a point layer it is now possible to change its color using the :guilabel:`Color` menu."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:410
+# c5eea9406c634814af98d4cfdcc65b74
+msgid "Style Manager"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:412
+# d2eaa85158604bb18e76d37801edb8c4
+msgid "The Style Manager is a small helper application, that lists symbols and color ramps available in a style. It also allows you to add and/or remove items. To launch the Style Manager, click on :menuselection:`Settings --> Style Manager` in the main menu. Alternatively, you can access it via the :guilabel:`Style` tab."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:435
+# 869dc63cfb6d42a6a2fa6fb80e68f198
+msgid "Old Symbology"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:438
+# 300d8ea3a8bb4c579d89cb3c91e17da6
+msgid "|qg| 1.8. still supports the usage of the old symbology, although it is recommended to switch to the new symbology, described in section vector_new_symbology_, because the old symbology will be removed in one of the next releases."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:443
+# a48d348b71e14be1baa4f934b325c224
+msgid "If you want or need to switch back to the old symbology you can click on the **[Old symbology]** button in the :guilabel:`Style` tab of the :guilabel:`Layer Properties` dialog."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:447
+# 19d4d685222747429bab06e5b3658afd
+msgid "You can also make the old symobolgy the default, deactivating |checkbox| :guilabel:`Use new generation symbology for rendering` in the :guilabel:`Rendering` tab under :menuselection:`Settings -->` |mActionOptions| :menuselection:`Options`."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:454
+# 923bcbd7637a4f8b85c2c5473984989a
+msgid "The old |qg| symbology supports the following renderers:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:457
+# 36707cc8419d4fd28e49d293ed2bef0d
+msgid "**Single symbol** - a single style is applied to every object in the layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:458
+# 33804d8a0bc74042a657a055fa5d2421
+msgid "**Graduated symbol** - objects within the layer are displayed with different symbols classified by the values of a particular field."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:459
+# e0752128e4434277ba7c57d3836d1f38
+msgid "**Continuous color** - objects within the layer are displayed with a spread of colours classified by the numerical values within a specified field."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:460
+# d6fa4dc2b9624793aadc2e21b5c75990
+msgid "**Unique value** - objects are classified by the unique values within a specified field with each value having a different symbol."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:463
+# ce704f7accb54e479665c191295206b3
+msgid "To :index:`change the symbology` for a layer, simply double click on its legend entry and the vector :guilabel:`Layer Properties` dialog will be shown."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:468
+# cbec1db012fe4692b0dd2f3ec2ddcb63
+msgid "**Style Options**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:470
+# a26838aedefc4ac788310fdc901cce95
+msgid "Within this dialog you can style your vector layer. Depending on the selected rendering option you have the possibility to also classify your map features."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:474
+# d053c30924bd4a3980448b76396be5a2
+msgid "At least the following styling options apply for nearly all renderers:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:476
+# 83f2f3fa2d0844a987209ac0dcfdffb5
+msgid "**Fill style** - Style for filling. Beside the given brushes you can select :guilabel:`Fill style: ? Texture` |selectstring| and click the |browsebutton| button for selecting your own texture file. Currently the fileformats :file:`*.jpeg`, :file:`*.xpm`, and :file:`*.png` are supported."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:480
+# a54a766e229741ff995ff6c73d39ce23
+msgid "**Fill color** - fill-color of your features."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:481
+# df1a30f31eb94f5893d8d84896f6093b
+msgid "**Outline options**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:483
+# a58a2b48a6b24ddaa20f67ebb4929801
+msgid "Outline style - Pen-style for your outline of your feature. You can also set this to 'no Pen'."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:485
+# 984e1e5ff21e44bc86997efdf05912ed
+msgid "Outline color - color of the ouline of your feature."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:486
+# 364d2d3ac8d94acca8f3bfdce69fde54
+msgid "Outline width - width of your features."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:488
+# 1247badd5c3540a1af85541d1c6f1a8d
+msgid "Once you have styled your layer you also could save your layer-style to a separate file (ending with :file:`*.qml`). To do this, use the button **[Save Style...]**. No need to say that **[Load Style...]** loads your saved layer-style-file."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:493
+# 4e23e0ee89f54c229a0446f03473604c
+msgid "If you wish to always use a particular style whenever the layer is loaded, use the **[Save As Default]** button to make your style the default. Also, if you make changes to the style that you are not happy with, use the **[Restore Default Style]** button to revert to your default style."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:501
+# 1b35400920854f77a90ac2e7b2233db7
+msgid "**Vector transparency**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:503
+# 7adb1b1e14964f6c92c12f232f7d35e6
+msgid "|qg| allows to set a transparency for every vector layer. This can be done with the slider :guilabel:`Transparency` |slider| inside the :guilabel:`Style` tab. This is very useful for overlaying several vector layers."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:515
+# a8dde315d54e4a28aedff24ea49cd6d8
+msgid "Labels Tab"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:517
+# 54d89861aee34880bda97a5490812dad
+msgid "|labels| As for the symbology |qg| 1.8 currently provides an old and a new labeling engine in parallel. The :guilabel:`Labels` tab still contains the old labeling. The new labeling is implemented as a core application and will replace the features of the old labels tab in one of the next versions."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:522
+# d9fa29a264f1480c98cd1113ce90e494
+msgid "We recommend to switch to the new labeling, described in section :ref:`vector_new_labeling`."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:525
+# 5b0c439c807c4b658ad26ad10e2b2f1a
+msgid "The old labeling in the :guilabel:`Labels` tab allows you to enable labeling features and control a number of options related to fonts, placement, style, alignment and buffering. We will illustrate this by labeling the lakes shapefile of the :file:`QGIS_example_dataset`:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:531
+# e8a0dcf320c74bf897b6adfb53a9d6f7
+msgid "Load the Shapefile :file:`alaska.shp` and GML file :file:`lakes.gml` in |qg|."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:533
+# bf25838d477a4c0aa4b55f720cbcf221
+msgid "Zoom in a bit to your favorite area with some lake."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:534
+# 7ddf9b5fdc90488ca2d65d22c18fbbd7
+msgid "Make the ``lakes`` layer active."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:535
+# 630bb5a3b4d642a69b58d5d17cbac6f9
+msgid "Open the :guilabel:`Layer Properties` dialog."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:536
+# 8d20da84d1fc4e378aeded8c272bb6d8
+msgid "Click on the :guilabel:`Labels` tab."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:537
+# 592f88a26f234b8d8383e80a3211310e
+msgid "Check the |checkbox| :guilabel:`Display labels` checkbox to enable labeling."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:538
+# 4241d84268b94ac5a2231cd729ac6d2b
+msgid "Choose the field to label with. We will use :guilabel:`Field containing label: NAMES` |selectstring|."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:540
+# 5a3ecc0c9e3f424ca11707f1b0232485
+msgid "Enter a default for lakes that have no name. The default label will be used each time |qg| encounters a lake with no value in the :guilabel:`NAMES` field."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:543
+# 168564a1fd20432f887136f22b6e6153
+msgid "If you have labels extending over several lines, check |checkbox|:guilabel:`Multiline labels?`. |qg| will check for a true line return in your label field and insert the line breaks accordingly. A true line return is a **single** character \\\\n, (not two separate characters, like a backlash \\\\ followed by the character n).  To insert line returns in an attribute field configure the edit widget to be text edit (not line edit)."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:550
+# 70b30d94c6094d94a2c1e7311147a23a
+msgid "Click **[Apply]**."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:553
+# 780f9b3bc009481da4b54586e36ca4b2
+msgid "Now we have labels. How do they look? They are probably too big and poorly placed in relation to the marker symbol for the lakes."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:556
+# b1cbf68c31864ae19fe4839298e338f4
+msgid "Select the ``Font`` entry and use the **[Font]** and **[Color]** buttons to set the font and color. You can also change the angle and the placement of the text-label."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:560
+# 90d781e08d8d45b893452f7483e4df83
+msgid "To change the position of the text relative to the feature:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:562
+# 30687a5fb8b843538e4eb201cf97406f
+msgid "Beneath the Basic label options change the placement by selecting one of the radio buttons in the ``Placement`` group. To fix our labels, choose the |radiobuttonon| :guilabel:`Right` radio button."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:565
+# ecb0cc493f9844afaef36dbe0e9f7c00
+msgid "the ``Font size units`` allows you to select between |radiobuttonon| :guilabel:`Points` or |radiobuttonon| :guilabel:`Map units`."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:567
+# 911a35efc150439d9b06b5a02102809b
+msgid "Click **[Apply]** to see your changes without closing the dialog."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:570
+# e0a7c3ca588d4fe8843c2fe6edd321a8
+msgid "Things are looking better, but the labels are still too close to the marker. To fix this we can use the options on the ``Offset`` entry which is on the bottom of the menu. Here we can add offsets for the X and Y directions. Adding an X offset of 5 will move our labels off the marker and make them more readable. Of course if your marker symbol or font is larger, more of an offset will be required."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:576
+# 32c149cc28c74f6a8fbdb86fd4d9bae2
+msgid "The last adjustment we'll make is to ``Buffer`` the labels. This just means putting a backdrop around them to make them stand out better. To buffer the lakes labels:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:580
+# 1538c08387894859a7302697e0f2dccc
+msgid "Click the |checkbox| :guilabel:`Buffer Labels` checkbox to enable buffering."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:582
+# 0b1284bcdb864041899ae6a33a2753de
+msgid "Choose a size for the buffer using the spin box."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:583
+# e90c49ad36524adda8b5481056f552ef
+msgid "Choose a color by clicking on **[Color]** and choosing your favorite from the color selector. You can also set some transparency for the buffer if you prefer."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:586
+# 14f6eabae7c846faa9eb2f43d4718a4d
+msgid "Click **[Apply]** to see if you like the changes."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:589
+# ab22cec447c5412bba0a04cc48f396b1
+msgid "If you aren't happy with the results, tweak the settings and then test again by clicking **[Apply]**."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:592
+# 09117c44ef4b4714a9f55dafcc38ac02
+msgid "A buffer of 1 points seems to give a good result. Notice you can also specify the buffer size in map units if that works out better for you."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:595
+# 90cb65c8c91f4cc1bf4ede7a2c544686
+msgid "The advanced entries inside the :guilabel:`Label` tab allow you control the appearance of the labels using attributes stored in the layer. The entries beginning with ``Data defined`` allow you to set all the parameters for the labels using fields in the layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:600
+# f46ab01065364fc89be4ec4beb3eaeba
+msgid "Note that the :guilabel:`Label` tab provides a ``preview-box`` where your selected label is shown."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:608
+# 9f71090a38ca40af9ae381ff4fb7db4b
+msgid "New Labeling"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:610
+# 62261be22df24e3385b31b3e7d7e9fb5
+msgid "The new |mActionLabeling| :sup:`Labeling` core application provides smart labeling for vector point, line and polygon layers and only requires a few parameters. This new application will replace the current QGIS labeling, described in section :ref:`vector_labels_tab` and also supports on-the-fly transformated layers."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:617
+# ac69024a4d444aad9f883d3a63173759
+msgid "**Using new labeling**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:619
+# e04a9f84690240a7a7c6db8d64e87478
+msgid "Start QGIS and load a vector point, line or polygon layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:620
+# 5220968baf844b6c8459ad77619eb26b
+msgid "Activate the layer in the legend and click on the |mActionLabeling| :sup:`Labeling` icon in the QGIS toolbar menu."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:624
+# 98b0a263fe214654ad163c68c04826ce
+msgid "**Labeling point layers**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:626
+# 6eaa8f5503a244e28beb2b8de76b7f32
+msgid "First step is to activate the |checkbox| :guilabel:`Label this layer` checkbox and select an attribute column to use for labeling. Click |browsebutton| if you want to define labels based on expressions. After that you can define the text style and the scale-based visibility in the :guilabel:`Label settings` tab (see Figure_labels_1_ ). Choose the :guilabel:`Advanced` tab for the label placement and the labeling priority. You can define if every part of a multipart feature is to be labeled here. With the wrap label on character function you can define a character for a line break in the labels. The :guilabel:`Data defined settings` tab provides you with the attribute-based definition of Font properties, Buffer properties and Position. Here you can use your database connection as well."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:647
+# 28ad4e33617042e7916e9bcb8a395b20
+msgid "**Labeling line layers**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:649
+# 964754a662004b6a93de941e7b289da3
+msgid "First step is to activate the |checkbox| :guilabel:`Label this layer` checkbox in the :guilabel:`Label settings` tab and select an attribute column to use for labeling. Here you can also define labels based on expressions. After that you can define the text style and the scale-based visibility. Further labeling options are available through the :guilabel:`Advanced` tab. You can define the label placement and label distance, a line orientation dependend position and the labeling priority here. Furthermore you can define if every part of a multipart line is to be labeled, if lines shall be merged to avoid duplicate labels and if a direction symbol is added (see Figure_labels_2_ ). It is also possible to supress labeling of features and wrap lables on characters. Use :guilabel:`Data defined settings` for attribute-based or database-connection-based settings."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:669
+# 70529c6e61d5443cb4e952c899fe78ae
+msgid "**Labeling polygon layers**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:671
+# 9f4d44948f574150a3fe8eaa8847b146
+msgid "First step is to activate the |checkbox| :guilabel:`Label this layer` checkbox and select an attribute column to use for labeling. Here you can also define labels based on expressions. In :guilabel:`Label settings` define the text style and the scale-based visibility (see Figure_labels_3_ ). Use the :guilabel:`Advanced` tab for label placement, label distance and labeling priority. Define if every part of a multipart feature is to be labeled, suppress labeling of features and wrap labels on characters here. Use :guilabel:`Data defined settings` for attribute-based or database-connection-based settings."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:693
+# a869b32b616b44e09e302ddcf51075f3
+msgid "**Change engine settings**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:695
+# 04e85bfb4a8f4d5c85f7c2dc396df46a
+msgid "Additionally you can click the **[Engine settings]** button and select the search method, used to find the best label placement. Available is Chain, Popmusic Tabu, Popmusic Chain, Popmusic Tabu Chain and FALP."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:711
+# 32b576b0e8e34dde831979ce095058e8
+msgid "Furthermore the number of candidates can be defined for point, line and polygon features, and you can define whether to show all labels (including colliding labels) and label candidates for debugging."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:715
+# 6b13e55be18247338e73885e9f35eebb
+msgid "**Keywords to use in attribute columns for labeling**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:717
+# b6a4591cc57a4c418a34cac3df5e3144
+msgid "There is a list of supported key words, that can be used for the placement of labels in defined attribute columns."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:721
+# 59811bfaffb84a308e5026d6701c6c4b
+msgid "**For horizontal alignment**: left, center, right"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:722
+# bc90aff049f9483da00eda7cbdc40138
+msgid "**For vertical alignment**: bottom, base, half, top"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:723
+# 3649d9dcfb8740728b45e36e55552d54
+msgid "**Colors can be specified in svg notation**, e.g. \\#ff0000"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:724
+# 22201d3f7d8147a28a22dead4fe5fbcf
+msgid "**for bold, underlined, strikeout and italic**: 0 = false 1 = true"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:728
+# fdf3b2dbcce74c1181752e851c00760c
+msgid "A combination of key words in one column also works, e.g.: base right or bottom left."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:734
+# 26900801d972478a90843bd1f189589b
+msgid "Fields Tab"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:736
+# 7b058ea93f1a4b9d89aa224cf0fdd0d4
+msgid "|attributes| Within the :guilabel:`Fields` tab the field attributes of the selected dataset can be manipulated. The buttons |mActionNewAttribute| :sup:`New Column` and |mActionDeleteAttribute| :sup:`Delete Column` can be used, when the dataset is |mActionToggleEditing| :sup:`Editing mode`."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:741
+# 273c4f53dfce416aa5592d1535643a91
+msgid "At the moment only columns from PostGIS layers can be removed and added. The OGR library supports to add and remove columns, if you have a GDAL version >= 1.9 installed."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:745
+# b6a9b539392f41769f96ae28432c9a5c
+msgid "**Edit Widget**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:749
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:751
+# d44d6d3c649e4a11af9275e747834d1d
+# beff7d9300384150972fe54832f1899a
+msgid "\\"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:765
+# 4f5f589d93fe4d47a168dd62a46e05e1
+msgid "Within the :guilabel:`Fields` tab you also find an ``edit widget`` column. This column can be used to define values or a range of values that are allowed to be added to the specific attribute table column. If you click on the **[edit widget]** button, a dialog opens, where you can define different widgets. These widgets are:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:771
+# 85b451df77c94d4cb3e884edaeb46817
+msgid "**Line edit**: an edit field which allows to enter simple text (or restrict to numbers for numeric attributes)."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:773
+# ac7314360a684fc8873d0a9a57c766ab
+msgid "**Classification**: Displays a combo box with the values used for classification, if you have chosen 'unique value' as legend type in the :guilabel:`Style` tab of the properties dialog."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:776
+# 3b2f78647f634937a1a22cb30469e944
+msgid "**Range**: Allows to set numeric values from a specific range. The edit widget can be either a slider or a spin box."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:778
+# 3bef0b9352d34cd89c1088dd751151a9
+msgid "**Unique values**: The user can select one of the values already used in the attribute table. If editable is activated, a line edit is shown with autocompletion support, otherwise a combo box is used."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:781
+# 6e9b3ccb8d8443fc84428eba04fa820f
+msgid "**File name**: Simplifies the selection by adding a file chooser dialog."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:782
+# 9bb9f856ed86414a91b67d65cbb3f1e4
+msgid "**Value map**: a combo box with predefined items. The value is stored in the attribute, the description is shown in the combo box. You can define values manually or load them from a layer or a CSV file."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:785
+# 0fcab97d22e947fabc746f3df9bc0c6b
+msgid "**Enumeration**: Opens a combo box with values that can be used within the columns type. This is currently only supported by the postgres provider."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:787
+# 4258c5c07d06484098ac5c1464cc33fc
+msgid "**Immutable**: The immutable attribute column is read-only. The user is not able to modify the content."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:789
+# d6e74b91e0024f0d92e1ae06b308340b
+msgid "**Hidden**: A hidden attribute column is invisible. The user is not able to see its content."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:791
+# a2ab3951fdf24ce59dce43664971f500
+msgid "**Checkbox**: Displays a checkbox and you can define what attribute is added to the column when the checkbox is activated or not."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:793
+# 020c4464f2d74f8db2260ba7ae460c46
+msgid "**Text edit**: This opens a text edit field that allows multiple lines to be used."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:795
+# ed22cc05a661471a9d2fc37699f37e6c
+msgid "**Calendar**: Opens a calendar widget to enter a date. Column type must be text."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:797
+# 0aa49cd4390b4baeaa6f9911f3d1a1b3
+msgid "**Value Relation**: Offers values from a related table in a combobox. You can select layer, key column and value column."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:799
+# f277e13bc10b4369907c61c88cbef279
+msgid "**UUID Generator**: Generates a read-only UUID (Universally Unique Identifiers) field, if empty."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:806
+# a840c001d4e24b4e9822ee5a2ed15b50
+msgid "General Tab"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:808
+# 51ba767eea784fe68cbca3f56eea4008
+msgid "|general| The :guilabel:`General` tab is essentially like that of the raster dialog. There are several options available:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:811
+# eea5e746d6fb4713bfbb210e2e28a241
+msgid "Change the display name of the layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:812
+# 981b99d287204b48bbe3d334d8e39a41
+msgid "Set a display field to be used for the :guilabel:`Identify Results` dialog."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:813
+# f9dd2ff69ba04ab79f32a320207d8523
+msgid "Define a certain Edit User Interface for the vector layer written with the Qt Creator IDE and tools at http://qt.digia.com/Product/Developer-Tools/."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:814
+# 6936aab3c5374509b43723139879e932
+msgid "Create a :guilabel:`Spatial Index` (only for OGR supported formats)."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:815
+# 32a73de400794c94a192ca18135b35f0
+msgid "Add an :guilabel:`Init function` for the layer. They will overwrite existing QGIS widget initializations, if applied."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:816
+# 1038dbf312a843558784c7d4fc0a9121
+msgid ":guilabel:`Update Extents` information for a layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:817
+# b6325cfb60844765ad0026e4e0d8db28
+msgid "View or change the projection of the specific vector layer, clicking on :guilabel:`Specify CRS`."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:819
+# 552f5833aa084b1d9ea5fa318beaff7a
+msgid "Furthermore you can activate and set |checkbox| :guilabel:`Use scale dependent rendering`, define provider specific options (e.g. encoding) and with the **[Query Builder]** button you can create a subset of the features in the layer that will be visualized (also refer to section :ref:`sec_selection_query`)."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:839
+# d2b929ebe301426a9e430f901223fbbc
+msgid "Metadata Tab"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:841
+# f2ade3d559c14062b11009b2b51c5eb1
+msgid "|metadata| The :guilabel:`Metadata` tab contains general information about the layer, including specifics about the type and location, number of features, feature type, and the editing capabilities. The :guilabel:`Extents` section, providing layer extent information, and the :guilabel:`Layer Spatial Reference System` section, providing information about the CRS of the layer. This is a quick way to get information about the layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:848
+# f96939004a6a4c37a03e3b5ce2f5220c
+msgid "Additionally you can add/edit a title for the layer and some abtract information. These information will be saved in the QGIS project file for following sessions and will be used for QGIS server."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:865
+# e4c033ff997b4bb6933bc5cf008bc183
+msgid "Actions Tab"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:867
+# 4e147063350c4e7684f6206c13f5f800
+msgid "|action| |qg| provides the ability to perform an action based on the attributes of a feature. This can be used to perform any number of actions, for example, running a program with arguments built from the attributes of a feature or passing parameters to a web reporting tool."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:884
+# 9a6ced93e4ea456f93028e9956eb2db2
+msgid "Actions are useful when you frequently want to run an external application or view a web page based on one or more values in your vector layer. They are devided into 6 types and can be used like this:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:888
+# b415d0c97d34414eb973fac44fa06175
+msgid "Generic, Mac, Windows and Unix actions start an external process,"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:889
+# f24a838f66234ad99f55cc639894b80b
+msgid "Python actions execute a python expression,"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:890
+# 3dbc42dab769409490b81d200d4c47e2
+msgid "Generic and Python actions are visible everywhere,"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:891
+# 73b7ae198e58470292a96945b972dd1e
+msgid "Mac, Windows and Unix actions are visible only on the respective platform (ie. you can define three 'Edit' actions to open an editor and the users can only see and execute the one 'Edit' action for their platform to run the editor)."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:893
+# 42ba92b79f984566af438039d37af5b2
+msgid "There are several examples included in the dialog. You can load them clicking on **[Add default actions]**. An example is performing a search based on an attribute value. This concept is used in the following discussion."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:899
+# 27e811c2a3f24aa1b983c5bc1d08d2bd
+msgid "**Defining Actions**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:901
+# f8490a03dcfe48f19cebe255b3568723
+msgid "Attribute actions are defined from the vector :guilabel:`Layer Properties` dialog. To :index:`define an action`, open the vector :guilabel:`Layer Properties` dialog and click on the :guilabel:`Actions` tab. Select Generic as Type and provide a descriptive name for the action. The action itself must contain the name of the application that will be executed when the action is invoked. You can add one or more attribute field values as arguments to the application. When the action is invoked any set of characters that start with a \\% followed by the name of a field will be replaced by the value of that field. The special characters :index:`%%` will be replaced by the value of the field that was selected from the identify results or attribute table (see Using Actions below).  Double quote marks can be used to group text into a single argument to the program, script or command. Double quotes will be ignored if preceded by a backslash."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:915
+# 3a59a123ce3c4baf880ee56d16370626
+msgid "If you have field names that are substrings of other field names (e.g., ``col1`` and ``col10``) you should indicate so, by surrounding the field name (and the \\% character) with square brackets (e.g., ``[%col10]``). This will prevent the ``%col10`` field name being mistaken for the ``%col1`` field name with a ``0`` on the end. The brackets will be removed by |qg| when it substitutes in the value of the field. If you want the substituted field to be surrounded by square brackets, use a second set like this: ``[[%col10]]``."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:923
+# 51c7f62843ab448aa79100eed10ef5d8
+msgid "Using the :guilabel:`Identify Features` tool you can open :guilabel:`Identify Results` dialog. It includes a *(Derived)* item that contains information relevant to the layer type. The values in this item can be accessed in a similar way to the other fields by using preceeding the derived field name by ``(Derived).``. For example, a point layer has an ``X`` and ``Y`` field and the value of these can be used in the action with ``%(Derived).X`` and ``%(Derived).Y``. The derived attributes are only available from the :guilabel:`Identify Results` dialog box, not the :guilabel:`Attribute Table` dialog box."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:932
+# dae4c085e57a428eb5e85d33f105f9ae
+msgid "Two :index:`example actions` are shown below:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:934
+# 2e4612ad69f64daf91967c22f5cd2ca6
+msgid "``konqueror http://www.google.com/search?q=%nam``"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:935
+# f16b9aca26c64ac891e3d94c59e2197a
+msgid "``konqueror http://www.google.com/search?q=%%``"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:937
+# e4cfd1a1f4a643a8ae5f1bce4e74061a
+msgid "In the first example, the web browser konqueror is invoked and passed a URL to open. The URL performs a Google search on the value of the ``nam`` field from our vector layer. Note that the application or script called by the action must be in the path or you must provide the full path. To be sure, we could rewrite the first example as: ``/opt/kde3/bin/konqueror http://www.google.com/search?q=%nam``. This will ensure that the konqueror application will be executed when the action is invoked."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:946
+# bd069631324a47399df48485a74eefb9
+msgid "The second example uses the \\%\\% notation which does not rely on a particular field for its value. When the action is invoked, the \\%\\% will be replaced by the value of the selected field in the identify results or attribute table."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:950
+# 3d3dd2f2f3064c1ebdd4db07842b791b
+msgid "**Using Actions**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:952
+# 6c4e2dab331d432486712578aef34a23
+msgid "Actions can be invoked from either the :guilabel:`Identify Results` dialog, an :guilabel:`Attribute Table` dialog or from :guilabel:`Run Feature Action` (recall that these dialogs can be opened by clicking |mActionIdentify| :sup:`Identify Features` or |mActionOpenTable| :sup:`Open Attribute Table` or |mAction| :sup:`Run Feature Action`). To invoke an action, right click on the record and choose the action from the popup menu. Actions are listed in the popup menu by the name you assigned when defining the actions. Click on the action you wish to invoke."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:961
+# 7fda3761a1b04596a8565e4da60f87f8
+msgid "If you are invoking an action that uses the \\%\\% notation, right-click on the field value in the :guilabel:`Identify Results` dialog or the :guilabel:`Attribute Table` dialog that you wish to pass to the application or script."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:966
+# 4e602032db1a4fa2b0463909e678ff65
+msgid "Here is another example that pulls data out of a vector layer and inserts them into a file using bash and the ``echo`` command (so it will only work |nix| or perhaps |osx|). The layer in question has fields for a species name ``taxon_name``, latitude ``lat`` and longitude ``long``. I would like to be able to make a spatial selection of a localities and export these field values to a text file for the selected record (shown in yellow in the |qg| map area). Here is the action to achieve this:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:980
+# 920922188b444d119c0bfcb5b100df14
+msgid "After selecting a few localities and running the action on each one, opening the output file will show something like this:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:992
+# 0989bfe8a8d449c4baaf47db392ce2c1
+msgid "As an exercise we create an action that does a Google search on the ``lakes`` layer. First we need to determine the URL needed to perform a search on a keyword. This is easily done by just going to Google and doing a simple search, then grabbing the URL from the address bar in your browser. From this little effort we see that the format is: http://google.com/search?q=qgis, where ``QGIS`` is the search term. Armed with this information, we can proceed:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:999
+# 28dce720fae84c84863a31ad1af24c21
+msgid "Make sure the ``lakes`` layer is loaded."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1000
+# 3255dbb865cf4e72bef64f5d6c76ddd4
+msgid "Open the :guilabel:`Layer Properties` dialog by double-clicking on the layer in the legend or right-click and choose :guilabel:`Properties` from the popup menu."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1003
+# a7e1dd5e97ae49a9a67055f06c192ecc
+msgid "Click on the :guilabel:`Actions` tab."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1004
+# ffd8f6d3443e4d17a7fabe47bd79b4d8
+msgid "Enter a name for the action, for example ``Google Search``."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1005
+# 495c339ad5e240c8857c2fd50a8d7399
+msgid "For the action, we need to provide the name of the external program to run. In this case, we can use Firefox. If the program is not in your path, you need to provide the full path."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1008
+# f85a99df24044ffabc15b6922f15e8b8
+msgid "Following the name of the external application, add the URL used for doing a Google search, up to but not included the search term: ``http://google.com/search?q=``"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1011
+# ed009a73cae2407183e23db9b28acf94
+msgid "The text in the :guilabel:`Action` field should now look like this: ``firefox http://google.com/search?q=``"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1013
+# 3ee560aad6164481a3ced8722184918e
+msgid "Click on the drop-down box containing the field names for the ``lakes`` layer. It's located just to the left of the  **[Insert Field]** button."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1015
+# 2a482f1076a6429da3102189f12dc898
+msgid "From the drop-down box, select :guilabel:`Field containing label: NAMES` |selectstring| and click **[Insert Field]**."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1017
+# c2b5edd92aed46afb350156f86b6aae8
+msgid "Your action text now looks like this:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1019
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1026
+# 2e821287a136442a9f9258816c127bb9
+# a012628b73d54c6c8bb553e96f44b7a5
+msgid "``firefox http://google.com/search?q=\\%NAMES``"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1020
+# e62cb36e84bd4c30b747417186b19b8b
+msgid "To finalize the action click the **[Insert action]** button."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1023
+# b36161ff7e0e4b8eb9e548f6244350fe
+msgid "This completes the action and it is ready to use. The final text of the action should look like this:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1029
+# a15a8fbfa4904da8836f73f729df2584
+msgid "We can now use the action. Close the :guilabel:`Layer Properties` dialog and zoom in to an area of interest. Make sure the ``lakes`` layer is active and identify a lake. In the result box you'll now see that our action is visible:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1045
+# 09fe857b6df34c799cba4f82af6439e9
+msgid "When we click on the action, it brings up Firefox and navigates to the URL http://www.google.com/search?q=Tustumena. It is also possible to add further attribute fields to the action. Therefore you can add a ``+`` to the end of the action text, select another field and click on **[Insert Field]**. In this example there is just no other field available that would make sense to search for."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1052
+# 1030576f8ce44df0b4985071b37f5abe
+msgid "You can define multiple actions for a layer and each will show up in the :guilabel:`Identify Results` dialog."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1060
+# 1b49649181c24ec58f6d8386fd5da022
+msgid "You can think of all kinds of uses for actions. For example, if you have a point layer containing locations of images or photos along with a file name, you could create an action to launch a viewer to display the image. You could also use actions to launch web-based reports for an attribute field or combination of fields, specifying them in the same way we did in our Google search example."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1067
+# 09321aa000f64093b57b9668fa3e07a1
+msgid "We can also make more complex examples, for instance on how to use **Python** actions."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1070
+# 51a7923a64264a2c8cf6a8799677c562
+msgid "Usually when we create an action to open a file with an external application we can use absolute paths, or eventually relative paths, in the second case the path is relative to the location of the external program executable file. But what about we need to use relative paths, relative to the selected layer (a file based one, like a shapefile or spatialite)? The following code will do the trick:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1090
+# 492a486404024589b89f03ab59b8469e
+msgid "we have to just remember that the action is one of type *Python* and to change the *command* and *imagerelpath* variables to fit our needs."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1093
+# d699652317ee48af9c64764d8d505139
+msgid "But what about if the relative path need to be relative to the (saved) project file? The code of the Python action would be:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1107
+# 664d872940444ad2932344927556a6c6
+msgid "Another Python actions example if the one that allows us to add new layers to the project. For instance the following examples will add to the project respectively a vector and a raster. The name of files to be added to the project and the name to be given to the layer are data driven (*filename* and *layname* are column names of the table of attributes of the vector where the action was created):"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1120
+# b1598faa00d54a45be7113cf28c40ef9
+msgid "To add a raster (a tif image in this example) it becomes:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1131
+# cd6c2c45433f4eecb96f14edbcdff9e7
+msgid "Joins Tab"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1134
+# cfbcfbac6238423cb2ef0431c5d23986
+msgid "|join| The :guilabel:`Joins` tab allows you to :index:`join a loaded attribute table to a loaded vector layer`. As key columns you have to define a :index:`join layer`, a join field and a target field. QGIS currently supports to join non spatial table formats supported by OGR, delimited text and the PostgreSQL provider (see figure_joins_1_)."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1152
+# 8999c70048074c2db6dc8f9f945b1bd3
+msgid "Additionally the add vector join dialog allows to:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1154
+# 8666b42d042b4bd388f886ae70d6fb47
+msgid "|checkbox| :guilabel:`Cache join layer in virtual memory`"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1155
+# 343914f537be4584ab71bae8aae30528
+msgid "|checkbox| :guilabel:`Create attribute index on the join field`"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1160
+# 448c422ef464455a8ddec283965745fd
+msgid "Diagrams Tab"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1162
+# 1cf75e7e2a154d5d8a4606e21a1e97ab
+msgid "|diagram| The :guilabel:`Diagrams` tab allows you to add a graphic overlay to a vector layer (see figure_diagrams_1_)."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1165
+# 4da139da07784d4b95be57c6c5ed7b60
+msgid "The current core implementation of diagrams provides support for piecharts and text diagrams. Text values ​​of different data columns are displayed one below the other with a circle or a box and dividers. Diagram size is based on a fixed size or on linear scaling according to a classification attribute. The placement of the diagrams interacts with the new labeling, so position conflicts between diagrams and labels are detected and solved. In addition to chart positions can be fixed by the users hand."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1175
+# 2ae2e4ad87724c9ab30d6ee0699c763d
+msgid "**Figure Diagrams 1:**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1183
+# 38f5ff1c06f04609aaac7d54d34a88c3
+msgid "We will demonstrate an example and overlay the alaska boundary layer a text diagram showing some temperature data from a climate vector layer. Both vector layers are part of the |qg| sample dataset (see Section :ref:`label_sampledata`)."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1188
+# 6b0a362a6cf94683b8afb448ebb88484
+msgid "First click on the |mActionAddOgrLayer| :sup:`Load Vector` icon, browse to the |qg| sample dataset folder and load the two vector shape layers :file:`alaska.shp` and :file:`climate.shp`."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1191
+# d84ac8c946c64c8a91cffaf9fd3e550f
+msgid "Double click the ``climate`` layer in the map legend to open the :guilabel:`Layer Properties` dialog."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1193
+# 84323311096e422eba2083a56cd12cc1
+msgid "Click on the :guilabel:`Diagrams` tab, activate :guilabel:`Display diagrams` and select :guilabel:`Text diagram` as Diagram type."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1195
+# 224c4dfeb4e64e74b3528b83fb8c3a2c
+msgid "As Background color we choose a light blue and set a fixed size to 18 mm."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1196
+# ec02573b0bd44337992241aa73340565
+msgid "Placement could be set to AroundPoint."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1197
+# 0a917d46562c4f1f97138e3213f6f5f5
+msgid "In the diagram we want to display the values of the three columns ``T_F_JAN``, ``T_F_JUL`` and ``T_F_MEAN``. First select ``T_F_JAN`` as Attributes and click the green **[\\+]** button, then ``T_F_JUL`` and finally ``T_F_MEAN``."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1201
+# 85f95a8c26844d369b254279d877510d
+msgid "Now click **[Apply]** to display the diagram in the |qg| main window."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1202
+# 5d61bd908b9b45bda61d781ed740eb86
+msgid "You can now adapt the chart size, or change the attribute colors by double clicking on the color values in the attribute field. Figure_diagrams_2_ gives an impression."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1205
+# 4d18dc41a1014db8af85e8e89c57d786
+msgid "Finally click **[Ok]**."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1209
+# 8d6fa64a8f704f9daa5a106ff38608af
+msgid "**Figure Diagrams 2:**"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/vector_properties.rst:1217
+# f64155d3c60f4ad4b0db7d9cfd43aa90
+msgid "Additionally in the :menuselection:`Settings --> Options` dialog, there is a ``Overlay`` tab where it is possible to select the placement algorithm of the diagrams. The central point method is a generic one, the others use algorithms of the PAL library. They also consider diagram objects and labels in different layers. Also see section :ref:`diagram_overlay` for additional diagram features."
+msgstr ""
+

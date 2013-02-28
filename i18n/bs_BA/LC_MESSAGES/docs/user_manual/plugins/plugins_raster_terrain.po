@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/user_manual/plugins/plugins_raster_terrain.rst:10
+# d7d03e8905aa4e3e85581575b21e2c85
+msgid "Raster Terrain Analysis Plugin"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_raster_terrain.rst:13
+# f9b23d38170b40a49e9445889b02b467
+msgid "|dem_analysis| The Raster Terrain Analysis Plugin can be used to calculate the slope, aspect, hillshade, ruggedness index and relief for digital elevation models (DEM). It is very simple to handle and provides an intuitive graphical user interface for creating new raster layers (See Figure_raster_terrain_1_)."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_raster_terrain.rst:18
+# 51bc2703aff54380b485dd9a83abe35a
+msgid "Description of the analysis:"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_raster_terrain.rst:20
+# 3e16413a8a8641ddbe37519fb790e2da
+msgid "**Slope**: Calculates slope angle for each cell in degrees (based on first order derivative estimation)."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_raster_terrain.rst:22
+# 607f18be12c94bbaa5a961da378dbfc4
+msgid "**Aspect**: Exposition (starting with 0 for north direction, in degrees counterclockwise)."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_raster_terrain.rst:24
+# 16bba57509c64d37b6714bb1c6bf0768
+msgid "**Hillshade**: Create shaded map using light and shadow to provide a more three-dimensional appearance for a shaded relief map."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_raster_terrain.rst:26
+# 977d0f6cfc3d4555af45552fef6c8f54
+msgid "**Ruggedness Index**: A quantitative measurement of terrain heterogeneity as described by Riley et al. (1999). It is calculated for every location, by summarizing the change in elevation within the 3x3 pixel grid."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_raster_terrain.rst:27
+# cc92caffe0b3476b8dba41d62011d886
+msgid "**Relief**: Creating a shaded relief map from digital elevation data. Implemented is a method to choose the elevation colors analysing the frequency distribution."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_raster_terrain.rst:44
+# 69385ea99c3449c1bc59797d01dc131e
+msgid "Using the plugin"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_raster_terrain.rst:46
+# 6c9f6df29a314f8e94b56afbb06c2526
+msgid "Start QGIS and load the gtopo30 raster layer from the GRASS sample location."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_raster_terrain.rst:47
+# 8f1f5bcb0a244933bc171bd882c09754
+msgid "Load the Raster Terrain Analysis plugin in the Plugin Manager see Section :ref:`load_core_plugin`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_raster_terrain.rst:48
+# 82237eab73ff49f096afea23409193b9
+msgid "Select an analysis method (e.g. :menuselection:`Slope -->`) from the :menuselection:`Raster --> Terrain Analysis` menu. The slope dialog appears as shown in Figure_raster_terrain_1_."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_raster_terrain.rst:49
+# cf26c2e40fc6464ca291b8025591d7b0
+msgid "Specify an output file path, and an output file type."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_raster_terrain.rst:50
+# eab5a5c7f2594016a40376b61cca3741
+msgid "Click **[OK]**."
+msgstr ""
+

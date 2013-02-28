@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:10
+# 6808566f484b4b21893c398a912d3892
+msgid "Live GPS tracking"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:13
+# 2ddcd55249ec48acbc003923c908161c
+msgid "To activate Live GPS tracking in QGIS you need to select :menuselection:`Settings -->` |checkbox| :guilabel:`GPS information`. You will get a new docked Window on the left side of the canvas."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:16
+# ed82ae31fe97493fbdc988ba7415dc8a
+msgid "There are 4 possible screens in this GPS tracking window:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:18
+# 64d2ce9a137f4d9192fc170193b5d899
+msgid "|mActionToggleEditing| GPS position coordinates and for manually entering Vertices and Features."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:20
+# 1c961cb1c18c40858d253b1d62cda937
+msgid "|gpstrack_barchart| GPS signal strength of satellite connections."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:21
+# 87e93934513c4a93947e106546247426
+msgid "|gpstrack_polarchart| GPS polar screen showing number and polar position of satellites."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:23
+# 7e556d6755df4ed6be820f582dcf8dec
+msgid "|mActionOptions| GPS options screen (see figure_gps_options_)."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:25
+# ee9be37417bc42219a2d770b87506510
+msgid "With a plugged in GPS receiver (has to be supported by your operating system) a simple click on **[Connect]** connects the GPS to QGIS. A second click (now **[Disconnect]**) disconnects the GPS-Receiver from your Computer. For GNU/Linux gpsd support is integrated to support connection to most GPS receivers. Therefore you first have to configure gpsd properly to connect QGIS to it."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:33
+# bfb63cae171a45e8a8f3ff51ccc12d9f
+msgid "If you want to record your position to the canvas you have to create a new vector layer first and switch it to editable status to be able to record your track."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:38
+# 273528850f3c4b15b950675b1a356b68
+msgid "Position and additional attributes"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:40
+# e0ab4ca7c781458ebd0f13a3651ce89b
+msgid "|mActionToggleEditing| If the GPS is receiving signals from satellites you will see your position in latitude, longitude and altitude together with additional attributes."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:56
+# 130f6d2da6db47ca8050354d35aab6ba
+msgid "GPS signal strength"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:58
+# a69833bd515944cf97022429fb6fef7e
+msgid "|gpstrack_barchart| Here you can see the signal strenght of the satellites you are receiving signals from 2."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:74
+# 5fcdfd11532e420d84f3dc0076090388
+msgid "GPS polar window"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:76
+# 4c41b96acd5542fa94fdbfc2c8cedb9d
+msgid "|gpstrack_polarchart| If you want to know where in the sky all the connected satellites are, you have to switch to the polar screen. You can also see the ID numbers of the satellites you are receiving signals from."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:93
+# 6053a8479b8a447f9d07e049da0db4d6
+msgid "GPS options"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:95
+# 5860cb069dd64fc394591c6c80b763c5
+msgid "|mActionOptions| In case of connection problems you can switch between:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:97
+# d9c5489faeba433a9d60b620993cfff4
+msgid "|radiobuttonon| :menuselection:`Autodetect`"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:98
+# 6b5549adeec24ad08a9765ae18f17332
+msgid "|radiobuttonon| :menuselection:`Internal`,"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:99
+# c6a56b3664de4576af9f9627fb3dea3f
+msgid "|radiobuttonon| :menuselection:`Serial device`"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:100
+# d37ad42db4f74f7890ae0b3b45e0fed7
+msgid "|radiobuttonon| :menuselection:`gpsd` (selecting Host, Port and Device your GPS is connected to)."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:102
+# a3e013bdd78945909ffe097df8522451
+msgid "A click on **[Connect]** again initiates the connection to the GPS receiver."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:116
+# 7f708a65ebf9490ba05c4dfd3dc94b75
+msgid "You can activate |checkbox| :menuselection:`Automatically save added features` when you are in editing mode. Or you can can activate |checkbox| :menuselection:`Automatically add points` to the main windows with a certain width and color."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:121
+# b4e6fe6745dc4b6d880a2cc86f5a466b
+msgid "Activating |checkbox| :menuselection:`Cursor` you can use a slider |slider| to shrink and grow the position cursor on the canvas."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:124
+# ca409b499f8144e1a34dca2d7ae04cdb
+msgid "Activating |radiobuttonon| :menuselection:`Map centering` allows to decide in which way the canvas will be updated. This includes ``always``, ``when leaving`` if your recorded coordinates start either to move out of canvas or ``never`` to keep map extend."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:128
+# f5c58254d3574daf970bcdc3ce572888
+msgid "Finally you can activate |checkbox| :menuselection:`Log file` and define a path and a file where log messages about the gps tracking a logged."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/live_GPS_tracking.rst:131
+# e1d32c2506774861ad2f2e9b041c0289
+msgid "If you want to set a feature manually you have to go back to |mActionToggleEditing| \"Position Coordinates\" and click on **[Add Point]** or **[Add track point]**."
+msgstr ""
+

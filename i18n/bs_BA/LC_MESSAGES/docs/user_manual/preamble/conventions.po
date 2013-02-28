@@ -1,0 +1,208 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:11
+# 7e84a0efc2c842989169f6ac5a777b65
+msgid "Conventions"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:13
+# bef3ab7a00f647cb9c8dfa9f7e37219d
+msgid "This section describes a collection of uniform styles throughout the manual. The conventions used in this manual are as follows:"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:16
+# 6f53d37f8f17476e9dd41c387fd4b073
+msgid "**GUI Conventions**"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:18
+# b927df3efc0a424eb43ca21731821b3b
+msgid "The GUI convention styles are intended to mimic the appearance of the GUI. In general, the objective is to use the non-hover appearance, so a user can visually scan the GUI to find something that looks like the instruction in the manual."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:22
+# 898f3f1581ab41a1a834895cf2049736
+msgid "Menu Options: :menuselection:`Layer --> Add a Raster Layer` or :menuselection:`Settings --> Toolbars --> Digitizing`"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:24
+# 9072bce6e48944049dd5a82fefd4db21
+msgid "Tool: |mActionAddRasterLayer| :sup:`Add a Raster Layer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:25
+# ebd9c07d6b5b45bfae55c5feed6b8204
+msgid "Button : **\\[Save as Default\\]**"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:26
+# 957bd9b1d9984024a238fbe28c530692
+msgid "Dialog Box Title: :guilabel:`Layer Properties`"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:27
+# bf2db0eecfcf40d688564da4b66347a4
+msgid "Tab: :guilabel:`General`"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:28
+# 1277254e408d4cde9a916952135deb0a
+msgid "Checkbox: |checkbox| :guilabel:`Render`"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:29
+# aa9d125fe089434d9b14bb89b8876d51
+msgid "Radio Button:  |radiobuttonon| :guilabel:`Postgis SRID` |radiobuttonoff| :guilabel:`EPSG ID`"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:30
+# f768b13fd2634787b7a162654e67aa3f
+msgid "Select a Number: |selectnumber|"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:31
+# ae3044507ef44bba9bbaf4612583d8ce
+msgid "Select a String: |selectstring|"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:32
+# 61599f3535544e1987da975b6ebc83c2
+msgid "Browse for a File: |browsebutton|"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:33
+# e64d9f8e9a234478b827307a510ca38e
+msgid "Select a Color: |selectcolor|"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:34
+# 3e4e2c90dad54808bc92693f2173186d
+msgid "Slider: |slider|"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:35
+# fc301e971df04099ade0efe8e3559e17
+msgid "Input Text: |inputtext|"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:39
+# 674224d14cee46eb9067882948765f99
+msgid "A shadow indicates a clickable GUI component."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:41
+# a186de98aa69409ca4c16109fcded20d
+msgid "**Text or Keyboard Conventions**"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:43
+# ac9a893065324584a028287894deb9ff
+msgid "The manual also includes styles related to text, keyboard commands and coding to indicate different entities, such as classes, or methods. They don't correspond to any actual appearance."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:49
+# 94bf2cf4bf2240d4905c3e5b1d0b8230
+msgid "Hyperlinks: http://qgis.org"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:50
+# e46718a04fb541a28252ef70b4183200
+msgid "Keystroke Combinations: press :kbd:`Ctrl+B`, meaning press and hold the Ctrl key and then press the B key."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:52
+# 50d0757a5aac4abe8848c7a8c1c31a3f
+msgid "Name of a File: :file:`lakes.shp`"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:53
+# 84ba9e7107994292af488b0df6a459f6
+msgid "Name of a Class: **NewLayer**"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:54
+# 72bc5d9e457340d1a444ce0dcaa63345
+msgid "Method: *classFactory*"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:55
+# 3a68a92270e448db926060c5c99e714c
+msgid "Server: *myhost.de*"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:56
+# f67a297b8e17407687aea5aebc6acee9
+msgid "User Text: ``qgis --help``"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:62
+# 313d0dbf60f8436d9e38cfc60734c5e0
+msgid "Lines of code are indicated by a fixed-width font::"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:67
+# 5544ec462aee44b8a8801346c7ec54ce
+msgid "**Platform-specific instructions**"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:69
+# eee6a1e2122744ef881b8a7ae43d1b43
+msgid "GUI sequences and small amounts of text can be formatted inline: Click |nix| |win| :menuselection:`File` |osx| :menuselection:`QGIS  --> Quit to close QGIS`."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:72
+# cfbae73fc88848dc895f02ba1bea0cca
+msgid "This indicates that on Linux, Unix and Windows platforms, click the File menu option first, then Quit from the dropdown menu, while on Macintosh OSX platforms, click the |qg| menu option first, then Quit from the dropdown menu. Larger amounts of text may be formatted as a list:"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:77
+# e650db9a641442e2bbf030c6674d28e5
+msgid "|nix| do this;"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:78
+# ed9d20b557774ca0a281a3e49057d8b2
+msgid "|win| do that;"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:79
+# ea3d201e38984228bd712d13e80cdac1
+msgid "|osx| do something else."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:81
+# 2b342462bdcd4f79bfcaec43867cbb50
+msgid "or as paragraphs."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:83
+# 81eff8d35d4c40fcbb1e54cc4266111b
+msgid "|nix| |osx| Do this and this and this. Then do this and this and this and this and this and this and this and this and this."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:86
+# f137e63988794b20af4eb5d33ab51494
+msgid "|win| Do that. Then do that and that and that and that and that and that and that and that and that and that and that and that and that and that and that."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/conventions.rst:89
+# d189840d6bbb4a51b3cc9cebe365d744
+msgid "Screenshots that appear throughout the user guide have been created on different platforms; the platform is indicated by the platform-specific icon at the end of the figure caption."
+msgstr ""
+

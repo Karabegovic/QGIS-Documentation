@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:10
+# e02110702a60441b9b5872ac916d9999
+msgid "Spatial Query Plugin"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:13
+# a35e081b2adb4582ac191c9a29d23eec
+msgid "The |spatialquery| :sup:`Spatial Query` plugin allows to make a spatial query (select features) in a target layer with reference to another layer. The functionality is based on the GEOS library and depends on the selected source feature layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:18
+# 1a4a01acaad7439080ecd2219630aa4f
+msgid "Possible operators are:"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:20
+# 5d08529ab2d74c82bd2952813b5d358c
+msgid "Contains"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:21
+# e0cee39c0dfd43a981f563cff45792fd
+msgid "Equals"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:22
+# 99672a27042245789cf6d73e53a78dcd
+msgid "Overlap"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:23
+# bf1fd10174524727b77d0f1b6b673e19
+msgid "Crosses"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:24
+# 253f1b04ab4e4ca59eaf5dde61291405
+msgid "Intersects"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:25
+# 9096a022cdfc4b2b844a9ce2f1df0c34
+msgid "Is disjoint"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:26
+# d29b9c47963c4637bfcdd4c05cadd457
+msgid "Touches"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:27
+# bddbcd0a9dec4c78a586f7992590d1d6
+msgid "Within"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:30
+# 80b42c4beaa74d938949a8d4c409abfd
+msgid "How to use the plugin"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:32
+# 95d2e62a9f4640e4a67b89d01db12303
+msgid "As an example we want to find regions in the Alaska dataset that contain airports. Following steps are necessary:"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:35
+# 382311e941c6457f82a62d746959e6c7
+msgid "Start QGIS and load the vector layers :file:`regions.shp` and :file:`airports.shp`."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:37
+# 6f2b2452251844df91b908d3188812a2
+msgid "Load the Spatial Query plugin in the Plugin Manager (see Section :ref:`load_core_plugin`) and click on the |spatialquery| :sup:`Spatial Query` icon which appears in the QGIS toolbar menu. The plugin dialog appears."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:41
+# 95072ac1b79e49afb5e3d5f9e667451e
+msgid "Select layer regions as source layer and airports as reference feature layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:43
+# e5054713fe32442bb075ad38501bf3eb
+msgid "Select 'Contains' as operator and click **[Apply]**."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:45
+# 59b8c5596c574458b30626d3c7c462a6
+msgid "Now you get a list of feature IDs from the query and you have several options as shown in figure_spatial_query_1_."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:48
+# f22a1cb98641497b91b6b467442af57b
+msgid "Click on the |selectesubsetlayer| :sup:`Create layer with list of items`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:50
+# a9b158e8f1a2474eb8afcf3aadee316e
+msgid "Select an ID from the list and click on |selectcreatelayer| :sup:`Create layer with selected`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:52
+# b79a356e4edb4eb0a3e13055d384fcd0
+msgid "Select the :menuselection:`Remove from current selection -->` in the field :guilabel:`And use the result to`."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_spatial_query.rst:54
+# ea094c8113c845ff8cde9d7c8ab1f212
+msgid "Additionally you can |checkbox| :guilabel:`Zoom to item` or display |checkbox| :guilabel:`Log messages`."
+msgstr ""
+

@@ -1,0 +1,303 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:11
+# 417bd7d5010b49a3ae07f8e8bc3c3d7f
+msgid "Using Raster Layers"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:13
+# e983fcdb9dc34aa388fdf5060da3f60c
+msgid "This sections lists various operations you can do with raster layers."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:18
+# adde42dc23a440ed932cb051f947047a
+msgid "Layer Details"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:20
+# b6395f16368145cbb3b52e8c84810e4c
+msgid "A raster layer consists of one or more raster bands - it is referred to as either single band or multi band raster. One band represents a matrix of values. Usual color image (e.g. aerial photo) is a raster consisting of red, blue and green band. Single band layers typically represent either continuous variables (e.g. elevation) or discrete variables (e.g. land use). In some cases, a raster layer comes with a palette and raster values refer to colors stored in the palette."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:44
+# cea26ed569294913959e90fd5e225e17
+msgid "Drawing Style"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:46
+# c3e217b141dc4dfebd03e4e42937a14e
+msgid "When a raster layer is loaded, it gets a default drawing style based on its type. It can be altered either in raster layer properties or programmatically. The following drawing styles exist:"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:51
+# 7442e05dff8047ec92b5fe880b9ad3f0
+msgid "Index"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:51
+# a91dd2eccf6548cfaf73655e96a978bb
+msgid "Constant: QgsRasterLater.X"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:51
+# b880f63e5bc648139279840a71d4d2da
+msgid "Comment"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:53
+# 8098d9704e434fedad62af171b176ba8
+msgid "1"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:53
+# 411ba6c43e5d4c4cb246c76e9d4658e5
+msgid "SingleBandGray"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:53
+# 25fc26a08ab2488f9f4396c1b9be77fc
+msgid "Single band image drawn as a range of gray colors"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:54
+# 8de101aaf42844d6ad1dfc966233963f
+msgid "2"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:54
+# 6c68a06e489844aba3a47bccb0624616
+msgid "SingleBandPseudoColor"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:54
+# 7b705f58ae6c4768a4f87c68241f74be
+msgid "Single band image drawn using a pseudocolor algorithm"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:55
+# e8c5121da2804447b2191f01d2b2d27f
+msgid "3"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:55
+# 53cf05f559d345ae9ed40813efb76cb6
+msgid "PalettedColor"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:55
+# f36f3a459de244c1962bf6173d3b987d
+msgid "\"Palette\" image drawn using color table"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:56
+# 436b2337e45e4931af6a5650c0805cc0
+msgid "4"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:56
+# 37a198878f5e478a8006ab11e98c682f
+msgid "PalettedSingleBandGray"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:56
+# bc1ee8c37106492f9be0b457431f3cbf
+msgid "\"Palette\" layer drawn in gray scale"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:57
+# 11966a1bca9e4fbba904eef6c0ad747d
+msgid "5"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:57
+# 974ee2eb5ab94f208eb5570c157df373
+msgid "PalettedSingleBandPseudoColor"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:57
+# a4633eac61474baf95ebde25892a4b4e
+msgid "\"Palette\" layerdrawn using a pseudocolor algorithm"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:58
+# 0428aac8cbf747d293ea61b081e32c28
+msgid "7"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:58
+# 03e5d0994fc04c2786aeeddb13dba385
+msgid "MultiBandSingleBandGray"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:58
+# 4c61316b48764d89b78d67fe5906d4c5
+msgid "Layer containing 2 or more bands, but a single band drawn as a range of gray colors"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:59
+# 1a6cda912ed347fbad293dd70ddc5695
+msgid "8"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:59
+# cb378da74b0e440fb6e1ad92707c88a7
+msgid "MultiBandSingleBandPseudoColor"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:59
+# 90f659e1c2a24ae6897ced98dbe78e23
+msgid "Layer containing 2 or more bands, but a single band drawn using a pseudocolor algorithm"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:60
+# 891631a1f99e4a0aadfb1a45b2769dbd
+msgid "9"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:60
+# f958974f4c254b0684c5d507b6137f50
+msgid "MultiBandColor"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:60
+# fa692812df054b6fbd89247f293b69c6
+msgid "Layer containing 2 or more bands, mapped to RGB color space."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:63
+# 2d680f08eeac4c50a50d7cdbd571bc6a
+msgid "To query the current drawing style:"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:68
+# 582f989fe1c746d497e1dab9bd385e09
+msgid "Single band raster layers can be drawn either in gray colors (low values = black, high values = white) or with a pseudocolor algorithm that assigns colors for values from the single band. Single band rasters with a palette can be additionally drawn using their palette. Multiband layers are typically drawn by mapping the bands to RGB colors. Other possibility is to use just one band for gray or pseudocolor drawing."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:75
+# f9dd0c1c7a764c5ea3891a95cd570fcb
+msgid "The following sections explain how to query and modify the layer drawing style. After doing the changes, you might want to force update of map canvas, see :ref:`refresh-layer`."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:79
+# f5b58aadf4f84b35a52a4394483b867b
+msgid "**TODO:** contrast enhancements, transparency (no data), user defined min/max, band statistics"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:84
+# ba2a5b59ff2f4266973838789e5a1325
+msgid "Single Band Rasters"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:86
+# 8fb9b0c918594348ad1d2f65c0f13b8b
+msgid "They are rendered in gray colors by default. To change the drawing style to pseudocolor:"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:92
+# 6f7c579b08cf4f978494be9dffed901f
+msgid "The ``PseudoColorShader`` is a basic shader that highlighs low values in blue and high values in red. Another, ``FreakOutShader`` uses more fancy colors and according to the documentation, it will frighten your granny and make your dogs howl."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:97
+# 0e84a6ecc12643f480de0c626d1ef7ba
+msgid "There is also ``ColorRampShader`` which maps the colors as specified by its color map. It has three modes of interpolation of values:"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:100
+# 902ccff8a6ab417db0b52a73a5a4a36f
+msgid "linear (``INTERPOLATED``): resulting color is linearly interpolated from the color map entries above and below the actual pixel value"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:102
+# 16ccf38515ef4264aeaa950ccc248e35
+msgid "discrete (``DISCRETE``): color is used from the color map entry with equal or higher value"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:104
+# d402f61a38674c988e337325576d6542
+msgid "exact (``EXACT``): color is not interpolated, only the pixels with value equal to color map entries are drawn"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:107
+# 498fdac2bbf24598adcff39b427cb969
+msgid "To set an interpolated color ramp shader ranging from green to yellow color (for pixel values from 0 to 255)::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:116
+# a1b2d0c5944741fb845866f021ad94b6
+msgid "To return back to default gray levels, use:"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:123
+# 8889fa1013ba457991319cfc2213ae37
+msgid "Multi Band Rasters"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:125
+# e20ba8b585914f389c56cce73513ddf5
+msgid "By default, QGIS maps the first three bands to red, green and blue values to create a color image (this is the ``MultiBandColor`` drawing style. In some cases you might want to override these setting. The following code interchanges red band (1) and green band (2):"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:133
+# a3d682334529402db15ff645fbf6cf4a
+msgid "In case only one band is necessary for visualization of the raster, single band drawing can be chosen --- either gray levels or pseudocolor, see previous section::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:148
+# c32b758b274749e1920375fa6c069748
+msgid "Refreshing Layers"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:150
+# 2e26663401ae4b479f6a87edfbd436ca
+msgid "If you do change layer symbology and would like ensure that the changes are immediately visible to the user, call these methods::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:156
+# 060292ec75e44dbca51e12685aa26906
+msgid "The first call will ensure that the cached image of rendered layer is erased in case render caching is turned on. This functionality is available from QGIS 1.4, in previous versions this function does not exist --- to make sure that the code works with all versions of QGIS, we first check whether the method exists."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:162
+# 30be73cb457946e48f7098ca69cfb78d
+msgid "The second call emits signal that will force any map canvas containing the layer to issue a refresh."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:165
+# 3803d5319165484ab8776dcb784f076b
+msgid "In case you have changed layer symbology (see sections about raster and vector layers on how to do that), you might want to force QGIS to update the layer symbology in the layer list (legend) widget. This can be done as follows (``iface`` is an instance of QgisInterface)::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:176
+# 23a75b179b4d47b0b115647524d16475
+msgid "Query Values"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:178
+# aeaf178cf3934cba8f4f94c1146d31a5
+msgid "To do a query on value of bands of raster layer at some specified point::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/02_raster.rst:184
+# f1149d13787f42248077e6aa2ed6d70b
+msgid "The identify function returns True/False (to indicate succeess or failure) and a dictionary --- keys are band names, values are the values at chosen point. Both key and value are QString instances so to see actual value you'll need to convert them to python strings (as shown in code snippet)."
+msgstr ""
+

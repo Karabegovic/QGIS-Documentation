@@ -1,0 +1,488 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:8
+# 4f376cdb56b74ae1b268d0e85bb797db
+msgid "Introducing GIS"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:11
+# c2e9f000a2d54b8f9b49ba6fcaa400c2
+msgid "GIS for Educators"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:13
+# 04748cca61f047f0996acfca7b532ef3
+msgid "|gentlelogo|"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:13
+# 69d00652641e4321be5735f267d1284e
+msgid "Objectives:"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:13
+# 0f9578d8c9e14896b587a50bbce16e4c
+msgid "Understanding what GIS is and what it can be used for."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:15
+# 9f716846ed444b52ba538348be07c66c
+msgid "Keywords:"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:15
+# 3e6e4498328948caa4535fcc869213df
+msgid "GIS, Computer, Maps, Data, Information System, Spatial, Analysis"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:18
+# 4d928b7ed2904920ae9df72bc93f318f
+msgid "Overview:"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:20
+# 363fa59c583e491ca92fc6be263a907f
+msgid "Just as we use a word processor to write documents and deal with words on a computer, we can use a **GIS application** to deal with **spatial information** on a computer. GIS stands for **'Geographical Information System'**. A GIS consists of:"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:24
+# a6ac23330dcd41a7bd990fb324ca0803
+msgid "**Digital Data** – the geographical information that you will view and analyse using computer hardware and software."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:26
+# 44c62120e7c54c8095e5df455cd43bd0
+msgid "**Computer Hardware** – computers used for storing data, displaying graphics and processing data."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:28
+# 69000c1d253544caa676987a843d23e8
+msgid "**Computer Software** – computer programs that run on the computer hardware and allow you to work with digital data. A software program that forms part of the GIS is called a GIS Application."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:31
+# 4de73d8c008a426287c6aaa75b8bab8c
+msgid "With a GIS application you can open digital maps on your computer, create new spatial information to add to a map, create printed maps customised to your needs and perform spatial analysis."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:33
+# c6fd98bcf08648e3a136fe1d63ea128b
+msgid "Let's look at a little example of how GIS can be useful. Imagine you are a health worker and you make a note of the date and place of residence of every patient you treat."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:37
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:145
+# 755d7d6eb7f64f51bb7e33ada925af09
+# 05a92a218c7d4f04ac34a09dbead33fb
+msgid "Longitude"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:37
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:145
+# c61e34e2ff8e473e90a5e7e29afb83a4
+# afc2b74dd2624418ba49d3209e1548a6
+msgid "Latitude"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:37
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:145
+# 95af3836c2ba446db3ce8a9f59d8a645
+# 0bc3f3ab2ec040498dc9007c49428bb1
+msgid "Disease"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:37
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:145
+# 61fbb1e08bf14ffe97f0e6a3194b25dc
+# 155638114ebe4fed889abef5e3a1d314
+msgid "Date"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:39
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:147
+# 67eec10f922047d2ad3b37392f87466c
+# 09251daa9c9d4005b6e89982a4781831
+msgid "26.870436"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:39
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:147
+# 39b99b477c8d49a2b564add85970d07d
+# d81b6047b99648a38f016527b6c6d37f
+msgid "\\-31.909519"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:39
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:41
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:43
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:53
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:147
+# 477e5812aac54475af37f46c5e24db1b
+# 3ef4d6a1d10d40adad3d4b3c5f61ace3
+# 350efc7a8212431daca45b460255f304
+# b009f90bb499475babcc5e1780c22a9a
+# b30d2e92cc1042b3976f95a0820fe3bf
+msgid "Mumps"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:39
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:147
+# b7e2b9480c654a2dbaab76fb7f1c3cf7
+# 05100f818c6c44c1a6e9c6dc8f213064
+msgid "13/12/2008"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:41
+# b1297914d6234ebd938b058aa909b0c3
+msgid "26.868682"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:41
+# b2b095a39c23470e9dc5dc215a4485e9
+msgid "\\-31.909259"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:41
+# ea651180883f48c5a81bb77351348039
+msgid "24/12/2008"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:43
+# 7adab0fe093e4dc984d9170c737c89c5
+msgid "26.867707"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:43
+# 3d54551124b244f29d93553d38e0807d
+msgid "\\-31.910494"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:43
+# 7351fdc4388445a085ff036a8b08a767
+msgid "22/01/2009"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:45
+# b9aea44ed3674350866a7490facbd422
+msgid "26.854908"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:45
+# 3856d0cdfa4945acacf4f30cce306879
+msgid "\\-31.920759"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:45
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:47
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:49
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:51
+# e66e157e17294e23bb68a8e955271cf2
+# dc03a1e4970e4adcbe8eea6811f6b7c8
+# e4d927df0fcf4bd7a698c3039e25b453
+# 75c679acd45c4aeba503c36d64af454c
+msgid "Measles"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:45
+# cc9ded1e805440b5b09586c427f44803
+msgid "11/01/2009"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:47
+# 251afba5908d4632a351a49ad3e16cc4
+msgid "26.855817"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:47
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:49
+# 4ad53c4055b0475cb31071f1c51ba2a2
+# c59e250c3b714550b695d3f060c1b36a
+msgid "\\-31.921929"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:47
+# ddb2e0cade33498fbd2cae86d3d77255
+msgid "26/01/2009"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:49
+# 4e03fe4ec0f74ccf81da0f7cd0bed162
+msgid "26.852764"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:49
+# 246a7b71cd07439c859b153ac9d6114f
+msgid "10/02/2009"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:51
+# e0d64538ea3b4578b35c364a1b31beed
+msgid "26.854778"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:51
+# 992a298aa79b46e5bcf708f67670695d
+msgid "\\-31.925112"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:51
+# ba895bc23d0147e4a930e9a4b3dc4d9f
+msgid "22/02/2009"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:53
+# 3c778998a8a745c2997f21c80ba5e624
+msgid "26.869072"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:53
+# 134a37365f1e4e3d8532d5da96ebb48d
+msgid "\\-31.911988"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:53
+# e331e92d9e5c47548a662f76c93d8c36
+msgid "02/02/2009"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:55
+# 6fff05e92db04868aed62066d475154c
+msgid "26.863354"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:55
+# e3a8e6b7740f401ab414ad4fde768dd9
+msgid "\\-31.916406"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:55
+# 2308f5a9e57e4b8193e96710bfae1b53
+msgid "Chicken Pox"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:55
+# d3f26aa0b9e74449aaa449885d8e6b18
+msgid "26/02/2009"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:58
+# d559f7ab358742c58ebb2b141554c3ff
+msgid "If you look at the table above you will quickly see that there were a lot of measles cases in January and February. Our health worker recorded the location of each patient's house by noting its latitude and longitude in the table. Using this data in a GIS Application, we can quickly understand a lot more about the patterns of illness:"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:66
+# 86d9e27bec4a43f28ae4ea882154b15a
+msgid "More about GIS:"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:68
+# 38fce14276e7440b97b47f2cdf7d4171
+msgid "GIS is a relatively new field - it started in the 1970's. It used to be that computerised GIS was only available to companies and universities that had expensive computer equipment. These days, anyone with a personal computer or laptop can use GIS software. Over time GIS Applications have also become easier to use – it used to require a lot of training to use a GIS Application, but now it is much easier to get started in GIS even for amateurs and casual users. As we described above, GIS is more than just software, it refers to all aspects of managing and using digital geographical data. In the tutorials that follow we will be focusing on GIS Software."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:74
+# 5f9ecd09caa7413e9511d15861551588
+msgid "What is GIS Software / a GIS Application?:"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:76
+# 41d72369b477444fb333078a579c4faa
+msgid "You can see an example of what a **GIS Application** looks like in Illustration  . GIS Applications are normally programs with a graphical user interface that can be manipulated using the mouse and keyboard. The application provides **menus** near to the top of the window (File, Edit etc.) which, when clicked using the mouse, show a panel of **actions**. These actions provide a way for you to tell the GIS Application what you want to do. For example you may use the menus to tell the GIS Application to add a new layer to the display output."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:85
+# 9de848e9228540769a7ae3081a247203
+msgid "**Toolbars** (rows of small pictures that can be clicked with the mouse) normally sit just below the menus and provide a quicker way to use frequently needed actions."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:91
+# 0b354bff0a4c40cb834f989c2daefbda
+msgid "A common function of GIS Applications is to display **map layers**. Map layers are stored as files on a disk or as records in a database. Normally each map layer will represent something in the real world – a roads layer for example will have data about the street network."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:96
+# e4a89c90b03240f6bbaefb32c7411410
+msgid "When you open a layer in the GIS Application it will appear in the **map view**. The map view shows a graphic representing your layer. When you add more than one layer to a map view, the layers are overlaid on top of each other. Illustrations  to   show a map view that has several layers being added to it. An important function of the map view is to allow you to zoom in to magnify, zoom out to see a greater area and move around (panning) in the map."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:114
+# ae90f744714b4d55820e1cdd2fff39b3
+msgid "Another common feature of GIS Applications is the **map legend**. The map legend provides a list of layers that have been loaded in the GIS Application. Unlike a paper map legend, the map legend or 'layers list' in the GIS Application provides a way to re-order, hide, show and group layers. Changing the layer order is done by clicking on a layer in the legend, holding the mouse button down and then dragging the layer to a new position. In Illustrations  and  , the map legend is shown as the area to the left of the GIS Application window. By changing the layer order, the way that layers are drawn can be adjusted – in this case so that rivers are drawn over the roads instead of below them."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:125
+# cd2a4e05a48e473c93b1429c5fd65bd7
+msgid "Getting a GIS Application for your own computer(s):"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:127
+# 86a0f3d41e524c1cbd7bd9f44531a37f
+msgid "There are many different GIS Applications available. Some have many sophisticated features and cost tens of thousands of Rands for each copy. In other cases, you can obtain a GIS Application for free. Deciding which GIS Application to use is a question of how much money you can afford and personal preference. For these tutorials, we will be using the Quantum GIS Application, also known as QGIS. Quantum GIS is completely free and you can copy it and share it with your friends as much as you like. If you received this tutorial in printed form, you should have received a copy of QGIS with it. If not, you can always visit  to download your free copy if you have access to the internet."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:136
+# 3e041746852f452bb7f8a122f948f894
+msgid "GIS Data:"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:138
+# 3c3297ede6884eb68b12f3685c3dee7d
+msgid "Now that we know what a GIS is and what a GIS Application can do, let's talk about **GIS data**. Data is another word for **information**. The information we use in a GIS normally has a geographical aspect to it. Think of our example above, about the health care worker. She created a table to record diseases that looked like this:"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:150
+# a7e508594dbb40fb9ecfb18772e394f7
+msgid "The longitude and latitude columns hold **geographical data**. The disease and date columns hold **non-geographical data**. A common feature of GIS is that they allow you to associate information (non-geographical data) with places (geographical data). In fact, the GIS Application can store many pieces of information which are associated with each place – something that paper maps are not very good at. For example, our health care worker could store the person's age and gender on her table. When the GIS Application draws the layer, you can tell it to draw the layer based on gender, or based on disease type, and so on. So, with a GIS Application we have a way to easily change the appearance of the maps we created based on the non-geographical data associated with places."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:158
+# 9aaf6825a0f64822b144772ab19d12fa
+msgid "GIS Systems work with many different types of data. **Vector data** is stored as a series of X,Y coordinate pairs inside the computer's memory. Vector data is used to represent points, lines and areas. Illustration   shows different types of vector data being viewed in a GIS application. In the tutorials that follow we will be exploring vector data in more detail."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:168
+# 6da59af6f1604b6f8307c59b2318b289
+msgid "**Raster data** are stored as a grid of values. There are many satellites circling the earth and the photographs they take are a kind of raster data that can be viewed in a GIS. One important difference between raster and vector data is that if you zoom in too much on a raster image, it will start to appear 'blocky' (see illustrations  and  ). In fact these blocks are the individual cells of the data grid that makes up the raster image. We will be looking at raster data in greater detail in later tutorials."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:178
+# ad71d35fb9d946d1b90e2896ee5da0d9
+msgid "What have we learned?"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:180
+# ee835bbe4d984ff78b940f145460350b
+msgid "Let's wrap up what we covered in this worksheet:"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:182
+# 2c5a97d9bd024f5b93a56d232aec8e8a
+msgid "A **GIS** is a system of computer hardware, computer software and geographical data."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:184
+# 082878db9d254481a20c46959cf43209
+msgid "A **GIS Application** allows you to view geographical data and is an important part of the GIS."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:186
+# 99be259e62f84dc086b554e3c6550233
+msgid "A GIS Application normally consists of a **menu bar**, **toolbars**, a **map view** and a **legend**."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:188
+# 457d2c0791ae4b1cb3141bc4921bbb52
+msgid "**Vector** and **raster** data are geographical data used in a GIS application."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:190
+# 4be16df43d9840db83f1b5601031f79c
+msgid "**Geographical** data can have associated **non-geographical** data."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:192
+# 47e8016038674c548663208652857e34
+msgid "Now you try!"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:194
+# 36e792c728714ef9a1869c63859aad94
+msgid "Here are some ideas for you to try with your learners:"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:196
+# 9cc1010077664f27bb4936f50f20ed8f
+msgid "**Geography:** Describe the concept of GIS to your learners as outlined in this tutorial. Ask them to try to think of 3 reasons why it might be handy to use a GIS instead of paper maps. Here are some that we could think of:"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:200
+# 0ae10f56f69e43ec826181668a02bc01
+msgid "GIS Applications allow you to create many different types of maps from the same data."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:202
+# 7620e2a0627c4f2c8dc2119170ff8df4
+msgid "GIS is a great visualisation tool that can show you things about your data and how they are related in space (e.g. those disease outbreaks we saw earlier)."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:204
+# cc5a61264e20484c8f84c0a8404e5833
+msgid "Paper maps need to be filed and are time consuming to view. The GIS can hold a very large amount of map data and make it quick and easy to find a place you are interested in."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:207
+# 3f74c885739246d8896d01e78f4e87fb
+msgid "**Geography:** Can you and your learners think of how raster data from satellites could be useful? Here are some ideas we had:"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:209
+# fc2bccfe0acc447d8d354c187b235938
+msgid "During natural disasters, raster data can be useful to show where the impacted areas are. For example a recent satellite image taken during a flood can help to show where people may need rescuing."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:212
+# e0e91ead8b4940a48040fb10a03d0111
+msgid "Sometimes people do bad things to the the environment, like dumping dangerous chemicals that kill plants and animals. Using raster data from satellites can help us to monitor for these type of problems."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:215
+# 0b7621eb6372415285b973be7adc393f
+msgid "Town planners can use raster data from satellites to see where informal settlements are and to help in planning infrastructure."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:217
+# 19adece116b44a5eb3ca0eb7c8d78cf5
+msgid "Something to think about:"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:219
+# 3a229c62e8ca4fff9714d48a3c437512
+msgid "If you don't have a computer available, many of the topics we cover in this tutorial can be reproduced using an overhead and transparency as it uses the same technique of layering information. However, to properly understand GIS it is always better to learn it using a computer."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:222
+# d4072b02c8834821bcd7bfbac3829c13
+msgid "Further reading:"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:224
+# 3c3e26e91ca04ed8ab5dd1f1837bc3d7
+msgid "**Book:** Desktop GIS: Mapping the Planet with Open Source Tools. **Author:** Gary Sherman. **ISBN:** 9781934356067"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:228
+# 455747330b9a45b0b47dd4072743f50c
+msgid "**Website:** http://www.gisdevelopment.net/tutorials/tuman006.htm"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:230
+# 50505f7a440f4f65aa4059cf7fe7c765
+msgid "The QGIS User Guide also has more detailed information on working with QGIS."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:232
+# d3128b48d663456499639187d8cdb46d
+msgid "What's next?"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/01_introducing_gis.rst:234
+# e4db8d59731e4c92acd67351d612ee42
+msgid "In the sections that follow we are going to go into more detail, showing you how to use a GIS Application. All of the tutorials will be done using QGIS. Next up, let's look at vectors!"
+msgstr ""
+

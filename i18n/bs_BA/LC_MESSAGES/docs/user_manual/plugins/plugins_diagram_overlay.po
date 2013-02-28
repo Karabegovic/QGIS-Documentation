@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/user_manual/plugins/plugins_diagram_overlay.rst:10
+# 98eed551fa2146f8ba049526881db9c0
+msgid "Diagram Overlay Plugin"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_diagram_overlay.rst:12
+# abf4496c5180443793943fd7469632d6
+msgid "|diagram| The :guilabel:`Diagram Overlay` Plugin allows you to add a graphic overlay to a vector layer (see figure_overlay_1_). It provides additional and not yet implemented features to the ``Diagrams`` tab, described in secion :ref:`sec_diagram`."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_diagram_overlay.rst:16
+# 8ac3fc64460a4c0696adcb4666c6738b
+msgid "Before starting, the :guilabel:`Diagram Overlay` Plugin needs to be activated using the Plugin Manager (see Section :ref:`load_core_plugin`). It will then appear as :guilabel:`Overlay` tab in the :guilabel:`Layer Properties` dialog next to the :guilabel:`Diagrams` tab."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_diagram_overlay.rst:33
+# ef6e363b3d7a402d85ffcf7c83b92f8c
+msgid "The :guilabel:`Overlay` tab provides support for Pie charts, Bar charts and proportional SVG symbols."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_diagram_overlay.rst:36
+# 53ebfe84027646bfb4696aaa9bec93bd
+msgid "Similar to the :guilabel:`Diagrams` tab, we will demonstrate an example and overlay the alaska boundary layer a piechart diagram showing some temperature data from a climate vector layer. Both vector layers are part of the |qg| sample dataset (see Section :ref:`label_sampledata`)."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_diagram_overlay.rst:41
+# f4399be855fe4a4c9617a1cb4cc0945a
+msgid "First click on the |mActionAddOgrLayer| :sup:`Load Vector` icon, browse to the |qg| sample dataset folder and load the two vector shape layers :file:`alaska.shp` and :file:`climate.shp`."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_diagram_overlay.rst:44
+# 2a843594acbb4ef5bfe2228134444fbf
+msgid "Double click the ``climate`` layer in the map legend to open the :guilabel:`Layer Properties` dialog."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_diagram_overlay.rst:46
+# 0d0cf32ea9ae4e83b61dffcab2489615
+msgid "Click on the :guilabel:`Overlay` tab, activate |checkbox| :guilabel:`Display diagrams` and select :guilabel:`Pie Chart` |selectstring| as Diagram type."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_diagram_overlay.rst:48
+# 2a9a47e84b234f70ae27a3e42d902d8e
+msgid "In the Pie chart we want to display the values of the three columns ``T_F_JAN``, ``T_F_JUL`` and ``T_F_MEAN``. First select ``T_F_JAN`` as Attributes and click the green **[\\+]** button, then ``T_F_JUL`` and finally ``T_F_MEAN``."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_diagram_overlay.rst:52
+# b5fdb21e142d4123afcd04a6817b1e70
+msgid "Diagram size is based on linear scaling of a classification attribute. We choose ``T_F_JUL``, click on ``Find maximum value and set size to `20` and Size unit to ``Millimeter``."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_diagram_overlay.rst:55
+# f19c016f380e492a867d8917173845aa
+msgid "Now click **[Apply]** to display the diagram in the |qg| main window."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_diagram_overlay.rst:56
+# 4deb0a7fe3cf47baad130e56e3a4f868
+msgid "You can now adapt the chart size, or change the attribute colors double clicking on the color values in the attribute field. Figure_overlay_2_ gives an impression."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_diagram_overlay.rst:59
+# 8fa5d6bb13fb4573b9449801e6639ae2
+msgid "Finally click **[Ok]**."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_diagram_overlay.rst:73
+# 527951021d8149e0836171b59be5effe
+msgid "Additionally in the :menuselection:`Settings --> Options` dialog, there is a ``Overlay`` tab where it is possible to select the placement algorithm of the diagrams. The central point method is a generic one, the others use algorithms of the PAL library. They also consider diagram objects and labels in different layers."
+msgstr ""
+

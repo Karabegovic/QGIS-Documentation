@@ -1,0 +1,243 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:11
+# 4719aaac23d042d68a7292bf5406fa2e
+msgid "Preamble"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:13
+# 7150f425d0fc44f8a4a317686fe3a2c0
+msgid "This document is the original user guide of the described software Quantum GIS. The software and hardware described in this document are in most cases registered trademarks and are therefore subject to the legal requirements. Quantum GIS is subject to the GNU General Public License. Find more information on the Quantum GIS Homepage http://www.qgis.org."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:19
+# d8bfe0862c4b4994aa5049278b229c2a
+msgid "The details, data, results etc. in this document have been written and verified to the best of knowledge and responsibility of the authors and editors. Nevertheless, mistakes concerning the content are possible."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:23
+# 7119ba7afce2496f9239e4b932108bae
+msgid "Therefore, all data are not liable to any duties or guarantees. The authors, editors and publishers do not take any responsibility or liability for failures and their consequences. Your are always welcome to indicate possible mistakes."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:27
+# a31093669a8c4840b9ba1a704d9042c4
+msgid "This document has been typeset with reStructuredText. It is available as reST source code via `github <https://github.com/qgis/QGIS-Documentation>`_ and online as HTML and PDF via http://documentation.qgis.org. Translated versions of this document can be downloaded in several formats via the documentation area of the QGIS project as well. For more information about contributing to this document and about translating it, please visit: http://www.qgis.org/wiki/."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:34
+# f475d0213ba447d39733bd391b0a5510
+msgid "**Links in this Document**"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:36
+# 45509419d2f543ad8027766fb37fafad
+msgid "This document contains internal and external links. Clicking on an internal link moves within the document, while clicking on an external link opens an internet address. In PDF form, internal and external links are shown in blue and are handled by the system browser. In HTML form, the browser displays and handles both identically."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:42
+# 1eded180ca3c4455af83c05335f5375b
+msgid "**User, Installation and Coding Guide Authors and Editors:**"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:45
+# 6be857f074a84f2a9a0c57731f2e8b66
+msgid "Tara Athan"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:45
+# 8250de98469b47d5bfc318ed7e00e35b
+msgid "Radim Blazek"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:45
+# d98926521ef04e2887e3ae3afcee66b7
+msgid "Godofredo Contreras"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:45
+# 61aceaef038e465c8667bc455984ceee
+msgid "Otto Dassau"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:45
+# 80979b4ba3c84c1fbf3b5d95fa440531
+msgid "Martin Dobias"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:47
+# 1c7e64b6f16946ea98d7a9f946f191b9
+msgid "Peter Ersts"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:47
+# fbba38d7dd3945a89360f12d6581d672
+msgid "Anne Ghisla"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:47
+# 6362570a1de84fc6875518bf5ad994ee
+msgid "Stephan Holl"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:47
+# 79434cf6f20e48f9ba0446d4c53fbe92
+msgid "N\\. Horning"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:47
+# dc31379f6eee48f5b7f10ea1485513e5
+msgid "Magnus Homann"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:49
+# 535d7c32e7014e629ebb46f4a55db37b
+msgid "Werner Macho"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:49
+# 85213d7307f646aeb4b6f1a9a3bcad98
+msgid "Carson J.Q. Farmer"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:49
+# 67728ace8f6f4b7e872b940ae6baaa03
+msgid "Tyler Mitchell"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:49
+# 80b90c0c6866454480631dd23f1c91b2
+msgid "K\\. Koy"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:49
+# 95a36c53df034ce08bc171e9f07f2b42
+msgid "Lars Luthman"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:51
+# 97c1ae00e0ae46c488b362617da546e5
+msgid "Claudia A. Engel"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:51
+# 779fed25ffda49c5bb6c8e9305f8ccec
+msgid "Brendan Morely"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:51
+# ae1835291f934c4eb114e1d1a2d32675
+msgid "David Willis"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:51
+# fac0bc9af4194efe985889b35176ded2
+msgid "Jürgen E. Fischer"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:51
+# 8d380f78cb8e442ca901880a17c48042
+msgid "Marco Hugentobler"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:53
+# 6ff96b1af627410db0e462662ecb5564
+msgid "Larissa Junek"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:53
+# 436b6ffea68f4c3f9c1f5c81cc5b87cf
+msgid "Diethard Jansen"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:53
+# 393b16eae3a7443aabb045ccdd79f243
+msgid "Paolo Corti"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:53
+# 2a63b2945fc049ea917842bd28a678ad
+msgid "Gavin Macaulay"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:53
+# 5eec6e5496bb457996cad00cad569059
+msgid "Gary E. Sherman"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:55
+# 9eddd0467b1e4cc1a934ec4723dd3bbc
+msgid "Tim Sutton"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:55
+# 81c3dcfdb7c5427c8f92893b1eed4563
+msgid "Alex Bruy"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:55
+# d582a902aaaf49fd94b0a28c45461637
+msgid "Raymond Nijssen"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:55
+# bbdff8579c4b46d6b3ae795f288b5217
+msgid "Richard Duivenvoorde"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:55
+# 63c2452dad984cbfbfb93907e7b4529e
+msgid "Andreas Neumann"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:58
+# f7f8ec069527461cbd191528a1685e99
+msgid "\\"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:60
+# aa43c567fe024f48af1cf382510df54d
+msgid "**Sponsors**"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:62
+# f4e70314aaf449628771285d7cb5ad72
+msgid "The update of this user manual was kindly sponsored by `Kanton Solothurn <http://www.so.ch/departemente/bau-und-justiz/amt-fuer-geoinformation.html>`_, Switzerland."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:71
+# 68649f7aa3194841b28f1ed85bb3532c
+msgid "Copyright (c) 2004 - 2013 QGIS Development Team"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:73
+# 7766783a69a24564bd2e49cd7c358c71
+msgid "**Internet:** http://www.qgis.org"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:75
+# 7d50242ba5964a74917d70c43c113dbb
+msgid "**License of this document**"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/preamble.rst:77
+# d1cfb91d09984a95b02b35ba1af4ff43
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts and no Back-Cover Texts. A copy of the license is included in Appendix :ref:`gfl_appendix`."
+msgstr ""
+

@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/index.rst:8
+# b79a7c0078304463b2da1478433236ac
+msgid "QGIS"
+msgstr ""
+
+#: ../../source/index.rst:21
+# 8b117b4fc654408ea935ba38720f7433
+msgid "Welcome to the Quantum GIS Project"
+msgstr ""
+
+#: ../../source/index.rst:23
+# 6b38e540529e42d5aa0920212df90d38
+msgid "|qgissplash|"
+msgstr ""
+
+#: ../../source/index.rst:25
+# 100e4b73eede4b08b30b7e09fa8bc2fb
+msgid "Quantum GIS (QGIS) is a user friendly Open Source Geographic Information System (GIS) licensed under the GNU General Public License. QGIS is an official project of the Open Source Geospatial Foundation (OSGeo). It runs on Linux, Unix, Mac OSX, Windows and Android and supports numerous vector, raster, and database formats and functionalities."
+msgstr ""
+
+#: ../../source/index.rst:31
+# 9087d069dc4246c1ae54a014a16cfccb
+msgid "Our latest release is QGIS 1.8.0 you can read the `release annoucement here <http://www.qgis.org/en/about-qgis/qgis-releases/149-qgis-18-release.html>`_"
+msgstr ""
+

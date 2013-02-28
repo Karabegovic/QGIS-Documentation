@@ -1,0 +1,608 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:10
+# a9f7e0e12ce648478cba3bf512e7a3cf
+msgid "QGIS Configuration"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:12
+# fec17599768e4927b0d3cf861655cfaf
+msgid "QGIS is highly configurable through the :menuselection:`Settings -->` menu. Choose between Panels, Toolbars, Project properties, Options and Customization."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:20
+# 06349ecd94004af59d8af75d13fb68b2
+msgid "Panels and Toolbars"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:22
+# 338ea3cec81f42eab27caebf0e74db55
+msgid "In the :menuselection:`Panels-->` menu you can switch on and off QGIS widgets. The :menuselection:`Toolbars-->` menu provides the possibility to switch on and off icon groups in the QGIS toolbar (see figure_panels_toolbars_)."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:41
+# 7022f1a4df8d4ae3b894b197ca6af4b2
+msgid "**Activating the QGIS Overview**"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:43
+# 724dff822cfc489c803993c66d2734a5
+msgid "In QGIS you can use an overview panel that provides a full extent view of layers added to it. It can be selected under the menu :menuselection:`Settings --> Panels`. Within the view is a rectangle showing the current map extent. This allows you to quickly determine which area of the map you are currently viewing. Note that labels are not rendered to the map overview even if the layers in the map overview have been set up for labeling. If you click and drag the red rectangle in the overview that shows your current extent, the main map view will update accordingly."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:52
+# 5d63f809c6f14b399a57a961a576b985
+msgid "**Show Log Messages**"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:54
+# ce42a9c683f54ae6bc821c1f41214833
+msgid "Since QGIS 1.8 it's possible to track the QGIS messages. You can activate |checkbox|:guilabel:`Log Messages` in the menu :menuselection:`Settings --> Panels` and follow the messages in the :guilabel:`General` and :guilabel:`Plugin` tab during loading and operation."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:61
+# 21d5943629cc46b08b04259888bdf81f
+msgid "Project Properties"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:63
+# db3870a5a8e84cc88885390ffa7827df
+msgid "In the properties window for the project under |nix| :menuselection:`Settings --> Project Properties` or |win| :menuselection:`Settings --> Project Properties` you set project specific options. These include:"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:68
+# 8ef7ba0ab1a044d38cf03299b24d0ac5
+msgid "In the :guilabel:`General` tab the project title, selection and background color, layer units, precision, and the option to save relative paths to layers can be defined. You can define the layer units (only used when CRS transformation is disabled) and the precision of decimal places to use."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:72
+# ce9f4fe609a743d699db5f796095d44e
+msgid "The :guilabel:`CRS Coordinate Reference System` tab enables you to choose the CRS for this project, and to enable on-the-fly re-projection of raster and vector layers when displaying layers from a different CRS."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:75
+# 29c29c2ae6fb450497de277117058c72
+msgid "With the third :guilabel:`Identifiable layers` tab you set (or disable) which layers will respond to the identify tool. (See the Map tools paragraph from the :ref:`gui_options` section to enable identifying of multiple layers.)"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:78
+# 66b880ddfa004be6a2c02849b62745fa
+msgid "The tab :guilabel:`OWS Server` allows to define information about the QGIS mapserver Service Capabilities, the Extent and the CRS Restrictions as well as the WFS Capabilities. Activating the |checkbox| :guilabel:`Add WKT geometry to feature info response` will allow to query the WMS layers."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:86
+# 550481fb1c5c426b94046c7a3a6d8cf8
+msgid "Options"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:88
+# af55b9c2b4cf4a77977d52e440591ba1
+msgid "|mActionOptions| Some basic options for QGIS can be selected using the :guilabel:`Options` dialog. Select the menu option :menuselection:`Settings -->` |mActionOptions| :menuselection:`Options`. The tabs where you can optimize your options are:"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:94
+# 0bfb58fd29db4ed69842543496befd66
+msgid "General Tab"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:96
+# ea09e7501c8f4baa80618806be1090b4
+msgid "|checkbox| :guilabel:`Prompt to save project changes when required`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:97
+# 87a5b76eaf594a1cbc33aaf340c08819
+msgid "|checkbox| :guilabel:`Warn when opening a project file saved with an older version of QGIS`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:98
+# b74e05a82cc04b11bd641d1fd7817148
+msgid "Change Selection and Background color"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:99
+# d313a1e6ab0d4736b5dc861d79a796fd
+msgid "Change the QGIS Style"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:100
+# ee862612e90c40f8a9196a98f6f798bf
+msgid "Change the icon theme (choose between 'default', 'classic' and 'gis')"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:101
+# 34317daf1e7046d797d7c44f5127dd4f
+msgid "Change icon size between 16, 24 and 32 pixel."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:102
+# e1a83a9b4edd47478ce082038b525db2
+msgid "Change the menu size"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:103
+# c7dad500c5d8494485dde96e42254354
+msgid "Define double click action in legend (choose between 'open layer properties' and 'open ') attribute table."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:105
+# 9fa8e2c522014b23810a0f21c0d43af0
+msgid "|checkbox| :guilabel:`Capitalize layer names in legend`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:106
+# 42b4fa6c38d84fcba614227771c54de1
+msgid "|checkbox| :guilabel:`Display classification attribute names in legend`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:107
+# 57636fd35ca148118d2e488da1dae365
+msgid "|checkbox| :guilabel:`Create raster icons in legend`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:108
+# 6824c69137fa4c4ab325e8204cc01010
+msgid "|checkbox| :guilabel:`Hide splash screen at startup`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:109
+# c98b5b1db4d74c5e8ca1f986519d7af6
+msgid "|checkbox| :guilabel:`Show tips at startup`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:110
+# 2dccc6fdcd26476cbb71dc4af9e8a193
+msgid "|checkbox| :guilabel:`Open identify results in a dock window (QGIS restart required)`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:112
+# 6dafcf9eb3f5402284df705904b2b134
+msgid "|checkbox| :guilabel:`Open snapping options in a dock window (QGIS restart required)`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:114
+# deba882aa10241d19c309658dd270ba3
+msgid "|checkbox| :guilabel:`Open attribute table in a dock window`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:115
+# eea678630d9643c0927389748499534f
+msgid "|checkbox| :guilabel:`Add PostGIS layers with double click and select in extended mode`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:116
+# eeee406117974783a3545ea785c05201
+msgid "|checkbox| :guilabel:`Add new layers to selected or current group`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:117
+# 52b1b126590e4dfdac870684abf6fcf7
+msgid "|checkbox| :guilabel:`Copy geometry in WKT representation from attribute table`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:118
+# 3a412c98d73d4a34a28068f5b3dab002
+msgid ":guilabel:`Attribute table behavior` (choose between 'Show all features' (default), 'Show selected features','Show features in current canvas')"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:120
+# 24ff41c4190c4b5a8a4bdac822364030
+msgid ":guilabel:`Attribute table row cache`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:121
+# 6bcd5388de3346069b347cad83f480f1
+msgid "Define :guilabel:`Representation for NULL values`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:122
+# af1b722488aa46f9bea6ad3e3c957476
+msgid ":guilabel:`Prompt for raster sublayers` Some rasters support sublayers - they are called subdatasets in gdal. An example is netcdf files - if there are many netcdf variables, gdal sees every variable as a subdataset. The option is to control how to deal with sublayers when a file with sublayers is opened. You have the following choices: 'Always': always ask (if there are existing sublayers) 'If needed': ask if layer has no bands, but has sublayers 'Never': never prompt, will not load anything 'Load all': never prompt, but load all sublayers"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:131
+# d84750c898f14e08ae17d3188c5b9ed1
+msgid ":guilabel:`Scan for valid items in the browser dock` The 'Check extension' option was designed to speed up the loading of a directory, which can be time-consuming when 'Check file contents' is activated and there are many files (tens or hundreds)."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:135
+# d34fca16370e41d09cc79321d10d0eaf
+msgid ":guilabel:`Scan for contents of compressed files (.zip) in browser dock` This option was also designed to speed up the loading of a directory. You have the following choices: 'Basic Scan': checks that the extension is supported by one of the drivers 'Full Scan': opens every file to check it is valid 'Passthru': don't use this option it will be removed in the next QGIS version"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:143
+# fb2af33341074c2f87dc80814b38814c
+msgid "GDAL tab"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:145
+# 75edce9053d94af5a991a1eba25e8c30
+msgid "GDAL is a data exchange library for raster files. In this tab you can define which GDAL driver to be used for a raster format as in some cases more than one GDAL driver is available."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:151
+# b85df1cc9f4046c5ad0827592fa75bda
+msgid "Plugins tab"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:153
+# 0a79a30152694d0ca044cb4a646da534
+msgid "Add :guilabel:`Path(s) to search for additional C++ plugin libraries`."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:157
+# 56dcc96769e34a86a9585909d0745ed9
+msgid "Rendering Tab"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:159
+# 9ac9625bd66945c1b8eeb6551e75b001
+msgid "|checkbox| :guilabel:`By default new layers added to the map should be displayed`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:160
+# aef66e4c7fd443458e7373a12477feb4
+msgid "Define :guilabel:`Number of features to draw before updating the display`."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:161
+# ce1fe43b249a44a38a6eec0e18c25cad
+msgid "|checkbox| :guilabel:`Use render caching where possible to speed up redraws`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:162
+# df17ca4b0fde4728a409e25b58834a0a
+msgid "|checkbox| :guilabel:`Make lines appear less jagged at the expense of some drawing performance`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:164
+# 1f7407b6d14f4fd4a2b836e052a95fa5
+msgid "|checkbox| :guilabel:`Fix problems with incorrectly filled polygons`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:165
+# a05df5dd0f984151a33a2ed4391563bc
+msgid "|checkbox| :guilabel:`Use new generation symbology for rendering`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:166
+# 629a8e71bad44cd3bdea6c153254e12c
+msgid "Define the default Raster settings for visualisation: 'RGB band selection', |checkbox| :guilabel:`Use standard deviation` and 'Contrast Enhancement'"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:168
+# e2e09a1b4ea5498dbfac8b02cd8cd38c
+msgid "Add/remove :guilabel:`Path(s) to search for Scalable Vector Graphics (SVG) symbols`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:171
+# 7227fade162c4d2dbd1395206973458d
+msgid "Additionally you can define whether to save the path for svg textures absolute or relative in the :guilabel:`General` tab of the :menuselection:`Settings --> Project Properties` menu."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:176
+# 93c1aa10df454b238068cf757f3a9cd8
+msgid "Map tools Tab"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:178
+# 3f504e9ad54049d4bfcf58c940db0a8d
+msgid "The :guilabel:`Mode` setting determines which layers will be shown by the Identify tool. By switching to 'Top down' or 'Top down, stop at first' instead of 'Current layer' attributes for all identifiable layers (see the Project properties section under: :ref:`sec_projects` to set which layers are identifiable) will be shown with the Identify tool."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:183
+# bd2c74fa70f240728196aa70270ba6c7
+msgid "|checkbox| :guilabel:`Open feature form, if a single feature is identified`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:184
+# 6539b38420654b7c8f37e59a853fcae2
+msgid "Define :guilabel:`Search radius for identifying and displaying map tips as a percentage of the map width`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:186
+# 21d4b8c580c140a7bd16dd0c4f34c85a
+msgid "Define :guilabel:`Ellipsoid for distance calculations`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:187
+# ef6e2c2b32d5401b87779264e61e4c25
+msgid "Define :guilabel:`Rubberband color` for measure tools"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:188
+# e857c8d3cbc2443699db07aacfd8c329
+msgid "Define :guilabel:`Decimal places`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:189
+# 44032dc80a3a4197827e72474fb3c090
+msgid "|checkbox| :guilabel:`Keep base unit`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:190
+# 91d87ef1b1a348e5918e489e56a469d7
+msgid "|radiobuttonon| :guilabel:`Define preferred measurement units ('meters' or 'feet')`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:191
+# bdbc6718e38e47c3a37684929b53c50a
+msgid "|radiobuttonon| :guilabel:`Define preferred angle units ('Degrees', 'Radians' or 'Gon')`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:192
+# 784c7907bc9449f8a4a7a4287b43a1db
+msgid "Define :guilabel:`Mouse wheel action` ('Zoom', 'Zoom and recenter', 'Zoom to mouse cursor', 'Nothing')"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:194
+# e97ef5136c6a45d5985793c54ca76610
+msgid "Define :guilabel:`Zoom factor` for wheel mouse"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:197
+# ef39654be8784fe38eb8b91c423cf201
+msgid "Overlays Tab"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:199
+# ee8c089599c74d2c9272ab825daaae15
+msgid "Define :guilabel:`Placement algorithm` for labels, symboly and diagrams (choose between 'Central point' (standard), 'Chain', 'Popmusic tabu chain', 'Popmusic tabu' and 'Popmusic chain')"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:203
+# 33aef1d1ae5145f18df8c285d7f1a48e
+msgid "Digitizing Tab"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:205
+# 218e83621d3b4d6081a827ba99bb09e9
+msgid "Define Rubberband :guilabel:`Line color` and :guilabel:`Line width`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:206
+# eaea486c6e7443048fdc79c37245ebb8
+msgid "Define :guilabel:`Default snap mode` ('To vertex', 'To segment', 'To vertex and segment')"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:207
+# dc4510303ce5468a9e9457285491a102
+msgid "Define :guilabel:`Default snapping tolerance` in map units or pixel"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:208
+# b11fadfd09e24b3b99b922efe30c302d
+msgid "Define search radius for vertex edits in 'map units' or 'pixel'"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:209
+# 06850b6da20741eaa01c41f65de721f7
+msgid "|checkbox| :guilabel:`Show markers only for selected features`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:210
+# ba6311ce1eed46e0b41ccb0b5bd5afd4
+msgid "Define vertex :guilabel:`Marker style` ('Cross' (default), 'Semi transparent', 'Circle' or 'None') and vertex :guilabel:`Marker size`."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:212
+# 27a8f8c168ea4023b8d23edbfd4263c8
+msgid "|checkbox| :guilabel:`Suppress attributes pop-up windows after each created feature`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:213
+# f21b3b34bdcc4d789ba310d705825d02
+msgid "|checkbox| :guilabel:`Reuse last entered attribute values`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:214
+# 4f6262966ef546f5bcd1c1e20cfa7abd
+msgid ":guilabel:`Validate geometries` Editing complex lines/polygons with many nodes can end up with very slow rendering. This is because the default validation procedures in QGIS can use a lot of time. To speed up rendering it is possible to select GEOS geometry validation (starting from GEOS 3.3) or to switch it off. GEOS geometry validation is much faster, but the disadvantage is that only the first geometry problem will be reported."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:220
+# 8a8b40b6a0b044b7a3d9fc30fa0540ee
+msgid "The next 3 options refer to the |mActionOffsetCurve| :sup:`Offset Curve` tool in :ref:`sec_advanced_edit`. Through the various settings, it is possible to influence the shape of the line offset. These options are possible from GEOS 3.3 ."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:224
+# b41f89b856a0499eadab96c78c0d4e17
+msgid ":guilabel:`Join style for curve offset`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:225
+# 5707c686a2cf4c22bd98c4711433275f
+msgid ":guilabel:`Quadrantsegments for curve offset`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:226
+# f18b7a85589140089d183e241a05d2b2
+msgid ":guilabel:`Miter limit for curve offset`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:230
+# e5599953d3e74e2f934bd48e9364beb3
+msgid "CRS Tab"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:232
+# c382fda88b5b4fc6a42a9e39a10c9b6a
+msgid "The CRS tab is divided in two areas. The first area allows to define the default CRS for new projects."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:235
+# 8b37371dc3164ca7bab70da38caf28ac
+msgid "Select a CRS and :guilabel:`Always start new projects with this CRS`."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:236
+# 04446200b4504819ab12dfbd652c271e
+msgid "|checkbox| :guilabel:`Enable on the fly re-projection by default`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:238
+# eaab3c06ee3b42b8a9c849c428d1566a
+msgid "The second area allows to define the action, when a new layer is created, or when a layer without CRS is loaded."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:241
+# f6b75b98b966475699f492af50edddc5
+msgid "|radiobuttonoff| :guilabel:`Prompt for Coordinate Reference System (CRS)`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:242
+# 0b45b90d1b964a6a8e8e3b07bf1871d3
+msgid "|radiobuttonoff| :guilabel:`Use project Coordinate Reference System (CRS)`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:243
+# be50f61eeea44d5f830a66b5322414c0
+msgid "|radiobuttonon| :guilabel:`Use default Coordinate Reference System (CRS) displayed below`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:246
+# 1c98fa22b0d64f6fbb266357bceeb331
+msgid "Locale Tab"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:248
+# 12fb6b392edd411a8d4e8ed627532e19
+msgid "|checkbox| :guilabel:`Overwrite system locale` and :guilabel:`Locale to use instead`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:249
+# cc35caca3c374210ba8b40dc090e7ea5
+msgid "Information about active system locale"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:252
+# e6795853da00457485dcfe316f2fcc56
+msgid "Network Tab"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:266
+# c251998030cf40e0b1faff3e3c1f7a7a
+msgid "|checkbox| :guilabel:`Use proxy for web access` and define 'Host', 'Port', 'User', and 'Password'."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:268
+# fed298ac3e4f4b01a89572fe5771ef3c
+msgid "Set the :menuselection:`Proxy type -->` according to your needs."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:270
+# f65c937229af485388a1d64a6d856202
+msgid ":menuselection:`Default Proxy -->`: Proxy is determined based on the application proxy set using"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:272
+# ead329e031c04b0990d304179787112d
+msgid ":menuselection:`Socks5Proxy -->`: Generic proxy for any kind of connection. Supports TCP, UDP, binding to a port (incoming connections) and authentication."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:274
+# a3d9f3306ccb41159cac9c22f4642aee
+msgid ":menuselection:`HttpProxy -->`: Implemented using the \"CONNECT\" command, supports only outgoing TCP connections; supports authentication."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:276
+# d1eaa2df3ec048669a00a79b973dcc0b
+msgid ":menuselection:`HttpCachingProxy -->`: Implemented using normal HTTP commands, it is useful only in the context of HTTP requests"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:278
+# e0d53e3ab5dc4b4794419f009ca511e1
+msgid ":menuselection:`FtpCachingProxy -->`: Implemented using an FTP proxy, it is useful only in the context of FTP requests"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:281
+# 7c17f3455774479a88def08ae5cfffcc
+msgid "Define :guilabel:`Cache settings` (path and size)"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:282
+# f7a754fa426b4cc09615636397428595
+msgid "Define :guilabel:`WMS search address`, default is ``http://geopole.org/wms/search?search=\\%1\\&type=rss``"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:284
+# 2bec93b6b48643b68811ffa89ad43724
+msgid "Define :guilabel:`Timeout for network requests (ms)` - deeingebundenfault is 60000"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:286
+# 870a5d50debe4e39acfa52f0395966bf
+msgid "Excluding some URLs can be added to the text box below the proxy-settings (see Figure_Network_Tab_) by pressing the **[Add]** button. After that double-click into the just created URL-field and enter the URL you would like to exclude from using the proxy. Obviously the button **[Remove]** removes the selected entry."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:292
+# ef14bc5fa21b4810bbe9e6f955c589ba
+msgid "If you need more detailed information about the different proxy-settings, please refer to the manual of the underlying QT-library-documentation at http://doc.trolltech.com/4.5/qnetworkproxy.html#ProxyType-enum."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:297
+# 75d540bf4a5d4a2c885076d4fc912f9e
+msgid "**Using Proxies**"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:299
+# 541f8d75db46446daf0dcde13edfddc2
+msgid "Using proxies can sometimes be tricky. It is useful to 'trial and error' the above proxy types and check if they succeed in your case."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:302
+# 663f0135dff04da680ee6f5d2260050c
+msgid "You can modify the options according to your needs. Some of the changes may require a restart of QGIS before they will be effective."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:305
+# dd7ca44348964b5190e432f90685eee8
+msgid "|nix| settings are saved in a texfile: \\$HOME/.config/QuantumGIS/qgis.conf"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:306
+# a9a92bc78a5d48df9d0a564a5d6ab0a3
+msgid "|osx| you can find your settings in: \\$HOME/Library/Preferences/org.qgis.qgis.plist"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:308
+# 403593368db1467dab8de863ea717cf8
+msgid "|win| settings are stored in the registry under:"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:317
+# 3cd5b6e0319d447a84c139b1c40f1cd0
+msgid "Customization"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:318
+# cbde233d1fa849b8a77c9dbe5f17d6b3
+msgid "The customization tool is a new development in QGIS 1.8.. It lets you (de)activate almost every element in the QGIS user interface. This can get very useful if you have a lot of plug-ins installed that you never use and that are filling your screen."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:334
+# 4ef2f25c449843318941b60e4ffe9a3b
+msgid "QGIS Customization is divided into five groups. In |checkbox| :guilabel:`Docks` you find the dock windows. Dock windows are applications that can be started and used as a floating, top-level window or embedded to the QGIS main window as a docked widget (see also sec_panels_and_toolbars_). In |checkbox| :guilabel:`Menus` you can hide entries in the Menu bar. In the |checkbox| :guilabel:`Status Bar` features like the coordinate information can be daectivated. In |checkbox| :guilabel:`Toolbars` you can (de)activate the toolbar icons of QGIS and in |checkbox| :guilabel:`Widgets` you can (de)activate dialogs as well as their buttons."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_configuration.rst:342
+# 8668936d957d42ba8039254ede4f87d0
+msgid "With |mActionSelect| :guilabel:`Switch to catching widgets in main application` you can click on elements in QGIS you want to be hidden and find the corresponding entry in Customization (see figure_customization_). You can also save your various different setups for different use cases as well. Before your changes are applied, you need to restart QGIS."
+msgstr ""
+

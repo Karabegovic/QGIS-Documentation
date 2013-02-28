@@ -1,0 +1,3184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:7
+# 22b4ce4be9e8468883d4efc8016010fe
+msgid "Substitutions"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:10
+# 75bdead906524666a2818b0a6920f6d7
+msgid "Usage"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:12
+# 4da8ef3f761348f5b15b77115137b46e
+msgid "When you want to use an icon from |qg| in a rst document there is a big chance that there is allready a substitution defined in conf.py that can/should be used. When a new icon in QGIS is added it should be added first to conf.py before it is used in a rst document."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:18
+# 63a1045bc8b84b4a8a31439448ff6dc4
+msgid "Below the icons and the Substitions defined in conf.py are given."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:21
+# ceff19c3fbc644808d6bf4eff975e4fe
+msgid "Common Substitutions"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:23
+# c984c3a43d604857ada505479fd4a839
+msgid "Can be used/found in many places in manuals"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:26
+# 884719ac1e5b4f3e822e8995c0b1bcca
+msgid "Platform Icons"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:29
+#: ../../source/docs/documentation_guidelines/substitutions.rst:42
+#: ../../source/docs/documentation_guidelines/substitutions.rst:42
+#: ../../source/docs/documentation_guidelines/substitutions.rst:55
+#: ../../source/docs/documentation_guidelines/substitutions.rst:67
+#: ../../source/docs/documentation_guidelines/substitutions.rst:82
+#: ../../source/docs/documentation_guidelines/substitutions.rst:82
+#: ../../source/docs/documentation_guidelines/substitutions.rst:102
+#: ../../source/docs/documentation_guidelines/substitutions.rst:102
+#: ../../source/docs/documentation_guidelines/substitutions.rst:113
+#: ../../source/docs/documentation_guidelines/substitutions.rst:113
+#: ../../source/docs/documentation_guidelines/substitutions.rst:125
+#: ../../source/docs/documentation_guidelines/substitutions.rst:125
+#: ../../source/docs/documentation_guidelines/substitutions.rst:144
+#: ../../source/docs/documentation_guidelines/substitutions.rst:144
+#: ../../source/docs/documentation_guidelines/substitutions.rst:165
+#: ../../source/docs/documentation_guidelines/substitutions.rst:165
+#: ../../source/docs/documentation_guidelines/substitutions.rst:175
+#: ../../source/docs/documentation_guidelines/substitutions.rst:175
+#: ../../source/docs/documentation_guidelines/substitutions.rst:187
+#: ../../source/docs/documentation_guidelines/substitutions.rst:187
+#: ../../source/docs/documentation_guidelines/substitutions.rst:202
+#: ../../source/docs/documentation_guidelines/substitutions.rst:202
+#: ../../source/docs/documentation_guidelines/substitutions.rst:216
+#: ../../source/docs/documentation_guidelines/substitutions.rst:216
+#: ../../source/docs/documentation_guidelines/substitutions.rst:234
+#: ../../source/docs/documentation_guidelines/substitutions.rst:234
+#: ../../source/docs/documentation_guidelines/substitutions.rst:258
+#: ../../source/docs/documentation_guidelines/substitutions.rst:258
+#: ../../source/docs/documentation_guidelines/substitutions.rst:276
+#: ../../source/docs/documentation_guidelines/substitutions.rst:276
+#: ../../source/docs/documentation_guidelines/substitutions.rst:293
+#: ../../source/docs/documentation_guidelines/substitutions.rst:293
+#: ../../source/docs/documentation_guidelines/substitutions.rst:322
+#: ../../source/docs/documentation_guidelines/substitutions.rst:322
+#: ../../source/docs/documentation_guidelines/substitutions.rst:345
+#: ../../source/docs/documentation_guidelines/substitutions.rst:345
+#: ../../source/docs/documentation_guidelines/substitutions.rst:362
+#: ../../source/docs/documentation_guidelines/substitutions.rst:362
+#: ../../source/docs/documentation_guidelines/substitutions.rst:374
+#: ../../source/docs/documentation_guidelines/substitutions.rst:374
+# 8bf15b14c76a4c0f8f54e3e71c6f1c74
+# c6195a4030fe46eeac8072ea45d94432
+# 9083cf24f4424ad38c3c4d82b738d042
+# fc302f841e464443ab2a6f613bfe03b5
+# 742ef368bb5c46c5b1df3fb1e887619e
+# b0f84c7aa8634b56aa95bad14c8f0c15
+# 0d9960550d3e42f4888edc0834f6e6d0
+# 05050bbf63c140ef9dae7651af8d37f5
+# 26fde181d3d84c1a904520b722c301de
+# b8e1fc7f61fb4f578d931a37ec81c340
+# dc81da1bbde9483b8f2ed1d9f214ab62
+# 0ccc26e589f14ac4bb33eef788531b41
+# a6942f37538e4afca82de7d2ed6804f1
+# 1cee9bf24e1a4e5cb43e195b92cbe2bf
+# acbf875308a14e11bdf9c2b899175f79
+# 6851e450ffdc426b9bb95bcf600c02bb
+# 8afd85c8eec0434e90bd9a5ad13d400d
+# 866a538500a34a33b85c08dda77fa88d
+# 52e6a61ba96d4b5a81a136c02e8029f3
+# 69497aa261054dbb9008f02b462f4184
+# c0a042343953495ea14c97cc03f67496
+# b3ea688ea7e148eeb8a2bedcf522e225
+# f20952bf8651497e9ecb8c4c8b059b7e
+# 4c685abaee604892935dd855e6bf59ab
+# 4dca4d8053f74e239ed1115e6fa57ee1
+# d1ada576f8fc487283f5cc750b784af9
+# b8daab533136449c9a425bd4c05b4d17
+# 1fd820afc3034b08bbc2bac507354164
+# 111a147467b54c00ba15e583fd99c131
+# 28fe185ec0334b31adb77b58c06c04a2
+# 08419c579d7741bea881f0e876095770
+# f8d2b9a1fe1543af8719e05f458fb7f3
+# 2a41c075fa434996bcf256034666856c
+# e6fbd9d7ac4c4ae2967b472bbf66102c
+# 20de26bc9c5f48ddae1a3901ebc44142
+# ed62d0fa4bd348e4b6408f63a02586e0
+# a01eedefdd414f488b7c92b2d8f773ba
+# 4884382560b04e419f54c1e1e1588424
+# d63078ca36aa4826b7a2e88daf8556d0
+# 254eeaa07dd04fd7ae940c0ff0de0b03
+# d440bd6f5ee54d81858499cf8e54c525
+msgid "Icon"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:29
+#: ../../source/docs/documentation_guidelines/substitutions.rst:42
+#: ../../source/docs/documentation_guidelines/substitutions.rst:42
+#: ../../source/docs/documentation_guidelines/substitutions.rst:55
+#: ../../source/docs/documentation_guidelines/substitutions.rst:67
+#: ../../source/docs/documentation_guidelines/substitutions.rst:82
+#: ../../source/docs/documentation_guidelines/substitutions.rst:82
+#: ../../source/docs/documentation_guidelines/substitutions.rst:102
+#: ../../source/docs/documentation_guidelines/substitutions.rst:102
+#: ../../source/docs/documentation_guidelines/substitutions.rst:113
+#: ../../source/docs/documentation_guidelines/substitutions.rst:113
+#: ../../source/docs/documentation_guidelines/substitutions.rst:125
+#: ../../source/docs/documentation_guidelines/substitutions.rst:125
+#: ../../source/docs/documentation_guidelines/substitutions.rst:144
+#: ../../source/docs/documentation_guidelines/substitutions.rst:144
+#: ../../source/docs/documentation_guidelines/substitutions.rst:165
+#: ../../source/docs/documentation_guidelines/substitutions.rst:165
+#: ../../source/docs/documentation_guidelines/substitutions.rst:175
+#: ../../source/docs/documentation_guidelines/substitutions.rst:175
+#: ../../source/docs/documentation_guidelines/substitutions.rst:187
+#: ../../source/docs/documentation_guidelines/substitutions.rst:187
+#: ../../source/docs/documentation_guidelines/substitutions.rst:202
+#: ../../source/docs/documentation_guidelines/substitutions.rst:202
+#: ../../source/docs/documentation_guidelines/substitutions.rst:216
+#: ../../source/docs/documentation_guidelines/substitutions.rst:216
+#: ../../source/docs/documentation_guidelines/substitutions.rst:234
+#: ../../source/docs/documentation_guidelines/substitutions.rst:234
+#: ../../source/docs/documentation_guidelines/substitutions.rst:258
+#: ../../source/docs/documentation_guidelines/substitutions.rst:258
+#: ../../source/docs/documentation_guidelines/substitutions.rst:276
+#: ../../source/docs/documentation_guidelines/substitutions.rst:276
+#: ../../source/docs/documentation_guidelines/substitutions.rst:293
+#: ../../source/docs/documentation_guidelines/substitutions.rst:293
+#: ../../source/docs/documentation_guidelines/substitutions.rst:322
+#: ../../source/docs/documentation_guidelines/substitutions.rst:322
+#: ../../source/docs/documentation_guidelines/substitutions.rst:345
+#: ../../source/docs/documentation_guidelines/substitutions.rst:345
+#: ../../source/docs/documentation_guidelines/substitutions.rst:362
+#: ../../source/docs/documentation_guidelines/substitutions.rst:362
+#: ../../source/docs/documentation_guidelines/substitutions.rst:374
+#: ../../source/docs/documentation_guidelines/substitutions.rst:374
+# 6b25d43e9ae54a38869eacb8028e3bff
+# 1be68342dc3246b4bdefff87208ecd2e
+# 0234069d8ce648f6bf4caedf98ed1588
+# bb2d26513e13457593c0aecd29b23e3f
+# 316fc7415fa4450f89ddcf7c7a945328
+# 884e0baef51f46058a5dd7a17b3f9c8d
+# bf396eac5b0048f9993e29069cb7b874
+# 365eb8b014f742419e384b9cc348179b
+# 18bb3a1a53df4bf18310f14c573c5b60
+# 5cfecc268f174b6a8c4b4a0a4a3c40ad
+# d7f89816c0124c0db634fd55068b50c5
+# 92c2edfda5564a38b532c09af40b3d81
+# c04c1f00cdb542aaae1bb4be93f26cca
+# e70f95af17bf419a99e19247e577c56e
+# 6b91b06a34dd4fb28499d258f1e65526
+# 4cf831544c504b9e967278c9879f9808
+# 6fac5def824744e38f98dd12ab1bbfb9
+# d06f8c6e9c014333aecf4231db3fa4e7
+# a70d53b0f37e4bf1a72307628145dd7b
+# 87e88f9fe289446ba1e74b62e93a54ce
+# 8f3f61b05be948d2a5f809d2aa5479ee
+# 7e52abd5658c43b68c8e4d2e519cac89
+# 79f8342fd1e34f87a8cf5378c59c9752
+# 31f82fd4694d46bdadb5bd6a4757e54d
+# 66706a96ba154bc899690a52d8c1e878
+# f46a3d1a0439427d980010dbe965a675
+# 8af27f73f0614a459e5ca68deb90d3cc
+# 18b3f5cfeae84829b9b5769f0c83744e
+# 0ead62ee404846a39bb6ab48ddd2081e
+# 3d564a2d8a6f42a4a5dca625f46daef0
+# 889ab3ac2e6e4567a7eb13d5d29d9d82
+# 2ab1abb70df8428e8ffb42e3f6a8d125
+# 0e139477c85e4db1a155f1c3e5ef955a
+# 3920c7ed1b0b4f0db40a3e6cc5778567
+# 6641f36d69984336b63226208179078a
+# fbb114f0ea544be1b5097ae8fc299d93
+# 405f4145378b436e9653cfd02087fb2c
+# 8e62b953231a41d2b9e11be88091c758
+# 3896d500d2a04f8e96b264746ffef113
+# 380cb83955414e62b02c758391c887d1
+# 74676904b0e84cef9f79025e6c21e0dc
+msgid "Substitution"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:31
+# 6fce656008c74ff9b24892d596909a55
+msgid "|nix|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:31
+# c94046b329684a9f949e8b1fdbdde0b0
+msgid "``|nix|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:32
+# d90756c6c34b4b8387b6b7a9e670bdab
+msgid "|osx|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:32
+# 8c915da027f740158bb848c212cb99d7
+msgid "``|osx|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:33
+# bf33a95f2e7f4044b1a0bd2b90155c6f
+msgid "|win|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:33
+# aad29163971545468332cdad1020b478
+msgid "``|win|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:39
+# 8df3583204fc429095e78ebbddf6a87c
+msgid "Menu Items"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:44
+# 15e6763a87a149d181c79987862d8bf6
+msgid "|checkbox|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:44
+# 14dfda4b3dab4c098bceaecdf8acc9d9
+msgid "``|checkbox|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:44
+#: ../../source/docs/documentation_guidelines/substitutions.rst:44
+#: ../../source/docs/documentation_guidelines/substitutions.rst:94
+#: ../../source/docs/documentation_guidelines/substitutions.rst:94
+#: ../../source/docs/documentation_guidelines/substitutions.rst:106
+#: ../../source/docs/documentation_guidelines/substitutions.rst:106
+#: ../../source/docs/documentation_guidelines/substitutions.rst:136
+#: ../../source/docs/documentation_guidelines/substitutions.rst:136
+#: ../../source/docs/documentation_guidelines/substitutions.rst:154
+#: ../../source/docs/documentation_guidelines/substitutions.rst:154
+#: ../../source/docs/documentation_guidelines/substitutions.rst:157
+#: ../../source/docs/documentation_guidelines/substitutions.rst:157
+#: ../../source/docs/documentation_guidelines/substitutions.rst:194
+#: ../../source/docs/documentation_guidelines/substitutions.rst:194
+#: ../../source/docs/documentation_guidelines/substitutions.rst:204
+#: ../../source/docs/documentation_guidelines/substitutions.rst:204
+#: ../../source/docs/documentation_guidelines/substitutions.rst:208
+#: ../../source/docs/documentation_guidelines/substitutions.rst:208
+#: ../../source/docs/documentation_guidelines/substitutions.rst:244
+#: ../../source/docs/documentation_guidelines/substitutions.rst:244
+#: ../../source/docs/documentation_guidelines/substitutions.rst:249
+#: ../../source/docs/documentation_guidelines/substitutions.rst:249
+#: ../../source/docs/documentation_guidelines/substitutions.rst:285
+#: ../../source/docs/documentation_guidelines/substitutions.rst:285
+#: ../../source/docs/documentation_guidelines/substitutions.rst:295
+#: ../../source/docs/documentation_guidelines/substitutions.rst:295
+#: ../../source/docs/documentation_guidelines/substitutions.rst:301
+#: ../../source/docs/documentation_guidelines/substitutions.rst:301
+#: ../../source/docs/documentation_guidelines/substitutions.rst:324
+#: ../../source/docs/documentation_guidelines/substitutions.rst:324
+#: ../../source/docs/documentation_guidelines/substitutions.rst:351
+#: ../../source/docs/documentation_guidelines/substitutions.rst:351
+#: ../../source/docs/documentation_guidelines/substitutions.rst:355
+#: ../../source/docs/documentation_guidelines/substitutions.rst:355
+# 489092ade1a24f97b8ed4b408c9d8af9
+# 353883796a324b8897a3cba0f81ced2a
+# e18c97a02ce641748b44ce62464a9d87
+# 45857e3424ef44c9a36b9339f5b7701e
+# de6b8c79620e4d94b4218062f32dbb29
+# 24597a67094d4458a40c1834d516b662
+# dd07b2ab5afb4c80b209ac1e4638366e
+# 7faa78a038644395a72eb4662aac36d6
+# f594f0416810447abff83d13e0180bf8
+# c4b7ee6e873b4ea499c01424c1bb29b8
+# 2e6cf3baf39f4a60af1e14622d6e2a4f
+# 79e4b00b9e9d4a03989481b704f654a6
+# f95102f6c36e4675b78c2f12436f51ae
+# 50272805c5d14fc4bfad1be7ace62ec4
+# 8b83c20979a046018185c69f3b729a82
+# 103f11aa64d542d692fff3c1d08bce09
+# be7e5a2e656844e98fc775bda2282371
+# 12c58ce23aae400ba01a502936d6c7a0
+# 2d8d33f2b72d4344928a9abcf8edcf9a
+# 1da7015b17184d0dae29c50177dc8a77
+# 3ea89bc13c5e4c55b6bd5fd490bcd354
+# 39e916d397974ac1879fc17db8c3f123
+# 9a7990590f5944bba6a00251bd22becb
+# 12cf1142a3e04b68ad078ccf1d851f2d
+# 61efa7efb937441689b739824c097c82
+# ba6fdd2ff3514a37b77c0a26a0c9f96d
+# 244e6787ebea48d1a681a4e620f74071
+# b4d2d322e46941d48e5e1292dd5571c0
+# 6093aeb6b2724414b000031d342f436d
+# 345e41ad9a894432a707320e0cd881e1
+# 90f08ef6e5a14430b7ab3a529570b6d4
+# 839b8e9c3d044ba98cff3fe7358e1b60
+# a7ac36cbe6be44fcb4a553758ce26408
+# e77dd2c776164beca9f5ce59573a9c31
+msgid "\\"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:45
+# 33eff540bce649ac84d036cb803f2d25
+msgid "|checkbox_checked|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:45
+# e4ecfebc0fbc4b929f30ad691623d435
+msgid "``|checkbox_checked|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:45
+# 71a6963a75af42878f630fedb134b79b
+msgid "|checkbox_unchecked|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:45
+# 17e28df2bf6d45969af2e3d9b8d091d7
+msgid "``|checkbox_unchecked|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:46
+# ae9a3443fe384576948722341244028a
+msgid "|radiobuttonon|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:46
+# 7cbe97e1968e4b6cbc888024418a5d4e
+msgid "``|radiobuttonon|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:46
+# 77aee63b2206480288126831fc4c42f6
+msgid "|radiobuttonoff|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:46
+# e88d8811ba924a6a9df68d38f2d89e86
+msgid "``|radiobuttonoff|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:47
+# abb8937b696843e48348c132b8721366
+msgid "|selectnumber|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:47
+# ac90bff9cd444c819ed866960431d95e
+msgid "``|selectnumber|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:47
+# 17d45a9b63124cbe8026e34256203eb6
+msgid "|selectstring|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:47
+# 8dbc96fe016d4238b1333ca3fa61436c
+msgid "``|selectstring|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:48
+# c9d0ce436b204091b3febe74d4f6e84c
+msgid "|browsebutton|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:48
+# 4ed41fd877064a4094cb94f77dce68d4
+msgid "``|browsebutton|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:48
+# d2a3280f3c9e4f2a827f2ee291380b79
+msgid "|slider|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:48
+# e2914041011c4d78b2f7159ce8dfd506
+msgid "``|slider|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:52
+# 19af86c8698d444c80981e0462c2c4c7
+msgid "Words and symbols"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:57
+# f145b9d078454bf2b1bfc66e009f2cdf
+msgid "|QG|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:57
+# c79fa456fc664601b46affbdf0252dc7
+msgid "``|QG|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:58
+# a3dd097c8e58460ca583dbff4bf8e926
+msgid "|wedge|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:58
+# f3f2d85aa97f481f9e5e073d92b101c3
+msgid "``|wedge|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:59
+# 1fd036b95aa24fe0b9d2c9cf9cef8dac
+msgid "|degrees|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:59
+# 438a74851f6e4a76b7d093d1548fd343
+msgid "``|degrees|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:64
+# 869b2ff28aa4439b8027f0c422ea78a8
+msgid "Menu items not used much"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:69
+# ad6e75fa6e7d4240b82eb9c7b97df878
+msgid "|selectcolor|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:69
+# d521f9b31e6248edacbf8bed8b2cb2ec
+msgid "``|selectcolor|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:70
+# e152f80ece6940428552f2a1b9c11881
+msgid "|inputtext|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:70
+# 56f185078a8c4aeb99ea884f941c899e
+msgid "``|inputtext|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:71
+# 17f4f50c91e4436fbbf7c851a62acfa6
+msgid "|tab|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:71
+# 8868d74d283a4e8cb9e89d2b5df1639d
+msgid "``|tab|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:76
+# 96f07262d89646bdb4fe1abb8a2589c7
+msgid "Toolbar Button Icons"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:79
+# 1543e0ba564646e78f3ed1cf02ddcd8a
+msgid "Manage Layers and overview"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:84
+# 155f823adc244783844b883c6e73bb46
+msgid "|mActionAddOgrLayer|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:84
+# d9e2ccc1949447aa86d607f7a266b12c
+msgid "``|mActionAddOgrLayer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:84
+# 05495a4f20c94635bb0c671a2858b872
+msgid "|mActionAddNonDbLayer|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:84
+# b6ff000db5af4b19885a7cff935b0310
+msgid "``|mActionAddNonDbLayer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:85
+# 3dc0c2dff07a44eaa97b3a1ab104a403
+msgid "|mActionAddRasterLayer|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:85
+# 0be579262f324059ac31dffea546553b
+msgid "``|mActionAddRasterLayer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:85
+# 913aeb979c114d0199fd11e918e9360f
+msgid "|mActionAddMssqlLayer|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:85
+# c3636238ce0747909b1505d464b87cb3
+msgid "``|mActionAddMssqlLayer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:86
+# 45e73cd015e144abb120e0d25b8915e6
+msgid "|mActionAddLayer|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:86
+# 9a39ead041d44bfa9241fc7964a47a83
+msgid "``|mActionAddLayer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:86
+# 9de2a2d38e5849d690d3068c8437e4a6
+msgid "|mActionAddSpatiaLiteLayer|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:86
+# c9ffe2692f3740c1bbc63c19c712a241
+msgid "``|mActionAddSpatiaLiteLayer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:87
+# db2056c067d646d7836c65545d9bc62a
+msgid "|mActionNewVectorLayer|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:87
+# d7da30821f1e4149a06730215cf97b62
+msgid "``|mActionNewVectorLayer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:87
+# 1602fc56ecfd4d9f98478096e139a44e
+msgid "|mActionRemoveLayer|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:87
+# 76eac59882bc49758ead18e647a44aee
+msgid "``|mActionRemoveLayer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:88
+# d8730dac2dbc429ab532e95f934e1e95
+msgid "|mActionAddWmsLayer|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:88
+# 83dc2485f00f40f8a30ccb715a514eb4
+msgid "``|mActionAddWmsLayer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:88
+# 0f3c762b86cb4baeb319014ae199b473
+msgid "|wfs|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:88
+# 198af19e73914e8e97e9b0892489f1dc
+msgid "``|wfs|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:89
+# 2ad01951a8ff4b5aa4769b9398fa194e
+msgid "|icon_sqlanywhere|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:89
+# 45c29e564fc0496a83a5644ab987b416
+msgid "``|icon_sqlanywhere|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:89
+# 6b60ce73c86c4c9db08d7c4d159fc940
+msgid "|oracle_raster|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:89
+# 1e33c120b0b840069fa7e96a27de7e42
+msgid "``|oracle_raster|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:90
+# f7afc003d0734654955ec36eea31f859
+msgid "|dbmanager|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:90
+# 76f49edac9234c11af011ac150ace6e3
+msgid "``|dbmanager|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:90
+# 704be1130d9444c688ae095c860efcc7
+msgid "|gdal|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:90
+# bda8e0e3ae0f4062a69c1a2e20d05d57
+msgid "``|gdal|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:91
+# f255c66379c94ee3a5df76529bcee1a8
+msgid "|mActionInOverview|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:91
+# b4e404d455004ed7a39f5b73d2b83092
+msgid "``|mActionInOverview|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:91
+# 1ca89c989e954a41b9f6d027488f602e
+msgid "|mActionAddAllToOverview|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:91
+# 0a6791992c384e3b89fe6c7806cb6a41
+msgid "``|mActionAddAllToOverview|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:92
+# 3aef9ef90f5645678cd98d4a5e4df21f
+msgid "|mActionRemoveAllFromOverview|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:92
+# 7d1b5f0ba5134b888ee734c73dbc1476
+msgid "``|mActionRemoveAllFromOverview|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:92
+# 49caf164750b493db91b5d4f4bd58dbc
+msgid "|RemoveAllOVerview|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:92
+# 70060dc3077c401a94bd2debc7d97687
+msgid "``|RemoveAllOVerview|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:93
+# 1c8a2b1c964c42919ddf4a9049a966dd
+msgid "|mActionShowAllLayers|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:93
+# 426fb6ff1d364118900567190f8c28ce
+msgid "``|mActionShowAllLayers|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:93
+# ab1b3ddbc1aa4823936797948f7d9557
+msgid "|mActionHideAllLayers|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:93
+# eea5b8c77efb453c832dfdb22e7b9c0a
+msgid "``|mActionHideAllLayers|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:94
+# 2a00467d8be440759b258be2746892a6
+msgid "|mIconZip|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:94
+# 8c7c3c94b7b4403aabaa1025f1ed7a36
+msgid "``|mIconZip|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:99
+# 14b427c2eabd430d894bde000700f0ba
+msgid "File"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:104
+# b4805d38129f490c84d16360fb4b5426
+msgid "|mActionFileNew|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:104
+# 5e741f6c18f84f42a06acb2d36b09c4f
+msgid "``|mActionFileNew|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:104
+# b681ac3d79154f49a0ab11f32aed7cf1
+msgid "|mActionFileOpen|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:104
+# 4c36484fe1f84bd7874118adaf6a233e
+msgid "``|mActionFileOpen|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:105
+# 91cb7e82f6854a6d8f54f404894cfde6
+msgid "|mActionFileSave|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:105
+# 8eb1c29ca8644b819063abf10c8e0a80
+msgid "``|mActionFileSave|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:105
+# c24c001b1a67495d883185c36703f8c0
+msgid "|mActionFileSaveAs|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:105
+# d01fd47770d94616b64b53da15065d63
+msgid "``|mActionFileSaveAs|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:106
+# 63b1ec0fab834338a47463d639a402f7
+msgid "|mActionFileExit|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:106
+# f9561c384b2e4c98a1e605b13fe74042
+msgid "``|mActionFileExit|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:110
+# a8db5cd9b8f446a6b6a5f778c866bc9b
+msgid "Edit"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:115
+# a652e386922249eb99b5c55ea8206b80
+msgid "|mActionUndo|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:115
+# f15f4adfbaf54dd2b342ae38f6422c5c
+msgid "``|mActionUndo|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:115
+# 7f460dcd43524e75938d0beefa85528f
+msgid "|mActionRedo|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:115
+# 5942fe04b9df40ba9eacc4115e2331b3
+msgid "``|mActionRedo|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:116
+# 7dae1258e7c449e2868a6fef16d548c1
+msgid "|mActionSelect|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:116
+# 4b6973ca78ce4f46b64736bf13f6b60b
+msgid "``|mActionSelect|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:116
+# 0d63c5a7d6774153b335e18bf12f9fba
+msgid "|mActionEditCut|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:116
+# 65716a2325314f05b4d69224e4ea420a
+msgid "``|mActionEditCut|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:117
+# 4093cfc0402f443d96b66499509fec7f
+msgid "|mActionEditCopy|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:117
+# 1a01b1061ef24f25a61e13f456153a7d
+msgid "``|mActionEditCopy|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:117
+# 2c9edb9318814f71a6024ebdee3fbd81
+msgid "|mActionEditPaste|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:117
+# e076dd2d659045d99dac8becc60747ea
+msgid "``|mActionEditPaste|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:122
+# 2f4d6958f2e840a2b0bed0eb3c5e17fb
+msgid "Digitizing and Advanced Digitizing"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:127
+# 55e933a3eb424f0cbacaba1a735008b9
+msgid "|mActionToggleEditing|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:127
+# af4d972076f1413c920a6f2c44ef31d5
+msgid "``|mActionToggleEditing|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:127
+# 21cc4d920dd54590bd70c5a30bc1cee3
+msgid "|mActionCapturePoint|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:127
+# 17b1ca7e35f74b3499b3640c9233682d
+msgid "``|mActionCapturePoint|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:128
+# dee1ecca2c0c4dda83c8aa27b744d3d5
+msgid "|mActionCaptureLine|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:128
+# 24c15475510d437384f29d39436d4866
+msgid "``|mActionCaptureLine|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:128
+# 32f7cc67269c4db498fe6c3c7960f2ed
+msgid "|mActionCapturePolygon|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:128
+# 9075657ac4aa44bba66106e494407ae5
+msgid "``|mActionCapturePolygon|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:129
+# 812d1950284947c782531565dab5e737
+msgid "|mActionNodeTool|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:129
+# 9b778b747fb24f5eb67cdefb48101641
+msgid "``|mActionNodeTool|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:129
+# d9cd365cd4d24f07bc21ada1d5624600
+msgid "|mActionMoveFeature|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:129
+# 6d11ee40a3dc47e8a6ccb702b54079a7
+msgid "``|mActionMoveFeature|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:130
+# 41de146d7e0341c0b477f10d02c3cfe0
+msgid "|mActionDeleteSelected|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:130
+# d429a6f747ae40e88a76e555282070ad
+msgid "``|mActionDeleteSelected|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:130
+# dc971ee18287446485e5cb6370d888ba
+msgid "|mActionDeleteVertex|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:130
+# 6b192c92f8fc48059738abd91763aebe
+msgid "``|mActionDeleteVertex|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:131
+# 97aecf5f10dd485e9ecbf74a4ddbb71a
+msgid "|mActionSimplify|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:131
+# 79e4940dbed34ad9a905948b8552cfcf
+msgid "``|mActionSimplify|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:131
+# e124844651834c1b93966eae33dc4bcc
+msgid "|mActionReshape|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:131
+# 555ecce833234ef9be1ed15bde940f62
+msgid "``|mActionReshape|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:132
+# 7a9dcde2daf445789317992e204541ef
+msgid "|mActionAddRing|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:132
+# f9b0ca0f1a2c4948b406ae4770010250
+msgid "``|mActionAddRing|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:132
+# c451e5d1645b4806bfe6d957b66e5489
+msgid "|mActionAddIsland|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:132
+# befcf87b1ec24ce5bde4c1567ffce0e0
+msgid "``|mActionAddIsland|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:133
+# 6f431b4dd99c4ecaa1432e598f985b2e
+msgid "|mActionDeleteRing|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:133
+# 96f3d88efa5b403e8d7ec50229d97ab2
+msgid "``|mActionDeleteRing|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:133
+# ebcb590983244e7ebaa15cd9a1b852f2
+msgid "|mActionDeletePart|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:133
+# 0d0d13bac5ae494ca3a98abc74d7a687
+msgid "``|mActionDeletePart|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:134
+# c3134fa280e1476687361329a05c95b6
+msgid "|mergeFeats|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:134
+# 629242ee421e4831a465b4f2bb1535a3
+msgid "``|mergeFeats|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:134
+# 4ad7e86d8658443eac387b1b05fcf4cc
+msgid "|mActionMergeFeatures|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:134
+# f04a211b843946e0840cee969179f145
+msgid "``|mActionMergeFeatures|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:135
+# 66d800f710af46a6a582834f97c8f68e
+msgid "|mActionSplitFeatures|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:135
+# 328bbeae861b416d9098648bf57f2c1e
+msgid "``|mActionSplitFeatures|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:135
+# 45063bd31d4f4b02bcd4e6c7a523a462
+msgid "|mActionRotatePointSymbols|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:135
+# 82e72e3019394d3e9e91e47655831689
+msgid "``|mActionRotatePointSymbols|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:136
+# 2794562bdadd494b8e769a6de8b1b6d1
+msgid "|mActionOffsetCurve|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:136
+# 0184b6dc2791484bac7410854392883b
+msgid "``|mActionOffsetCurve|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:141
+# 24dd5f48e1114c5ea02c620d08a4d4d4
+msgid "Map Navigation and attributes"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:146
+# 279ae41e08ab4f07b85d2c3ca5254735
+msgid "|mActionPan|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:146
+# 54471de741e34df6906f3e66212d7d6b
+msgid "``|mActionPan|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:146
+# cdeb133686944b8fae4eb8f0bfc83113
+msgid "|PanToSelected|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:146
+# 584e13c276914101ac413c32d1fea477
+msgid "``|PanToSelected|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:147
+# 7f0471611acb4f20aae57e4e9c755c94
+msgid "|mActionZoomIn|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:147
+# 389544918c404c0cb3be3cf411c64cd8
+msgid "``|mActionZoomIn|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:147
+# c53b655a608f4682bfb4d103f1e15037
+msgid "|mActionZoomOut|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:147
+# e706be77cbf44d3c98132af4634d4e18
+msgid "``|mActionZoomOut|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:148
+# a9a2903832db4054a5e8ae12758281ff
+msgid "|mActionZoomFullExtent|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:148
+# 6b87a8eeb6fb4289b2cda03f5bcec81f
+msgid "``|mActionZoomFullExtent|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:148
+# adc888269bc64da6a4bfdc42c335dd76
+msgid "|mActionZoomToLayer|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:148
+# 5eb79113cc484e85bb0e67db51ba390f
+msgid "``|mActionZoomToLayer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:149
+# 5741fb1fa4cf450d82963e49cea59e2c
+msgid "|mActionZoomLast|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:149
+# 7c66a144efce450f837678496a0b0903
+msgid "``|mActionZoomLast|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:149
+# 06a91bf248a643faa4caba72d624614f
+msgid "|mActionZoomNext|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:149
+# b5720dfc29344d6ba91803913e395031
+msgid "``|mActionZoomNext|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:150
+# b5f0c4f436b847c4a79fd2e0a4ae2909
+msgid "|mActionDraw|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:150
+# 2c25f543bb694c89bfbef53eeb50af6b
+msgid "``|mActionDraw|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:150
+# 0fadff98ed194083acf221da29bbc299
+msgid "|mIconStopRendering|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:150
+# d46af34d65254e708cd9be4e7486ac27
+msgid "``|mIconStopRendering|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:151
+# 9598bc9f91204709898010fd2bc2aa03
+msgid "|mActionIdentify|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:151
+# bd22271550804073954a24a1ca162ab0
+msgid "``|mActionIdentify|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:151
+# 29e0636b2b1940c6b71493085f38fd22
+msgid "|mActionMapTips|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:151
+# b9e7574a13ae4dcb90ff6ba7ecfecc77
+msgid "``|mActionMapTips|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:152
+# dfffe4337b384e239d66c35aa1d0fa30
+msgid "|mActionShowBookmarks|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:152
+# 5278fcee97864b56a9adcbbc3184db32
+msgid "``|mActionShowBookmarks|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:152
+# bc52d38e103b49c8b75b09c5817b02ec
+msgid "|mActionNewBookmark|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:152
+# 873a5025c0ca437ea7bd16cecef10059
+msgid "``|mActionNewBookmark|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:153
+# 293f3c1bf5db4811b7efeb0433ad7170
+msgid "|mActionMeasure|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:153
+# 663db51ae86e4a6cbf1bcaf7d338d0c9
+msgid "``|mActionMeasure|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:153
+# d63391126e2449559ee997e8328b759a
+msgid "|mActionMeasureArea|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:153
+# 6857aca97d27438b893d9cab0fcd1be5
+msgid "``|mActionMeasureArea|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:154
+# 717b5a74fbea40e0ac9ed97d9d950fbb
+msgid "|mActionMeasureAngle|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:154
+# 8e79f444f9a14f8b8121208c3c0ec42b
+msgid "``|mActionMeasureAngle|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:155
+# c5774f8c61a743cca864eb426589e99b
+msgid "|mActionSelectRectangle|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:155
+# 292bb0561c764b05b05671b2b5bc22a3
+msgid "``|mActionSelectRectangle|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:155
+# 4ae2c5d290584a47a04c540835ae85b9
+msgid "|mActionSelectPolygon|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:155
+# ed85534889e243d7a98b66be9932916a
+msgid "``|mActionSelectPolygon|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:156
+# a4831448cb6c4a77a020c64d6a48ea24
+msgid "|mActionSelectFreehand|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:156
+# 56a6e0dd06d8403d8308359125451722
+msgid "``|mActionSelectFreehand|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:156
+# a099a6932d2a4b3cbecad502c22a74fb
+msgid "|mActionSelectRadius|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:156
+# fd695f2335f6437eafcca0031432ed13
+msgid "``|mActionSelectRadius|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:157
+# 59e62015aa4948389676f91bbeea0c5c
+msgid "|mActionDeselectAll|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:157
+# acf89f30ea97464b958bffc422f38415
+msgid "``|mActionDeselectAll|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:162
+# e2b6f523b5f8466e862e01b3160a6675
+msgid "labels"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:167
+# b8d13bf75d5246238d911d3439d45858
+msgid "|mActionLabeling|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:167
+# 7c8fc7a38f5b4725aaa324b047eef5a8
+msgid "``|mActionLabeling|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:167
+# 9a06283db0b94331b8cc9e9eb02ee846
+msgid "|mActionTextAnnotation|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:167
+# ecc4db5b35e94456a995b6c9ad817eb2
+msgid "``|mActionTextAnnotation|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:168
+# 52b69f7df76c4096a478e017f7ff6171
+msgid "|mActionAnnotation|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:168
+# 0021bf09c8dc48b1b03d8cd42a913319
+msgid "``|mActionAnnotation|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:168
+# 5b06c65302844c3294ff31be1446f777
+msgid "|mActionFormAnnotation|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:168
+# 89156713ca5c48e78bb8949758faa664
+msgid "``|mActionFormAnnotation|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:172
+# 0654836cad0e469e8ebf7762fa9a8ffe
+msgid "help"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:177
+# 8b785258cfb243908a2cc36db2f6b224
+msgid "|mActionHelpContents|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:177
+# c4bf98367e144bb5b90a9c66861a41c3
+msgid "``|mActionHelpContents|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:177
+# 8d8e6310094e41e0a052e2b84295fbf5
+msgid "|mActionQgisHomePage|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:177
+# ec757363072f4d2ebc9a33bf06da931a
+msgid "``|mActionQgisHomePage|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:178
+# 1f8735375af04dada10646e08ffeefd1
+msgid "|mActionCheckQgisVersion|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:178
+# 019c797e74db4651ba42dfc11ab0a8bb
+msgid "``|mActionCheckQgisVersion|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:178
+# 40424eebe0e44aa4b950d9084fc6972d
+msgid "|mActionHelpAbout|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:178
+# 44ef4e1f044047c68a606ffe8cc4dcf1
+msgid "``|mActionHelpAbout|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:179
+# 977de0641c414b1291aa40a296a21e9b
+msgid "|mActionHelpSponsors|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:179
+# 025a8a6e6474487ea9e494d26b18d197
+msgid "``|mActionHelpSponsors|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:179
+# bf2345b0dec2476d88dcf2f6dfc3862e
+msgid "|mActionContextHelp|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:179
+# 4dd1da737d844d8cad110c78388eee8f
+msgid "``|mActionContextHelp|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:184
+# 54d24ba0dfc3484cba09a2a5f535be59
+msgid "Other basic icons"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:189
+# 0b0a37d510f043d597f528a4a07c1694
+msgid "|mActionProjectProperties|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:189
+# 0a9fae0078664da691b91a10d4af51f0
+msgid "``|mActionProjectProperties|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:189
+# bccded795a204c70ac35dd3fd91fb2ee
+msgid "|mActionOptions|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:189
+# 5ffc762eb455402793cad06facc31e9d
+msgid "``|mActionOptions|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:190
+# 058558a12c23421cbb6c5032b6e3d05b
+msgid "|copyright_label|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:190
+# 457c5fe2302045a1b086f02bfea2985d
+msgid "``|copyright_label|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:190
+# d10a11e8dfbf4f8bb168993140031502
+msgid "|north_arrow|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:190
+# 75dd7f74e9d04c9b878234d6618c084e
+msgid "``|north_arrow|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:191
+# 33602014259c49469c58417fa9a73abc
+msgid "|scale_bar|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:191
+# 30a3dea995124a2e95266823e261b8a1
+msgid "``|scale_bar|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:191
+# 155320122abd46c79951005d0feaa287
+msgid "|locale|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:191
+# 4d1cedd3198b4657bc07960764a30a14
+msgid "``|locale|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:192
+# 0f2d1b227d3b4105a3bece3ede95762b
+msgid "|gps_importer|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:192
+# 487419119d13460fb6cc652f49f64c40
+msgid "``|gps_importer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:192
+# 7ba47efb7308413b9a49c4f57c105b85
+msgid "|gpstrack_barchart|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:192
+# 88398db1de0449c3a487450faa427853
+msgid "``|gpstrack_barchart|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:193
+# 0bd6e303306644e7817ed589c190408f
+msgid "|gpstrack_polarchart|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:193
+# b4f3dea544bc4e51811bc71a9a038461
+msgid "``|gpstrack_polarchart|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:193
+# b0e70977c5264514abf84441dc36ad35
+msgid "|tracking|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:193
+# 53c34c5cb6664843aee68624d76c381d
+msgid "``|tracking|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:194
+# c844719ec1484449b4dac93dc97da4cf
+msgid "|mActionFolder|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:194
+# 3ee163a0497a4540a1c5c3086768365b
+msgid "``|mActionFolder|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:199
+# 9035d88a45594a31a92a32ef2590571b
+msgid "Attribute Table"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:204
+# 5647fa028dff48148e242d8744e93c09
+msgid "|mActionOpenTable|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:204
+# 926c46f15cf64c24a00bb8b127b85f3c
+msgid "``|mActionOpenTable|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:205
+# 2f3e787080e54c6bbbe44e48d750517d
+msgid "|mActionSelectedToTop|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:205
+# 59a547ceb825485c8b859ceeeb7a6bf9
+msgid "``|mActionSelectedToTop|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:205
+# c29297bdb9664bc88303feee24162d4e
+msgid "|mActionInvertSelection|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:205
+# ef173fd564094f758e0b22c1f750bea7
+msgid "``|mActionInvertSelection|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:206
+# d5ed5a45164e4dd8b3a622ca93c7989a
+msgid "|mActionCopySelected|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:206
+# 9edd4548a2974dab901b43b6a1a05598
+msgid "``|mActionCopySelected|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:206
+# 93c668e1e50c446b8980e42415625c8e
+msgid "|mActionZoomToSelected|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:206
+# 0aa51e429c474bdd96f1ad4ac26cc009
+msgid "``|mActionZoomToSelected|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:207
+# 7701af630db144b3ab6c9d5ed99afbfb
+msgid "|mActionNewAttribute|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:207
+# fd9915791a79410bac01d42387db4195
+msgid "``|mActionNewAttribute|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:207
+# b5dc7940c19d4c2f8171112863b073b1
+msgid "|mActionDeleteAttribute|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:207
+# 8a97dfe59cd3406ba4c059b1a637c3d7
+msgid "``|mActionDeleteAttribute|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:208
+# 991c9d1cecc343398da06cc0272f4d97
+msgid "|mActionCalculateField|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:208
+# 1bbb0e2b957148eba91cfdd31dd1b300
+msgid "``|mActionCalculateField|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:213
+# f34e496f439a4455b1ef5a9b10721024
+msgid "Projections and Georeferencer"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:218
+# 833df46a5c794be6b1b5e7f01717695a
+msgid "|geographic|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:218
+# 68c6ae54e8bd4c2b9ba36dbd5c86a869
+msgid "``|geographic|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:218
+# 9b0bb1f364cb4b3899c2110b6a6c69b8
+msgid "|CRS|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:218
+# 5eaed3c0905a4503a9a7bb2b6c17840b
+msgid "``|CRS|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:219
+# 1b9c5d808b914132a89ceb1d4d4bce09
+msgid "|mActionCustomProjection|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:219
+# 52e264289052432f8e8b73856269e4b5
+msgid "``|mActionCustomProjection|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:219
+# ca63896f57f743efaa43f15b236a7203
+msgid "|mIconNew|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:219
+# 3158bba1a9734708b665ff4ea9ba54e5
+msgid "``|mIconNew|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:220
+# c21f39966794452e9f613233191e38b5
+msgid "|mIconProjectionDisabled|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:220
+# ea3a93617b7248b8863c5d2f2c4ba92e
+msgid "``|mIconProjectionDisabled|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:220
+# ad88493465e04287a9b4516b41b9e2ff
+msgid "|mIconProjectionEnabled|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:220
+# d0b9de1373674296b09f195a91e21a6d
+msgid "``|mIconProjectionEnabled|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:221
+# c062aa6433cd491e8416ba70fbaab0a1
+msgid "|georeferencer|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:221
+# 5c5944db9cf746b9887d8e85067d44dc
+msgid "``|georeferencer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:221
+# ae7912d0c0b3471ea5c7ca1beecb50d9
+msgid "|pencil|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:221
+# 0103b9bc463f4a489f4db6494d385f8f
+msgid "``|pencil|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:222
+# 831b801659ee4f42a043c60aac76c56e
+msgid "|mActionLinkQGisToGeoref|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:222
+# a60878fa818c4a02855c85dde1950b64
+msgid "``|mActionLinkQGisToGeoref|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:222
+# c9bbe5e2d86e422eb0be9a7861ec279e
+msgid "|mActionLinkGeorefToQGis|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:222
+# f510805dfaa34d3da506367325b67029
+msgid "``|mActionLinkGeorefToQGis|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:223
+# d803fb55f44347778f7b08e1f3bc6e89
+msgid "|coordinate_capture|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:223
+# 64e8adc2d8274b19bceecbed273b98fa
+msgid "``|coordinate_capture|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:223
+# 751c2d51608c48eeba5500832d3bb868
+msgid "|mActionStartGeoref|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:223
+# d469f5c33bd24cf0a754617d856fe2bd
+msgid "``|mActionStartGeoref|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:229
+# 76b2b2c740c14574a7fe4a6e24216170
+msgid "Composer Icons"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:231
+# 18140fe661e641c6817f8e255d35dbb2
+msgid "Icons used in Composer:"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:236
+# 00988208f3224e3d83937a324d0b0e32
+msgid "|mActionNewComposer|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:236
+# 1cd14671a1c44048a94d27941529b094
+msgid "``|mActionNewComposer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:236
+# c7009d616e704baba3c3f51f1b209d47
+msgid "|mActionComposerManager|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:236
+# c357f49cbdf3472da5443e34ebb41b10
+msgid "``|mActionComposerManager|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:237
+# 530349ebda8248f9b85b55550d0879e7
+msgid "|mActionSaveAsSVG|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:237
+# d0e85b405a4a4bdeb924d94e556e3f58
+msgid "``|mActionSaveAsSVG|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:237
+# bef4d0e0186d45fb8f954c122d00baf1
+msgid "|mActionSaveAsPDF|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:237
+# 0d794083fe7147e6b01b14ee18809491
+msgid "``|mActionSaveAsPDF|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:238
+# 368e5e34d69945c5996f379137a404fa
+msgid "|mActionFilePrint|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:238
+# d1169446c9924756a047d2c6494d02d1
+msgid "``|mActionFilePrint|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:238
+# 0bd336605352466db0bc30ee47cc1320
+msgid "|mActionSaveMapAsImage|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:238
+# 294d6398d6af4c72a5a49a251e2d8ee0
+msgid "``|mActionSaveMapAsImage|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:239
+# 30e9e10658814ba098358c6e57dd379c
+msgid "|mActionAddArrow|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:239
+# a5b83d0974634e0297aa13d0ddccd468
+msgid "``|mActionAddArrow|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:239
+# 48c6f3490ca247eb82a568a26ba78157
+msgid "|mActionAddBasicShape|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:239
+# 255ace7046104e48aa4d7320eb04d8ac
+msgid "``|mActionAddBasicShape|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:240
+# 3db290a41c8f4e2d8c74bbc80b7aff68
+msgid "|mActionAddMap|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:240
+# c281d1d5ad00434ba326019c6a95fc0b
+msgid "``|mActionAddMap|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:240
+# 2af9c683cc424aba964680975c4a5a44
+msgid "|mActionAddLegend|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:240
+# ab9f7b7889ca4f9496807b7408b01cd4
+msgid "``|mActionAddLegend|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:241
+# f27cdcbadeeb48b8966196968c50fcd1
+msgid "|mActionLabel|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:241
+# b15ae48ee159420d950f25f9b6783e1e
+msgid "``|mActionLabel|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:241
+# afe96ccc2e19409ebd378e6e11862b88
+msgid "|mActionScaleBar|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:241
+# f35386270ebc4735b7010210049734e9
+msgid "``|mActionScaleBar|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:242
+# 0dc61270bf9044d586b926f38b9aac64
+msgid "|mActionSelectPan|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:242
+# 33a95448512347b09a00e28a2e78942e
+msgid "``|mActionSelectPan|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:242
+# dcb2361532c14193870f249155fd7b2d
+msgid "|mActionGroupItems|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:242
+# 7f04d498063441cba89e13c830a549ca
+msgid "``|mActionGroupItems|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:243
+# ec78d4a00098462592206d85400ac60a
+msgid "|mActionRaiseItems|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:243
+# 1f83465d662446f589890d9df6e4c768
+msgid "``|mActionRaiseItems|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:243
+# 262d102981914fdda115a94633f153f4
+msgid "|mActionLowerItems|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:243
+# c66c184afb6a4426bbcfe123e2ef3fe4
+msgid "``|mActionLowerItems|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:244
+# ac647013f6e74f30b06106e68dbee369
+msgid "|mActionMoveItemContent|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:244
+# 7f2b87cdc40f425e815b31e6ca8b1e06
+msgid "``|mActionMoveItemContent|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:245
+# 97d9400f505f41b8b16a8121df505bcf
+msgid "|mActionMoveItemsToTop|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:245
+# e178f20f8abf4060bb692121a1738953
+msgid "``|mActionMoveItemsToTop|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:245
+# b2e311049b354afe92bdcaf4d13e09ab
+msgid "|mActionMoveItemsToBottom|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:245
+# e016eee0d8134f759b41303c8ea8308c
+msgid "``|mActionMoveItemsToBottom|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:246
+# b9795bd5ce454895bed66811197ad564
+msgid "|mActionAlignLeft|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:246
+# e82e81e3adfb41ee818845e31d8b0f11
+msgid "``|mActionAlignLeft|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:246
+# c794313d4a694fde84f7afabaf656913
+msgid "|mActionAlignRight|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:246
+# 6ddccfcfe3184b998cefe1d4a53a6d1a
+msgid "``|mActionAlignRight|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:247
+# 7edad58b3f374d2fb6157c66a8fa7eae
+msgid "|mActionAlignHCenter|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:247
+# d72d471d2fdc436cbd7e9759ff23ef89
+msgid "``|mActionAlignHCenter|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:247
+# 601ede7d4fae4cf7b8163c27e278786f
+msgid "|mActionAlignVCenter|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:247
+# 66171402ff7744219a1b85201c8988b6
+msgid "``|mActionAlignVCenter|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:248
+# 03aee6cff1a34388a77e392be5947f6a
+msgid "|mActionAlignTop|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:248
+# 812c48514b904b41aed3fd4eaa6f082e
+msgid "``|mActionAlignTop|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:248
+# 030ae5395b3246f7a81a42ea8336dbce
+msgid "|mActionAlignBottom|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:248
+# bc73bb9bc2b945c0b8d412a145d9dd2b
+msgid "``|mActionAlignBottom|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:249
+# 4bf1eeaaad6f4a2eac85dc632a761327
+msgid "|mIconLock|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:249
+# 683fc963986a4d7c8c7691049175522b
+msgid "``|mIconLock|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:253
+# 58130cda3228426288e78ab2c2c6d6e4
+msgid "Properties"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:255
+# 18bfbb7f00b34bd1a83e110170a7ba36
+msgid "Icons used in Layer Properties dialog:"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:260
+# 8882d46194944d3b98df4d0317d0bdd5
+msgid "|symbology|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:260
+# ba91ff044db5419e825778a5d409f087
+msgid "``|symbology|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:260
+# 28b4363bf6ab4408894552e8efd78aa4
+msgid "|labels|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:260
+# b6be4c833da044da9c06a73b647a5e01
+msgid "``|labels|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:261
+# c22a72a9b8694385a9501a181c8fc766
+msgid "|attributes|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:261
+# 3ebdeb60cc7f4f5ca68fce905e0bf750
+msgid "``|attributes|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:261
+# f3fc19f33f314a388e03335a4674e001
+msgid "|general|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:261
+# 71a6bfb919cb4750adc44468562993b4
+msgid "``|general|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:262
+# f25b179ba93b47f9a70ff59fc3504e50
+msgid "|metadata|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:262
+# 6d8169b20f834b4498867b66b9c57884
+msgid "``|metadata|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:262
+# b56e24d7bedd402b9f8e2a112f0a63ed
+msgid "|action|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:262
+# ba6767c1d2bc487abccade8cd6011e10
+msgid "``|action|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:263
+# c59fad282750431394042270fde5cea4
+msgid "|join|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:263
+# 1f441bcd5a574eafb4abc0d541546f2f
+msgid "``|join|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:263
+# 29fff3aba10645939a51578ee89a1737
+msgid "|diagram|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:263
+# 48d8c836df264898b5b126af66d560c4
+msgid "``|diagram|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:268
+# 10e4b690d18f4fdaa0a9fc9fba5649d4
+msgid "Plugin Icons"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:271
+# e79ab330124c4031a6264046add304e6
+msgid "Core Plugin Icons"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:273
+# dfa29b77931b4656a774772e2a4ced93
+msgid "Standard provided with basic install, but not loaded with initial install"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:278
+# 7424c6d7526b4e2b8f2b2a340ccede5b
+msgid "|mActionShowPluginManager|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:278
+# 277ef61ba69446dd9dcece01ee430347
+msgid "``|mActionShowPluginManager|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:278
+# b8b9ac74bd7643b5ae83f999847a27ee
+msgid "|plugin_installer|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:278
+# 7b0675cdebda4a1f8a13f1e16248128f
+msgid "``|plugin_installer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:279
+# f11eb5c8a2b3464491f7b3e4124ce775
+msgid "|offline_editing_copy|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:279
+# 20f4bdb0c3bb4670b009fc48439dc1a5
+msgid "``|offline_editing_copy|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:279
+# b9ed9380911745ecb6c260adc7f6eeb7
+msgid "|offline_editing_sync|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:279
+# d44e4b14e64f4850868e31452725fbd5
+msgid "``|offline_editing_sync|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:280
+# c6ecc1948de240e682838167fd47eea4
+msgid "|plugin|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:280
+# c2bfbd281bca480a9c8c4ff16014913e
+msgid "``|plugin|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:280
+# b4f0e0747d2142608676983cbbc79997
+msgid "|interpolation|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:280
+# b3751c74ec0d4e1cbd8f16185b21adf2
+msgid "``|interpolation|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:281
+# b48e28934c7546c0968bb4f4648eef86
+msgid "|mapserver_export|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:281
+# dc4b80ab2c1c4fb0989cdc85e379d64f
+msgid "``|mapserver_export|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:281
+# a0c8e452d1054696859618b6c17647d2
+msgid "|mActionExportMapServer|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:281
+# 2716b5597fc94cec8d62de80eaaadbcc
+msgid "``|mActionExportMapServer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:282
+# 3ac11a29195d484da6ef1a943ec594e1
+msgid "|spiticon|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:282
+# 66f0150ea19241f58dc0811fade25fad
+msgid "``|spiticon|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:282
+# ee8ca6d35c264cc6aa2cdb9d24fbc347
+msgid "|delimited_text|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:282
+# e364295d06ba473eaedda16996dc4915
+msgid "``|delimited_text|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:283
+# ea5dd29bd2134eff873fc2b12ead0622
+msgid "|mActionGDALScript|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:283
+# ce31e6222c144e0898c12c75a7b8b7f1
+msgid "``|mActionGDALScript|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:283
+# f32378d6506a400a98543fd04c63f10c
+msgid "|dxf2shp_converter|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:283
+# 9791dd0121b849558bb3ce559651f1f3
+msgid "``|dxf2shp_converter|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:284
+# 0c409c8e6e0141d7ba93b78e1837e80f
+msgid "|spatialquery|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:284
+# 154b47503eeb46bb97554a084531e6f3
+msgid "``|spatialquery|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:284
+# a50b5afde3e34814b8b23943bd285425
+msgid "|selectesubsetlayer|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:284
+# 24c27b268fbf484aad8963ddf83f8db1
+msgid "``|selectesubsetlayer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:285
+# 522503decb164fc6a0fa72cd6701e8c9
+msgid "|selectcreatelayer|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:285
+# d23f3f5a710940b7964ad719bf3a01a4
+msgid "``|selectcreatelayer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:290
+# b0ebfad804b34d8daff20c9fde00db9d
+msgid "FTools Icons"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:295
+# 90bc1c589db042908e10511ae00656b4
+msgid "|ftools|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:295
+# 02840d67da4d47598f9509f2103104b4
+msgid "``|ftools|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:296
+# c0a363ab42334babbdf591ca749b3d20
+msgid "|matrix|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:296
+# 561e89cbc68742c6bc6652022c79f48c
+msgid "``|matrix|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:296
+# 932b3e44ad0c40f58e0f769b41e27e3e
+msgid "|unique|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:296
+# b589b04aab3040b192527bf75cfa2250
+msgid "``|unique|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:297
+# 56533f20ce9c4ea1879fcecaff413834
+msgid "|sum_lines|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:297
+# ce1be94c161f49be8eaf03db092f5495
+msgid "``|sum_lines|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:297
+# 6eee58cf17e14a90b3d943d5bf6f54fc
+msgid "|sum_points|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:297
+# aadd469b1d0e4d7cb7449590df13297b
+msgid "``|sum_points|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:298
+# 5675913eac064518a7e50c1f40811e1e
+msgid "|basic_statistics|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:298
+# 8ad5546c42ea42f59d5877d34a55dc57
+msgid "``|basic_statistics|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:298
+# cea19f1cde39403f9e64b01dc7ab765d
+msgid "|neighbor|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:298
+# f61473dffd5c46e0b21b072c2b002ad7
+msgid "``|neighbor|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:299
+# 071b2c7a1b704eda977a366e8743eee3
+msgid "|mean|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:299
+# 15ebc95e6c5245688ec00d2617ba15e1
+msgid "``|mean|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:299
+# d289207389a0456a8887d302d196147c
+msgid "|intersections|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:299
+# c6dd0b3d24534df793ae1e1aecae635c
+msgid "``|intersections|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:300
+# a51a67ad1ccc423d89db0e1b57abfdf0
+msgid "|random_selection|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:300
+# b8487fc543104f89985e8eb8dac07444
+msgid "``|random_selection|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:300
+# 30c0394d08ea4bd0996d085602d18120
+msgid "|sub_selection|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:300
+# 4b948569fa154023b64d65ab632d8cb1
+msgid "``|sub_selection|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:301
+# 799665dca3c346b09fd8e233b3bf8040
+msgid "|random_points|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:301
+# 3dfc811bc42a45e3b0e12ec6d3d89481
+msgid "``|random_points|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:302
+# a250e7f3a0b6495588d63c122ac4e583
+msgid "|regular_points|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:302
+# d3d79476065e4a499320c09bd16ae639
+msgid "``|regular_points|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:302
+# de8f45b6bf17449fbfa697a7f4e40767
+msgid "|vector_grid|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:302
+# 63fdf251e2e44c28903aacc12983ea29
+msgid "``|vector_grid|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:303
+# b18fbceba7b54ccb9487e5f709edb982
+msgid "|select_location|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:303
+# 1fdf3332b0484b5392389c7cf685bb7c
+msgid "``|select_location|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:303
+# bccb6a60d2e3414aad869434676bf641
+msgid "|layer_extent|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:303
+# 45123a077829457889c42774887e225a
+msgid "``|layer_extent|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:304
+# c10cbdf4e8d14b27ace2433565ef7afd
+msgid "|convex_hull|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:304
+# 016a7588458642ac94aae7668d81b9a6
+msgid "``|convex_hull|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:304
+# 8b32c900ee5e42fd8e76da3c65307964
+msgid "|buffer|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:304
+# b21f6861013941fa86faedd4ddeeb6b1
+msgid "``|buffer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:305
+# 4550605916064de182d169b98779c409
+msgid "|intersect|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:305
+# 1dea1a5ae115466e88e167af4e21a799
+msgid "``|intersect|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:305
+# eb4c11e7fa394dc2abf9dc4bda671f79
+msgid "|union|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:305
+# adede9725c694f0dbc0702485d769d91
+msgid "``|union|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:306
+# d3b9786289ba4d83879032c4a4a0459a
+msgid "|sym_difference|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:306
+# a1b83e70d7844a13a3b12a9c08242569
+msgid "``|sym_difference|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:306
+# e44fd35a669e4e2c8155280b92d9f472
+msgid "|clip|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:306
+# a899386efa964419bfb4d6c19ca8ab89
+msgid "``|clip|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:307
+# 57e2292d06f04ae7adf3b33a4971aefe
+msgid "|difference|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:307
+# 45ae15131cb84653b575dfce5d3a3d24
+msgid "``|difference|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:307
+# 58bd60f0bcf0459ea95040cd7f20cdd4
+msgid "|dissolve|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:307
+# 3d1782b75d6e4e3da3c2c07389112f0b
+msgid "``|dissolve|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:308
+# b6e02f61e981468a9c7ef2f20049d653
+msgid "|check_geometry|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:308
+# 75a621fc7e5243cfaf07f85ed7f0186a
+msgid "``|check_geometry|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:308
+# 309fb397f0d44caea84d1b8d778051a1
+msgid "|export_geometry|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:308
+# 976bccd6fa80423a8dde0c272682d061
+msgid "``|export_geometry|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:309
+# 6d73da59c5f84b04aa25ee530ef82bd6
+msgid "|delaunay|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:309
+# 12585e3d2e24495dad4e76d2f47b0e46
+msgid "``|delaunay|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:309
+# d285ae817e42486cac7f6e92efbc2039
+msgid "|centroids|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:309
+# 6c53f96cbc0440acb44a8bc7076896d8
+msgid "``|centroids|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:310
+# 4af8b4f90cbc4190937151d6f2ae53ac
+msgid "|simplify|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:310
+# 6493d8a50d8b4b178d422b31119f40f3
+msgid "``|simplify|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:310
+# 0d7fb1cf3a1541cdb65ad04571a01c73
+msgid "|join_location|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:310
+# 988da7e683e744659fa627f5510e6940
+msgid "``|join_location|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:311
+# 645535dcc7254688b93efd0dbd51d156
+msgid "|multi_to_single|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:311
+# d84916457f854547b37eb90ae6e5f0b5
+msgid "``|multi_to_single|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:311
+# 21dcb552c8f043a2af33bdc7c3ad2eec
+msgid "|single_to_multi|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:311
+# 4b2110dfecb14f1e9777a1ccaa47f93e
+msgid "``|single_to_multi|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:312
+# 83d2417060364824ba1c2400b619edab
+msgid "|to_lines|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:312
+# 066bc97b30db416687a6bc046f6f47d0
+msgid "``|to_lines|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:312
+# e9d99cb5dd1d46f59cb32decb718abf2
+msgid "|extract_nodes|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:312
+# 810636a1d12d4811bac0f27dcd4b60ce
+msgid "``|extract_nodes|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:313
+# 27baf451108f45c8a2bc7d0e6337b3ec
+msgid "|export_projection|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:313
+# e3b78a10aa3f4b54b15f4ac1d28d8a91
+msgid "``|export_projection|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:313
+# d4784ca877dc4f16801f50b4b2dd0ff5
+msgid "|define_projection|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:313
+# 7f9d6366452c4adea8734f5a1c22b94d
+msgid "``|define_projection|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:314
+# 8e39d57e69db4bb0ac0efe3d78347bb9
+msgid "|split_layer|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:314
+# 97e45f7ac71a4efaa7eece795527f9a3
+msgid "``|split_layer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:314
+# 66b5a82169524d6c83006018a54a1511
+msgid "|merge_shapes|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:314
+# 2e8efe6331814ffca57f0d4b09f6c8ea
+msgid "``|merge_shapes|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:319
+# d40d018be98a4c6b883fe44de9175128
+msgid "Grass integration"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:324
+# c6a0b33cc6de411d9b97b1b5137cce86
+msgid "|grass|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:324
+# 95433ca9909c4754a085c63941169b73
+msgid "``|grass|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:325
+# cc65026985714ce9bf5e0b9a0295be82
+msgid "|grass_new_mapset|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:325
+# aeb8d6fa074a4e75aeac251c2db96496
+msgid "``|grass_new_mapset|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:325
+# 9ef793af5ae74d72a9677e016226ff99
+msgid "|grass_new_vector_layer|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:325
+# 034bf6ec46544eee8c7f0361456a27db
+msgid "``|grass_new_vector_layer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:326
+# b122be6e801945ec8fac43806458714a
+msgid "|grass_open_mapset|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:326
+# 4bf95e4d1ab6415aa3d7e0749b0bbae5
+msgid "``|grass_open_mapset|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:326
+# 85703e7321254e24a1d0061f086ff874
+msgid "|grass_close_mapset|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:326
+# 57671f7068c846eab7b039fe856579bc
+msgid "``|grass_close_mapset|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:327
+# 350e32db2b35467d99e0055f5cd227a5
+msgid "|grass_add_vector|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:327
+# 79a0e8923fda464095891e6b4144c53e
+msgid "``|grass_add_vector|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:327
+# 753f4678c26a4363bef896487c4a6f21
+msgid "|grass_add_raster|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:327
+# d8b614b85e24479a90ee2e04985a03be
+msgid "``|grass_add_raster|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:328
+# 782f55346b674f0380c3b1f799d4718d
+msgid "|grass_edit|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:328
+# f40870b2e14e458ea795baea93bcdfad
+msgid "``|grass_edit|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:328
+# 8d9a47602fff4de0ba1c2212fa848261
+msgid "|grass_tools|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:328
+# c1996eef7055437395a5f0697ce6df1f
+msgid "``|grass_tools|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:329
+# c614cc6f7b854c29ab484ac17b1f979a
+msgid "|grass_region|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:329
+# cd817c335c624e7c96fbd23f2eddfdc0
+msgid "``|grass_region|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:329
+# 16b84fae008f47b6a017c50fe72df739
+msgid "|grass_region_edit|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:329
+# c47632538ca042ceab83020898d02b37
+msgid "``|grass_region_edit|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:330
+# 3b2ae151d909436c896618f936be5afc
+msgid "|grass_new_point|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:330
+# d1b5b5bcd052443285c482d3af9b726d
+msgid "``|grass_new_point|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:330
+# 5a6e66348ad94e559bc18a34d73e6c76
+msgid "|grass_new_line|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:330
+# 35a390cf56fb4118b8b73678df3ab08b
+msgid "``|grass_new_line|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:331
+# b9cec3bc4f164a42bfa408b4ca0f9680
+msgid "|grass_new_boundary|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:331
+# 735fe1193d9543b088e0b728d53db5e5
+msgid "``|grass_new_boundary|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:331
+# d96e4951d29a410e9584fbd862bb450d
+msgid "|grass_new_centroid|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:331
+# afb629cdff8841cabfa22a3675ca82b1
+msgid "``|grass_new_centroid|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:332
+# d4b9d8c7b623492f93ffb0e4a55abd57
+msgid "|grass_move_vertex|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:332
+# c2558069f9664f089d1090763d66fc52
+msgid "``|grass_move_vertex|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:332
+# 2e3da8c8e3054d3697f00750d957396f
+msgid "|grass_add_vertex|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:332
+# f961c4fd53c648bbab928d60dc5b4d75
+msgid "``|grass_add_vertex|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:333
+# c3eac064471f41b49836a65b0d810b7f
+msgid "|grass_delete_vertex|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:333
+# 19eaf76955ed4fbf82006c6fb536790f
+msgid "``|grass_delete_vertex|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:333
+# 22455d63b9a84bfeaf1f30e428012e8d
+msgid "|grass_move_line|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:333
+# 8be18f742cd54e0d8b2edea724287bdb
+msgid "``|grass_move_line|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:334
+# bd3543af950949b8a7ea83b97773c389
+msgid "|grass_split_line|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:334
+# 426adf3cd1734c43a99dfa11a3797a4e
+msgid "``|grass_split_line|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:334
+# d3b6b01dec6e47719163d7d9d4408ec3
+msgid "|grass_delete_line|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:334
+# 01b475aa9531487ca8afbff88a64f2e0
+msgid "``|grass_delete_line|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:335
+# 52b3e9b0eeeb4b2f9822a66150854a71
+msgid "|grass_edit_attributes|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:335
+# 7548e76eb0044f7b9edc8670b1576dcc
+msgid "``|grass_edit_attributes|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:335
+# 9cbc860caa974993abd27f4699464f8a
+msgid "|grass_add_map|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:335
+# 29ac4ab9a7724b0ca9f43c9355f5d1e9
+msgid "``|grass_add_map|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:336
+# c3e55469e142443c80e27dec57b85dc0
+msgid "|grass_close_edit|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:336
+# fdb4f36767104c38b37f296e49843832
+msgid "``|grass_close_edit|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:336
+# 6adabecac0744d309a43b1b69a96f9c6
+msgid "|grass_copy_map|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:336
+# 098bba3994c34df483fefae911144a24
+msgid "``|grass_copy_map|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:337
+# f7e5f33bf0ab486185f4012f68f78673
+msgid "|grass_rename_map|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:337
+# a7a2243372374b0f8921ac95c193327c
+msgid "``|grass_rename_map|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:337
+# e5053599f6ca476a8074d5993f452f83
+msgid "|grass_delete_map|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:337
+# 27e3b5c93c564c1dada8debcc3761c6c
+msgid "``|grass_delete_map|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:338
+# ffada6128227498a868830f05df7a26c
+msgid "|grass_set_region|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:338
+# e58fa43a6ef94b58b1ced31be298ad24
+msgid "``|grass_set_region|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:338
+# a10685c77af04fde86e3e5103f96e56d
+msgid "|grass_refresh|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:338
+# 1f64828299b24a5a8f2ed01b6c1bcce7
+msgid "``|grass_refresh|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:342
+# 4c60dd5554bf4af5a5e674be3af1bfeb
+msgid "OpenStreetMap"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:347
+# 561b3312ea5a448fb9001976a16e0778
+msgid "|osm_load|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:347
+# 67660aaa371746b0815732e6811a583f
+msgid "``|osm_load|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:347
+# 9d9e75499fd242caa2145551694baea8
+msgid "|osm_download|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:347
+# efdf43bdde944c008ed08576e19df5e8
+msgid "``|osm_download|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:348
+# 02bb7b169a0d4665bd71004c0ab037b0
+msgid "|osm_featureManager|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:348
+# 07558e97fafc42a18f09a0bb11d9a69d
+msgid "``|osm_featureManager|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:348
+# fc7f6ff6f5d146cc8a544db36f67f728
+msgid "|osm_identify|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:348
+# edfb4b7f44a34f979bc1d40c332bbe41
+msgid "``|osm_identify|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:349
+# b1b75e1a261645238e010bd72d7e5423
+msgid "|osm_import|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:349
+# becbbfe8adc549118d1e14e9491692a0
+msgid "``|osm_import|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:349
+# 5b048edf232f4e6eac8d9161c8d078f2
+msgid "|osm_save|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:349
+# 5d70e59b34ce4335845513f97c9e1a13
+msgid "``|osm_save|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:350
+# 3038873f9b7c474cb150868c1d0ada7e
+msgid "|osm_createPoint|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:350
+# 20b11e0ecd76476ea486d86e5256104d
+msgid "``|osm_createPoint|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:350
+# 0997fe225bb34db6ab62391c14136ffd
+msgid "|osm_createLine|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:350
+# 96bfa05914274f88bd7faa5180c1d49d
+msgid "``|osm_createLine|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:351
+# 089344b4c08d40d7b74134bbce10520b
+msgid "|osm_createPolygon|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:351
+# d745ad631d36480c919513a57647a13b
+msgid "``|osm_createPolygon|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:352
+# a11a2e9584fb4c039f300a135c1f62d9
+msgid "|osm_move|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:352
+# 0f03838510a44828acc5aad8ce839a68
+msgid "``|osm_move|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:352
+# b083f86c5e284c62810efe460993033a
+msgid "|osm_removeFeat|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:352
+# b249e0138b384a07a7a6b347bd8235fd
+msgid "``|osm_removeFeat|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:353
+# 66bd52e17d334e3a837e50362d512bfc
+msgid "|osm_createRelation|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:353
+# 60d2935e6e3e44ec81545a24453270ed
+msgid "``|osm_createRelation|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:353
+# 4793946b522d4b69b408f567477b97b7
+msgid "|osm_addRelation|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:353
+# 19912bde35c44870b76153ecdeb764c5
+msgid "``|osm_addRelation|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:354
+# f4b1b90d3c234d0283cf478c6b3fbbe4
+msgid "|osm_editRelation|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:354
+# d0f224a81a65425b9f6d9a683ce1cae0
+msgid "``|osm_editRelation|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:354
+# a8ed84da59b94c1b9080f64989911cce
+msgid "|osm_generateTags|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:354
+# 077f3d424b1049dd9d50ff12dcc32e73
+msgid "``|osm_generateTags|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:355
+# c7617e5e9a9c487dbcf36030c66dc842
+msgid "|osm_questionMark|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:355
+# 1d3c2b23cb934fcd9a07badccf6544be
+msgid "``|osm_questionMark|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:359
+# dd2db547c7854f098c3a0cbbc34382ac
+msgid "Raster related"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:364
+# 780f731a4e3545d19d8979852a1fb40f
+msgid "|fullCumulativeStretch|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:364
+# b9c5cb41208b4f80bc0efda172528e98
+msgid "``|fullCumulativeStretch|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:364
+# 97f69df47dc44514a1676032b432fff2
+msgid "|FullHistogramStretch|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:364
+# 69ca6a825f68491ab1fa38661be4db1f
+msgid "``|FullHistogramStretch|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:365
+# 9983c399fc1841ef9af3b2dd4976c3a6
+msgid "|ShowRasterCalculator|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:365
+# 2e65670720924d0ab5a7980d3eec0243
+msgid "``|ShowRasterCalculator|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:365
+# d9646bee4602429593ef5ea806d0ca50
+msgid "|raster-stats|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:365
+# 87b0bc10e80247d1a9d4f82d2a0d32d3
+msgid "``|raster-stats|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:366
+# 34ddf6dbba5a406aa5d48e76c1261ee6
+msgid "|raster-interpolate|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:366
+# 0a39d74a7a8441fd92b5cb47faa5d870
+msgid "``|raster-interpolate|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:366
+# cc9ae84e992c4935b467bf6547e69de7
+msgid "|raster-info|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:366
+# de7e8d3a87824fc7a64c1a640184e291
+msgid "``|raster-info|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:367
+# 4358eb064abb4f7fbb69704a947eca0e
+msgid "|raster_terrain|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:367
+# d058ef68d7124af28d1eea3675987b15
+msgid "``|raster_terrain|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:367
+# 90b0a71f6e58467e9e4671403d716ccd
+msgid "|heatmap|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:367
+# b218ce40fdab47ac982b0a40552e5511
+msgid "``|heatmap|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:371
+# 3bb18b1bd25242d5af3661268d7d526c
+msgid "eVis plugin"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:376
+# c52c852e1c2f4df182f13b558819e91a
+msgid "|event_browser|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:376
+# 30cf309f65aa403da77f6292b10c6609
+msgid "``|event_browser|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:376
+# 9ca26e0db3d0403188e84f8f96703f43
+msgid "|event_id|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:376
+# 5e31b2f0db814c35ad1a9d4d0c502cbd
+msgid "``|event_id|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:377
+# 91df1706be064fe4847b194b222e6eba
+msgid "|evis_connect|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:377
+# acb89398d7af4d698dc005142fc89977
+msgid "``|evis_connect|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:377
+# 6b21e8d7927a4a618be879f419fa5c69
+msgid "|evis_file|"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/substitutions.rst:377
+# ea5f99dc6ec84a57a2ea856c8eadf867
+msgid "``|evis_file|``"
+msgstr ""
+

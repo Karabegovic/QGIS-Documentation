@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/index.rst:9
+# fe86e12b74e84f90baabbcde20750e32
+msgid "Welcome to the QGIS Documentation"
+msgstr ""
+
+#: ../../source/docs/index.rst:11
+# 61f788c3b93140e080890b8502c4d045
+msgid "Currently we are building a infrastructure to more easily maintain and translate various QGIS documentation projects."
+msgstr ""
+
+#: ../../source/docs/index.rst:14
+# 7bc4aa156fa64ea7a3d3cb0d3946ab94
+msgid "All documentation is written in RST, saved in Github, and po/pot translatable."
+msgstr ""
+
+#: ../../source/docs/index.rst:28
+# 9f78f2a91f0f445aa1b71135bd23ed95
+msgid "User manual"
+msgstr ""
+
+#: ../../source/docs/index.rst:30
+# c24a4e39112d42eb89302849c4eb38fb
+msgid ":ref:`The QGIS User Manual <QGIS-manual-index-reference>`. The main project. The User manual should contain all information needed for an user to get started."
+msgstr ""
+
+#: ../../source/docs/index.rst:33
+# 84d85c8890a6486fb83d38fb4c44252e
+msgid "It will be updated with every update of QGIS."
+msgstr ""
+
+#: ../../source/docs/index.rst:37
+# e8e13f755936447b8c7903ec713463ee
+msgid "Documentation Guidelines"
+msgstr ""
+
+#: ../../source/docs/index.rst:39
+# b1cf1a5e1fef453ab2fcbb14c2b60615
+msgid ":ref:`The QGIS Documentation Guidelines <QGIS-documentation-guidelines>`. These guidelines are there to let all QGIS documenation have the same look and feel."
+msgstr ""
+
+#: ../../source/docs/index.rst:42
+# 1df77187d9ad4a79a78245d09e7be3f2
+msgid "Before contributing to the documenation, please read and understand those guidelines"
+msgstr ""
+
+#: ../../source/docs/index.rst:47
+# 903c222586f249c2bd37b469d7e5766b
+msgid "A Gentle Introduction to GIS"
+msgstr ""
+
+#: ../../source/docs/index.rst:49
+# 53588b4a9f094f6faf02527c9ce1357c
+msgid ":ref:`A Gentle Introduction to GIS <A-Gentle-Introduction-To-GIS-reference>`. This introduction to GIS is an introductory text to get your feet wet in GIS"
+msgstr ""
+
+#: ../../source/docs/index.rst:54
+# 6c261e41fce947b8be4b3b5d1503b15b
+msgid "PyQGIS Developer Cookbook"
+msgstr ""
+
+#: ../../source/docs/index.rst:56
+# 0c86b37dcee64d3493b7631b92ac2727
+msgid ":ref:`PyQGIS Developer Cookbook <PyQGIS-Developer-Cookbook>`. This cookbook is intended to work both as a tutorial and a reference guide for peoples that want to learn QGIS Python API."
+msgstr ""
+
+#: ../../source/docs/index.rst:61
+# 2548bc5030a245ca9e8ad8bfcc8eb363
+msgid "QGIS Governance"
+msgstr ""
+
+#: ../../source/docs/index.rst:63
+# d7d72311e13640c7b3e84d4244f1bf80
+msgid ":ref:`QGIS Governance <QGIS-Governance>`. This document describes official QGIS governance, bylaws, procedures etc."
+msgstr ""
+

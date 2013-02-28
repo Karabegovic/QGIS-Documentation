@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:11
+# d05d406c956841eb96f3e4a59b1a7cdb
+msgid "Map Rendering and Printing"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:13
+# 941e7d3de48d45bd9a5611f712f64def
+msgid "There are generally two approaches when input data should be rendered as a map: either do it quick way using :class:`QgsMapRenderer` or produce more fine-tuned output by composing the map with :class:`QgsComposition` class and friends."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:20
+# d7cc00dc1ddb44b09455961eedfdcc9d
+msgid "Simple Rendering"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:22
+# 735d44b0af52466ebb208173da740628
+msgid "Render some layers using :class:`QgsMapRenderer` - create destination paint device (``QImage``, ``QPainter`` etc.), set up layer set, extent, output size and do the rendering::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:63
+# 917e28adc2e54390992148e47be81003
+msgid "Output using Map Composer"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:65
+# 9c6529b782fe49db9e469ccdc6f5441c
+msgid "Map composer is a very handy tool if you would like to do a more sophisticated output than the simple rendering shown above. Using the composer it is possible to create complex map layouts consisting of map views, labels, legend, tables and other elements that are usually present on paper maps. The layouts can be then exported to PDF, raster images or directly printed on a printer."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:71
+# 6fe32f13906b44a39769749fb874895b
+msgid "The composer consists of a bunch of classes. They all belong to the core library. QGIS application has a convenient GUI for placement of the elements, though it is not available in the gui library. If you are not familiar with `Qt Graphics View framework <http://doc.qt.nokia.com/stable/graphicsview.html>`_, then you are encouraged to check the documentation now, because the composer is based on it."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:78
+# 8a48a35fe5694951a06dc00e0a43a283
+msgid "The central class of the composer is :class:`QgsComposition` which is derived from :class:`QGraphicsScene`. Let us create one::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:85
+# 7b65093c8d944a36b4040fbadeeaea54
+msgid "Note that the composition takes an instance of :class:`QgsMapRenderer`. In the code we expect we are running within QGIS application and thus use the map renderer from map canvas. The composition uses various parameters from the map renderer, most importantly the default set of map layers and the current extent. When using composer in a standalone application, you can create your own map renderer instance the same way as shown in the section above and pass it to the composition."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:93
+# 183ff076c1844d24988ee499fd31555e
+msgid "It is possible to add various elements (map, label, ...) to the composition --- these elements have to be descendants of :class:`QgsComposerItem` class. Currently supported items are:"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:97
+# 17e79771ad384a088f886afebc20b819
+msgid "map --- this item tells the libraries where to put the map itself. Here we create a map and stretch it over the whole paper size::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:105
+# bad9b5f8659149a9ac889f36a85f0129
+msgid "label --- allows displaying labels. It is possible to modify its font, color, alignment and margin::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:113
+# 0ba69d983d844b7b921a72479b91a158
+msgid "legend ::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:120
+# 97578e9241de46d4a68bfd35c00d8afc
+msgid "scale bar ::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:129
+# 45c24bf7886d41aa99f87bcd53c90afd
+msgid "arrow"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:130
+# 6fa7e7ebe62d42d1adac1a5cb4bb95fa
+msgid "picture"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:131
+# 8ca070e7c688486ba022158b4254a003
+msgid "shape"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:132
+# 7c6389f464cf4d6c945f92059f25a3b7
+msgid "table"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:134
+# 91887aae735849bb9200dc523c08fb7b
+msgid "By default the newly created composer items have zero position (top left corner of the page) and zero size. The position and size are always measured in millimeters::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:143
+# 3b323378ffac4d7583c881a676ad7920
+msgid "A frame is drawn around each item by default. How to remove the frame::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:148
+# d527772d7d4541dcbd4a74d583ee6443
+msgid "Besides creating the composer items by hand, QGIS has support for composer templates which are essentially compositions with all their items saved to a .qpt file (with XML syntax). Unfortunately this functionality is not yet available in the API."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:153
+# bbf0c746520342978ca7305a85e34d7a
+msgid "Once the composition is ready (the composer items have been created and added to the composition), we can proceed to produce a raster and/or vector output."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:156
+# 32a271d8f781411a9c0772332545d133
+msgid "The default output settings for composition are page size A4 and resolution 300 DPI. You can change them if necessary. The paper size is specified in millimeters::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:166
+# cef25dfc8a804afb900521586c3fb31b
+msgid "Output to a raster image"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:168
+# fbbadf04c2e9489d9f74e9f635281682
+msgid "The following code fragment shows how to render a composition to a raster image::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:193
+# b5e53a5c418a4f47a8054ade699e3d9e
+msgid "Output to PDF"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/07_composer.rst:195
+# 9e5097bc03494434a9b2f27ae287b1d0
+msgid "The following code fragment renders a composition to a PDF file::"
+msgstr ""
+

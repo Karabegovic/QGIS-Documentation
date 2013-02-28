@@ -1,0 +1,313 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:12
+# 31599b3087c24903818face88b5cc02c
+msgid "MapServer Export Plugin"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:15
+# 38b0df6d2b6c455d8ee871d493ce8e19
+msgid "You can use QGIS to 'compose' your map by adding and arranging layers, symbolizing them, customizing the colors and then creating a map file for MapServer."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:18
+# 2834600411174cd896d1f44e6baadd32
+msgid "NOTE: currently the plugin only works when you use 'Old Symbology' in QGIS. 'New Symbology' is not yet supported."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:22
+# 4f3e6712e94d4f89a32561374cbd1827
+msgid "Creating the Project File"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:25
+# 794e5aaeb43242b69d89f4c94dbb3a65
+msgid "The MapServer Export Plugin operates on a saved QGIS project file and **not** on the current contents of the map canvas and legend. This has been a source of confusion for a number of users. As described below, before you start using the MapServer Export Plugin, you need to arrange the raster and vector layers you want to use in MapServer and save this status in a QGIS project file."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:45
+# 6b1c2cbeddd6443d8b3cf902af46800a
+msgid "In this example, we demonstrate the four steps required to create a simple project file which can be used to create the MapServer map file. We use raster and vector files from the QGIS sample dataset :ref:`label_sampledata`."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:51
+# bce8cdcaee29441a813162ad43170b22
+msgid "Add the raster layer :file:`landcover.tif` clicking on the |mActionAddRasterLayer| :sup:`Add Raster Layer` icon."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:53
+# c0c0311666a9473ebb48af928498f444
+msgid "Add the vector Shapefiles :file:`lakes.shp`, :file:`majrivers.shp` and :file:`airports.shp` from the QGIS sample dataset clicking on the |mActionAddNonDbLayer| :sup:`Add Vector Layer` icon."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:56
+# d1ae26dd5e664a1287a1d8bf3448817b
+msgid "Change the colors and symbolize the data as you like (For example see figure_mapserver_export_1_)"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:58
+# 69dd20eeab8d4f32bf679a6f5c9a456c
+msgid "Save a new project named :file:`mapserverproject.qgs` using :menuselection:`File -->` |mActionFileSave| :guilabel:`Save Project`."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:64
+# c92d1f982fa7469186c4c8c642d27ce1
+msgid "Creating the Map File"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:67
+# 526bd19c35984bafb0302f55a1029051
+msgid "To use the Mapserver Export plugin from within QGIS, you need to enable the MapServer Export Plugin first using the Plugin Manager (see :ref:`load_core_plugin`)."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:84
+# f7edc67f8f7541859c47d0b38f283aff
+msgid "**Map file**"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:84
+# 202f8502b9554e47a2a2b2069bc8773e
+msgid "Enter the name for the map file to be created. You can use the button at the right to browse for the directory where you want the map file created."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:87
+# 303e2746d0e14ee19ee5582dd9a1be06
+msgid "**Qgis project file**"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:87
+# 696b7811f5f6417f89108b2535af0ca5
+msgid "Enter the full path to the QGIS project file (.qgs) you want to export. You can use the button at the right to browse for the QGIS project file."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:90
+# 5faed34350a34158afe265a755db5e67
+msgid "**Map Name**"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:90
+# c7e01d3f9a7b448892bdd2a5f31a97ac
+msgid "A name for the map. This name is prefixed to all images generated by the mapserver."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:93
+# cda14f812da84e5ea7752376529b8fd1
+msgid "**Map Width**"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:93
+# 12f285ac13d541cd999b2a02d9b6dca7
+msgid "Width of the output image in pixels."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:95
+# db69ec24aa9b4f4f8e56aeb3f885f340
+msgid "**Map Height**"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:95
+# afaf3ded3d38409eb3ff1519aff4c412
+msgid "Height of the output image in pixels."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:97
+# ef16f453ae644f8286deecbb2bc93cc6
+msgid "**Map Units**"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:97
+# 7ca5ee0cbba2416e80372cd6fd8dff2c
+msgid "Units of measure used for output."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:99
+# 93c7d2b4b806483faffd650320a0d1a3
+msgid "**Image type**"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:99
+# b615b80b3abb444489f18aeec24c78d3
+msgid "Format for the output image generated by MapServer"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:101
+# 614da65c20884a89a00e5fabf7ff2ddb
+msgid "**Web Template**"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:101
+# 78c299d580b141e0907896670bbfa517
+msgid "Full path to the MapServer template file to be used with the map file"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:103
+# b2081a00a1294a4a98128225efded77d
+msgid "**Web Header**"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:103
+# f9d503326a2545a8954a90f50441207b
+msgid "Full path to the MapServer header file to be used with the map file"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:105
+# a936bfc03eb74d1d8e60301abbe043b5
+msgid "**Web Footer**"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:105
+# d4004957831f42c48bd7a07b96afaa15
+msgid "Full path to the MapServer footer file to be used with the map file"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:109
+# 204fd23761884d2a9a412c0d7ab66740
+msgid "Only the inputs :guilabel:`Map file` and :guilabel:`QGIS project file` are required to create a map file, however by omitting the other parameters, you may end up creating a non-functional map file, depending on your intended use. Although QGIS is good at creating a map file from your project file, it may require some tweaking to get the results you want. For this example, we will create a map file using the project file :file:`mapserverproject.qgs` we just created (see Figure_mapserver_export_2_):"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:118
+# 80a5e816e79a425db4c3d1337b602993
+msgid "Click the |mapserver_export| :sup:`MapServer Export` icon in the toolbar menu to start the MapServer dialog (see Figure_mapserver_export_2_)."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:120
+# c17ef5bd794e4f2aa937499e439a2c7f
+msgid "Enter the name (e.g., :file:`qgisproject.map`) for your new map file."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:121
+# cf43fe301bbe49be8694142275d3f38c
+msgid "Browse and find the QGIS project file (e.g., :file:`mapserverproject.qgs`) you previously saved."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:123
+# 75c468afdd6f4dd4a52b92a0c4146dac
+msgid "Enter a name (e.g., ``MyMap``) for the map."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:124
+# 9d6ff21820ff46f0a9fe5c7d20cb2e04
+msgid "Enter the width and height (e.g., ``600`` for the width and ``400`` for the height) for your output image."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:126
+# 96741a6cef1447d4b69512ecdbe1512b
+msgid "For this example, the layers are in meters, so we change the units to meters."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:127
+# e38c974f022849f3910c2510ca06c348
+msgid "Choose :guilabel:`png` for the image type."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:128
+# 6d62adf169e149e2a0066d04304da0ab
+msgid "Click **[OK]** to generate the new map file :file:`qgisproject.map`. QGIS displays the success of your efforts."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:145
+# 420d225a50694e379ec626a101cae91a
+msgid "You can view the map file in any text editor or visualizer. If you take a look, you'll notice that the export tool adds the metadata needed to enable our map file for WMS."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:152
+# 326acd5014a1455f90318bef38237d70
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:154
+# a1cc7b6022724a108f98204c78196811
+msgid "If you get error messages from mapserver like::"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:160
+# f2d442d7518b4cec9a84621cce22c805
+msgid "This means that that the map file is requesting for fonts or symbol definition files but that Mapserver cannot find those."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:163
+# 1d79279ac79949309c3b8aa8618ca2a4
+msgid "Either comment the lines containing those names in the map file (this is possible if you do not have labels or use styles from the symbols.txt). Or create those files (see below)."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:166
+# d0217120d3474a699f7ad96179fad09e
+msgid "The most simple fonts.txt file (because arial is used in the qgis generated map files) contains the following line::"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:172
+# e5bfd51ac47d4d5b8c880f472d6375e9
+msgid "The most simple symbols.txt file contains the definition of a circle symbol (because a circle symbol is used for point layers)::"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:188
+# 7d0317145f754767b6abcafcc7e460d0
+msgid "Testing the Map File"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:190
+# 5c883527c8834047b9a32eb8774b2cde
+msgid "We can now test our work."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:192
+# 772cf458b18e40d295db09368829732f
+msgid "If the map file is accessible for you mapserver cgi you can use the one of the url's from the success dialog."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:195
+# 93644a138c0647199da0c4cb9b80c439
+msgid "Another option is using the **shp2img** tool to create an image from the map file. The **shp2img** utility is part of MapServer and FWTools. To create an image from our map:"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:199
+# 2518328c9bab4fdb80d356f43fb98154
+msgid "Open a terminal window"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:200
+# 0e9ea6c8f87b46eab44337bc07456e5e
+msgid "If you didn't save your map file in your home directory, change to the folder where you saved it."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:202
+# 5c645fb1239e4f2ab27ce58ed96e3e19
+msgid "Run ``shp2img -m qgisproject.map -o mapserver\\_test.png`` and display the image"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:206
+# 5c17c4454bdd4cb7815db146f0d575ba
+msgid "This creates a PNG with all the layers included in the QGIS project file. In addition, the extent of the PNG will be the same as when we saved the project. As you can see in figure_mapserver_export_4_, all information except the airport symbols are included."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:226
+# 4393388346574f0d953a73e1f0d9ba6a
+msgid "Using Map File"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:228
+# 3629737446ad4823a7199c726735ddf3
+msgid "If you plan to use the map file to serve WMS requests, you probably don't have to tweak anything. If you plan to use it with a mapping template or a custom interface, you may have a bit of manual work to do. To see how easy it is to go from QGIS to serving maps on the web, take a look at Christopher Schmidt's 5 minute flash video. He used an older version of QGIS (version 0.8), but the demo applies equally well to newer versions."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_mapserver_export.rst:235
+# 98c33d4a4c4e438ea93219c0c86df358
+msgid "see http://openlayers.org/presentations/mappingyourdata/"
+msgstr ""
+

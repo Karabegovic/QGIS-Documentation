@@ -1,0 +1,208 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:9
+# ea766ae34eef45498d4539a1777415dc
+msgid "Help and Support"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:14
+# e78607213ccc434c8ef49360789e6b5e
+msgid "Mailing lists"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:16
+# 9df290fe3481432db3a8db60f1ee750e
+msgid "QGIS is under active development and as such it won't always work like you expect it to. The preferred way to get help is by joining the qgis-users mailing list. Your questions will reach a broader audience and answers will benefit others."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:22
+# f0f157306f0c4e8e93e8749773024da4
+msgid "qgis-users"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:24
+# 5b11701ca1c2480b8c2cd1abbb727fe2
+msgid "This mailing list is used for discussion of QGIS in general, as well as specific questions regarding its installation and use. You can subscribe to the qgis-users mailing list by visiting the following URL: http://lists.osgeo.org/mailman/listinfo/qgis-user"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:30
+# 717d75aee5a24d8aad4c45d0e5ef5eee
+msgid "fossgis-talk-liste"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:32
+# ad3dca07513840a291871a89231220af
+msgid "For the german speaking audience the german FOSSGIS e.V. provides the fossgis-talk-liste mailing list. This mailing list is used for discussion of open source GIS in general including QGIS. You can subscribe to the fossgis-talk-liste mailing list by visiting the following URL: https://lists.fossgis.de/mailman/listinfo/fossgis-talk-liste"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:39
+# 6ef309a8236d498889e4a836c7b62a28
+msgid "qgis-developer"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:41
+# 4d8f2a6be3154e6dbca2afa8298ac49a
+msgid "If you are a developer facing problems of a more technical nature, you may want to join the qgis-developer mailing list here: http://lists.osgeo.org/mailman/listinfo/qgis-developer"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:46
+# 8ff853650b504eea918f48e24496961d
+msgid "qgis-commit"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:48
+# 9d1e0c634d3d4db88436076ff4dbe19d
+msgid "Each time a commit is made to the QGIS code repository an email is posted to this list. If you want to be up to date with every change to the current code base, you can subscribe to this list at: http://lists.osgeo.org/mailman/listinfo/qgis-commit"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:54
+# eb2a74b45ce746ddae95a64e49bac813
+msgid "qgis-trac"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:56
+# 2abfcce2ae48409c996ef07a7631f7cf
+msgid "This list provides email notification related to project management, including bug reports, tasks, and feature requests. You can subscribe to this list at: http://lists.osgeo.org/mailman/listinfo/qgis-trac"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:61
+# b2e926922f9a4bed94a70e1a7fc013b1
+msgid "qgis-community-team"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:63
+# 24411ace11bd4b66a70e5e676c477144
+msgid "This list deals with topics like documentation, context help, user-guide, online experience including web sites, blog, mailing lists, forums, and translation efforts. If you like to work on the user-guide as well, this list is a good starting point to ask your questions. You can subscribe to this list at: http://lists.osgeo.org/mailman/listinfo/qgis-community-team"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:70
+# 9a0696ac97ea4d45b96cc2773278762d
+msgid "qgis-release-team"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:72
+# 2e292fcbf57c4cb499d4f951f08c6d40
+msgid "This list deals with topics like the release process, packaging binaries for various OS and announcing new releases to the world at large. You can subscribe to this list at: http://lists.osgeo.org/mailman/listinfo/qgis-release-team"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:78
+# bae9d6a982e240fcb6ad6b8251aac9b7
+msgid "qgis-tr"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:80
+# 9d078fa6e0b4421aa75d380389c08596
+msgid "This list deals with the translation efforts. If you like to work on the translation of the manuals or the graphical user interface (GUI), this list is a good starting point to ask your questions. You can subscribe to this list at: http://lists.osgeo.org/mailman/listinfo/qgis-tr"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:86
+# a510e281e9b54acc94902b43bc52d093
+msgid "qgis-edu"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:88
+# ece6d99f18e740b4a7dcacaecfaa2f39
+msgid "This list deals with QGIS education efforts. If you like to work on QGIS education materials, this list is a good starting point to ask your questions. You can subscribe to this list at: http://lists.osgeo.org/mailman/listinfo/qgis-edu"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:94
+# f510c94cca554168abe9cd106a023276
+msgid "qgis-psc"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:96
+# 64c5372e8cd348cdbcb62682fa995bad
+msgid "This list is used to discuss Steering Committee issues related to overall management and direction of Quantum GIS. You can subscribe to this list at: http://lists.osgeo.org/mailman/listinfo/qgis-psc"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:100
+# 1534774d691c4d9497226ee4b727c957
+msgid "You are welcome to subscribe to any of the lists. Please remember to contribute to the list by answering questions and sharing your experiences. Note that the qgis-commit and qgis-trac are designed for notification only and not meant for user postings."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:106
+# a2bd7d60b60c43368e02feb5b71be2bb
+msgid "IRC"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:108
+# 8fe8b6e1e68242cca25311c1b612cc3c
+msgid "We also maintain a presence on IRC - visit us by joining the #qgis channel on irc.freenode.net. Please wait around for a response to your question as many folks on the channel are doing other things and it may take a while for them to notice your question. Commercial support for QGIS is also available. Check the website http://qgis.org/en/commercial-support.html for more information."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:115
+# 3164d2d3e53940758db277b0e8870624
+msgid "If you missed a discussion on IRC, not a problem! We log all discussion so you can easily catch up. Just go to http://logs.qgis.org and read the IRC-logs."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:120
+# 6863f79e860d4757a34514c43f5bb365
+msgid "BugTracker"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:122
+# 947684e5f7de43968bed0d4b981f6ab6
+msgid "While the qgis-users mailing list is useful for general 'how do I do XYZ in QGIS' type questions, you may wish to notify us about bugs in QGIS. You can submit bug reports using the QGIS bug tracker at http://hub.qgis.org/projects/quantum-gis/issues. When creating a new ticket for a bug, please provide an email address where we can request additional information."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:129
+# 1d5a45c8b3804fa0bcff5abe3ced4213
+msgid "Please bear in mind that your bug may not always enjoy the priority you might hope for (depending on its severity). Some bugs may require significant developer effort to remedy and the manpower is not always available for this."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:134
+# ac95e59f4061463b85039b13885bf70c
+msgid "Feature requests can be submitted as well using the same ticket system as for bugs. Please make sure to select the type ``Feature``."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:137
+# db8d102d544e483d84fc348be92959b5
+msgid "If you have found a bug and fixed it yourself you can submit this patch also. Again, the lovely redmine ticketsystem at http://hub.qgis.org/projects/quantum-gis/issues has this type as well. Check ``Patch supplied`` checkbox and attach your patch before submitting bug. Someone of the developers will review it and apply it to QGIS. Please don't be alarmed if your patch is not applied straight away --- developers may be tied up with other committments."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:146
+# 7723b7ee1a914e8fb849e844afc84375
+msgid "Blog"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:148
+# af721b773b944af78ebccde11e0f88df
+msgid "The QGIS-community also runs a weblog at http://www.qgis.org/planet which has some interesting articles for users and developers as well provided by other blogs in the community. You are invited to contribute your own QGIS blog!"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:154
+# 9918a06c01ec4ca3888c6a5e10ebceee
+msgid "Plugins"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:156
+# a48ea5159b4d4d75a698863667ffe8dc
+msgid "The website http://plugins.qgis.org provides the official QGIS plugins web portal. Here you find a list of all stable and experimental QGIS plugins available via the 'Official QGIS Plugin Repository'."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:161
+# 5e7f5a4cf92546d28a5763565b9f7502
+msgid "Wiki"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/help_and_support.rst:163
+# de84d9bc4f3d4a55a4d2a644aed41ba0
+msgid "Lastly, we maintain a WIKI web site at http://hub.qgis.org/projects/quantum-gis/wiki where you can find a variety of useful information relating to QGIS development, release plans, links to download sites, message translation-hints and so on. Check it out, there are some goodies inside!"
+msgstr ""
+

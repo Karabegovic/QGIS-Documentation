@@ -1,0 +1,358 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:9
+# 25b28d20e8be4f539178b0e7d58fc3f8
+msgid "Translation Guidelines"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:12
+# ce8a324940eb478897181137df87cc47
+msgid "This manual is aiming to help the translator. First the general process of how technically a translation is done is explained. Later the translation is explained from an actual English rst document that is translated to Dutch. Finally a summary of \"Rules of translation\" is given."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:21
+# 5cc3e212ed334dd0bac8d29b41450672
+msgid "General information"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:24
+# 1a453c303d5645279b74bfde1022314c
+msgid "To explain how translation works, we will use the heatmap plugin as an example. In this example we will translate it from English to Dutch, but it will be practically the same for other documents in all languages."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:31
+# 19aadfb3ae1c49898dbf9aab26b7fe92
+msgid "First translation"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:34
+# 9d1a94d7e04f4d4080390d9a20a1d1fd
+msgid "To create documentation first rst documents are created. A prebuild script creates translation files named .po files for the english language in the folder /QGIS-Documentation/i18n/en."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:38
+# ebefacc97ae94fd5b9eebae4f0c9093c
+msgid "These \"originals\" are copied by the script to the i18n folders for other languages."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:40
+# 243dca17e7fc4115bc9177a685983561
+msgid "The sentences in the .po files needs to be translated from english to the language with a translation tool editor. There is a web translation tool called pootle we would like to use, but it is not activated yet. However there is an excellent tool supplied with the qt development tools named Qt Linguist."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:45
+# ef1ce97554b14bd2a16ecfbe3d07c0da
+msgid "When you want to contribute, first get a .po file and add translations for the sentences in the .po file."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:48
+# 8790656715254217846486dd99ca40db
+msgid "When you are finished the .po file is placed back in the right place and during the next build the buildscript now creates .mo files next to the .po files."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:51
+# 33bd5170547d42279c5ce109140c715e
+msgid "These .mo files are actually used by the script to create translated output."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:57
+# 6deeda630c06425e88acc2ffd2e4511a
+msgid "Update translations"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:60
+# 73858e0854a248db91b87759b198b5ef
+msgid "When afterwards an rst document is updated a new .po file is created in the english part. The contents of this new file will be merged with already existing .po files for each language. This means that when a new line is added to an rst document that was allready translated, only the new/updated sentences are added in the translated .po file and needs to be translated. The amount of work for updating translations for next versions of |QG| should be relative small."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:72
+# ba3b7d5f79e44657ace47eb8aafbfc05
+msgid "Translate a .po-file"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:75
+# fd26aa556f384f2fa68ceb3e0ac822fb
+msgid "For this example we will use the relative smaller rst document for the heatmap plugin. The source of the document can be found here:"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:78
+# 424ea802a8644d76a34da496d8325d90
+msgid "QGIS-Documentation/source/docs/user_manual/plugins/plugins_heatmap.rst"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:80
+# c3354182c05f40dda714f7444e59f564
+msgid "So why did I choose this document?"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:82
+# 7477d57301d8411e920c1f92c9850108
+msgid "It is considered finished for the current release. If it is not yet completed the following statement followed by an empty line can be found in the top of the document."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:86
+# 837ef34b0149494ba27b781ca0196c85
+msgid "``|updatedisclamer|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:88
+# 4f67fbb3228d401a9217e37aee9daed1
+msgid "This will produce a visible disclaimer in the output product. To start translating a document with an update disclaimer there is a good chance that later on it needs another finishing touch."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:92
+# cc0f5e4e35e8452381d39037b59992a5
+msgid "It also includes images, captions, headers, references and replacements."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:93
+# e5d62faa79bf44039fe2bdb244422052
+msgid "I wrote it so it is easier for me to translate ;-)"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:95
+# 56a12c505565498da7f04cef383f43a8
+msgid "The build process has created the English .po file which can be found here:"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:97
+# c2d601fbfe164ba790d868fab98fea0e
+msgid "QGIS-Documentation/i18n/en/LC_MESSAGES/docs/user_manual/plugins/plugins_heatmap.po"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:99
+# 3a01bd9a9f37479ba366eb53778e9cf7
+msgid "The equivalent Dutch .po file (basically a copy) can be found here:"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:101
+# 4cfcb9a8efc3464fa5baa0ecf13de9d2
+msgid "QGIS-Documentation/i18n/nl/LC_MESSAGES/docs/user_manual/plugins/plugins_heatmap.po"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:103
+# d332730971534d0697000d6abcf2e710
+msgid "Along this file you will see a tiny .mo file which indicates that it does not hold any translations yet."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:106
+# 5a54a37cf51b4fdd84360936b78dab19
+msgid "Now I will grab this .po file and start translating it. During this translation session I will point out which parts (rst statements) need translation."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:112
+# 11813348a1b74591b31052e1cf89a2b5
+msgid "Translation in Qt Linguist"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:115
+# 6a86123cb2e84c63ac87a25610c3f648
+msgid "When you open the .po file in Qt Linguist for the first time you will see the following dialog:"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:130
+# 3f2a7f9ed3bf49aa89c66a3c2161d18b
+msgid "The Target language should be filled correctly. The Source language can be left as is with language POSIX and Country/Region on Any Country."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:133
+# f465ca18b9fe4b02a6f97bb4b5803746
+msgid "When you press the **[OK]** button Qt Linguist is filled with sentences and you can start translating, see Figure translation 2."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:161
+# 3b8c9b6c712d4ddeba35222eec60924c
+msgid "In the menu you see the following buttons which are convenient to use."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:163
+# e9eef31ae98d4f419f21c06b5110b5fd
+msgid "|linguist_done_next| The Translation Done Next button, is the most important button. If the item needs translation, you enter a translation in the text field, then hit this button. If the item does not translation just leave the text field for translation empty and also hit this button which indicates the item is done and you continue with the next item."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:169
+# 118d83e87dc34d82a37df7903afeb0dd
+msgid "|linguist_previous| The Goto Previous button, can be used to go to the previous translation item."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:172
+# d0c1c9c8522e494b9eb2079f41f0595b
+msgid "|linguist_next| The Goto Next button, can be used to go to the next translation item."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:175
+# fab510acf32942208eb58828f50c443c
+msgid "|linguist_next_todo| The Next Todo button, jumps to the first translation item that still needs a translation. Handy when the original document has changed and only several new/changed sentences need to be translated."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:179
+# fa210dfb66af410fbe559aafe01ab8ca
+msgid "|linguist_previous_todo| The Previous Todo button, searches backward and jumps to the first translation item it finds that still needs a translation."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:186
+# 565b6e6149704d1a96fee7338e8db3c0
+msgid "Translate a manual"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:189
+# b0e676cc271a4a1aaf752489a3f298eb
+msgid "Now we start to translate the plugin_heatmap manual!"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:191
+# da4a36e8678e4ed0a88431add1596293
+msgid "The first two items do not need translation, just push the toolbar button which considers the translation finished and jump to the next item."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:194
+# 43c5b1a19dfd4b5faa6ca8f005d7a805
+msgid "When I get to the third item we see a more interesting sentence to translate:"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:208
+# 81cc1f1ead1b4ab09044dd552001f3d1
+msgid "This sentence contains two rst statements:"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:202
+# 25534d9dbe934592b9995a71c273fb8b
+msgid "``|heatmap|`` words between ``|`` are replacements and these should never be translated! This will be replaced by the heatmap plugin icon!"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:204
+# 730fa047745d4cfa9122509e282dbb62
+msgid "``:sup:`Heatmap` `` the ``:sup:`` statement is a superposition statement and prints the following text a bit higher. This is used to show the popup texts that appear when you hover above the toolbar item and this may be different when it is actually translated in the QGIS application. In this case it is not!"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:210
+# c03c991153404c0ebeea325ed6c9ce13
+msgid "All other plain text in this sentence can be translated!"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:212
+# d6bb47d2b0da48efa25a48f7177bc9e9
+msgid "The fifth translation item contains the ``:ref:`` rst statement that is commonly used to refer to another section somewhere in het manual! The text following a ``:ref:`` statement should never be changed because it is a unique identifier!"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:221
+# 0fcc84291dc3420f8a6da544e300e0ca
+msgid "In this case \"load_core_plugin\" is a unique reference identifier placed before an rst item that has a caption. The ref statement will be replaced with the text of the header and turned into a hyerlink. When the header this reference is refering to is translated, all references to this header will be automatically translated as well."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:227
+# 0a5856fde3634912ac6f7ecab6b9c908
+msgid "The next item contains the rst-tag ``:menuselection:`` followed by text actually displayed in a menu in QGIS application, this may be translated in the application and therefore should be changed when this is the case."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:235
+# 819068d5b9ad4e4db3f400e607d83c5c
+msgid "In above item \"View -->\" is actually translated to \"Beeld -->\" because this is the translation used in the Dutch localized QGIS application."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:238
+# 4b464c75632e4248903309a3005c09a6
+msgid "A bit further we meet the following tricky translation item:"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:244
+# 0c32b6e19a0a4c0abf5ea5492edcef2c
+msgid "It holds a reference to a figure ``figure_heatmap_2_``, and like a reference to section this reference should not be changed!! The reference definition itself from the rst-document is not included in the .po file and can therefore not be changed. This means the reference to figures can not be translated. When HTML is created you will see ``figure_heatmap_2``. When a PDF document is created ``figure_heatmap_2_`` is replaced with a figure number."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:251
+# 53204fbace4948448559028524095f8d
+msgid "The next translation item with rst attributes is the following item:"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:257
+# e45634f85e744819839aee09be737464
+msgid "Do not remove the stars in above line. It will print the text it holds in bold. The text itself is often text included in the dialog itself and may wel be translated in the application."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:261
+# a71b4f2c0f1f47a19b8e0ca8a1ed292e
+msgid "The following translation item contains the ``:guilabel:`` rst tag."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:267
+# 8b7bb3e5b76a41308242473bd4bcd62f
+msgid "The text `Advanced` of the guilabel tag may wel be translated in the QGIS application and probably needs to be changed!"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:270
+# 775d86bba03b4637babfcdf2ed94d211
+msgid "The following translation item contains \\`\\`airports\\`\\`. The apostrophs are used this to give text another textfont. In this case it is a literal value and does not need translation."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:279
+# 89ca10d0cc7a4f02a0355d8a07326634
+msgid "This item also includes a hyperlink with a url and an external presentation. The url should ofcourse be left intact, you are allowed to change the external text \"http://qgis.spatialthoughts.com\" which is visible by the reader. Never remove the underscore at the end of the hyperlink which forms an essential part of it!!"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:288
+# 6522c5211a5a407897c5a9d1f98738cf
+msgid "Summary Rules for translation"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:291
+# 98790a4f69b640b8bd8698e57dcb0241
+msgid "Do not change replacements like ``|nix|``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:292
+# fb196821d9da49aeb6374667d4504672
+msgid "Do not change references that start with the tag ``:ref:``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:293
+# 480d606cc4de4007af7d7048e0e5235b
+msgid "Do not change references that end with an underscore like ``figure_1_``"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:294
+# 31cb7eedd46b4816af728814ac3b7cc3
+msgid "Do not change the url in hyperlinks, but you may change the external description. Leave the underscore at the end of the hyperlink"
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:296
+# cf29cc5777e74846ad357965a690b60b
+msgid "Change the contents of ``:sup:``, ``:guilabel:`` and ``:menuselection:``, Check if/how it is translated in the QGIS Application."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:298
+# 96281f75383f4daaaa27c466cd859ef3
+msgid "Text between Double Stars and double apostrophes often indicate values or fieldnames, sometimes they need translation sometimes not."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:300
+# 75d4eee44a5540e990e365e6fb1963f7
+msgid "Be aware to use exactly the same apostrophes of the source text."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:301
+# 6fdb0b27692f4d95b5b0f18ec0e2d5f8
+msgid "Don't end the translated strings with a new paragraph, otherwise the text will not be translated during the html generation."
+msgstr ""
+
+#: ../../source/docs/documentation_guidelines/do_translations.rst:305
+# 44f424d43a6f4046ab089f5a0ac91470
+msgid "Stick to above presented rules and the translated document will look fine!"
+msgstr ""
+

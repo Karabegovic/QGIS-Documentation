@@ -1,0 +1,293 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:8
+# 25bebce6a53545109736afe8c73e97ff
+msgid "The QGIS Project Steering Committee"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:10
+# 33bf3fbafa7f4b0f8cc1237cec231265
+msgid "The QGIS project is managed by the Project Steering Committee (PSC) which consists of 5 members (with their individual responsibilities listed in brackets):"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:14
+# b21e2ba330554a3ab497691d2e7760fc
+msgid "Gary Sherman (Chair)"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:15
+# ba5e058aa39f44f698557e6d90a8f982
+msgid "Marco Hugentobler (Technical)"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:16
+# b7c12985ea7e43f3918122843a40813c
+msgid "Tim Sutton (Release Management)"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:17
+# 5894ebe4761141c99ae20a992c0fad78
+msgid "Otto Dassau (Community)"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:18
+# f345b86e91804cceb762c7af0cab5150
+msgid "Paolo Cavallini (Finance)"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:21
+# 23b1b7b065bb4a6cb046ec84455af191
+msgid "Term of PSC members"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:23
+# c26e3b5093ed4570850fa62eea4f718e
+msgid "The PSC seats are non-expiring. PSC members may resign their position, or be asked to vacate their seat after a unanimous vote of no confidence from the remaining PSC members."
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:28
+# f9d656144e68404081c5c9da9d4816a7
+msgid "Member's roles withing the PSC"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:30
+# 939df12cdba747a898fd5d9fb40dcdf3
+msgid "The PSC consists of 5 identified roles as follows:"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:34
+# 382aabeda6134075a7b8656faa45c988
+msgid "**Chair**"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:33
+# 729d48927469463fb15be53381020e4e
+msgid "To support the activities and present a public face to the project. To issue press releases, conduct interviews, collaborate with PSC members and provide stability and guidance to the project."
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:40
+# 8ba6f04625614cd4860ffe74992b2002
+msgid "**Community Adviser**"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:37
+# 1da6870f4863410385899616ff3b2f4e
+msgid "To further building of relations with the community. To ensure smooth running of the QGIS.org online experience including web sites, blog, mailing lists, forums etc. To achieve these aims he / she will recruit and advise 'managers' to curate these individual online services and provide oversight for their activities."
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:45
+# 778e57c47a754340a76216f790661111
+msgid "**Technical Adviser**"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:43
+# 7a26de58bb214ba68e25a501d70d6c64
+msgid "To provide oversight and guidance to the development effort. This will include recruiting and facilitating 'managers' for discrete areas of the code based (core, gui, plugins, providers, tests) who will ensure consistency and quality of code added into the SVN code repository."
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:52
+# 4c0b8cf702834ff8921ce8683221a4fb
+msgid "**Financial and Marketing advisor**"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:48
+# 07adf81507344bec988a3df09f0107fe
+msgid "To provide reporting and explore avenues of revenue for the QGIS project. To interface with business to secure funding for future efforts. To identify areas where funding is needed and put into place actions to secure this funding. To keep track of funding as managed by OSGeo. To present the PSC with financial options for any initiative requiring funding."
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:59
+# bca1dc7952af4f58b4964f7cb49434d0
+msgid "**Release Manager**"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:55
+# e70a8e7c56a64667b60ed94ac6b5b1d2
+msgid "To oversee timely, regular, stable releases of QGIS on the various supported platforms. To recruit and support build managers to create packages for supported platforms. To oversee the maintenance of the trac bug tracking system."
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:62
+# d939c4982e934b44a5a7951cafdebe59
+msgid "Candidacy for the PSC"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:64
+# aabc4310b771412181b5c9f728de39f2
+msgid "All members have equal standing and voice in the PSC. To be eligible for membership in the PSC, a person should have a demonstrated and substantial involvement in QGIS."
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:69
+# 6d0c69b973094e618d0a56f93178458a
+msgid "Election process for PSC members"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:71
+# c34dc88f2ee04c80bfe26f9c4c7e4186
+msgid "Anyone is eligible to be nominated to the QGIS PSC. Ideally nominees would be QGIS users or developers and have an understanding of GIS and the goals of the QGIS project. In addition, nominees should meet the qualifications set forth in this document. Anyone can submit a nomination."
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:76
+# 676ddc0062634d2cb2cd411f33761623
+msgid "To nominate someone:"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:78
+# 8c5974f1843440c392d2a1d043b39121
+msgid "Nominator checks with the nominee to make sure they are willing to serve on the PSC and commit to the goals and duties described in this document"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:80
+# 3c7dd340225c4beeb74be97dd3f6cdcc
+msgid "Nominator submits the nomination via email to the PSC mailing list."
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:81
+# be8aa4bba5bc4f9ba279746765555cd4
+msgid "The subject line of your email must be **Nomination for QGIS PSC**"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:82
+# fd2f2ba7aca040b79f8351605087dab7
+msgid "Nominations without the correct subject line will be rejected"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:83
+# 5772c85f7cf14ad883f7b1b621413020
+msgid "Nominations without complete information will be rejected"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:86
+# 8f2e44932ecd44f4b4bbfd59ae5857e2
+msgid "Complete information includes:"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:88
+# 64a92568521e47119cc3b49e77d997c4
+msgid "Full name of the nominator"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:89
+# b1b3c8da414a4b38a8fc25c6c1abbf13
+msgid "Email address of the nominator"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:90
+# df90ea2f3f9245b3b034bb7dd479cf0c
+msgid "Full name of the nominee"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:91
+# c15f2021523d4d768a6844a1116c6cd3
+msgid "Email address of the nominee"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:92
+# 2d9e6116f1424228802852115aaa954a
+msgid "Justification why the person should be a member of the PSC. This can be just a sentence or two in length."
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:96
+# e836fe82003444e98783613308b5c9aa
+msgid "The PSC contacts the nominee to confirm their willingness to serve and their name is added to the list of nominees.  You must submit all the information in item 4 for the nomination to be accepted."
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:101
+# 0f3ecd67654a440aa70d52dd74697468
+msgid "Expectations of PSC members"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:103
+# 197634b89374469ca5bdb1b947d4a0b2
+msgid "Be willing to commit to the QGIS development effort"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:104
+# 54d457d9acec4391b56a310f198172ae
+msgid "Be responsive to requests for information from fellow members"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:105
+# abf55514cd7947ebbae82bfe0fd39e4c
+msgid "Be able and willing to attend online meetings"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:106
+# 094ebfc282894967acde0893031d9d99
+msgid "Act in the best interests of the project"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:109
+# e5635b9b4c134d278efae875b2eb3700
+msgid "Role of the PSC"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:111
+# b458b8ae34ae4deda53528af7242b183
+msgid "The PSC is intended to:"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:113
+# 1217a10db74449e1b69c5443701bd4cb
+msgid "Provide guidance to the general direction of the project"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:114
+# c9ddab5d90e04036bfe359a214bc3f62
+msgid "Provide a central point of contact for the project"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:115
+# 0c606877614143319c17a63cc5d72b57
+msgid "Ensure that the various expectations placed on the project by its members and the users of QGIS are met to the best degree possible"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:117
+# 4124211e622f4422893ef59e1f020c9a
+msgid "Vote on issues relating to project governance"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:118
+# 8ab8b583cb824ce7b5f0e523e1dbdafb
+msgid "Arbitrate disputes"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:119
+# 7dcab4cd6860433cb7e6bb73978ff874
+msgid "Deal with confidential and legal matters that may arise"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:120
+# 3e073f10b4ff4654842ea22b5ed62944
+msgid "Provide a stable base of 'institutional knowledge' to the project"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:123
+# 0da363ead1de414cb2b563e44400f6c8
+msgid "The PSC is not:"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:125
+# 359d6a499c9544a7aa6b325e3a8386e8
+msgid "A legal entity"
+msgstr ""
+
+#: ../../source/docs/qgis_governance/organisation/psc.rst:126
+# a1ae8c490261493d89c8c1fa34c588a1
+msgid "Intended to deal with minutae of the project (these should be delegated to trusted members)"
+msgstr ""
+

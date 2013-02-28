@@ -1,0 +1,606 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:10
+# 7575fc8b6859425596b869928d74c5a1
+msgid "eVis Plugin"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:12
+# 4877b72a27954c2dbeadaa538143b0e6
+msgid "The Biodiversity Informatics Facility at the American Museum of Natural History's (AMNH) Center for Biodiversity and Conservation (CBC) [1]_ has developed the Event Visualization Tool (eVis), another software tool to add to the suite of conservation monitoring and decision support tools for guiding protected area and landscape planning. This plugin enables users to easily link geocoded (i.e., referenced with latitude and longitude or X and Y coordinates) photographs, and other supporting documents, to vector data in QGIS."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:20
+# a416e995cc5245808723aec5c8442650
+msgid "eVis is now automatically installed and enabled in new versions of QGIS, and as with all plugins, it can be disabled and enabled using the Plugin Manager (See :ref:`managing_plugins`)."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:24
+# d419b24d4d0c48e393db98d2f2b7df45
+msgid "The eVis plugin is made up of three modules: the Database Connection tool, Event ID tool, and the Event Browser. These work together to allow viewing of geocoded photographs and other documents that are linked to features stored in vector files, databases, or spreadsheets."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:32
+# 7f0cbb5c42324576a19bd10a6faf9756
+msgid "Event Browser"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:34
+# 66f238a5ec7645d49d9a500746f72539
+msgid "The Event Browser module provides the functionality to display geocoded photographs that are linked to vector features displayed in the QGIS map window. Point data, for example, can be from a vector file that can be input using QGIS or it can be from the result of a database query. The vector feature must have attribute information associated with it to describe the location and name of the file containing the photograph and, optionally, the compass direction the camera was pointed when the image was acquired. Your vector layer must be loaded into QGIS before running the Event Browser."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:46
+# 87c05e68aa5b4e61b763108e9419ae94
+msgid "Launch the Event Browser module"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:48
+# d99d6b52df4f41e8acff178ca4c60416
+msgid "To launch the Event browser module either click on the |event_browser| :sup:`eVis Event Browser` icon or click on :menuselection:`Database --> eVis --> eVis Event Browser -->`. This will open the Generic Event Browser window."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:52
+# 021c302659514ecb96a5758f95252c0c
+msgid "The Generic Event Browser window has three tabs displayed at the top of the window. The :guilabel:`Display` tab is used to view the photograph and its associated attribute data. The :guilabel:`Options` tab provides a number of settings that can be adjusted to control the behavior of the eVis plugin. Lastly, the :guilabel:`Configure External Applications` tab is used to maintain a table of file extensions and their associated application to allow eVis to display documents other than images."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:63
+# 7c474f990e0d4ba682170312685fbbe7
+msgid "Understanding the Display window"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:65
+# 76768701737e4722b244773d66e814c2
+msgid "To see the Display window click on the :guilabel:`Display` tab in the Generic Event Browser window. The Display window is used to view geocoded photographs and their associated attribute data."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:81
+# c5f472f8a128441cad34e24536aaaf6a
+msgid "**Display window**: A window where the photograph will appear."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:82
+# 5d3d78fb9c204c558f269f11a4b22a5e
+msgid "**Zoom in button**: Zoom in to see more detail. If the entire image cannot be displayed in the display window, scroll bars will appear on the left and bottom sides of the window to allow you to pan around the image."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:85
+# 7080cffdc66749989f6f1c97697b203c
+msgid "**Zoom out button**: Zoom out to see more area."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:86
+# cbad1081a7a943f3bf302c4cffa17a26
+msgid "**Zoom to full extent** button: Displays the full extent of the photograph."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:87
+# c341aa4d7dbf499eae270adf0bd056ad
+msgid "**Attribute information window**: All of the attribute information for the point associated with the photograph being viewed is displayed here. If the file type being referenced in the displayed record is not an image but is of a file type defined in the :guilabel:`Configure External Applications` tab then when you double-click on the value of the field containing the path to the file the application to open the file will be launched to view or hear the contents of the file. If the file extension is recognized the attribute data will be displayed in green."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:95
+# 14014eda7fac4d03b3cb667657744a5f
+msgid "**Navigation buttons**: Use the Previous and Next buttons to load the previous or next feature when more than one feature is selected."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:97
+# 12983f5eea6f41e0ae2f810261fe2701
+msgid "**Feature indicator**: This heading indicates which feature is being displayed and how many features are available for display."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:103
+# b2e1c4b5d04b4c7c90344643b8251676
+msgid "Understanding the Options window"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:117
+# 73e9e1c406584ae4934959cc5575d71f
+msgid "**File path**: A dropdown list to specify the attribute field that contains the directory path or URL for the photographs or other documents being displayed. If the location is a relative path then the checkbox must be clicked. The base path for a relative path can be entered in the Base Path text box below. Information about the different options for specifying the file location are noted in the section :ref:`evis_specifying` below."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:124
+# da13488510d348d0b886b080d8cc0419
+msgid "**Compass bearing display field**: A dropdown list to specify the attribute field that contains the compass bearing associated with the photograph being displayed. If compass bearing information is available it is necessary to click the checkbox to the left of the dropdown menu title."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:128
+# fbfbfb6d3bca48878b9524376e26f7d1
+msgid "**Compass offset setting**: Compass offsets can be used to compensate for declination (adjust bearings collected using magnetic bearings to true north bearings). Click the |radiobuttonon| :guilabel:`Manual` radiobutton to enter the offset in the text box or click the |radiobuttonon| :guilabel:`From Attribute` radiobutton to select the attribute field containing the offsets. For both of these options east declinations should be entered using positive values and west declinations should use negative values."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:136
+# aa47abf582644563a458a93828fbe3d1
+msgid "**Directory base path**: The base path onto which the relative path defined in Figure_eVis_2_ (A) will be appended."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:138
+# 358007037acf43068ad870c90b439c70
+msgid "**Replace path**: If this checkbox is checked, only the file name from the A will be appended to the Base Path."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:140
+# da769a952947499c8f2add40ba8548e2
+msgid "**Apply rule to all documents**: If checked, the same path rules that are defined for photographs will be used for non-image documents such as movies, text documents, and sound files. If not checked the path rules will only apply to photographs and other documents will ignore the Base Path parameter."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:144
+# dea2d15a24a74eafb25fcfda86990a5b
+msgid "**Save settings**: If the checkbox is checked the values for the associated parameters will be saved for the next session when the window is closed or when the **[Save]** button below is pressed."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:147
+# 1f359b1d49d54d799c0a0ec60d1152e7
+msgid "**Reset values**: Resets the values on this line to the default setting."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:148
+# eb0a72153dc64186a813352f4afd6402
+msgid "**Restore faults**: This will reset all of the fields to their default settings. It has the same effect as clicking all of the **[Reset]** buttons."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:150
+# 4933a125029346789ceaf039e7d7c05e
+msgid "**Save**: This will save the settings without closing the Options pane."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:156
+# 3839a09baf764f6681db453b4faf2524
+msgid "Understanding the Configure External Applications window"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:171
+# c05fab276cd54414b6f9c360d027f92d
+msgid "**File reference table**: A table containing file types that can be opened using eVis. Each file type needs a file extension and the path to an application that can open that type of file. This provides the capability of opening a broad range of files such as movies, sound recordings, and text documents instead of only images."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:176
+# ac9895528fca4eea9b3bb98fa4178c5f
+msgid "**Add new file type**: Add a new file type with a unique extension and the path for the application that can open the file."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:178
+# 07684588c5df462ea1800c00a4f8d40f
+msgid "**Delete current row**: Delete the file type highlighted in the table and defined by a file extension and a path to an associated application."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:184
+# fc159f4b33394a8abe28226e6d22a9de
+msgid "Specifying the location and name of a photograph"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:186
+# d2f77185c7034aa3958044aa1ecd1620
+msgid "The location and name of the photograph can be stored using an absolute or relative path or a URL if the photograph is available on a web server. Examples of the different approaches are listed in Table `evis_examples`_."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:204
+# f493d4316e63409bb56b106d2542fa1f
+msgid "Specifying the location and name of other supporting documents"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:206
+# 143ab10ba0c1416fa0e4866fdf69fccd
+msgid "Supporting documents such as text documents, videos, and sound clips can also be displayed or played by eVis. To do this it is necessary to add an entry in the file reference table that can be accessed from the Configure External Applications window in the Generic Event Browser that matches the file extension to an application that can be used to open the file. It is also necessary to have the path or URL to the file in the attribute table for the vector layer. One additional rule that can be used for URLs that don't contain a file extension for the document you want to open is to specify the file extension before the URL. The format is --- file extension:URL. The URL is preceded by the file extension and a colon, and is particularly useful for accessing documents from Wikis and other web sites that use a database to manage the web pages (see Table `evis_examples`_)."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:222
+# 4fdd8b7a712f407e9433cf5e2bb2d696
+msgid "Using the Generic Event Browser"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:224
+# ab1fb598979b4754abc9bb551bc1b5e1
+msgid "When the Event Browser window opens a photograph will appear in the display window if the document referenced in the vector file attribute table is an image and if the file location information in the Options window is properly set. If a photograph is expected and it does not appear it will be necessary to adjust the parameters in the Options window."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:230
+# 988059e5749b4fb580201868cd962999
+msgid "If a supporting document (or an image that does not have a file extension recognized by eVis) is referenced in the attribute table the field containing the file path will be highlighted in green in the attribute information window if that file extension is defined in the file reference table located in the Configure External Applications window. To open the document double-click on the green-highlighted line in the attribute information window. If a supporting document is referenced in the attribute information window and the file path is not highlighted in green then it will be necessary to add an entry for the file's filename extension in the Configure External Applications window. If the file path is highlighted in green but does not open when double-clicked it will be necessary to adjust the parameters in the Options window so the file can be located by eVis."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:243
+# f982f8f2d2584c8083dc2b11a3c3f9e8
+msgid "If no compass bearing is provided in the Options window a red asterisk will be displayed on top of the vector feature that is associated with the photograph being displayed. If a compass bearing is provided then an arrow will appear pointing in the direction indicated by the value in the compass bearing display field in the Generic Event Browser window. The arrow will be centered over the point that is associated with the photograph or other document."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:250
+# 838aae1684d24cad9d0fef1989bbaad3
+msgid "To close the Generic Event Browser window click on the **[Close]** button from the Display window."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:256
+# 9cef789fe36d4af5b12c862cff69e8b0
+msgid "Event ID Tool"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:258
+# dadf80d760b64f859dd581e491f2c9d8
+msgid "The Event ID module allows you to display a photograph by clicking on a feature displayed in the QGIS map window. The vector feature must have attribute information associated with it to describe the location and name of the file containing the photograph and optionally the compass direction the camera was pointed when the image was acquired. This layer must be loaded into QGIS before running the Event ID tool."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:268
+# d124e747cf574bdb83ad74fc01a66ff8
+msgid "Launch the Event ID module"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:270
+# f59d4fae781f434ea3cb6bfe227e2433
+msgid "To launch the Event ID module either click on the |event_id| :sup:`Event ID` icon or click on :menuselection:`Plugins --> eVis --> Event ID Tool -->`. This will cause the cursor to change to an arrow with an \"i\" on top of it signifying that the ID tool is active."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:275
+# c407223fd3db4edab12701c7753caf84
+msgid "To view the photographs linked to vector features in the active vector layer displayed in the QGIS map window, move the Event ID cursor over the feature and then click the mouse. After clicking on the feature, the Generic Event Browser window is opened and the photographs on or near the clicked locality are available for display in the browser. If more than one photograph is available, you can cycle through the different features using the **[Previous]** and **[Next]** buttons. The other controls are described in the ref:`evis_browser` section of this guide."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:287
+# 752e40f3bf0647eeaeb663750c7f683b
+msgid "Database connection"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:289
+# bf41394259484d3f8197359d8503bf57
+msgid "The Database Connection module provides tools to connect to and query a database or other ODBC resource, such as a spreadsheet."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:292
+# 8e22cf67065842868e38f0935b7f4837
+msgid "eVis can directly connect to four types of databases: Microsoft Access, PostgreSQL, MySQL, SQLite, and can also read from ODBC connections. When reading from an ODBC database (such as an Excel spreadsheet) it is necessary to configure your ODBC driver for the operating system you are using."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:300
+# 32bca130facb403aaef1a88741e37196
+msgid "Launch the Database Connection module"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:302
+# adc25714e2dc48debdb2c45880cd2049
+msgid "To launch the Database Connection module either click on the appropriate icon |evis_connect| :sup:`eVis Database Connection` or click on :menuselection:`Plugins --> eVis --> Database Connection -->`. This will launch the Database Connection window. The window has three tabs: :guilabel:`Predefined Queries`, :guilabel:`Database Connection`, and :guilabel:`SQL Query`. The Output Console window at the bottom of the window displays the status of actions initiated by the different sections of this module."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:313
+# 1bb4041a0b00488a80c30224d1ee4220
+msgid "Connect to a database"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:315
+# 74c08271184849f7b0c37d5d6a7a177d
+msgid "Click on the :guilabel:`Database Connection` tab to open the database connection interface. Next, click on the :menuselection:`Database Type -->` dropdown menu to select the type of database that you want to connect to. If a password or username is required, that information can be entered in the Username and Password textboxes."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:321
+# 265d2dfd74ca4bae86a5c72c0a61f7a4
+msgid "Enter the database host in the Database Host textbox. This option is not available if you selected \"MS Access\" as the database type. If the database resides on your desktop you should enter \"localhost\"."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:325
+# 1faf394134f646b4b77e777015678bb8
+msgid "Enter the name of the database in the Database Name textbox. If you selected \"ODBC\" as the database type, you need to enter the data source name."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:328
+# f3ab9db8e8774b2eb9906609c6a3d68c
+msgid "When all of the parameters are filled in, click on the **[Connect]** button. If the connection is successful, a message will be written in the Output Console window stating that the connection was established. If a connection was not established you will need to check that the correct parameters were entered above."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:347
+# 4235a8b793b44790bd8a56f9a1ee3335
+msgid "**Database Type**: A dropdown list to specify the type of database that will be used."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:349
+# 0c59af7bf6044a93b1ba6cd8ecec8b38
+msgid "**Database Host**: The name of the database host."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:350
+# cb4c70732c7d46238f1fcc31225535dd
+msgid "**Port** The port number if a MYSQL or PostgreSQL database type is selected."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:351
+# f3a3308b2fa044de9b6e239673ecffe1
+msgid "**Database Name** The name of the database."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:352
+# 37e2c68212614cf5b42e323514834c96
+msgid "**Connect** A button to connect to the database using the parameters defined above."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:354
+# 157ebe26b038455d8c6f8ca15706b898
+msgid "**Output Console** The console window where messages related to processing are displayed."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:356
+# dc4aa1dda5b245faacd34fef20385bec
+msgid "**Username**: Username for use when a database is password protected."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:357
+# f63cc4a0c26f4c179e75f2fbe4fd6a78
+msgid "**Password**: Password for use when a database is password protected."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:358
+# 07c90c15b2f74f6ab36b1385c4607156
+msgid "**Predefined Queries**: Tab to open the \"Predefined Queries\" window."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:359
+# 92c84a37202d46d096adedaec7a33e41
+msgid "**Database Connection**: Tab to open the \"Database Connection\" window."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:360
+# 24d01379c32346ccb7ee13435a33e228
+msgid "**SQL Query**: Tab to open the \"SQL Query\" window."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:361
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:401
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:475
+# 9a1b61a9dba54443b787908a63b097cb
+# a5c37869e13c459489b74be3a8dd54d3
+# b1595d8ad06447019b7f83c9f094670f
+msgid "**Help**: Displays the on line help."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:362
+# 9e62efa9027d499aaf4714ef161f72bd
+msgid "**OK**: Close the main \"Database Connection\" window."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:368
+# f430669bd8524cb79831befe1fc416e2
+msgid "Running SQL queries"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:370
+# 842937f1db284a18854fcb6f7bfa0d7c
+msgid "SQL queries are used to extract information from a database or ODBC resource. In eVis the output from these queries is a vector layer added to the QGIS map window. Click on the :guilabel:`SQL Query` tab to display the SQL query interface. SQL commands can be entered in this text window. A helpful tutorial on SQL commands is available at http://www.w3schools.com/sql. For example, to extract all of the data from a worksheet in an Excel file, ``select * from [sheet1$]`` where ``sheet1`` is the name of the worksheet."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:378
+# a84d673a9a9a42768377a6778c320d52
+msgid "Click on the **[Run Query]** button to execute the command. If the query is successful a Database File Selection window will be displayed. If the query is not successful an error message will appear in the Output Console window."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:382
+# 32d6742df3ae418985da01625f5f79e1
+msgid "In the Database File Selection window, enter the name of the layer that will be created from the results of the query in the Name of New Layer textbox."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:397
+# 71b36aeed7c345cfa6b3457e4108e457
+msgid "**SQL Query Text Window**: A screen to type SQL queries."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:398
+# ecfc7636b69241ec9e473d61de2091f4
+msgid "**Run Query**: Button to execute the query entered in the SQL Query Window."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:399
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:473
+# 679ee355556d47bf9cea96a24034e356
+# 1802b593d4b94cafa9502f0957d4f79c
+msgid "**Console Window**: The console window where messages related to processing are displayed."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:402
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:476
+# aded4afd2a3c4e6188e15ca24ed4e960
+# c0a318fa9c2141748e03831693127c4f
+msgid "**OK**: Closes the main \"Database Connection\" window."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:405
+# 5b617826cd0a45899c8bff50e7dab1a1
+msgid "Use the :menuselection:`X Coordinate -->` and :menuselection:`Y Coordinate -->` dropdown menus to select the field from the database that store the \"X\" (or longitude) and \"Y\" (or latitude) coordinates. Clicking on the **[OK]** button causes the vector layer created from the SQL query to be displayed in the QGIS map window."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:411
+# 269b49d5a71a4d6595169778e6d3e76d
+msgid "To save this vector file for future use, you can use the QGIS \"Save as...\" command that is accessed by right clicking on the layer name in the QGIS map legend and then selecting \"Save as shapefile.\""
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:415
+# 32c20c6efc1346fdb0ac4b9375aab2d8
+msgid "**Creating a vector layer from a Microsoft Excel Worksheet**"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:417
+# 6037af72f37c49bca99ca98f266cb600
+msgid "When creating a vector layer from a Microsoft Excel Worksheet you might see that unwanted zeros (\"0\") have been inserted in the attribute table rows beneath valid data.This can be caused by deleting the values for these cells in Excel using the :kbd:`backspace` key. To correct this problem you need to open the Excel file (you'll need to close QGIS if there if you are connected to the file to allow you to edit the file) and then use :menuselection:`Edit --> Delete` to remove the blank rows from the file. To avoid this problem you can simply delete several rows in the Excel Worksheet using :menuselection:`Edit --> Delete` before saving the file."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:431
+# b4e2c2bb6f774552b28278ec62aaae59
+msgid "Running predefined queries"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:433
+# 0e0dd95cb3f84cb982b4f3ded9183e9f
+msgid "With predefined queries you can select previously written queries stored in XML format in a file. This is particularly helpful if you are not familiar with SQL commands. Click on the :guilabel:`Predefined Queries` tab to display the predefined query interface."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:438
+# 392af3c4abfa4a14ae1b5bbc9d59bdb7
+msgid "To load a set of predefined queries click on the |evis_file| :sup:`Open File` icon. This opens the Open File window which is used to locate the file containing the SQL queries. When the queries are loaded their titles, as defined in the XML file, will appear in the dropdown menu located just below the |evis_file| :sup:`Open File` icon, the full description of the query is displayed in the text window under the dropdown menu."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:445
+# bc7315df3f584ffcb7452ddd3cc26606
+msgid "Select the query you want to run from the dropdown menu and then click on the :guilabel:`SQL Query` tab to see that the query has been loaded into the query window. If it is the first time you are running a predefined query or are switching databases, you need to be sure to connect to the database."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:450
+# 1660e5ac503e46d3872e11efbcf3793a
+msgid "Click on the **[Run Query]** button in the :guilabel:`SQL Query` tab to execute the command. If the query is successful a Database File Selection window will be displayed. If the query is not successful an error message will appear in the Output Console window."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:467
+# 95d3c4a0796a46ce8e6d2d260af41d18
+msgid "**Open Query File**: Launches the \"Open File\" file browser to search for the XML file holding the predefined queries."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:469
+# 7f519c1f37c74603b9043ee8d8b2bf77
+msgid "**Predefined Queries**: A dropdown list with all of the queries defined by the predefined queries XML file."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:471
+# 7e1e1f64460c4b1b9a290293bed78102
+msgid "**Query description**: A short description of the query. This description is from the predefined queries XML file."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:483
+# 13b7d85b10644322a5b303c9b11cbf0e
+msgid "XML format for eVis predefined queries"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:485
+# d9fa73ab1c694c8f97c99ef6df21e734
+msgid "The XML tags read by eVis"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:488
+# aa062c12281f45d8964f03ec16b83428
+msgid "Tag"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:488
+# 5ee473ae7bb2426fab0ce9040cd2f36e
+msgid "Description"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:490
+# 30fa0fcf19f94c4ba633e5b7260e02bd
+msgid "query"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:490
+# f1e011ec5bd8445fa54bf571fb061e43
+msgid "Defines the beginning and end of a query statement."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:492
+# f340457b96d741ad88f1afef661ab6ce
+msgid "shortdescription"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:492
+# c1192dda836440af947ad0e100c14133
+msgid "A short description of the query that appears in the eVis dropdown menu."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:494
+# 3de3f993121b42e5878362f393992a65
+msgid "description"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:494
+# ac2281062c5a477ca0c48bfee971a154
+msgid "A more detailed description of the query displayed in the Predefined Query text window."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:496
+# f88c3c2766864486a74f658128dc74fe
+msgid "databasetype"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:496
+# 59af157f3e794cf49fbd753ecb65419b
+msgid "The database type as defined in the Database Type dropdown menu in the Database Connection tab."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:498
+# 2bacd24ca0cc4ac4ae26b6ab79f79826
+msgid "databaseport"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:498
+# 89a592bc5ddf45c29d6ae5480c4b6ca0
+msgid "The port as defined in the Port textbox in the Database Connection tab."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:500
+# 647c828c1491462980aa938f8fefaa7c
+msgid "databasename"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:500
+# 88d4d60cae1c488095bb78d7ab592ee5
+msgid "The database name as defined in the Database Name textbox in the Database Connection tab."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:502
+# a09c56f71c4348ed93561dda7e95c0fb
+msgid "databaseusername"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:502
+# d42568f6cda5445aa5ff5587f1439725
+msgid "The database username as defined in the Username textbox in the Database Connection tab."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:504
+# ab6efa615b2545818a011fb90a658eae
+msgid "databasepassword"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:504
+# 46aba9f2eff74acbbf5a074b1db8100c
+msgid "The database password as defined in the Password textbox in the Database Connection tab."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:506
+# 884c047a31b24f9197aac3ac05c6fbaa
+msgid "sqlstatement"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:506
+# 14fe748cc019431dbf36c20595a454ba
+msgid "The SQL command."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:508
+# 9ca3e076d0c64640bf1e1511e751bfc1
+msgid "autoconnect"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:508
+# fc5c45079b9346a99b5dc46bf424a8fc
+msgid "A flag (\"true\"\" or \"false\") to specify if the above tags should be used to automatically connect to database without running the database connection routine in the Database Connection tab."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:513
+# c731e935f86b4a8fbf6e09ff02fc780f
+msgid "A complete sample XML file with three queries is displayed below:"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_evis.rst:568
+# 7bffe2f9f8c940e898fc2f3ad020f88f
+msgid "This section is derived from Horning, N., K. Koy, P. Ersts. 2009. eVis (v1.1.0) User's Guide. American Museum of Natural History, Center for Biodiversity and Conservation. Available from `<http://biodiversityinformatics.amnh.org/>`_ , and released under the GNU FDL."
+msgstr ""
+

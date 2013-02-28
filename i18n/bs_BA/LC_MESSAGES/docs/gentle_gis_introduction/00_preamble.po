@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:12
+# 26e802883c284e89ba8dca98e06fc769
+msgid "Preamble"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:14
+# 236931e9c45a4e5a90d44d19b1cf3398
+msgid "A Gentle Introduction to GIS"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:16
+# e8488a955b834b5b919bba2747e1882c
+msgid "Brought to you with Quantum GIS, a Free and Open Source Software GIS Application for everyone."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:21
+# 5017457c89784b399b8899815a3f3ba8
+msgid "Sutton, O. Dassau, M. Sutton"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:23
+# 1492805a24b34d7f81a387ee05db5913
+msgid "sponsored by:"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:25
+# c6d9d415149b47eda7d91fcb6919619f
+msgid "Chief Directorate: Spatial Planning & Information, Department of Land Affairs, Eastern Cape, South Africa."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:30
+# b483b6b73de446148d2f112b63fe8673
+msgid "in partnership with:"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:32
+# d0a32ed68c644739bb7c6db7561a12d4
+msgid "Spatial Information Management Unit, Office of the Premier, Eastern Cape, South Africa."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:37
+# e85719384ba84e68bbd03da3809b6abd
+msgid "Copyright (c) 2009 Chief Directorate: Spatial Planning"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:39
+# ffa01453703543d5a480a922fa5f56eb
+msgid "& Information, Department of Land"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:41
+# 7948c5256ddb47dda697624ec48eb3e9
+msgid "Affairs, Eastern Cape."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:43
+# 63bbba2e4f4e4f39b927ff1382f2c942
+msgid "Permission is granted to copy, distribute and/or modify this document"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:45
+# f1bc0d057fe24e29a014e3d52e35b583
+msgid "under the terms of the GNU Free Documentation License, Version 1.2"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:47
+# 2f657be64aac4dea9447a8bf91418b2d
+msgid "or any later version published by the Free Software Foundation;"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:49
+# 1f86e212c470442aa83ddf4389b9352d
+msgid "with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:51
+# 859dea3a8b6b4e27a019ba2cbfbfd1cb
+msgid "A copy of the license is included in the section entitled \"GNU"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:53
+# aafbab08e2474f75bc1b57dd4f1f592c
+msgid "Free Documentation License\"."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:55
+# b9759c7f923a434093e121e9ccee9418
+msgid "The above copyright notice excludes the QGIS User Manual which may be"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:57
+# b19d9ebc761248938eb74ca5350c7786
+msgid "appended to this document. Consult the QGIS Manuals for further"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:60
+# 23e6a9fc2d3646128b5fc6c1aad9ad46
+msgid "copyright and licensing information."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:62
+# 16faec54e5064445b7f969fd4c5222e1
+msgid "A word from the editor:"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:64
+# b548872f63104853aadf332db2541ea4
+msgid "This project was sponsored by the Chief Directorate: Spatial Planning & Information, Department of Land Affairs (DLA), Eastern Cape, in conjunction with the Spatial Information Management Unit, Office of the Premier, Eastern Cape, South Africa."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:66
+# 539284c369a849b688eb0b53e03d48d8
+msgid "GIS is becoming an increasingly important tool in environmental management, retail, military, police, tourism and many other spheres of our daily lives. If you use a computer or a cell phone, you have probably already used a GIS in some form without even realising it. Maybe it was a map on a web site, Google Earth, an information booth or your cell phone telling you where you are. Proprietary GIS software (software that cannot be freely shared or modified) is available that will let you do everything we describe in these worksheets and a lot more. However this software is usually very expensive or otherwise limits your freedom to copy, share and modify the software. GIS vendors sometimes make an exception for educational activities, providing cheaper or free copies of their software. They do this knowing that if teachers and learners get to know their software, they will be reluctant to learn other packages. When learners leave school they will go into the workplace and buy the commercial software, never knowing that there are free alternatives that they could be using."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:76
+# 1815e1b519d445419b22a7c253423e3e
+msgid "With Quantum GIS, we offer an alternative - software that is free of cost and free in a social sense. You can make as many copies as you like. When learners leave school one day they can use this software to build their skills, solve problems at work and make the world a better place."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:81
+# a999b2471b92460b842bfd71a9e7d80b
+msgid "When you buy commercial software, you limit your options for the future. By learning, using and sharing Free and Open Source Software, you are building your own skills, freeing money to be spent on important things like food and shelter and boosting our own economy."
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:85
+# 64433fc6863a4006bd9875307bb9270e
+msgid "By sponsoring the creation of this resource, the DLA has created a foundation to which young minds can be exposed. Exciting possibilities lie ahead when principles of free sharing of knowledge and data are embraced. For this we give our heartfelt thanks to the DLA!"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:89
+# e598958506f646c98ce96385d583da38
+msgid "We hope you enjoy using and learning QGIS in the spirit of Ubuntu!"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/00_preamble.rst:93
+# 4d8bc35abca942659d8bd8d46ea30024
+msgid "Tim Sutton, April 2009"
+msgstr ""
+

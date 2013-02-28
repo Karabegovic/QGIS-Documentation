@@ -1,0 +1,2415 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:11
+# 41a24f5c0df14c0a830440eeffe2c138
+msgid "QGIS GUI"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:16
+# 7f14c16ed4914804a3c3a826fd48e779
+msgid "When QGIS starts, you are presented with the GUI as shown below (the numbers 1 through 5 in yellow ovals refer to the six major areas of the interface as discussed below):"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:33
+# 5bbbeb8e5c3c49faaa99cc1e48b60fec
+msgid "Your window decorations (title bar, etc.) may appear different depending on your operating system and window manager."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:36
+# 88735c87bfcd4a569b6b3f21974a886e
+msgid "The QGIS GUI is divided into five areas:"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:38
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:51
+# 7dd3c89663eb4c89b390ef3ea7e307a7
+# d68dacbd00584370a56474b2a80956aa
+msgid "Menu Bar"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:39
+# beeee8b21fcb44c2896321f6291b8782
+msgid "Tool Bar"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:40
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:371
+# 365b11ecb65b4a9395be62eda05e5b5c
+# 4eb8bfa558994eb1b3d74d4e809f7438
+msgid "Map Legend"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:41
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:513
+# 0e929021de6644c6bf7dd9d28bd8d32f
+# 01a2cb8d4f18472bb4f08d6eb3421a22
+msgid "Map View"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:42
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:557
+# e1b2e50a2d3b4857b7c894efbe74cae9
+# 3dd658389f2845068d2b720d915045fc
+msgid "Status Bar"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:44
+# 8e647744499a45d9b849c18bc3eb5139
+msgid "These five components of the QGIS interface are described in more detail in the following sections. Two more sections present keyboard shortcuts and context help."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:56
+# 6a43312831704c8dbbb39ab614fa6d9f
+msgid "The menu bar provides access to various QGIS features using a standard hierarchical menu. The top-level menus and a summary of some of the menu options are listed below, together with the icons of the corresponding tools as they appear on the toolbar, as well as keyboard shortcuts. Keyboard shortcuts can also be configured manually (shortcuts presented in this section are the defaults), using the [**Configure Shortcuts**] tool under :menuselection:`Settings`."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:64
+# 668b73b02f2947389503f7e510b24414
+msgid "Although most menu options have a corresponding tool and vice-versa, the menus are not organized quite like the toolbars. The toolbar containing the tool is listed after each menu option as a checkbox entry. Some menu options only appear, if the corresponding plugin is loaded. For more information about tools and toolbars, see Section :ref:`label_toolbars`."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:71
+# dcbe24751e294c44a3f4c6a1376d7e02
+msgid "File"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:74
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:92
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:128
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:139
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:166
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:205
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:223
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:236
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:254
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:274
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:286
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:296
+# 5b8fa539dcef4c7b973842f237fbaa7c
+# f28094749ec042f99b2eb09dfe661127
+# 57ebc91bd2d24e848238ee6e4b3eec4c
+# 15176e596259416ba3425698dc75dc96
+# 22606d75694b4c3da23bb0e2d98393b2
+# aaebfaec19244b6290ab9a97b676bf3d
+# 3a800e0a638b4349b6329328535ae7ef
+# e7a91b09b96d40b88781ac8c6e4db452
+# a3d46925037f4636ac040a9e7ae61f0d
+# 5e1d50145e86489ab5e2351eeca8172c
+# 7698ff54d8ee4dc18060e7bb0fee9df1
+# 225e071adef441a1acf437f5be472398
+msgid "Menu Option"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:74
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:92
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:128
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:139
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:166
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:205
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:223
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:236
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:254
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:274
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:286
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:296
+# fc4a6201f3b74a61a2e4b6fc716c015d
+# 8c22c0ac0e7b40ba989ed4c2286551f4
+# 4add8a380e434082a6e3c2f46047f644
+# 0ae8b316bbcc41a690807011f8958d39
+# 32d424ac1d624b55a77fa85701e036f9
+# 751d082a4afd4942bb932f4ef50d3bb7
+# 767a55de0e4a4208a7afa0750c39f071
+# bc17326601884e8eacb38f6e07b7f328
+# a7978534370b41429a51706b22f65a96
+# 82cf8936840842b8bcb5e403a9f6dcad
+# e1f1272bc7734447865828e0862e26e4
+# 38f35d1a2d4d4201a8e310cef839fe5a
+msgid "Shortcut"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:74
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:92
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:128
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:139
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:166
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:205
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:223
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:236
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:254
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:274
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:286
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:296
+# 4c3eea9082014642b79603838aa8ee4b
+# 28edca6e111b4ba495fe953fa65d2213
+# dd7cd1161beb415bbc8919d7b710cfa6
+# 0177992307c44761b1f2369c14b0f806
+# 6c1d215524a14ec8b1a34d2a6f5ba51f
+# 812ab182dcf44048a7d258e26b26178e
+# 02feb625a64d4df9a27324189b99688d
+# 1098a3ec97ab45da92968ac8fc54d149
+# b189ac9bf8c149a7ba8106adffd8016a
+# 850ac00ea0544f32b466c5662832f1dd
+# c907998f85124d4cb2ed1ba813c26817
+# a812c8fa9417412289ed7fbc991b49f9
+msgid "Reference"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:74
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:92
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:128
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:139
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:166
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:205
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:223
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:236
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:254
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:274
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:286
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:296
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:341
+# 731d6772c6e34de2a76cb2989b638cac
+# 9409315a27284677b33dc21121cccc1b
+# d771d88a80d140e9b7f9bb03a8a8dac5
+# 5da694ae7e9e43c9b84952cacbf2b1ae
+# 0169eda71d2a459f90f4ef16abe87889
+# a2626fd33b094f79853de718ce90ae75
+# 5ff754993cb84ab7a0aac59691fd9ef4
+# fe143518bfc34c8989e9ee21fd891beb
+# ad5030f4e117441c94274ae1b3f5085b
+# 8686df0112c941c7badfa733c0be3f75
+# 4237ab3948d246a58f7c0bab996149b6
+# e238be52764a4ecbafaa46b22e5e7790
+# 1f67748785ca4faabb489e9e719c1456
+msgid "Toolbar"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:76
+# 62b45848a44b4df98473e71cfd4a7515
+msgid "|mActionFileNew| :guilabel:`New Project`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:76
+# 362daa3784d84ec58b3e4558b6c83e13
+msgid ":kbd:`Ctrl+N`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:76
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:77
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:78
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:79
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:80
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:210
+# d60c80d74ca04206b66b9756d35d5d7f
+# bbf928415cd2443ea93df87e01a2032b
+# aa479c5ae0f845b0902c0a7dfd2ea804
+# b30963acd71148ae9842ae02984e223a
+# fa4c9452289044638206a3b378da162c
+# 9d6a1dfbc80640fabe3f27299bc7c948
+msgid "see :ref:`sec_projects`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:76
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:77
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:79
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:80
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:82
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:83
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:314
+# 1f2f15ae00e543d191ba3decb223a087
+# 7eca749221804b7d87b63bc54e210256
+# 9460200aa6c64a12b91f598caa4136c2
+# 89b3dda22f7647038e1253bb678d33a9
+# 7776340e23644a5db7f25bddbb3a58f2
+# c7f8b8e8d86c49a2b0d2da5d56fb3930
+# cf1188f2fbbf4ea0bba6ac8559cc6c06
+msgid ":guilabel:`File`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:77
+# f35027a0dbf84afc9b5f6ccba5bf7f4a
+msgid "|mActionFileOpen| :guilabel:`Open Project`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:77
+# 87d16054bba9463a91bb94fc58a0420f
+msgid ":kbd:`Ctrl+O`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:78
+# f5690dc796f946fa83ddab49b453a16e
+msgid ":menuselection:`Open Recent Projects -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:78
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:78
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:81
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:81
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:83
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:84
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:84
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:85
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:85
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:100
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:101
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:102
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:103
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:104
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:105
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:106
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:107
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:108
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:109
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:110
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:111
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:112
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:113
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:116
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:118
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:130
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:131
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:132
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:141
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:141
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:142
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:142
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:143
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:144
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:145
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:146
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:147
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:148
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:149
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:149
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:150
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:151
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:151
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:152
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:152
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:153
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:153
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:154
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:154
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:155
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:155
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:159
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:168
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:169
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:169
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:176
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:177
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:178
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:179
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:180
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:180
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:181
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:181
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:182
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:182
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:183
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:183
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:184
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:184
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:185
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:185
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:186
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:186
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:186
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:187
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:187
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:188
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:188
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:189
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:189
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:190
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:190
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:190
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:191
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:191
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:191
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:192
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:192
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:192
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:193
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:193
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:193
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:194
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:195
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:195
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:195
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:196
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:196
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:196
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:197
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:198
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:207
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:207
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:208
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:208
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:209
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:209
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:210
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:211
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:211
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:212
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:212
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:213
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:213
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:213
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:214
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:214
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:215
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:215
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:216
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:216
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:216
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:225
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:225
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:226
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:226
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:227
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:227
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:227
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:228
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:238
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:238
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:239
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:239
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:240
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:240
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:241
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:242
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:242
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:243
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:243
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:244
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:245
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:245
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:246
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:246
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:247
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:256
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:256
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:257
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:258
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:259
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:260
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:260
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:261
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:262
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:262
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:263
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:263
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:264
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:264
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:265
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:265
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:266
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:266
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:267
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:267
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:276
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:277
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:278
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:279
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:288
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:289
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:298
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:299
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:300
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:300
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:300
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:301
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:301
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:302
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:302
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:302
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:303
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:303
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:303
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:304
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:304
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:304
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:307
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:427
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:456
+# b73883e0c0b54988a566357bd27c1356
+# 57f2d34a3f99487597713d016cff580e
+# 83665b0d8a5f45f3ad1737ed0f4777ab
+# 1307cf900952462a97948f81d329a8fc
+# a131734026c44b9cb151efb4971ec575
+# cef92ff3988b40e981d99547456ee230
+# 43236e7f8c254eb1ab9d4b348dbbd124
+# befb678b284b4c68a49d85b98aea32de
+# 571eddc6a9c74eb3aa9df0b6d791bb5b
+# 41ce17b7dd64488294a466465d45c027
+# b5c2e933f77c4362b89d27dfe02560fb
+# 4af3c619ec8c4edebf20162ca89ac5d9
+# 27fe7b362c4b43099a9e09b0206505be
+# 6a3754d0bce34ddba7e709c0b79dfa57
+# e982a1f863d14d099388377766d1377c
+# 4eeb701e2beb4603b2ce7f2e0f8df836
+# fef5085025df41c19a42e0344c267835
+# 5577624fc6fd495fa707ef1e2a4075f8
+# 9778a45a2404455e9a1142645f46e1ba
+# ba42f1ebbf34434896d5bc830a12f443
+# 78ba5778fe264611afc13f7774a31209
+# f2955c1647ed4661965e83bb6b83f143
+# 6b77908fafbb496d9693067cb3ee35cf
+# e5b33a706a3246e4bba8fca4e28aa052
+# 873272d5955849abb571b17d22362ba3
+# a02ae77d14ae4223bb241ef52c51dc27
+# 3ac37d89b6094bb69091a93085cca818
+# 2422f2984e7a426193529577e795d62a
+# 59ab26db890e47698ee7f5b801f23d43
+# 9d7eee3dab624da08d62255f3d96e527
+# be2f24b07d2b4fdcace9c944b9f7e219
+# 178eb2a613544e598638c557bd3cf2e8
+# dd853529909943ffa361497f474c5671
+# 6d5d7c693df049a19ad4e418c8900608
+# c651f4245170423fb81836f4fcbe7e89
+# 85243e7218f84d69848ecc6ca8b42236
+# 5d4794038eb74616b3f518bdaa35d26f
+# 622c11b35dc5484695c1a9e4f80bf2c9
+# aec017d9dff545c789eb9bb9b8ba77ef
+# 9eb59126c56e4395af8e10e11e5ce975
+# 9c70cda526a04bb4aef0e59654ec2b7c
+# 730def16a26241968fe27e861207f001
+# 083ec81bf0354835b28b503e132dd19f
+# aa6ebee2a376492890c2fe66b40e62d1
+# b797a02f8ed14d6696c6b6c23f58bf68
+# 29b07bcea2734e1183dcb9537e64f7f3
+# a169ca2380984de6ae92d23b71ba340f
+# 5ba027d7f992457598608fda565a35db
+# f4ff95b5d51b4671ab9f2e11a7b0117c
+# 3e3f24cbb8224349926dfd93a0cd0978
+# a74023dfa9fe48f0895cc3d0b83cba59
+# 7d535190b1b24abea4d56b5934634cf1
+# 9f9fd093609440e99da2a4304db463b5
+# c0fa649b32314b1e92732d52454ce525
+# bbdd557f352a4b5c9d1b90980f3d5ff1
+# 09ad83c7958e414986acf616764387a3
+# 17219482d8d048239b3cdb6f9f285866
+# 56c69b8d1bf14faa9fe12f7b3f444a42
+# 9819da1a39ca451b88d09212fac8cc91
+# e2299b55df314bbb8e63a94607c53f5d
+# 9adda785b813469ba339ced5c582f1e1
+# d47640e358384831b3feed8279f64ee7
+# 47ce27c421ca4bc88558100d6edd74d4
+# e83b10665e114a5fba04f04b2c7aac75
+# b0ff2ff357a64e7d97f4da741a0acc76
+# c903330300a240bca6e75e9073edf95f
+# 7e5f81993615418f8fd2c6cc2361de6e
+# 0cd1c80fc97c421faa0ea9ffcb3f84de
+# cf7f2be74f204bad8a9e9d136c146540
+# 9f9cd4118f6e426bb293dcacc6b3c7ad
+# 34531d3b636c40b187ca4da38dfadebf
+# 80e367ee3fab4af8bd47821803704ca6
+# eae40e19b32c4ac7955db42e81e1d0b2
+# 2fbc75efba714034896f2b6928d22052
+# fe6b2f8bd4244b65b342d486ed15a558
+# f222cf7ea01c4141a5e98afc510e61ad
+# 7dd75020c9614a2db3c1ab0954a2465b
+# 6f82d68b26ef487891c0187d93f58a62
+# 7d88a7b5e7784563809cabd05a9eed52
+# bf1fc0e60b6949e385c06f41fef8f40e
+# d0f14b1479cc4712b40c0b64bf533714
+# f01fd27a05b64103ab0bc3981aae75c2
+# 93c9b55b4a9541abb87f12ccc4621da4
+# c91f70303aec4e169572d2e6dca67c35
+# a728b6635a1a45f9a43ac12398cf187a
+# 063eb38328534dbfa1cf44a3efb0da73
+# 892ec24e2b0945fe8b829514bb24e64c
+# a1930369af5048e4ab9d80c5de7a3d6c
+# 18ff87b5582c4e228e0d8aec446ce896
+# e7f838ff401b450499779b6d37c5683b
+# e4e65a6e154b472988d22ec8a84521c6
+# 42960b9cc8894b06b4a8463d1d17050d
+# 08f627870a644821851d882fba4161f1
+# a37a5de1bacc4e0c82614e7efb7f6fcd
+# 083f482871f64d19a45704042a9e65ec
+# 66ba857d5f0a42bb838c0f6487e5afb9
+# 80e202ddd3ee4694845caca535bc720c
+# d352be99d00c4209a69a337d657a38f7
+# 2a049b6a94804fbc9d48614511fd6128
+# f8b4a9689a7d49c1961af21675b32a3d
+# 032aab74385c421797371e4b6df54d88
+# 72053b833ec04a94bd34de9cb20c40d5
+# 38e393eea5224adcbb39d192503a5f1a
+# 00968d95c58541838db51384b0b845ce
+# c3706f1a2ce349ebb90bdf70c1c3fa29
+# 3a6a6573a501421ab4092e4339b50fca
+# 5cd2772f70e4435f923139abab773067
+# f66af21ad894440893c28d16f9a32789
+# 9a76e1fc44bb41ac9cb8db08ba93ea4c
+# 1f6a59b92fed40a08b019f63983b4ed4
+# 21c255901b8e455686b989988e0d780a
+# 2767f45dbf8a4e86af832738b2054174
+# 7f683fc185be48a59d14a98579bc7049
+# 4a2962bcc1e2456593d155285d28ca93
+# 31e840741ab0495797592ee63c3fa0a7
+# 21daa343084e41afab0fbc24cb90f1ca
+# f25a338f45224d01847869ec5eb54c95
+# 950ba6cecbb4494fa34de35351b87184
+# a98d28f5e294494884bf1282341329c4
+# caf6f39b28f54e06a3ac607ac93e7424
+# eaf12e37352c49a4ba1a82606ab19a58
+# 1a3be79e3e714096b84349649346c741
+# a5c43f7c6197452198974bbe7f0a13b5
+# 8a600504604149f8a4a52a50e64e14dd
+# cbe8e05209944675b3cdf0785e224cef
+# 9339d0da3b8b47ab9047c283ee9b0e17
+# eef7a617ba0b4643a293af0652165039
+# 5e9c5f5cc7c54229a16fd015b130dc55
+# 61999023d9144cc1a1cc51868130bf1e
+# de9ddd584d6547228ab6d86f1bbf2552
+# 18cee5b7b237421fbb3288f89210e405
+# 50d2b3b877044ca2bf40f592ebdac5ac
+# 9ed86c65d905472ba6b51e4f9fb51179
+# 8c885644a5fc4a87baaf130df51b0198
+# 8cfcd4a653ad4f6f808d3ad32e400946
+# 5f6c55354fdd4ddc9b22a85bce1cc06b
+# f1d82645b9924f1984b258e151c0ca51
+# f83cb965f76b4756b6a123e4464f5633
+# 3827de6a4b424833a5c7f7f54b0dd486
+# 50a54a0e70954dba95a55ae2fd171677
+# 7c0b4929db9c428189aaee1c90e53af8
+# 226550e74788460a99ed354dede40d7e
+# ca39d908301d4f93924d5b5dc04f54fe
+# 95be2ebcf1e44ecfbea0a50035e7531f
+# 7e469adf9d944d61b271512cad7e5490
+# a0fa146201cb44ef866d661f5bca7e1d
+# 2b55414f662945579c780482a5102fa6
+# 677d0324cba448a39e18f22b19ad6ed7
+# fadcc367978c470197df8e98c1f10154
+# a580b91cbfc54ea59e85f0c4e39da9a9
+# dfd148b0e1c3405cba8a10f1ebd4cfd0
+# 26c24fc619704dad898ab6c5280af7b2
+# ee0441a89a064c9e89b165c082eb89a6
+# 1022a87de69d48d4bce4da1d8e90e5e0
+# c6a5c93b9b4746d1a9e19eccbf116c1d
+# 381891ea6c994fbe91480f8457a37fa5
+# 31f6f5f580f349689bb984120a584eac
+# f34202de6e9945ea84b544c29b5e4ad3
+# 7f06861d58dc482a9a56a06bcfb2455d
+# 0db6cdb04849407c830dd639830fcf18
+# 8562f892ede94636ab3a9b4291ef36ca
+# 75e040260cc141078a4c83638ecbf003
+# fd4b3aae87974bf98ab3cfe8047368a0
+# b554a40838ea4484994b60d6a5a6babd
+# 9960a4fbdc014d30b17daac8812ec341
+# fbb7371214f243f68108659c7bfb813e
+# a59685f4c477419a9b15006478b6fda0
+# ed47780ad8f045448d94cd83b9b99e40
+# 4df7a70b36bc4409aa80168ee89401af
+# 9d6b5b391e23430685946dd27eb3cc31
+# 5867d0b662b04f97990a5556614080cd
+# ded1c7c1938d4a0d803850a278bb3e8a
+# e20c0fedf03b4fc0a0525ab5e45514ab
+# be06b73273574ba0bbd84355d4e03d19
+# 1046f101c518424f9ab008f02a8b3326
+# 94dcd5ca0dd5413293aaf951727cb65d
+# 14470071c85c4e2fbd2a00bc3ea8c1a7
+# 0ed52074884a4bc3a639f6d7ecf0fe46
+# 4ef2064c123d4735bd43a99c90a4987b
+# eac33a2e8f63416bb81923818cd3d965
+# 96313999ea40467cb850722e48563115
+# 80efb0b0bc9e459c8f6150ef74372744
+# d1c33b39b14f40cfb059fdbca0def02d
+# e8995204fcbc4427ad3be02d5284d4d6
+# eb617a44871a4e1e94dfa2ea4741247e
+# 37d64fe10e70489dbc0a8830a5108207
+# ef179f2695ac45b0928913c277173f0e
+# ae0ec6b731354b00a99dd70563e07465
+# c8b4c2bbf2e54fad8fd1050933230a6b
+# 09eda3a73756466ea647877ef2873c65
+# cb117fb82e7d4a1abd43f7eec7edaa21
+# e0f41dbf57d841fca90bf9ae30ba0fb8
+msgid "\\"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:79
+# 39a970e9727847308ce29b5bd40cb42e
+msgid "|mActionFileSave| :guilabel:`Save Project`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:79
+# d55166c33ae842c294b692c27dfb9c97
+msgid ":kbd:`Ctrl+S`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:80
+# f3a66b4362f34bc8b3e60c04112927fa
+msgid "|mActionFileSaveAs| :guilabel:`Save Project As`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:80
+# 38b039333ff2489fb64ee68b48689dd7
+msgid ":kbd:`Ctrl+Shift+S`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:81
+# c762e199cc934ea99653d1a86f144034
+msgid "|mActionSaveMapAsImage| :guilabel:`Save as Image`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:81
+# bcb0562edd214af2a0130b2bc4925670
+msgid "see :ref:`sec_output`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:82
+# fceb363d4b1d40cbbc75b4fba538a4f8
+msgid "|mActionNewComposer| :guilabel:`New Print Composer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:82
+# 835350ae44964773aa9964a76ebd8ff5
+msgid ":kbd:`Ctrl+P`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:82
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:83
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:84
+# 5fd0d2dc89e14362bb602d75c27f1162
+# 3b1ee719c3404d1dbae14e47a1bd85bb
+# 938225273d5a4364ad97ce4ae46edd6a
+msgid "see :ref:`label_printcomposer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:83
+# 9c82be34b00242d584f61e0abe975939
+msgid "|mActionComposerManager| :guilabel:`Composer manager`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:84
+# e8012e7904224b71bf3ae03183387571
+msgid ":menuselection:`Print Composers -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:85
+# 04d2f4cddefc4268b7f6d5e5c69fe4a6
+msgid "|mActionFileExit| :guilabel:`Exit`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:85
+# 8be75add754b4031a7aeb3ee04c0ece4
+msgid ":kbd:`Ctrl+Q`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:89
+# 93b08ee38fa347359a9e99b62b2c4a8f
+msgid "Edit"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:94
+# 2610141323954b818ff3193c931fe060
+msgid "|mActionUndo| :guilabel:`Undo`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:94
+# 335d0bdbb3274475841b14fcc35d9901
+msgid ":kbd:`Ctrl+Z`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:94
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:95
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:102
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:103
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:104
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:105
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:106
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:107
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:108
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:109
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:110
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:111
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:113
+# e3de9f2793b54396948eeb89ed22c0d3
+# e794ab5bb5154c64b498594af1af42da
+# 612dc6b23eda46b697cac27bc8468bb9
+# 5cfafd7b753b445e93b573a567440f43
+# 5373184ce6fc4190b204079b24a32d1b
+# 7d909b71f01d4a978ec4651b3dbf93c0
+# 3427fb91a4a14cd9af499a1441af203a
+# d8dc476e637a4fbcaea3191bb487e5ef
+# 2ff1591879914521b2ad05b9a74269e4
+# c1d7c7478c304606b9f86c7b4e7a59b3
+# 22f4bb65dd88423ca7637a3f472b6aff
+# 714bd27cbf294d72812965255c5bb99b
+# 231a5fd5df68436e85b9a37548e793f8
+msgid "see :ref:`sec_advanced_edit`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:94
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:95
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:102
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:103
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:104
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:105
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:106
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:107
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:108
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:109
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:110
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:111
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:113
+# 2595b37dc0de4f6c9eb38277d76637bf
+# 9698c73b22b04602ba4bcd0f25f97711
+# 21d099b3951c42f3922a9ef9709019b1
+# 9343a13c9d37432f8c3b835bd168d88d
+# d3c307a8e0f64cf1b66b27e54e2525aa
+# 2bab68dc6b04426b93f4272a2252f222
+# 43ace7cb470347c8b01a0ed539ca6628
+# c7f5c7cdf1194d31a72ed230306637a5
+# 08f2dcf98d8a4052a74b450f402eef5c
+# 99c05694501e4182a8645699fd2164b3
+# 6b3e4ba4f02046a9a993a621986b69dc
+# e27d4a74bac141208c93a26fc7bdcf56
+# 84ed4d7b0404426b924f17d1c58ac8ba
+msgid ":guilabel:`Advanced Digitizing`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:95
+# 3d0d650c2ad54470a0e2530e23c21a01
+msgid "|mActionRedo| :guilabel:`Redo`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:95
+# 5bb5f2e8383a4cbebc70d0d7d111c5f5
+msgid ":kbd:`Ctrl+Shift+Z`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:96
+# 65b762161dbf4e4d9530783b8c08f55f
+msgid "|mActionEditCut| :guilabel:`Cut Features`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:96
+# 83fe88637fc24304a96d0e435d1a8a88
+msgid ":kbd:`Ctrl+X`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:96
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:97
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:98
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:99
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:100
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:101
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:112
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:130
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:131
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:132
+# 9da57e6281d64e61a2caa70cf6e42569
+# ba823d8434e24129abd2a3b6346f547f
+# 62e9fb7ab3764986b068e4af3fa6c5d0
+# b08fca4f4f9544cfb8706ba13a245ca8
+# 795fafcb9c6c4c67aa9d00c5e1e0ee71
+# c7ad8da9f4ad4437b81b84d173b63db5
+# 226cf736f9004309ac1352cc1d829084
+# e0e9043f783d4d78b8b143055075366d
+# c91b7f71b7be4062bf86956198cc9ed1
+# f4e0fc3b618d4dc0a68e4ac026e8361a
+msgid "see :ref:`sec_edit_existing_layer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:96
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:97
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:98
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:99
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:100
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:101
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:112
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:130
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:131
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:132
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:184
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:185
+# 6d4d1b601b40473da4a617632a0d6af0
+# 0eda2cfae87e479289a297739f8c5152
+# 8d4bfbe6df6d463f8e989780f3372382
+# 1ee5136a10e0453b827c01fad5a5043f
+# 9200f87eb897414aa7ee1359068543d3
+# 23d610bdae544eb09ea56a0cc37fdf12
+# 70b8f59f1f094a719b1478001d5c0344
+# 9756657fab954a25ada6dedd50791629
+# ae8aff12efe549e894e710e0f18c3bb4
+# fc74356c02c440a8a4b9e7f41ad0128f
+# b7f63dcc78324bb080527cb6d8ee4df5
+# 7aef91332c7a4d4da9cdb7ecc5da069f
+msgid ":guilabel:`Digitizing`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:97
+# ad940592370749a9b92073ad66fe18ce
+msgid "|mActionEditCopy| :guilabel:`Copy Features`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:97
+# b17cbf13a9e64b5cb8437facd1888f33
+msgid ":kbd:`Ctrl+C`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:98
+# a815c9d4666f47458acfe7604f7ed1b3
+msgid "|mActionEditPaste| :guilabel:`Paste Features`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:98
+# cd8630fcb01d45d58f8036efe2a654f5
+msgid ":kbd:`Ctrl+V`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:99
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:130
+# fc7aa9697bf94817a437d4cc87f8b04b
+# 1d2e6320ddbc4cdb9551d2d09d14ed04
+msgid "|mActionCapturePoint| :guilabel:`Add Feature`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:99
+# 0ba22bc907724ff292147ffbb7bf6034
+msgid ":kbd:`Ctrl+.`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:100
+# c5ec66223c574a70bf1583e1ec10c19c
+msgid "|mActionMoveFeature| :guilabel:`Move Feature(s)`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:101
+# 64bebc7b2b834f15aa4f727861c15115
+msgid "|mActionDeleteSelected| :guilabel:`Delete Selected`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:102
+# c4679dd97b2443caa0301bcea47a7ab7
+msgid "|mActionSimplify| :guilabel:`Simplify Feature`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:103
+# 5d44811821404b9fa26b492444580cca
+msgid "|mActionAddRing| :guilabel:`Add Ring`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:104
+# 5726f07f0ca54f3fb290227b8e188b07
+msgid "|mActionAddIsland| :guilabel:`Add Part`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:105
+# 45d36d591e9a4f3c883d6bea0cfb4261
+msgid "|mActionDeleteRing| :guilabel:`Delete Ring`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:106
+# 01a15a650237467694727e4dba66591c
+msgid "|mActionDeletePart| :guilabel:`Delete Part`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:107
+# d4da2c1446a9415e91ba4abe223675d6
+msgid "|mActionReshape| :guilabel:`Reshape Features`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:108
+# 3854ee18e7984bde9c4016c7e3104096
+msgid "|mActionOffsetCurve| :guilabel:`Offset Curves`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:109
+# 5804139e55284366b1684f1fbeafd958
+msgid "|mActionSplitFeatures| :guilabel:`Split Features`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:110
+# edd2a12d7dcf432e928de6213f42a074
+msgid "|mergeFeats| :guilabel:`Merge selected Features`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:111
+# eeb8400f907e4ae082da7f47db5560f7
+msgid "|mergeFeats| :guilabel:`Merge attr. of selected Features`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:112
+# 3f0cbe83dfc6499e9a31b49f18be7d55
+msgid "|mActionNodeTool| :guilabel:`Node Tool`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:113
+# 0f2fc288bee44eb8a3cd9513c15b6d47
+msgid "|mActionRotatePointSymbols| :guilabel:`Rotate Point Symbols`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:120
+# 49df29be83554e41a21bd71333807e59
+msgid "After activating |mActionToggleEditing| :sup:`Toggle editing` mode for a layer, you will find the ``Add Feature`` icon in the :menuselection:`Edit` menu depending on the layer type (point, line or polygon)."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:125
+# 5390b9dd2a2144cdbd579d801b59a4e2
+msgid "Edit (extra)"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:131
+# 781df9144c844e85880dd0920426c463
+msgid "|mActionCaptureLine| :guilabel:`Add Feature`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:132
+# 0c10b31faa5a46099f628f7f486abf0d
+msgid "|mActionCapturePolygon| :guilabel:`Add Feature`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:136
+# 8bb70d3a5e87416aa95e2dc0776c8d0b
+msgid "View"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:141
+# 5374921f8f2c4bd589e7776db5db65c2
+msgid "|mActionPan| :guilabel:`Pan Map`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:141
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:142
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:143
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:144
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:148
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:149
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:150
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:151
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:152
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:153
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:158
+# 11ccd8b9a5ab4bfba23c9940fa7f5223
+# 52357e79f96a4c3daf448d61c87d3996
+# 21169b2126154bbe96ef0c6903fb4617
+# 26e2fa21bcd549269e76b2f610ac57cd
+# 839923d59c9f415db2999cb1b406230b
+# 2db5b14d0a86472bbadfdf6e3faaf562
+# e4e1b4549016494cbbcac6f8cd99faf8
+# 9dfbf95e1aa64f27a6c7202c88a01f32
+# aaa41c848ea34762b0a2c2bca5c13388
+# 31119f5550ad4223a4aae120460be3c9
+# d23e76cbfad0498194177d0a7b8f3077
+msgid ":guilabel:`Map Navigation`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:142
+# 7b3b8ed216284aad8866e28bbe274eb1
+msgid "|PanToSelected| :guilabel:`Pan Map to Selection`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:143
+# d8078c7427ff49f5b19a6178f8b608a7
+msgid "|mActionZoomIn| :guilabel:`Zoom In`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:143
+# def2b696f0e34b59aef5a72a26101535
+msgid ":kbd:`Ctrl++`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:144
+# 3ea7ace49aca447c8f62641ca98e1556
+msgid "|mActionZoomOut| :guilabel:`Zoom Out`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:144
+# 740f4f1c92f14fe7ae9ffb4666fa93df
+msgid ":kbd:`Ctrl+-`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:145
+# 1aff839bd20c4cf998d175ca65a6a18e
+msgid ":menuselection:`Select -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:145
+# 078dae0495c345af8cfdbccf2c0ed61f
+msgid "see :ref:`sec_selection`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:145
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:146
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:147
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:155
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:156
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:157
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:183
+# 73a104713789408db2a6f09e3b7e84b5
+# 4c58b8dd364041e2aa7613db669945d1
+# a25f39bbb5184a488c5885c9646f9a96
+# 49da8f17b97d471f9b3114868c46374b
+# 0101508178f64094942fd9f776c94a8c
+# 9475f2604b9046bfb9ace1c34e3118fd
+# 7c698a304b65488586516659128d7009
+msgid ":guilabel:`Attributes`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:146
+# 1fbe5b0e0959499faa64503e76633dbe
+msgid "|mActionIdentify| :guilabel:`Identify Features`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:146
+# 59cf8e5f76204320931f303d69141b2e
+msgid ":kbd:`Ctrl+Shift+I`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:147
+# 4c9ad5e0c6b1453aa90bb65e422ac520
+msgid ":menuselection:`Measure -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:147
+# dc5dafb2d4ca403b80a0ab7a7dbfb6bd
+msgid "see :ref:`sec_measure`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:148
+# dd9efc5cd59747ddaff1361702d9e0b5
+msgid "|mActionZoomFullExtent| :guilabel:`Zoom Full`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:148
+# 0463f1b15ac14a82b8076244d9636da6
+msgid ":kbd:`Ctrl+Shift+F`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:149
+# d29e41919fc849389cac30494619320a
+msgid "|mActionZoomToLayer| :guilabel:`Zoom To Layer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:150
+# cd69dd47c8e84bdc956f6367953a3fa7
+msgid "|mActionZoomToSelected| :guilabel:`Zoom To Selection`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:150
+# 8838f31c5d25453bbc55d87b1fb5aab8
+msgid ":kbd:`Ctrl+J`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:151
+# 839ef1faf01e47ab974b5648ec98dfa9
+msgid "|mActionZoomLast| :guilabel:`Zoom Last`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:152
+# 7e9c7d0974044bb4afe670279cd107d5
+msgid "|mActionZoomNext| :guilabel:`Zoom Next`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:153
+# 167760f896604225a500eb3c77a5f722
+msgid "|mActionZoomActual| :guilabel:`Zoom Actual Size`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:154
+# ba1ae9ab36444c7586badcd58349fc58
+msgid ":menuselection:`Decorations -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:154
+# 03c4b84fbd1d45ec98b8ba76a361090d
+msgid "see :ref:`decorations`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:155
+# b9ee1b50b9e4497ba6e8adf0277aa0f6
+msgid "|mActionMapTips| :guilabel:`Map Tips`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:156
+# 571ae98f7db74c9c83c313cfc945e8d4
+msgid "|mActionNewBookmark| :guilabel:`New Bookmark`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:156
+# 63cec8609caa488abdfc88ee601dd84d
+msgid ":kbd:`Ctrl+B`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:156
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:157
+# a580c13101c64d94af1af83577d4a649
+# 48f0ae3a2f884b92b4c7c4f3426dd047
+msgid "see :ref:`sec_bookmarks`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:157
+# 3193e2a180714741b1aa89ed3c433f28
+msgid "|mActionShowBookmarks| :guilabel:`Show Bookmarks`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:157
+# 1a148c415a134057b0e04140e2b5c26e
+msgid ":kbd:`Ctrl+Shift+B`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:158
+# f73248f6833c41da969b0308d23f0c92
+msgid "|mActionDraw| :guilabel:`Refresh`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:158
+# 32839fdf58b644e5ac815d9df4e0364a
+msgid ":kbd:`Ctrl+R`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:159
+# 8aca6c257a004f22be87162030cfd3e1
+msgid ":menuselection:`Tile scale slider`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:159
+# 3ccf5c81f8fd4b28800dfd8a00675b82
+msgid "see :ref:`tilesets`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:159
+# 50366cece8854999847ab29e89f02347
+msgid ":guilabel:`Tile scale`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:163
+# 4a198bd3f40241beb99e6e0b08649c99
+msgid "Layer"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:168
+# f375785e7841422690eec00f615a2f74
+msgid ":menuselection:`New -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:168
+# e155285f79d846bfa9d594654d03f01a
+msgid "see :ref:`sec_create_shape`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:168
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:170
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:171
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:172
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:173
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:174
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:175
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:176
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:177
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:178
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:179
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:180
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:194
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:197
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:198
+# 63b92a7783ee4fc4a563060c5d291a40
+# 566842e0c2bb4f16bf2ab006023bf217
+# be422265ac91491e954f841294bc7eff
+# 16b90d13cde74a788dfce12ebb4af40b
+# 929b9cf57c2c4faa8266edeec35d4d5d
+# f12198cf3d674e57ae01f8b36e8e43d6
+# 5580af1452344725a7477443e0b3cb2e
+# 279cd756551346c8acc908620d50d549
+# fa13c3c2625c495a8fbd0f960f8b1d6e
+# fe93be28904a4199ba72672ab13509cf
+# ca664244c4b64bb7ad661e04b9c3bdbe
+# 90cd559e22a54bb8ab35a0cfd5a5ebe0
+# dbd6197ad173438f959dbff74de4062c
+# 32ed42aebaf34895b213575ba5cbd8b3
+# 513618774aa34358abbd7ddf3a6bb0a4
+msgid ":guilabel:`Manage Layers`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:169
+# 450acc97bd9843cca92f90e3122ef276
+msgid ":guilabel:`Embed Layers and Groups ...`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:169
+# 46545cc0da3a409dbf86e55daf9dfe52
+msgid "see :ref:`nesting_projects`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:170
+# d8664df7dd77409bab37e4ab3fe3fb75
+msgid "|mActionAddNonDbLayer| :guilabel:`Add Vector Layer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:170
+# 8b2a9a43afdd4b5f8a00c2cbcb7b85c5
+msgid ":kbd:`Ctrl+Shift+V`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:170
+# faa2401707704250844721a24c254501
+msgid "see :ref:`label_workingvector`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:171
+# 14724052f22043829e45acf9183b80aa
+msgid "|mActionAddRasterLayer| :guilabel:`Add Raster Layer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:171
+# 156851203268457c965d670e3e220f0e
+msgid ":kbd:`Ctrl+Shift+R`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:171
+# aeb944c3b0dc48b9921615e575dbf143
+msgid "see :ref:`load_raster`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:172
+# 4b1f2f6cd8cc44258f7367c368f316b6
+msgid "|mActionAddLayer| :guilabel:`Add PostGIS Layer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:172
+# adec751699dc4719b5b79e5182482114
+msgid ":kbd:`Ctrl+Shift+D`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:172
+# 766da0dc86d643a38332777515fc0d0f
+msgid "see :ref:`label_postgis`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:173
+# 33a17873d3124765953887525e4b2f14
+msgid "|mActionAddSpatiaLiteLayer| :guilabel:`Add SpatiaLite Layer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:173
+# 82978c5563314f8ab44b05d21b948fdf
+msgid ":kbd:`Ctrl+Shift+L`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:173
+# 3bf79d6531654b0d9c5be764303f4dee
+msgid "see :ref:`label_spatialite`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:174
+# 81cf0f53f1164d58bd46da49f6a3ee82
+msgid "|mActionAddMssqlLayer| :guilabel:`Add MSSQL Spatial Layer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:174
+# 6a9e8c2a6c1d4f45a01d66b9364df122
+msgid ":kbd:`Ctrl+Shift+M`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:174
+# e0ba8702e37f49efab731ef0fe6119bb
+msgid "see :ref:`label_mssql`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:175
+# 481d3943104f43b786fd40b7f30ec4a3
+msgid "|mActionAddWmsLayer| :guilabel:`Add WMS Layer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:175
+# 2274e3c31bda4ac8a1023e41fc64dc30
+msgid ":kbd:`Ctrl+Shift+W`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:175
+# 7d4886cc247843f7b47bb58e6888e300
+msgid "see :ref:`ogc-wms`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:176
+# 239a5dbdf95743ef87791e9b133fd3b7
+msgid "|delimited_text| :guilabel:`Add Delimited Text Layer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:176
+# 8ce471e224cf42ba912a37dca89977fe
+msgid "see :ref:`label_dltext`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:177
+# 84422b59cec3419094e4a0d0c50e7cbf
+msgid "|gps_importer| :guilabel:`Create new GPX layer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:177
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:244
+# de8d8724d61242c1aa05e5698d6d1aaf
+# 2801638500304b97ab98d29dfac43f4c
+msgid "see :ref:`plugin_gps`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:178
+# 2ab4cbf47ad84240b1aa5eb4ab42d9c6
+msgid "|oracle_raster| :guilabel:`Add Oracle GeoRaster layer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:178
+# 7875ab0c3967444080fafd2598942c90
+msgid "see :ref:`oracle_raster`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:179
+# 0429d62ca5fd4f5fbfd1f91c0f784a52
+msgid "|icon_sqlanywhere| :guilabel:`Add SQL Anywhere Layer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:179
+# ef1ee8ab87dc42f3bc6ec206e269c585
+msgid "see :ref:`sqlanywhere`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:180
+# 0bcbb5e5a4994ea6b7c8628d5fcc255b
+msgid "|wfs| :guilabel:`Add WFS Layer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:181
+# d251e12a70254e8c9f3117aa29312510
+msgid "|mActionEditCopy| :guilabel:`Copy style`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:181
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:182
+# a944bb3be6604d27869ade561a817153
+# bfa620cfb3eb4d6cb522ce73bbcf24e5
+msgid "see :ref:`vector_style_tab`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:182
+# 8c5efa71ab9f4fb68e603e9f861e7c2c
+msgid "|mActionEditPaste| :guilabel:`Paste style`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:183
+# 467724258647488391ea42c38a4707ba
+msgid "|mActionOpenTable| :guilabel:`Open Attribute Table`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:184
+# fa2e8535b5d24a20af118c2bfd537337
+msgid "|mActionFileSave| :guilabel:`Save edits`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:185
+# 9d5bf7ea28e04dbc9218e1363822a47b
+msgid "|mActionToggleEditing| :guilabel:`Toggle editing`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:186
+# 69c6459cca5943439640a5595eb773d5
+msgid ":menuselection:`Save as...`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:187
+# d0878da95ef9452a9b38bc34022c2a49
+msgid ":menuselection:`Save selection as vector file...`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:187
+# abf1dbd10bad4bb181c8efcc9d1e25ce
+msgid "See :ref:`sec_attribute_table`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:188
+# 8bd9a9105dbd46fd8d0e6045b73f57c0
+msgid "|mActionRemoveLayer| :guilabel:`Remove Layer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:188
+# b64b24594e3c47d3b8b1b59bf2d95c12
+msgid ":kbd:`Ctrl+D`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:189
+# 84cf5c1859a44d40a18d8738f0d0a151
+msgid ":menuselection:`Set CRS of Layer(s)`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:189
+# 17a1be1d2f1641819a6611f06ee97aa7
+msgid ":kbd:`Ctrl+Shift+C`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:190
+# e0dcda639581413fb06a74be39cbabed
+msgid ":menuselection:`Set project CRS from Layer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:191
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:413
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:442
+# 0183fe028b2c49ec906c73d5ccb16401
+# f545f2f5e2fa48faa3e5a558c7588eec
+# ee4944db6723408da1567e4fbf2ccd88
+msgid ":menuselection:`Properties`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:192
+# 3584f54a8dcd4f198c275df05fa92317
+msgid ":menuselection:`Query...`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:193
+# d1f9a35a0ccc474fa5dd003a42047ba5
+msgid "|mActionLabeling| :guilabel:`Labeling`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:194
+# 441ef752c09f4a7eae12979284b77eee
+msgid "|mActionInOverview| :guilabel:`Add to Overview`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:194
+# 6f5fc1dada3d46a8b3abbdf9e33cdd02
+msgid ":kbd:`Ctrl+Shift+O`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:195
+# d627add23e2447ce86696d6f8c723bad
+msgid "|mActionAddAllToOverview| :guilabel:`Add All To Overview`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:196
+# 22a70b5ed0004f4382eec22e117c1d49
+msgid "|RemoveAllOverview| :guilabel:`Remove All From Overview`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:197
+# f88ff8bc289b4126af3ed203731245f9
+msgid "|mActionShowAllLayers| :guilabel:`Show All Layers`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:197
+# 6f92007d1bc74b2c9ca545fbc76f6fd7
+msgid ":kbd:`Ctrl+Shift+U`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:198
+# 802d403886e3457a93ddb5ceb6d43ff2
+msgid "|mActionHideAllLayers| :guilabel:`Hide All Layers`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:198
+# f8942b43ec854e49b008454f31d21891
+msgid ":kbd:`Ctrl+Shift+H`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:202
+# c907403f26cf4854809630780f48ad26
+msgid "Settings"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:207
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:324
+# 16b572a458d947d080cf0202acb75970
+# 0a8d5b5829b84f8fa732972048e87c1a
+msgid ":menuselection:`Panels -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:207
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:208
+# 92334d3a8cb743e5940921efe45272f0
+# 6b3366f0fb48448d9c06bd689df97217
+msgid "see :ref:`sec_panels_and_toolbars`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:208
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:326
+# cde64538feab478a9fb3bfd313df8aef
+# 008a8a2aab0046a48ac4a692a89a2e17
+msgid ":menuselection:`Toolbars -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:209
+# 6f6890ce4fff49fca3f55f19aacb6bc8
+msgid ":menuselection:`Toggle Full Screen Mode`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:209
+# 9a3d4018c0f14b90aa76cbcdc9ec4400
+msgid ":kbd:`Ctrl-F`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:210
+# d417b6fea9f242849d93686bf7a22b5b
+msgid "|mActionProjectProperties| :guilabel:`Project Properties ...`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:210
+# 35e61906900846fda5eb8b3819bd8f60
+msgid ":kbd:`Ctrl+Shift+P`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:211
+# 098c211acefe4afc8fffd0b41fa4eb3b
+msgid "|mActionCustomProjection| :guilabel:`Custom CRS ...`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:211
+# eb7bff78285046c3b13cee898db4cbbf
+msgid "see :ref:`sec_custom_projections`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:212
+# 5a18036dc4bf4677bfd5d9f749d85838
+msgid ":guilabel:`Style Manager...`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:212
+# 3999c096c17743a98354f0d436e382f0
+msgid "see :ref:`vector_style_manager`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:213
+# 149b9fe3e01a4169a09d3084394c5b11
+msgid "|mActionOptions| :guilabel:`Configure shortcuts ...`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:214
+# ed8ea51fb9514d8a97cc5e95e6d09b6a
+msgid "|mActionOptions| :guilabel:`Customization ...`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:214
+# dff5627758e743f3a030d64dc1b54fe3
+msgid "see :ref:`sec_customization`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:215
+# 5ab98db0018440d990eb7317529e09e9
+msgid "|mActionOptions| :guilabel:`Options ...`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:215
+# 2b4d12ec971e472b968efa8f660728ab
+msgid "see :ref:`gui_options`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:216
+# 42f58f886a6d48e795f3419e2931f294
+msgid ":menuselection:`Snapping Options ...`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:220
+# 970c9d7c9af34004ab5f1d3d3b1e1af1
+msgid "Plugins"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:225
+# 776074aefc1d4078a8817cec43be86ed
+msgid "|plugin_installer| :guilabel:`Fetch Python Plugins`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:225
+# 3d407040195e44788a1b4008b56aaac0
+msgid "see :ref:`plugins`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:226
+# b7267f2884ba4b209f220703b629c533
+msgid "|mActionShowPluginManager| :guilabel:`Manage Plugins`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:226
+# 29c8adf2849a4340a23608fe7c5d3301
+msgid "see :ref:`managing_plugins`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:227
+# 34e9d86b0cec45758263f67a41f60e01
+msgid ":menuselection:`Python Console`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:228
+# 1f88da8dcb0f45a5881d7e536dbcff0f
+msgid ":menuselection:`GRASS -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:228
+# d22d662b173b4e7a837e8434f03661d4
+msgid "see :ref:`sec_grass`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:228
+# 9f1236c4e90141c9ab2bf6b814a5435e
+msgid ":guilabel:`GRASS`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:232
+# 510943fc50a74ea1a0823ba6e6fa9da1
+msgid "Vector"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:238
+# eaf93470752d43d09e1e90cb86a0a289
+msgid ":menuselection:`Analysis Tools -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:238
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:240
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:242
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:243
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:245
+# 4e9c5f553ffd4797a6dd844687c57985
+# cd449c82116a49eb8543604f247a21f5
+# 2768786b551a49618d896e799fd9c0e7
+# 66b69c9a280949429d82c457c00302b6
+# 6b699bcf3cfd4086937f713d4384c139
+msgid "see :ref:`ftools`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:239
+# 5093b65a97204b659c317087a3240bb8
+msgid ":menuselection:`Coordinate Capture -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:239
+# 0a68187e65534c4a9f9392c5cbae041c
+msgid "see :ref:`coordcapt`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:240
+# a218545f377d4fa3bc5335a0e338cca6
+msgid ":menuselection:`Data Management Tools -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:241
+# 341dc2539bc4410394a7cb611d707430
+msgid ":menuselection:`Dxf2Shp -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:241
+# abb337cd8e8643cbb3126e8263aee6ee
+msgid "see :ref:`dxf2shape`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:241
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:244
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:247
+# 7b8060bd03b14576826005d2f7bc2b44
+# dae23df1a34947bbab678a05d69bcf28
+# 35299853f5d74554a482f47117a7e413
+msgid ":guilabel:`Vector`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:242
+# b9444ff1a0ca4c71bf7fe4680b6b0e62
+msgid ":menuselection:`Geometry Tools -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:243
+# b1a8f4d89e444141b02d66ca082bee12
+msgid ":menuselection:`Geoprocessing Tools -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:244
+# 7557997ce22a4f5889c49604fa10883e
+msgid ":menuselection:`GPS -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:245
+# 4a33013f209646b9a94555bc59eff64f
+msgid ":menuselection:`Research Tools -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:246
+# d2808c67fb9b47419cdf46b31e7dd5b5
+msgid ":menuselection:`Road Graph -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:246
+# 4189c0e9473545e89f4c1b6f0c3f2895
+msgid "see :ref:`roadgraph`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:247
+# 21b1b23a98d14491987bcdc7a51bf05d
+msgid ":menuselection:`Spatial Query -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:247
+# a57507eabc8449caa0a44ac24429283a
+msgid "see :ref:`spatial_query`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:251
+# b442fec11fd54935aed374a182ee203b
+msgid "Raster"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:256
+# 1a606d36877d4870acbb823f2288809f
+msgid ":menuselection:`Raster calculator`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:256
+# d73d535126de4ab88142366440dd4d9e
+msgid "see  :ref:`sec_raster_calc`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:257
+# 192ef832e1e04f00988131c5415005ba
+msgid ":menuselection:`Georeferencer -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:257
+# 36cf4cf7803f4befae2efcb5608c974e
+msgid "see :ref:`georef`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:257
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:258
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:259
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:261
+# 6890775811f9496fbc8405e6d9268179
+# 76ef20047eb14a2eb861c8ddab07fc73
+# 663ee4f688784206b1b38db6ddee124f
+# 0e0f553939454305bf43f4b950bacfd9
+msgid ":guilabel:`Raster`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:258
+# 70200d9e08bc4b6f81c8011a8fef4456
+msgid ":menuselection:`Heatmap -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:258
+# 324b221c18c5461f8a3c6268332a7ecd
+msgid "see :ref:`heatmap_plugin`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:259
+# 5e8b6d94a8a94225810231723a808440
+msgid ":menuselection:`Interpolation -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:259
+# edff00c52cbf4649aac91440a2e20430
+msgid "see :ref:`interpol`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:260
+# 3efb548afaee45c59e77e09aefab3f29
+msgid "|dem_analysis| :guilabel:`Terrain Analysis`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:260
+# db9e1c907d9045b99b848b16e44f49bb
+msgid "see :ref:`rasterrain`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:261
+# c8cb972cb41b4bd8a152f2fb7e9628e1
+msgid ":menuselection:`Zonal Statistics -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:261
+# 9e6c3b8120864c58a95aed4069109c69
+msgid "see :ref:`zonal_statistics`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:262
+# 3e9f1486eabc40ff9db2e2ed029ed6e9
+msgid ":menuselection:`Projections -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:262
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:263
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:264
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:265
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:266
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:267
+# e553231afa8f4bdabefedf230ebccc8e
+# 5648ed28a1ba4de5b16771b3f61e32ac
+# f3a64f5963f34e66b090c75d043446c3
+# 2706f796d65848a5b21e6b13a1cb13b2
+# e0e2cfa2f6d64df39eecec7ec7be4bd4
+# a3d3b72fe633430aa11bb348f163d0cf
+msgid "see :ref:`label_plugingdaltools`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:263
+# 25d8069e38f0464a8910d23a9ff535d8
+msgid ":menuselection:`Conversion -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:264
+# 6e8091e5ea354bd081fc8f83a9001587
+msgid ":menuselection:`Extraction -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:265
+# 4620b11ce9e444bcb8eab5b675df0915
+msgid ":menuselection:`Analysis -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:266
+# e1cbdb93dfdf416f8be5763d54263d65
+msgid ":menuselection:`Miscellaneous -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:267
+# 28473326d1f24d2393e6074448a999c0
+msgid ":guilabel:`GdalTools settings`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:271
+# 7fccb318565e4d7896af47d24f905235
+msgid "Database"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:276
+# 3ff62666077a449caaed4d8f732fb2bf
+msgid ":menuselection:`DB manager -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:276
+# a45e1aa794b44b848dc6a666330ce6b8
+msgid "see :ref:`dbmanager`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:276
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:277
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:278
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:279
+# f8b1f161baea4754a2a439bf73b7f99b
+# ad651d4325514d2ca28f1b18e56cf0d7
+# 6064225f8a634a538cb359102f3c7fca
+# 7232c69d796749e78f57cd892bbe79e0
+msgid ":guilabel:`Database`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:277
+# 93c193bd3593495ba49ee7d290aeaec5
+msgid ":menuselection:`eVis -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:277
+# 1eae21cc256f426f819acd586a2d562d
+msgid "see :ref:`evis`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:278
+# 6cdf454be1484b6185051b35e7cb954d
+msgid ":menuselection:`Offline Editing -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:278
+# 71d5be88f15145ff831bf4558772fe16
+msgid "see :ref:`offlinedit`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:279
+# 48a407f8c66943d189b3b01e86d5cdd2
+msgid ":menuselection:`Spit -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:279
+# a168549c51794b688ec1a71c5cabb2b9
+msgid "see :ref:`label_spit`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:283
+# 88127da437264d079679161995e49c75
+msgid "Web"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:288
+# 11feb16fc2e14e628dd9c5b20ebd1a14
+msgid ":menuselection:`MapServer Export ... -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:288
+# 9daa6c33c93a477fa05557401a90bf06
+msgid "see :ref:`mapserver_export`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:288
+# 9508945879ba44ff9e061b9cf860bd89
+msgid ":guilabel:`Web`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:289
+# 720656a4df204fc8a0f2967ce35565f6
+msgid ":menuselection:`OpenStreetMap -->`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:289
+# b815539531914e77ab7e9c08b626e557
+msgid "see :ref:`plugins_osm`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:289
+# 90e092d93bc14e3c8a9d278fdb6a49e0
+msgid ":guilabel:`OpenStreetMap`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:293
+# a2ffc03741f943b4ae21c5b408900969
+msgid "Help"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:298
+# ccd9a075b5764e26b7547bfd08f7665b
+msgid "|mActionHelpContents| :guilabel:`Help Contents`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:298
+# 18efdf91e2fd43dcb1bcf18b22131edb
+msgid ":kbd:`F1`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:298
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:299
+# 20a68b68a2584866ab32817b54163b22
+# 58399a8b626b4f8c8f7dd20f8e7ea049
+msgid ":guilabel:`Help`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:299
+# d4bcf313c6eb48ad8fd3807b2edbf0b4
+msgid "|mActionWhatsThis| :guilabel:`What's This?`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:299
+# 639473532376433cb0d87a8e50ca7ad7
+msgid ":kbd:`Shift+F1`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:300
+# 81ca20da2c8d4106b14f9b6dcba37719
+msgid ":menuselection:`API Documentation`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:301
+# bbb80a554deb42cfa6f10e9640326351
+msgid "|mActionQgisHomePage| :guilabel:`QGIS Home Page`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:301
+# ef3fa62915324665bd27fe031016fe0b
+msgid ":kbd:`Ctrl+H`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:302
+# 5273faf82bea4a61b41136a4c2a3d5b5
+msgid "|mActionCheckQgisVersion| :guilabel:`Check QGIS Version`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:303
+# e631c390dc0d4892a9d17e4241e4086d
+msgid "|mActionHelpAbout| :guilabel:`About`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:304
+# 6e211fc97918477aa20f4db77dee13ae
+msgid "|mActionHelpSponsors| :guilabel:`QGIS Sponsors`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:309
+# 1c4a310ccd534177b410ccff3c2224e0
+msgid "Please not that for Linux |nix| the Menu Bar items listed above are the default ones in KDE window manager. In GNOME, Settings menu is missing and its items are to be found here:"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:314
+# 6f4e449c2cdf4ba1bc529508b60ac4f9
+msgid "|mActionProjectProperties| :guilabel:`Project Properties`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:316
+# d624f0e852ed4ce8bb5ef918b1fa12cc
+msgid "|mActionOptions| :guilabel:`Options`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:316
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:318
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:320
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:322
+# a92919305f1343379ee84dfffb73ced6
+# 0eebaf382cab480797e8927a5d05e00b
+# 3fbfb65dfc9f4fa8b8907fd66ddc769c
+# 26fc201e2ef14aa6a11800cdd8120ebc
+msgid ":guilabel:`Edit`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:318
+# 6f63d3f991d1494a849c0c4c5867303b
+msgid "|mActionOptions| :guilabel:`Configure Shortcuts`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:320
+# c22a23b5a3e544ea9ef34cf535cea2ce
+msgid ":guilabel:`Style Manager`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:322
+# c1a68a380abc4a5db72bb47a6937b300
+msgid "|mActionCustomProjection| :guilabel:`Custom CRS`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:324
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:326
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:328
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:330
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:332
+# 72ad40eef49a4c6f9ca8fadaa878dc8d
+# 11cd8f0539ed42fd8f3fd07fffa59487
+# f5cddac577cc43c8b77aeabbb84565aa
+# a95ec9b8b2354566b95ca1fce1bc5308
+# 2841c53168884ae1a5635c49a918a3ae
+msgid ":guilabel:`View`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:328
+# 67fd8673d50c4e8f81fffeac0c1603e9
+msgid ":guilabel:`Toggle Full Screen Mode`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:330
+# b83fee7693e248b28e8447e06e72443b
+msgid ":guilabel:`Tile scale slider`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:332
+# 0422b5e57f4e4745acf9d824bea64174
+msgid ":guilabel:`Live GPS tracking`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:346
+# 4a1d7bca2c5b496dbeeb82399ef469d3
+msgid "The toolbar provides access to most of the same functions as the menus, plus additional tools for interacting with the map. Each toolbar item has popup help available. Hold your mouse over the item and a short description of the tool's purpose will be displayed."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:351
+# 13f59fa203cc478f957c8ec3dfdd2707
+msgid "Every menubar can be moved around according to your needs. Additionally every menubar can be switched off using your right mouse button context menu holding the mouse over the toolbars (read also :ref:`sec_panels_and_toolbars`)."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:359
+# ccb23462d5d24b9c9859850d6143e8d3
+msgid "**Restoring toolbars**"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:361
+# 955caaf1008e49f69d9ca90eb67f5707
+msgid "If you have accidentally hidden all your toolbars, you can get them back by choosing menu option :menuselection:`Settings --> Toolbars -->`. If a toolbar disappears under Windows, which seems to be a problem in QGIS from time to time, you have to remove ``\\HKEY_CURRENT_USER\\Software\\QuantumGIS\\qgis\\UI\\state`` in the registry. When you restart QGIS, the key is written again with the default state, and all toolbars are visible again."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:376
+# eb0b67170cfb4527b1e59619bc7cca8c
+msgid "The map legend area lists all the layers in the project. The checkbox in each legend entry can be used to show or hide the layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:382
+# 1796932dd8504d2196be635873cf66cd
+msgid "A layer can be selected and dragged up or down in the legend to change the z-ordering. Z-ordering means that layers listed nearer the top of the legend are drawn over layers listed lower down in the legend."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:386
+# b876d3bf73c349cdb4c8f3935bb82d28
+msgid "Layers in the legend window can be organised into groups. There are two ways to do so:"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:388
+# 7e82946be1764a4fadc1319930f942d6
+msgid "Right click in the legend window and choose :menuselection:`Add Group`. Type in a name for the group and press :kbd:`Enter`. Now click on an existing layer and drag it onto the group."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:391
+# febbd9acdce4458e80fc1d2e8ecdc2eb
+msgid "Select some layers, right click in the legend window and choose :menuselection:`Group Selected`. The selected layers will automatically be placed in a new group."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:394
+# 841d42e1428443308a80ca8fa447a11c
+msgid "To bring a layer out of a group you can drag it out, or right click on it and choose :menuselection:`Make to toplevel item`. Groups can be nested inside other groups."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:397
+# 90eabf8922b64473a2fdd686cf34f721
+msgid "The checkbox for a group will show or hide all the layers in the group with one click."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:400
+# 40cb7ed25472410899da53d6fb30bc29
+msgid "The content of the right mouse button context menu depends on whether the selected legend item is a raster or a vector layer. For GRASS vector layers :menuselection:`Toggle editing` is not available. See section :ref:`grass_digitizing` for information on editing GRASS vector layers."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:405
+# 2092c7dbf0b847a68c41837c1d071608
+msgid "**Right mouse button menu for raster layers**"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:407
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:431
+# 26070729c5934c98ae276bf20f55f257
+# f4c45c37ca0642ceb79bc2cc0a129f6a
+msgid ":menuselection:`Zoom to layer extent`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:408
+# 65298c70b72343188ef5b909e276411c
+msgid ":menuselection:`Zoom to best scale (100 %)`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:409
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:432
+# dcee5fc068ce4d84b8b6bf335b7f7d06
+# 624d2552930d4e8b8e88fb67b7e66a4c
+msgid ":menuselection:`Show in overview`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:410
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:433
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:461
+# b12cb9e2c50c4785a21da2f744a2b878
+# 1f459d0de37a43bba53fc3ab94c6c694
+# 3460aaeb35e94accbbe91f7fc6ac5a78
+msgid ":menuselection:`Remove`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:411
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:434
+# 699c0f5f955f4d1d9cdaa48f20ce8809
+# 5301f816ce3d4ad49def2dd50e98d0d9
+msgid ":menuselection:`Set Layer CRS`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:412
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:435
+# 56d275267b2b4dbf90a883cac56463c3
+# dec3ff480b314d49853a7d92ee2dd3a9
+msgid ":menuselection:`Set Project CRS from Layer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:414
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:443
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:463
+# 30e335a1045d4935be7f8f23f43ce365
+# fd918a7d334e43759ee660617244b2ef
+# 4e65dd67691b4f55ae439b137d3e8cc1
+msgid ":menuselection:`Rename`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:415
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:444
+# f6f3e7ccfd3141c683137ce8fd254235
+# c2a82ad69bd244c09a8d2a9545b165f3
+msgid ":menuselection:`Copy Style`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:416
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:445
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:464
+# 4c79d1e543a54165a613b958a7221e93
+# 8a68129a2dcf4d5a9e8107e971c05a1b
+# 8465242c29604a28a993805e44df246a
+msgid ":menuselection:`Add New Group`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:417
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:446
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:465
+# f8397a55f0b944d691dcc28295071f41
+# 8be40fbca82e457e8a6ccd0623828204
+# 09778e88752347e09069b2398f6ac9c7
+msgid ":menuselection:`Expand all`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:418
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:447
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:466
+# 90d5a7e102874cd9b56e736114facb51
+# 4fef8ca2583545c5b566db4b9bbd3f9f
+# fe9f7f84200c4a70bed073e462f37d38
+msgid ":menuselection:`Collapse all`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:419
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:448
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:467
+# a92517e0e4304daeb406a4f96a1cd854
+# b658901bc46d4229aef9e548ad93ccd7
+# 47d71d439bfd4ff2882268555060a112
+msgid ":menuselection:`Update Drawing Order`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:421
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:450
+# 78366683efb64892924fafb1a017ef3d
+# 09065ba521bd4099b9ea57a64cae735c
+msgid "Additionally, according to layer position and selection"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:423
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:452
+# baec9dfeac8c4e208974aa080a584369
+# ca188317b2544cfb95c23ed71d80668b
+msgid ":menuselection:`Make to toplevel item`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:424
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:453
+# 27026fbe6d26412e8597c3cf525edfb6
+# 01b771abb52548afa53ed856d08beddc
+msgid ":menuselection:`Group Selected`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:429
+# e4ecaf42a0004bc58aad63db9e8684dc
+msgid "**Right mouse button menu for vector layers**"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:436
+# 0bac1c06bc894f72b8ad9a975055ba36
+msgid ":menuselection:`Open attribute table`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:437
+# f92f5a33e2024ff4919de0f61c244ed3
+msgid ":menuselection:`Toggle editing` (not available for GRASS layers)"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:438
+# e1a5fdcd58064693bf837c516931bc7f
+msgid ":menuselection:`Save as`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:439
+# 27f5ce12eedd466083a4a157261999c8
+msgid ":menuselection:`Save selection as`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:440
+# f64a964e2818473aa2fa0b68b4688a5f
+msgid ":menuselection:`Query`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:441
+# 2243302ca6014d37b0526db2704cb048
+msgid ":menuselection:`Show Feature Count`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:458
+# 92191f36e20d4a76b780144b93fff03e
+msgid "**Right mouse button menu for layer groups**"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:460
+# afc72ee7c5fa4a03bbce8b0cb7ddae93
+msgid ":menuselection:`Zoom to group`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:462
+# 457b0271c6454e578e5f4598a202974c
+msgid ":menuselection:`Set group CRS`"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:474
+# 32e014b4f0b74d6e9d600583dbc83e2e
+msgid "It is possible to select more than one layer or group at the same time by holding down the :kbd:`Ctrl` key while selecting the layers with the left mouse button. You can then move all selected layers to a new group at the same time."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:479
+# 047986fd7d0a4347b09411f5023fea8b
+msgid "You are also able to delete more than one Layer or Group at once by selecting several Layers with the :kbd:`Ctrl` key and pressing :kbd:`Ctrl+D` afterwards. This way all selected Layers or groups will be removed from the layerlist."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:483
+# 420ae93776684c84ae382f27cd958695
+msgid "You can select multiple layers and group them. Select the layers and right click on a layer. Choose :menuselection:`Group selected`. Click on the new group, type in a name and press :kbd:`Enter`."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:488
+# 52902550a9c64dd69ad761514c57e3d7
+msgid "Working with the Legend independent layer order"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:490
+# 86fb249fce5a4037956a59f841aec082
+msgid "Since QGIS 1.8 there is a widget that allows to define a legend independent drawing order. You can activate it in the menu :menuselection:`Settings --> Panels`. Determine the drawing order of the layers in the map view here. Doing so makes it possible to order your layers in order of importance, for example, but to still display them in the correct order (see figure_layer_order_). Checking the |checkbox| :guilabel:`control rendering order` box underneath the list of layers will cause a revert to default behavior."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:517
+# f46a5bb40dde4dc990a2f8e12a07c5e0
+msgid "This is the \"business end\" of QGIS - maps are displayed in this area! The map displayed in this window will depend on the vector and raster layers you have chosen to load (see sections that follow for more information on how to load layers). The map view can be panned (shifting the focus of the map display to another region) and zoomed in and out. Various other operations can be performed on the map as described in the toolbar description above.  The map view and the legend are tightly bound to each other - the maps in view reflect changes you make in the legend area."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:530
+# 17ec6126b22d403fae56498a420511ae
+msgid "**Zooming the Map with the Mouse Wheel**"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:532
+# 9b1bfa14ac8b491b8587a212313288ee
+msgid "You can use the mouse wheel to zoom in and out on the map. Place the mouse cursor inside the map area and roll the wheel forward (away from you) to zoom in and backwards (towards you) to zoom out. The mouse cursor position is the center where the zoom occurs. You can customize the behavior of the mouse wheel zoom using the :guilabel:`Map tools` tab under the :menuselection:`Settings --> Options` menu."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:540
+# e4ddf0a5cc5f4fcea7dc9b5b3c0751fb
+msgid "**Panning the Map with the Arrow Keys and Space Bar**"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:545
+# 20e746b2406440ae83e0033ff9d1d96f
+msgid "You can use the arrow keys to pan in the map. Place the mouse cursor inside the map area and click on the right arrow key to pan East, left arrow key to pan West, up arrow key to pan North and down arrow key to pan South. You can also pan the map using the space bar: just move the mouse while holding down space bar."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:559
+# 6d1216b44e6e4badb462c4361dd6c158
+msgid "The status bar shows you your current position in map coordinates (e.g. meters or decimal degrees) as the mouse pointer is moved across the map view. To the left of the coordinate display in the status bar is a small button that will toggle between showing coordinate position or the view extents of the map view as you pan and zoom in and out."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:565
+# c30a90c85d104f97922ed452a88c2b4e
+msgid "Next to the coordinate display you find the scale display. It shows the scale of the map view. If you zoom in or out QGIS shows you the current scale. Since QGIS 1.8 there is a scale selector which allows you to choose between predefined scales from 1:500 until 1:1000000."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:570
+# 0aab42256c874e3c8e46796b1a9da2ff
+msgid "A progress bar in the status bar shows progress of rendering as each layer is drawn to the map view. In some cases, such as the gathering of statistics in raster layers, the progress bar will be used to show the status of lengthy operations."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:575
+# 4f4ca43b8df3402db6132839dad7c47a
+msgid "If a new plugin or a plugin update is available, you will see a message at the far right of the status bar. On the right side of the status bar is a small checkbox which can be used to temporarily prevent layers being rendered to the map view (see Section :ref:`redraw_events` below). The icon |mIconStopRendering| immediately stops the current map rendering process."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:581
+# a084b3b3dae24f47a4d71a0fb57baea1
+msgid "To the right of the render functions you find the EPSG code of the current project CRS and a projector icon. Clicking on this opens the projection properties for the current project."
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:587
+# dda0adfe6cd240c6bbaf11f98f6b9d1d
+msgid "**Calculating the correct Scale of your Map Canvas**"
+msgstr ""
+
+#: ../../source/docs/user_manual/introduction/qgis_gui.rst:592
+# 10d3e1d8cfde4215b070cffe8676a53e
+msgid "When you start QGIS, degrees is the default unit, and it tells QGIS that any coordinate in your layer is in degrees. To get correct scale values, you can either change this to meter manually in the :guilabel:`General` tab under :menuselection:`Settings --> Project Properties` or you can select a project Coordinate Reference System (CRS) clicking on the |mIconProjectionDisabled| :sup:`CRS status` icon in the lower right-hand corner of the statusbar. In the last case, the units are set to what the project projection specifies, e.g. '+units=m'."
+msgstr ""
+

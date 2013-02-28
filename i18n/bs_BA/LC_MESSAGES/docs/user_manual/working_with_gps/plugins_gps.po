@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:10
+# c1c7215650e24959b61603fc60832d6e
+msgid "GPS Plugin"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:15
+# e591843267ed4cf39d6820b4ce5fb9e5
+msgid "What is GPS?"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:17
+# af294789f97448529b46374022a2e6ed
+msgid "GPS, the Global Positioning System, is a satellite-based system that allows anyone with a GPS receiver to find their exact position anywhere in the world. It is used as an aid in navigation, for example in airplanes, in boats and by hikers.  The GPS receiver uses the signals from the satellites to calculate its latitude, longitude and (sometimes) elevation.  Most receivers also have the capability to store locations (known as *waypoints*), sequences of locations that make up a planned *route* and a tracklog or *track* of the receivers movement over time.  Waypoints, routes and tracks are the three basic feature types in GPS data.  QGIS displays waypoints in point layers while routes and tracks are displayed in linestring layers."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:31
+# 3cd83cb48f04406b94c1cace07caff4e
+msgid "Loading GPS data from a file"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:34
+# eac01dec5e584df4b2db1daf40f6b547
+msgid "There are dozens of different file formats for storing GPS data. The format that QGIS uses is called GPX (GPS eXchange format), which is a standard interchange format that can contain any number of waypoints, routes and tracks in the same file."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:39
+# 5e74e5588fad4c8aadce552601977463
+msgid "To load a GPX file you first need to load the plugin. :menuselection:`Plugins -->` |mActionShowPluginManager| :menuselection:`Plugin Manager...` opens the Plugin Manager Dialog. Activate the |checkbox| :guilabel:`GPS Tools` checkbox. When this plugin is loaded two buttons with a small handheld GPS device will show up in the toolbar:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:46
+# 873ab6a5f35d4b18a9fdda4cb55254d9
+msgid "|gps_importer| :sup:`Create new GPX Layer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:47
+# a2c05158b5f24f3a87e3ba34c630704b
+msgid "|gps_importer| :sup:`GPS Tools`"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:49
+# 5a9caab96bfd4e9b98cd32c58cd6574b
+msgid "For working with GPS data we provide an example GPX file available in the QGIS sample dataset: :file:`qgis_sample_data/gps/national_monuments.gpx`. See Section :ref:`label_sampledata` for more information about the sample data."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:53
+# f1f719468bda46ac87ac456c4025c57c
+msgid "Click on the |gps_importer| :sup:`GPS Tools` icon and open the :guilabel:`Load GPX file` tab (see figure_GPS_1_)."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:55
+# e45c549128664e85a37351e76723fbe1
+msgid ":guilabel:`Browse` to the folder :file:`qgis_sample_data/gps/`, select the GPX file :file:`national_monuments.gpx` and click **[Open]**."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:70
+# 23c077697edc4c89926a0e2e20705fd7
+msgid "Use the browse button |browsebutton| to select the GPX file, then use the checkboxes to select the feature types you want to load from that GPX file. Each feature type will be loaded in a separate layer when you click **[OK]**.  The file :file:`national_monuments.gpx` only includes waypoints."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:76
+# f37e9687f85b43afbefd34d20406bfb3
+msgid "GPS units allow to store data in different coordinate systems. When downloading a GPX file (from your GPS unit or a web site) and then loading it in Quantum GIS, be sure that the data stored in the GPX file uses WGS84 (latitude/longitude). Quantum GIS expects this and it is the official GPX specification. See http://www.topografix.com/GPX/1/1/"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:83
+# 7d672f5647d242608155748d4b9c3827
+msgid "GPSBabel"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:86
+# e58b121c1a2d474d80124a96d59d001e
+msgid "Since QGIS uses GPX files you need a way to convert other GPS file formats to GPX. This can be done for many formats using the free program GPSBabel, which is available at http://www.gpsbabel.org.  This program can also transfer GPS data between your computer and a GPS device.  QGIS uses GPSBabel to do these things, so it is recommended that you install it.  However, if you just want to load GPS data from GPX files you will not need it. Version 1.2.3 of GPSBabel is known to work with QGIS, but you should be able to use later versions without any problems."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:96
+# 880aa32c29704a19bd0f55867edf8354
+msgid "Importing GPS data"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:98
+# dcee4036b74742ff95e266e6bb926b1d
+msgid "To import GPS data from a file that is not a GPX file, you use the tool :guilabel:`Import other file` in the GPS Tools dialog. Here you select the file that you want to import (and the file type), which feature type you want to import from it, where you want to store the converted GPX file and what the name of the new layer should be.  Note that not all GPS data formats will support all three feature types, so for many formats you will only be able to choose between one or two types."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:107
+# 463b00d863884a008cee38379dec3983
+msgid "Downloading GPS data from a device"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:110
+# f0cbe875e8a74072903a93616b9e2071
+msgid "QGIS can use GPSBabel to download data from a GPS device directly as new vector layers. For this we use the :guilabel:`Download from GPS` tab of the GPS Tools dialog (see Figure_GPS_2_). Here, we select the type of GPS device, the port that it is connected to (or usb if your GPS supports this), the feature type that you want to download, the GPX file where the data should be stored, and the name of the new layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:129
+# 07e710a761164d7aaf3091b79cc1cfd5
+msgid "The device type you select in the GPS device menu determines how GPSBabel tries to communicate with your GPS device. If none of the available types work with your GPS device you can create a new type (see section :ref:`defining-new-device`)."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:133
+# 324267f1455540218c3b4a9ecbea26ac
+msgid "The port may be a file name or some other name that your operating system uses as a reference to the physical port in your computer that the GPS device is connected to. It may also be simply usb, for usb enabled GPS units."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:137
+# b1d8a576297b44f0b11a562f14936d36
+msgid "|nix| On Linux this is something like /dev/ttyS0 or /dev/ttyS1"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:138
+# 0f0c339489604e96a542ae8b7e191068
+msgid "|win| On Windows it is COM1 or COM2."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:140
+# dcd6e332b88f43cb952e05fb8b902d80
+msgid "When you click **[OK]** the data will be downloaded from the device and appear as a layer in QGIS."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:144
+# b2b737e6d79b4906973a4c4f8a1adac4
+msgid "Uploading GPS data to a device"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:147
+# 8235a90c81d243edb594a6cb3925e1be
+msgid "You can also upload data directly from a vector layer in QGIS to a GPS device using the :guilabel:`Upload to GPS` tab of the GPS Tools dialog. To do this you simply select the layer that you want to upload (which must be a GPX layer), your GPS device type, and the port (or usb) that it is connected to. Just as with the download tool you can specify new device types if your device isn't in the list."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:154
+# 6eb9a0f5704a4a0699da04d24fc73798
+msgid "This tool is very useful in combination with the vector editing capabilities of QGIS. It allows you to load a map, create waypoints and routes, and then upload them and use them on your GPS device."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:161
+# f06f7a653e554b288f4a68576400c8c0
+msgid "Defining new device types"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:164
+# dd9f9a65074143d98b0e77a0f190d460
+msgid "There are lots of different types of GPS devices. The QGIS developers can't test all of them, so if you have one that does not work with any of the device types listed in the :guilabel:`Download from GPS` and :guilabel:`Upload to GPS` tools you can define your own device type for it. You do this by using the GPS device editor, which you start by clicking the **[Edit devices]** button in the download or the upload tabs."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:171
+# cb40393080f64a5ab5eea6c9eac0a17a
+msgid "To define a new device you simply click the **[New device]** button, enter a name, a download command and an upload command for your device, and click the **[Update device]** button.  The name will be listed in the device menus in the upload and download windows, and can be any string.  The download command is the command that is used to download data from the device to a GPX file.  This will probably be a GPSBabel command, but you can use any other command line program that can create a GPX file.  QGIS will replace the keywords ``%type``, ``%in``, and ``%out`` when it runs the command."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:180
+# 316ef09d4811432988656671b14d31c3
+msgid "``%type`` will be replaced by ``-w`` if you are downloading waypoints, ``-r`` if you are downloading routes and ``-t`` if you are downloading tracks. These are command line options that tell GPSBabel which feature type to download."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:184
+# f1cc0c933a3341d09da85835105937b4
+msgid "``%in`` will be replaced by the port name that you choose in the download window and ``%out`` will be replaced by the name you choose for the GPX file that the downloaded data should be stored in. So if you create a device type with the download command ``gpsbabel %type -i garmin -o gpx %in %out`` (this is actually the download command for the predefined device type :guilabel:`GPS device:` Garmin serial |selectstring|) and then use it to download waypoints from port ``/dev/ttyS0`` to the file ``output.gpx``, QGIS will replace the keywords and run the command ``gpsbabel -w -i garmin -o gpx /dev/ttyS0 output.gpx``."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:193
+# 1165d8080d9947b796c7781a58e4a8a8
+msgid "The upload command is the command that is used to upload data to the device. The same keywords are used, but ``%in`` is now replaced by the name of the GPX file for the layer that is being uploaded, and ``%out`` is replaced by the port name."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:198
+# d0234f5ff57d4c84937976b63741462a
+msgid "You can learn more about GPSBabel and it's available command line options at http://www.gpsbabel.org."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_gps/plugins_gps.rst:201
+# bbc6511ebe154b0091b9a712da11c331
+msgid "Once you have created a new device type it will appear in the device lists for the download and upload tools."
+msgstr ""
+

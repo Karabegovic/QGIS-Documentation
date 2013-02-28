@@ -1,0 +1,709 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:10
+# f50c90df696f467c9162752b39185a11
+msgid "fTools Plugin"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:13
+# 5ccdb2b242634117b50cae11cc429de7
+msgid "The goal of the fTools python plugin is to provide a one-stop resource for many common vector-based GIS tasks, without the need for additional software, libraries, or complex workarounds. It provides a growing suite of spatial data management and analysis functions that are both fast and functional."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:18
+# 072064dc08af48be81f26eeddcb8779a
+msgid "fTools is now automatically installed and enabled in new versions of QGIS, and as with all plugins, it can be disabled and enabled using the Plugin Manager (See Section :ref:`load_core_plugin`).  When enabled, the fTools plugin adds a :menuselection:`Vector` menu to QGIS, providing functions ranging from Analysis and Research Tools to Geometry and Geoprocessing Tools, as well as several useful Data Management Tools."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:33
+# b5277482f342411fbdc1f887ef119b48
+msgid "Analysis tools"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:35
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:83
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:116
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:156
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:216
+# 004a81b9b4e44910a69cdd0bddfb4a08
+# 874a7b606be44872a7c0ca5b6e4a3dba
+# 03d16bda3f68414e9f9af3aa4983738b
+# 30f0b108c3fd4e279e4136068c8b1dec
+# 75c99ef230204a87aa28c1fd0b468a8a
+msgid "**Icon**"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:35
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:83
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:116
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:156
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:216
+# 5ee3c5e856784d2599480359160b54a6
+# 230f090bd8d54062b8813c2111200ae3
+# f4177844495842e09f5cf1b1ef0aac30
+# dbe18b132db2424c9a58f6c53ef596f8
+# 8bebec81763a4cd29d9fccd1657bc178
+msgid "**Tool**"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:35
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:83
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:116
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:156
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:216
+# 1532f19d064241459be20d7c1df67c90
+# c20c7ad61e114a0ab6ac33f9eb8eda21
+# 9f09df56350e45cfbf6d8b2dd11e9f02
+# 80b15e074d7d4aa297abc296f991fbf3
+# 0bb15ec50ae14ed7bdd557ac056a0f42
+msgid "**Purpose**"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:37
+# c861d9abfead446ab81f7e38035830c1
+msgid "|matrix|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:37
+# 7dc173a51006429fb61e8ef3c072f074
+msgid "Distance Matrix"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:37
+# 0a0a9850eee648c7a634219c6d2124e3
+msgid "Measure distances between two point layers, and output results as a) Square distance matrix, b) Linear distance matrix, or c) Summary of distances. Can limit distances to the k nearest features."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:44
+# 8076a6cb2c474c049c076e9ed8aa9c3a
+msgid "|sum_lines|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:44
+# 4f8618be6be4464481acd8cb858a4f7e
+msgid "Sum line length"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:44
+# 2fcf474c893b45baa2c32767301dd7bc
+msgid "Calculate the total sum of line lengths for each polygon of a polygon vector layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:48
+# 23232215e7b949b8b17b0e4557b48f9b
+msgid "|sum_points|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:48
+# bc5892b1e55b4cb19a2ebb129bf4933d
+msgid "Points in polygon"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:48
+# 717134928e0b4c539be25b06d34cc6c3
+msgid "Count the number of points that occur in each polygon of an input polygon vector layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:52
+# 7521cad31b5048ef93aeb886fd12bf8d
+msgid "|unique|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:52
+# 3ee6d4ec4ecd4cf88cd05e7dd29045da
+msgid "List unique values"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:52
+# 9f1a4b6bfa664c25a41e6d648e00b2d9
+msgid "List all unique values in an input vector layer field"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:55
+# ab51175fe96e44bb900db017736c8e5a
+msgid "|basic_statistics|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:55
+# 3d2c653e8ee647b18b3f0dde75cf1934
+msgid "Basic statistic"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:55
+# 89ae312144454ce5be4adafc5c2ab561
+msgid "Compute basic statistics (mean, std dev, N, sum, CV) on an input field."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:58
+# f9a941d78e2d4934b6f39853ae01a767
+msgid "|neighbor|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:58
+# 23213f1134cc49d0acb083ed62a8df53
+msgid "Nearest Neighbor analysis"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:58
+# 6c31454a64cb4ac09fcf009a04359b1d
+msgid "Compute nearest neighbor statistics assess the level of clustering in a point vector layer"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:62
+# fce7b1ae59ec4c268f679e85fa4a7986
+msgid "|mean|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:62
+# 98a49c2f6cc14f2e9c89f18bee73bbd1
+msgid "Mean coordinate(s)"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:62
+# 5c0abc68be09412696a58557bd2ad00c
+msgid "Compute either the normal or weighted mean center of an entire vector layer, or multiple features based on a unique ID field."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:67
+# 9befcf3cdd0b45729d4698ca3171e8e0
+msgid "|intersections|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:67
+# 011d852e507c41f5b55778965c915b75
+msgid "Line intersections"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:67
+# 65b2f3da606e414485b5eff366e948dc
+msgid "Locate intersections between lines, and output results as a point shapefile.  Useful for locating road or stream intersections, ignores line intersections with length > 0."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:74
+# 7058ff4c928a422faea8551d454b36db
+msgid "Table Ftools 1: fTools Analysis tools"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:81
+# 50b36f82bb6748cdb4a2b6768a017e25
+msgid "Research tools"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:85
+# ff9a5f0479cb43e6af73fbcd186e92d1
+msgid "|random_selection|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:85
+# ca26bf0eaa924597822079e0bf2080c3
+msgid "Random selection"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:85
+# a32886f3e5534879a8e6008c15d38a9d
+msgid "Randomly select n number of features, or n percentage of features"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:88
+# ce3d0563fc664481af95308427dc4f60
+msgid "|sub_selection|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:88
+# 481d4cbf643045f09d7589caab0e7ad2
+msgid "Random selection within subsets"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:88
+# 1649a1d55b984ba4ad27f7fb6be525f5
+msgid "Randomly select features within subsets based on a unique ID field."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:91
+# a9048b919c2743fcad218f266fa059bd
+msgid "|random_points|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:91
+# e8d0ede28a074e50a8aa0cd743358e42
+msgid "Random points"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:91
+# 888b290e5c214a91aa756c6045c38a25
+msgid "Generate pseudo-random points over a given input layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:94
+# c55af33b740c4254a26e7afc087abd7a
+msgid "|regular_points|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:94
+# 1a56b341d28f471fabbf42cde35dc7bf
+msgid "Regular points"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:94
+# 8355a3ad20ec4dbb8a0b42e0768a7419
+msgid "Generate a regular grid of points over a specified region and export them as a point shapefile."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:98
+# f1bfc1740852462f82ebc205b756c1ff
+msgid "|vector_grid|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:98
+# 03da2f74442d43728afe14b981e368ed
+msgid "Vector grid"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:98
+# d129e9c1ef3044e8b8ea0a56e0429d22
+msgid "Generate a line or polygon grid based on user specified grid spacing."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:101
+# 0cfd1688ec374f36819ab28afe5d6f31
+msgid "|select_location|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:101
+# 4040616fe276476a9cfcd061402795bc
+msgid "Select by location"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:101
+# 3f8fbfb430394c3587eba87fb171ade1
+msgid "Select features based on their location relative to another layer to form a new selection, or add or subtract from the current selection."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:106
+# dd6d31d001dc4f71b396f3c8cfe7645f
+msgid "|layer_extent|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:106
+# 21c993fef44b4ea6920711b3330ce528
+msgid "Polygon from layer extent"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:106
+# aa41cdb57ca44a279c684ab5bc4b3a45
+msgid "Create a single rectangular polygon layer from the extent of an input raster or vector layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:111
+# 4a75bf8289f045fc8471e9efeac09224
+msgid "Table Ftools 2: fTools Research tools"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:114
+# 2668f55292de4f6d86cf89d17c9aab5d
+msgid "Geoprocessing tools"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:118
+# cba04d33b3a5444a83998d9acef5cdee
+msgid "|convex_hull|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:118
+# 7f1da39acbff4ab2879abb2f7aab7d30
+msgid "Convex hull(s)"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:118
+# da2a9fc189794ff78854beec1940491e
+msgid "Create minimum convex hull(s) for an input layer, or based on an ID field."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:121
+# bfcf3ba06b174bc9877226c50b30babe
+msgid "|buffer|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:121
+# 36c40f47159445568acbfa5a8dea144c
+msgid "Buffer(s)"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:121
+# 508dec2eaf8743a98cc7335769ba92bb
+msgid "Create buffer(s) around features based on distance, or distance field."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:124
+# 6141bda9798b48dd8fca310f08434439
+msgid "|intersect|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:124
+# e50484266485413bb6481c0843834ca5
+msgid "Intersect"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:124
+# 57055cb6bf1844b092f0d68df89a67e9
+msgid "Overlay layers such that output contains areas where both layers intersect."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:128
+# fab6ae432ba54dc8994805867d39aa23
+msgid "|union|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:128
+# d74529ab3d434e9c8aa2d995b421c940
+msgid "Union"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:128
+# 1658e63380e848eeb213787982e443b3
+msgid "Overlay layers such that output contains intersecting and non-intersecting areas."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:132
+# dbef6f7bc07b4c7da78ca29f32476d37
+msgid "|sym_difference|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:132
+# ad09ee5d599b4c37ac9f622978b2337c
+msgid "Symmetrical difference"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:132
+# 5d533c8192524bc0af16f8f0c0048f22
+msgid "Overlay layers such that output contains those areas of the input and difference layers that do not intersect."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:137
+# 7ac82766b8a743e59b00dc681f26e918
+msgid "|clip|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:137
+# 42afafa5bd354d8ab79bd827b08377f9
+msgid "Clip"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:137
+# 9386a0fcb118446b9e7715f31e50da95
+msgid "Overlay layers such that output contains areas that intersect the clip layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:141
+# fc7a5b3959a546309018fddbba588ac2
+msgid "|difference|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:141
+# 77cc4b25660841ea8580023a21ff8ebb
+msgid "Difference"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:141
+# 76113c54921c400cb31a55e764c9a84c
+msgid "Overlay layers such that output contains areas not intersecting the clip layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:145
+# 655b63c6029c40208d2fcd5c7445b83c
+msgid "|dissolve|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:145
+# 9f2c131747ee4977a2730f935ba68a4f
+msgid "Dissolve"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:145
+# 6bb7e86888a742a3b0d57179d7bb1b8a
+msgid "Merge features based on input field. All features with identical input values are combined to form one single feature."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:151
+# a42dac4b5a04412ea307833b48c225da
+msgid "Table Ftools 3: fTools Geoprocessing tools"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:154
+# 6f528c94875b4e3288f7630576284b7d
+msgid "Geometry tools"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:158
+# 355016c12a804c1499227b85e98584c3
+msgid "|check_geometry|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:158
+# 936b68a0fad54e4695d31659b282ada4
+msgid "Check geometry"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:158
+# d2a029a0fb1c4b6ea136fc336bd999d4
+msgid "Check polygons for intersections, closed-holes, and fix node ordering."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:161
+# 547f74d22c30455b90ca333df779a9bf
+msgid "|export_geometry|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:161
+# fd19ac0c850c4ada9df2f3def87205d7
+msgid "Export/Add geometry columns"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:161
+# a6e3bf18ce3d46b1bc0e4f9719832f32
+msgid "Add vector layer geometry info to point (XCOORD, YCOORD), line (LENGTH), or polygon (AREA, PERIMETER) layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:166
+# 7ee42058c51c44e4b330f4e4e11fc412
+msgid "|centroids|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:166
+# 25d588277a2d41ab8daecfe571b31cc5
+msgid "Polygon centroids"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:166
+# a7fb9808e8454008bdec2e32f5a6149e
+msgid "Calculate the true centroids for each polygon in an input polygon layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:170
+# 2a96d7f6f31c4384bd0730e6b069ec96
+msgid "|delaunay|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:170
+# efdbbd732c4a421392018acaf1213206
+msgid "Delaunay triangulation"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:170
+# 51ca83b64781406088dcf5623d354048
+msgid "Calculate and output (as polygons) the delaunay triangulation of an input point vector layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:174
+# 991e4ff87b7f47b6ba90d33ff445df3e
+msgid "Voronoi Polygons"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:174
+# d757b2320985445991079d91476fce54
+msgid "Calculate voronoi polygons of an input point vector layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:177
+# 26075a3a58344f59b6efd920231920d4
+msgid "|simplify|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:177
+# 84d8746ff0d44cf8be216a3c1c8b9e10
+msgid "Simplify geometry"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:177
+# 7d19199b542e48beb1f6b3acb7fbdb51
+msgid "Generalize lines or polygons with a modified Douglas-Peucker algorithm."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:180
+# 73d6eec2ba13435cb81319ffe996ed59
+msgid "Densify geometry"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:180
+# 9c85dd3146884d1aa775b0cad130da9b
+msgid "Densify lines or polygons by adding vertices"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:183
+# f4638f10396c477cbb493d4af738e780
+msgid "|multi_to_single|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:183
+# 827177c5f88d4c96b3ad6bb505261bca
+msgid "Multipart to singleparts"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:183
+# dec1e887bc3f4338af2e28289224af2a
+msgid "Convert multipart features to multiple singlepart features. Creates simple polygons and lines."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:187
+# d3c4d40fd3d349f582449fd874ba0378
+msgid "|single_to_multi|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:187
+# 66780f3dc77c42989091a7c99052458a
+msgid "Singleparts to multipart"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:187
+# be652e635ac34d9d92e764c0780111e6
+msgid "Merge multiple features to a single multipart feature based on a unique ID field."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:191
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:195
+# 4c9e1d72ab2d43d1976b03e2cb638033
+# 1c0c06f3361d4594bba7907b64fc0ca6
+msgid "|to_lines|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:191
+# 40bfb0e7b0b743b2a6c134daae9ecc04
+msgid "Polygons to lines"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:191
+# a92a9e0ff149481c8d22674381e8ea1d
+msgid "Convert polygons to lines, multipart polygons to multiple singlepart lines."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:195
+# 7af3a4b079c3408a91bf0f120b8cb541
+msgid "Lines to polygons"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:195
+# 7a7606267c8d4b28842042f3f6c30629
+msgid "Convert lines to polygons, multipart lines to multiple singlepart polygons."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:199
+# 80096ff123304615b5e0063a8616b629
+msgid "|extract_nodes|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:199
+# fb8ee32730544be6b6ca6166d6b2cd23
+msgid "Extract nodes"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:199
+# 177e9121fca64b238ce915576ab911a9
+msgid "Extract nodes from line and polygon layers and output them as points."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:203
+# aa6817c9f5b94687a50b302c258a95a2
+msgid "Table Ftools 4: fTools Geometry tools"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:207
+# 8045ff9f105f4112949f1c2aabc785c4
+msgid "The *Simplify geometry* tool can be used to remove duplicate nodes in line and polygon geometries, just set the *Simplify tolerance* parameter to 0 and this will do the trick."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:214
+# 86b5d810765a452ab0f2bb1dd175ae9b
+msgid "Data management tools"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:218
+# 71d2169916d64f339c1e5c554aa9963a
+msgid "|define_projection|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:218
+# 1186884c114f4b9dae3aa52df5d05b3c
+msgid "Define projection"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:218
+# 82601375d2c64be6b09a4a7a7afa39de
+msgid "Specify the CRS for shapefiles whose CRS has not been defined."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:221
+# 13674ae325d14006b6aada542f45c1ad
+msgid "|join_location|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:221
+# 5a8f2dafb133453d803392fc1a3d4ae4
+msgid "Join attributes by location"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:221
+# 1d704e0853c9451abc09230e864b82c6
+msgid "Join additional attributes to vector layer based on spatial relationship. Attributes from one vector layer are appended to the attribute table of another layer and exported as a shapefile."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:228
+# b221fe9282254a9f9c519d743bd5b62f
+msgid "|split_layer|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:228
+# ea493972a34049dca511875f69201e88
+msgid "Split vector layer"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:228
+# ce96f3cb5f584697a4a8b7e38741e189
+msgid "Split input layer into multiple separate layers based on input field."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:231
+# 0f65ab68c27a401bbc15df161fc5ce40
+msgid "|merge_shapes|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:231
+# 5924d382fedd49678cd075846fd5f739
+msgid "Merge shapefiles to one"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:231
+# 3eb450a4f458429694f5c1e3b0bca555
+msgid "Merge several shapefiles within a folder into a new shapefile based on the layer type (point, line, area)."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:235
+# 9f7695de101f431293649aa30fc8cd4f
+msgid "Create spatial index"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:235
+# 836844631a5548fbaf2d049df4dbb02a
+msgid "Create a spatial index for OGR supported formats."
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/plugins_ftools.rst:239
+# 202bbb77a476411a883057bc0341fbc7
+msgid "Table Ftools 5: fTools Data management tools"
+msgstr ""
+

@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/gentle_gis_introduction/11_authors_and_contributors.rst:8
+# cd46661462454a61894f77438f648bbc
+msgid "About the authors & contributors:"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/11_authors_and_contributors.rst:11
+# 84120120cbfe477d853408931be815d6
+msgid "\\|picture_92\\|"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/11_authors_and_contributors.rst:11
+# e766c8953c6442e5af956ae7baa74d17
+msgid "Tim Sutton \\- Editor & Lead AuthorTim Sutton is a developer and project steering committee member of the Quantum GIS project. He is passionate about seeing GIS being Freely available to everyone. Tim is also a founding member of Linfiniti Consulting CC. \\- a small business set up with the goal of helping people to learn and use open source GIS software. ** **"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/11_authors_and_contributors.rst:13
+# 248622637f4447f4977153357c7f36fb
+msgid "\\|picture_26\\|"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/11_authors_and_contributors.rst:13
+# bba3bd92ca604b34828af0a96edd3502
+msgid "Otto Dassau \\- Assistant AuthorOtto Dassau is the documentation maintainer and project steering committee member of the Quantum GIS project. Otto has considerable experience in using and training people to use Free and Open Source GIS software. Web: http://www.nature\\-consult.deEmail: otto.dassau@gmx.de"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/11_authors_and_contributors.rst:15
+# 64777fe47a8243ac86de39ec12e8283f
+msgid "\\|picture_56\\|"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/11_authors_and_contributors.rst:15
+# abb35395f5c44abab985bdc51cf20922
+msgid "Marcelle Sutton \\- Project ManagerMarcelle Sutton studied english and drama and is a qualified teacher. Marcelle is also a founding member of Linfiniti Consulting CC. \\- a small business set up with the goal of helping people to learn and use open source GIS software. ** **"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/11_authors_and_contributors.rst:17
+# e925c1954cf2461f9645eccb504866fe
+msgid "\\|picture_34\\|"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/11_authors_and_contributors.rst:17
+# bc6b9e7b5f454116b408664533760b8b
+msgid "Lerato Nsibande – Video PresenterLerato is a grade 12 scholar living in Pretoria. Lerato learns Geography at school and has enjoyed learning GIS with us!"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/11_authors_and_contributors.rst:19
+# 03baa038256e4cefbf6094ca31fc447e
+msgid "\\|picture_51\\|"
+msgstr ""
+
+#: ../../source/docs/gentle_gis_introduction/11_authors_and_contributors.rst:19
+# b970a6f1ee2d410da532a14333b0d9df
+msgid "Sibongile Mthombeni – Video PresenterSibongile lives near Johannesburg with her young daughter. Her goal is to continue her studies and become a nurse. Working on this project was the first time Sibongile used a computer."
+msgstr ""
+

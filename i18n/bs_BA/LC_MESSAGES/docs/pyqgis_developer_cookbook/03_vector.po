@@ -1,0 +1,790 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:9
+# 03aba60936224430a8347f056b9c6960
+msgid "Using Vector Layers"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:11
+# 7d2dca2a52a64a679380a722bdedf72d
+msgid "This section summarizes various actions that can be done with vector layers."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:18
+# 73f766e1bfa049809874689566f0c158
+msgid "Iterating over Vector Layer"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:20
+# b8bd7edc8e244e83880ba6ceca1273c7
+msgid "Below is an example how to go through the features of the layer. To read features from layer, initialize the retieval with :func:`select` and then use :func:`nextFeature` calls::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:64
+# ccc2c59f05e04cf8b744c57e19d01b8f
+msgid ":func:`select` gives you flexibility in what data will be fetched. It can get 4 arguments, all of them are optional:"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:67
+# 6c62e4976ebc4388936ff8caea224e53
+msgid "fetchAttributes"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:68
+# 9c87045ef5e14497a729fb447385d8cb
+msgid "List of attributes which should be fetched. Default: empty list"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:70
+# 8e8062cdcf8548908b863432d212468c
+msgid "rect"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:70
+# 29a357b3f368443184f7b8eb5f82635c
+msgid "Spatial filter. If empty rect is given (:obj:`QgsRectangle()`), all features are fetched. Default: empty rect"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:72
+# db044e17754a42cba89d5ff9ea858ccc
+msgid "fetchGeometry"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:73
+# a88628bfc28a4bee8b3856bcd6a097a6
+msgid "Whether geometry of the feature should be fetched. Default: :const:`True`"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:78
+# f0c84334626f4ee585ecab14efa920cf
+msgid "useIntersect"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:75
+# 9f247fc40cf14924a30e5f12220eea57
+msgid "When using spatial filter, this argument says whether accurate test for intersection should be done or whether test on bounding box suffices. This is needed e.g. for feature identification or selection. Default: :const:`False`"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:80
+# b417c34fa5184751a9ff42eeda57a6ab
+msgid "Some examples::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:92
+# 7f805864673d4688b6a458a6574a37d3
+msgid "To obtain field index from its name, use provider's :func:`fieldNameIndex` function::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:104
+# 3eb3970c7c0442b183b4cb73cac5da5e
+msgid "Modifying Vector Layers"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:106
+# 1a50936fa677470e8b1939dd374f666b
+msgid "Most vector data providers support editing of layer data. Sometimes they support just a subset of possible editing actions. Use the :func:`capabilities` function to find out what set of functionality is supported::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:112
+# 5c63f82e1abe4a8d80dcffdd588b330e
+msgid "By using any of following methods for vector layer editing, the changes are directly committed to the underlying data store (a file, database etc). In case you would like to do only temporary changes, skip to the next section that explains how to do :ref:`modifications with editing buffer <editing-buffer>`."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:118
+# 3439dbcd531b4233be743a9d6b4fbff9
+msgid "Add Features"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:120
+# b8c64dc10e8f45de9d2223ba51446283
+msgid "Create some :class:`QgsFeature` instances and pass a list of them to provider's :func:`addFeatures` method. It will return two values: result (true/false) and list of added features (their ID is set by the data store)::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:132
+# d2ea10442da041099bde0ffa3168dee1
+msgid "Delete Features"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:134
+# c9fea66ade1447d6820c77fdfc21e4be
+msgid "To delete some features, just provide a list of their feature IDs::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:140
+# de2ce23b4fd9496f98e3acc9cb9acf2d
+msgid "Modify Features"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:142
+# 0521312704ad4fd8adc4e24426175b50
+msgid "It is possible to either change feature's geometry or to change some attributes. The following example first changes values of attributes with index 0 and 1, then it changes the feature's geometry::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:157
+# f0e4834270b04914a169660999ca152d
+msgid "Adding and Removing Fields"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:159
+# f37fa8749bf14fa382cc175cb97c3561
+msgid "To add fields (attributes), you need to specify a list of field defnitions. For deletion of fields just provide a list of field indexes. ::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:173
+# dafd1f4d253041bd9a7be7fca4e0cac9
+msgid "Modifying Vector Layers with an Editing Buffer"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:175
+# 74c1a19ee15e496e9daf6d7f06037f57
+msgid "When editing vectors within QGIS application, you have to first start editing mode for a particular layer, then do some modifications and finally commit (or rollback) the changes. All the changes you do are not written until you commit them --- they stay in layer's in-memory editing buffer. It is possible to use this functionality also programmatically --- it is just another method for vector layer editing that complements the direct usage of data providers. Use this option when providing some GUI tools for vector layer editing, since this will allow user to decide whether to commit/rollback and allows the usage of undo/redo. When committing changes, all changes from the editing buffer are saved to data provider."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:186
+# 9716d4b1cff749859243055b77579dbd
+msgid "To find out whether a layer is in editing mode, use :func:`isEditing` --- the editing functions work only when the editing mode is turned on. Usage of editing functions::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:205
+# f4abb8a6743c47bf9f7e29ac3827b6a7
+msgid "In order to make undo/redo work properly, the above mentioned calls have to be wrapped into undo commands. (If you do not care about undo/redo and want to have the changes stored immediately, then you will have easier work by :ref:`editing with data provider <editing>`.) How to use the undo functionality ::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:223
+# f2706399d9de475bb4c6176e8e493a33
+msgid "The :func:`beginEndCommand` will create an internal \"active\" command and will record subsequent changes in vector layer. With the call to :func:`endEditCommand` the command is pushed onto the undo stack and the user will be able to undo/redo it from GUI. In case something went wrong while doing the changes, the :func:`destroyEditCommand` method will remove the command and rollback all changes done while this command was active."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:230
+# 8be0a6e409ba4990a7e5972bf04c963c
+msgid "To start editing mode, there is :func:`startEditing` method, to stop editing there are :func:`commitChanges` and :func:`rollback()` --- however normally you should not need these methods and leave this functionality to be triggered by the user."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:239
+# 3361ca212bc2483a8bc6741d5f3dc6e8
+msgid "Using Spatial Index"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:242
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:916
+# 3b432dfc40bb4db5aebb1561565d9914
+# 1dc66caa275d4e1a82fa01979516f855
+msgid "**TODO:**"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:242
+# 1386b13503e9401bb1a76ed5a5ba7cf9
+msgid "Intro to spatial indexing"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:244
+# 9c066efc6cd14c3d9d3a2ab7eefe92f1
+msgid "create spatial index --- the following code creates an empty index::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:248
+# b6486f8615ae439983270087c9c6dd4e
+msgid "add features to index --- index takes :class:`QgsFeature` object and adds it to the internal data structure. You can create the object manually or use one from previous call to provider's :func:`nextFeature()` ::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:254
+# 0bebeab1b5df45c58e425a34cabeff37
+msgid "once spatial index is filled with some values, you can do some queries::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:266
+# 04c397640fdd4cbf8b3ede69505a95f2
+msgid "Writing Vector Layers"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:268
+# b48232af3a2340a096cbbd721cde438e
+msgid "You can write vector layer files using :class:`QgsVectorFileWriter` class. It supports any other kind of vector file that OGR supports (shapefiles, GeoJSON, KML and others)."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:272
+# b41ded98f3114c91ad27c41650b96b65
+msgid "There are two possibilities how to export a vector layer:"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:274
+# 8d29f4d784544c8ea3d509f6a77c3e3c
+msgid "from an instance of :class:`QgsVectorLayer`::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:285
+# e4e5b1f79ca244398d50a67f8ac3c23c
+msgid "Third parameter specifies output text encoding. Only some drivers need this for correct operation - shapefiles are one of those --- however in case you are not using international characters you do not have to care much about the encoding. The fourth parameter that we left as None may specify destination CRS --- if a valid instance of :class:`QgsCoordinateReferenceSystem` is passed, the layer is transformed to that CRS."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:292
+# 3d53db7e36b340f6b7cb252399990a3b
+msgid "For valid driver names please consult the `supported formats by OGR`_ --- you should pass the value in \"Code\" column as the driver name. Optionally you can set whether to export only selected features, pass further driver-specific options for creation or tell the writer not to create attributes --- look into the documentation for full syntax."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:301
+# 8b0bbe4576a64119be301ae74b61da9f
+msgid "directly from features::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:332
+# f9f0483bc149416eb910831805cb03df
+msgid "Memory Provider"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:334
+# f7cd05a5f89740a0b27aec459e52b97a
+msgid "Memory provider is intended to be used mainly by plugin or 3rd party app developers. It does not store data on disk, allowing developers to use it as a fast backend for some temporary layers."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:338
+# 2981bb7a78304dc4876eb1f3aad5c404
+msgid "The provider supports string, int and double fields."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:340
+# a3e4444649de4800843d44f2bbe67b43
+msgid "The memory provider also supports spatial indexing, which is enabled by calling the provider's :func:`createSpatialIndex` function. Once the spatial index is created you will be able to iterate over features within smaller regions faster (since it's not necessary to traverse all the features, only those in specified rectangle)."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:346
+# 48a9b4779e69476da6188829b7045f1e
+msgid "A memory provider is created by passing ``\"memory\"`` as the provider string to the :class:`QgsVectorLayer` constructor."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:349
+# bd2b7a45eb93491bbcfe4a91fe51947c
+msgid "The constructor also takes a URI defining the geometry type of the layer, one of: ``\"Point\"``, ``\"LineString\"``, ``\"Polygon\"``, ``\"MultiPoint\"``, ``\"MultiLineString\"``, or ``\"MultiPolygon\"``."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:353
+# e49afaae99d64ecd932527f095e3554a
+msgid "From QGIS version 1.7 the URI can also specify the coordinate reference system, fields, and indexing of the memory provider in the URI. The syntax is:"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:358
+# a6c8e469bddb4496b19c9a5b0eec8e53
+msgid "crs=definition"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:357
+# 26af476f827e41d69817c95845ceef15
+msgid "Specifies the coordinate reference system, where definition may be any of the forms accepted by :func:`QgsCoordinateReferenceSystem.createFromString`"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:361
+# 193921c2e907408aa906d97b65dae0fa
+msgid "index=yes"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:361
+# e2ab72cde7b14e57a03b397fa3f6e210
+msgid "Specifies that the provider will use a spatial index"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:366
+# 328273d521f24b4a984c4f64831a5274
+msgid "field=name:type(length,precision)"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:364
+# 9545534a318a4855820f34b7452cf8e1
+msgid "Specifies an attribute of the layer.  The attribute has a name, and optionally a type (integer, double, or string), length, and precision. There may be multiple field definitions."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:368
+# 512ac6bb643d42d4860fa2bb6bc5ee98
+msgid "The following example of a URI incorporates all these options::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:372
+# 7e87769cd0da495a8c64eece1c22068b
+msgid "The following example code illustrates creating and populating a memory provider::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:395
+# b2a2cc07c131482b84f1d75575336f7c
+msgid "Finally, let's check whether everything went well::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:412
+# 67e7a61ace684ef3bcd7bf0993230a6d
+msgid "Appearance (Symbology) of Vector Layers"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:414
+# c3ed1af2e19e4eb6b5b20a78d916f2b4
+msgid "When a vector layer is being rendered, the appearance of the data is given by **renderer** and **symbols** associated with the layer.  Symbols are classes which take care of drawing of visual representation of features, while renderers determine what symbol will be used for a particular feature."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:419
+# 6dd922f7bf5744999d7efbd77cb3bdbd
+msgid "In QGIS v1,4 a new vector rendering stack has been introduced in order to overcome the limitations of the original implementation. We refer to it as new symbology or symbology-ng (new generation), the original rendering stack is also called old symbology. Each vector layer uses either new symbology or old symbology, but never both at once or neither of them. It's not a global setting for all layers, so some layers might use new symbology while others still use old symbology. In QGIS options the user can specify what symbology should be used by default when layers are loaded.  The old symbology will be kept in further QGIS v1.x releases for compatibility and we plan to remove it in QGIS v2.0."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:430
+# 8b21e3447f774cacb6114389dc2c9c8e
+msgid "How to find out which implementation is currently in use::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:440
+# 13ffffe6daec4d578ffb033ce7c3e1f5
+msgid "Note: if you plan to support also earlier versions (i.e. QGIS < 1.4), you should first check whether the :func:`isUsingRendererV2` method exists --- if not, only old symbology is available::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:447
+# 43c64b6d1e9e444dabd3cb40ee5998c6
+msgid "We are going to focus primarily on new symbology because it has better capabilities are more options for customization."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:453
+# 33f3fb94214540008a030346d1e0ec86
+msgid "New Symbology"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:455
+# 2bc912ecc15d49fd94ce4c1ee6c48257
+msgid "Now that we have a reference to a renderer from the previous section, let us explore it a bit::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:460
+# 8aff9b98f3f5400ba4bee8e9342e7cac
+msgid "There are several known renderer types available in QGIS core library:"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:463
+# b8abd4bf21714267b6ae95fbe0080efe
+msgid "Type"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:463
+# 016080101a7d40be814d0927263ae10a
+msgid "Class"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:463
+# c5ad7a81198946478b996f351baece14
+msgid "Description"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:465
+# 941b4c78434f46a0927259fbb7a987d2
+msgid "singleSymbol"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:465
+# 99507f38f1e8471db81e61b0a525e7f7
+msgid ":class:`QgsSingleSymbolRendererV2`"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:465
+# 9993b2d8695b4f2caab95bccb19cf7fd
+msgid "Renders all features with the same symbol"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:466
+# 8d63f49c4a38460e967e9d696402a84d
+msgid "categorizedSymbol"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:466
+# 8f65a309a84f427e90a5d6aa8f001cbd
+msgid ":class:`QgsCategorizedSymbolRendererV2`"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:466
+# cc88b94a47764c268261ceea8048b128
+msgid "Renders features using a different symbol for each category"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:467
+# 0db99e0c8a994337a29d9ffff6bab340
+msgid "graduatedSymbol"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:467
+# 323dcb3e79ac47aaad8ead446c43d9a8
+msgid ":class:`QgsGraduatedSymbolRendererV2`"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:467
+# 963e94f1c01b4125a0731091fdebfb80
+msgid "Renders features using a different symbol for each range of values"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:470
+# 85db4eb8fc6c4d898717a4a32ff25bc4
+msgid "There might be also some custom renderer types, so never make an assumption there are just these types. You can query :class:`QgsRendererV2Registry` singleton to find out currently available renderers."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:474
+# 25bd939a08b84551958dea0f229ecb79
+msgid "It is possible to obtain a dump of a renderer contents in text form --- can be useful for debugging::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:482
+# 39181471e8dc4951a0ce594889371d13
+msgid "Single Symbol Renderer"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:484
+# bb8bf8e62fdc4f36bda2b26977116c38
+msgid "You can get the symbol used for rendering by calling :func:`symbol` method and change it with :func:`setSymbol` method (note for C++ devs: the renderer takes ownership of the symbol.)"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:491
+# e58e0e472b334c7f9cbcf12fbf6621c3
+msgid "Categorized Symbol Renderer"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:493
+# ee745bbfaf404520adafddb50e736487
+msgid "You can query and set attribute name which is used for classification: use :func:`classAttribute` and :func:`setClassAttribute` methods."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:496
+# 1f9d6a7d3abc4da8be24c3d4ba1ab171
+msgid "To get a list of categories::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:501
+# 7f4b682a9d0e4ec5a74232463b666983
+msgid "Where :func:`value` is the value used for discrimination between categories, :func:`label` is a text used for category description and :func:`symbol` method returns assigned symbol."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:505
+# 600003f885a34e70b79a247e81f8cb34
+msgid "The renderer usually stores also original symbol and color ramp which were used for the classification: :func:`sourceColorRamp` and :func:`sourceSymbol` methods."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:511
+# bbb810a9c2394f18956af25360cbe010
+msgid "Graduated Symbol Renderer"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:513
+# 779c97675a39460699e0349ad9be18cb
+msgid "This renderer is very similar to the categorized symbol renderer described above, but instead of one attribute value per class it works with ranges of values and thus can be used only with numerical attributes."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:517
+# 2ca418178e944de6856582e9c1786f17
+msgid "To find out more about ranges used in the renderer::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:527
+# 23ef3f4e3b064d3d8b0183d2b6722f73
+msgid "you can again use :func:`classAttribute` to find out classification attribute name, :func:`sourceSymbol` and :func:`sourceColorRamp` methods.  Additionally there is :func:`mode` method which determines how the ranges were created: using equal intervals, quantiles or some other method."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:532
+# d670bb7906de4d26aebfa7e5f146c277
+msgid "If you wish to create your own graduated symbol renderer you can do so as illustrated in the example snippet below (which creates a simple two class arrangement)::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:589
+# 3122a4bcaa7b4b289650047edc2dffe4
+msgid "Working with Symbols"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:591
+# 92f04c444b5a427b8d0fba6c90c6c375
+msgid "For representation of symbols, there is :class:`QgsSymbolV2` base class with three derived classes:"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:594
+# 1da5d582d6d649feb1614b506eb8a485
+msgid ":class:`QgsMarkerSymbolV2` - for point features"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:595
+# b42a97040af74ff7bf1842b8fbbe4e3b
+msgid ":class:`QgsLineSymbolV2` - for line features"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:596
+# e08a9908c84c458c844945b494eb2ef5
+msgid ":class:`QgsFillSymbolV2` - for polygon features"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:598
+# 4828e76c2acc4787af48bc5f1013d434
+msgid "**Every symbol consists of one or more symbol layers** (classes derived from :class:`QgsSymbolLayerV2`). The symbol layers do the actual rendering, the symbol class itself serves only as a container for the symbol layers."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:602
+# acc7bf72707c464d8aafeccc4e1c9aee
+msgid "Having an instance of a symbol (e.g. from a renderer), it is possible to explore it: :func:`type` method says whether it is a marker, line or fill symbol. There is a :func:`dump` method which returns a brief description of the symbol. To get a list of symbol layers::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:611
+# 58cf0dfa7c4c46fcb8b9df14558b7d41
+msgid "To find out symbol's color use :func:`color` method and :func:`setColor` to change its color. With marker symbols additionally you can query for the symbol size and rotation with :func:`size` and :func:`angle` methods, for line symbols there is :func:`width` method returning line width."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:616
+# 7e3e255c44d8407baa7103c6d56d612d
+msgid "Size and width are in millimeters by default, angles are in degrees."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:621
+# 2d9b637311924eafaa4a9f67da9608a2
+msgid "Working with Symbol Layers"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:623
+# d90e3dd9bbe343d7bd32caff78c31375
+msgid "As said before, symbol layers (subclasses of :class:`QgsSymbolLayerV2`) determine the appearance of the features.  There are several basic symbol layer classes for general use. It is possible to implement new symbol layer types and thus arbitrarily customize how features will be rendered. The :func:`layerType` method uniquely identifies the symbol layer class --- the basic and default ones are SimpleMarker, SimpleLine and SimpleFill symbol layers types."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:630
+# d2f529d3f25b4606ab709a07052305e4
+msgid "You can get a complete list of the types of symbol layers you can create for a given symbol layer class like this::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:639
+# 97ca7b72753244de96aaab41e9c8bfa0
+msgid "Output::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:647
+# 738bd0cfa54f4ad8ae00a9f3116ba71c
+msgid ":class:`QgsSymbolLayerV2Registry` class manages a database of all available symbol layer types."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:650
+# e06ee77b2d844467898f65a83cffe626
+msgid "To access symbol layer data, use its :func:`properties` method that returns a key-value dictionary of properties which determine the appearance. Each symbol layer type has a specific set of properties that it uses. Additionally, there are generic methods :func:`color`, :func:`size`, :func:`angle`, :func:`width` with their setter counterparts. Of course size and angle is available only for marker symbol layers and width for line symbol layers."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:660
+# 884e981bca05480fb1cf45f4315101c0
+msgid "Creating Custom Symbol Layer Types"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:662
+# 8fb770ce6a0445daad1a3af24ede3884
+msgid "Imagine you would like to customize the way how the data gets rendered. You can create your own symbol layer class that will draw the features exactly as you wish. Here is an example of a marker that draws red circles with specified radius::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:697
+# db03830fe48c417ba2525345426f7b83
+msgid "The :func:`layerType` method determines the name of the symbol layer, it has to be unique among all symbol layers. Properties are used for persistence of attributes. :func:`clone` method must return a copy of the symbol layer with all attributes being exactly the same. Finally there are rendering methods: :func:`startRender` is called before rendering first feature, :func:`stopRender` when rendering is done. And :func:`renderPoint` method which does the rendering. The coordinates of the point(s) are already transformed to the output coordinates."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:706
+# 0bab32e9f436427e920601840af0c08e
+msgid "For polylines and polygons the only difference would be in the rendering method: you would use :func:`renderPolyline` which receives a list of lines, resp. :func:`renderPolygon` which receives list of points on outer ring as a first parameter and a list of inner rings (or None) as a second parameter."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:711
+# fc9aca604ce3454d8395763327cd8185
+msgid "Usually it is convenient to add a GUI for setting attributes of the symbol layer type to allow users to customize the appearance: in case of our example above we can let user set circle radius. The following code implements such widget::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:744
+# 483fa417192e44f9985000facb72f565
+msgid "This widget can be embedded into the symbol properties dialog. When the symbol layer type is selected in symbol properties dialog, it creates an instance of the symbol layer and an instance of the symbol layer widget. Then it calls :func:`setSymbolLayer` method to assign the symbol layer to the widget. In that method the widget should update the UI to reflect the attributes of the symbol layer. :func:`symbolLayer` function is used to retrieve the symbol layer again by the properties dialog to use it for the symbol."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:752
+# a4811841f7c04fa6952a126d18012ed1
+msgid "On every change of attributes, the widget should emit :func:`changed()` signal to let the properties dialog update the symbol preview."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:755
+# 721a3af6cc854d4a974af4ae27e55c9e
+msgid "Now we are missing only the final glue: to make QGIS aware of these new classes. This is done by adding the symbol layer to registry. It is possible to use the symbol layer also without adding it to the registry, but some functionality will not work: e.g. loading of project files with the custom symbol layers or inability to edit the layer's attributes in GUI."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:761
+# e88272155e634be3bb9cc94e269a3a11
+msgid "We will have to create metadata for the symbol layer::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:777
+# 36af395ddc694afd88b2268d90ce65ca
+msgid "You should pass layer type (the same as returned by the layer) and symbol type (marker/line/fill) to the constructor of parent class. :func:`createSymbolLayer` takes care of creating an instance of symbol layer with attributes specified in the `props` dictionary. (Beware, the keys are QString instances, not \"str\" objects). And there is :func:`createSymbolLayerWidget` method which returns settings widget for this symbol layer type."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:784
+# 3ecdc1eb22a44b379691cae77735b195
+msgid "The last step is to add this symbol layer to the registry --- and we are done."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:790
+# 5d2be6a542eb4aab9d0e36c96ab3a10f
+msgid "Creating Custom Renderers"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:792
+# b0715714371c42959451d922153a2769
+msgid "It might be useful to create a new renderer implementation if you would like to customize the rules how to select symbols for rendering of features. Some use cases where you would want to do it: symbol is determined from a combination of fields, size of symbols changes depending on current scale etc."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:797
+# 7c2fe400eed5454f87ec80a4f8a900a7
+msgid "The following code shows a simple custom renderer that creates two marker symbols and chooses randomly one of them for every feature::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:824
+# f7b5a853a22c45c68800f255ecda868f
+msgid "The constructor of parent :class:`QgsFeatureRendererV2` class needs renderer name (has to be unique among renderers). :func:`symbolForFeature` method is the one that decides what symbol will be used for a particular feature. :func:`startRender` and :func:`stopRender` take care of initialization/finalization of symbol rendering. :func:`usedAttributes` method can return a list of field names that renderer expects to be present. Finally :func:`clone` function should return a copy of the renderer."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:832
+# 76d2b954049b4b77936ef1e0a143527f
+msgid "Like with symbol layers, it is possible to attach a GUI for configuration of the renderer. It has to be derived from :class:`QgsRendererV2Widget`. The following sample code creates a button that allows user to set symbol of the first symbol::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:861
+# 0dad52f40d4a45f994b68d61945a069a
+msgid "The constructor receives instances of the active layer (:class:`QgsVectorLayer`), the global style (:class:`QgsStyleV2`) and current renderer. If there is no renderer or the renderer has different type, it will be replaced with our new renderer, otherwise we will use the current renderer (which has already the type we need). The widget contents should be updated to show current state of the renderer. When the renderer dialog is accepted, widget's :func:`renderer` method is called to get the current renderer --- it will be assigned to the layer."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:870
+# ab93fee6a07249b4b709d397f6b3dff6
+msgid "The last missing bit is the renderer metadata and registration in registry, otherwise loading of layers with the renderer will not work and user will not be able to select it from the list of renderers. Let us finish our RandomRenderer example::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:886
+# 10216216db0645f28b54805a17a52331
+msgid "Similarly as with symbol layers, abstract metadata constructor awaits renderer name, name visible for users and optionally name of renderer's icon. :func:`createRenderer` method passes :class:`QDomElement` instance that can be used to restore renderer's state from DOM tree. :func:`createRendererWidget` method creates the configuration widget. It does not have to be present or can return `None` if the renderer does not come with GUI."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:893
+# 191ce5373af24edb8ae023cdc524c3ef
+msgid "To associate an icon with the renderer you can assign it in :class:`QgsRendererV2AbstractMetadata` constructor as a third (optional) argument --- the base class constructor in the RandomRendererMetadata :func:`__init__` function becomes::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:903
+# 958432f8ee5c4bdda288832237966c16
+msgid "The icon can be associated also at any later time using :func:`setIcon` method of the metadata class. The icon can be loaded from a file (as shown above) or can be loaded from a `Qt resource <http://qt.nokia.com/doc/4.5/resources.html>`_ (PyQt4 includes .qrc compiler for Python)."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:909
+# 5a2adc200e4141548968189649de2cdd
+msgid "Further Topics"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:912
+# c1fe57f51361400db975beac6bdd99f6
+msgid "creating/modifying symbols"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:913
+# 5267cc0d46334ba9b6d9d5768eedb8f7
+msgid "working with style (:class:`QgsStyleV2`)"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:914
+# 2fb9b5bf3fb6421f8031f3eab9fc4df5
+msgid "working with color ramps (:class:`QgsVectorColorRampV2`)"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:915
+# 1d05bb1d48ed4d48be8d723f6867eeca
+msgid "rule-based renderer"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:916
+# 5b2d0d8c77fb416e870300242d565ffc
+msgid "exploring symbol layer and renderer registries"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:921
+# 9e403d7a666e43848e454d4309807101
+msgid "Old Symbology"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:923
+# e6266adaf2b748459caeaa386e476387
+msgid "A symbol determines color, size and other properties of the feature. Renderer associated with the layer decides what symbol will be used for particular feature. There are four available renderers:"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:927
+# 047547f817c14427a0c9fb71840d44c3
+msgid "single symbol renderer (:class:`QgsSingleSymbolRenderer`) --- all features are rendererd with the same symbol."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:929
+# 8cd55bdabca84273af0e31bf44a012be
+msgid "unique value renderer (:class:`QgsUniqueValueRenderer`) --- symbol for each feature is choosen from attribute value."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:931
+# 0e795a35f04f4bc494495e984dc1a2fb
+msgid "graduated symbol renderer (:class:`QgsGraduatedSymbolRenderer`) --- a symbol is applied to a subgroup (class) of features, which is calculated on a numeric field"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:934
+# 14ef57f9b1484dda80024c4761b30f71
+msgid "continuous color renderer (:class:`QgsContinuousSymbolRenderer`)"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:936
+# ba51c899555e45bebf38bc5ed0ab47a4
+msgid "How to create a point symbol::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:946
+# b71e835e74d74d8799d92d6c41a7d9bf
+msgid "The :func:`setNamedPointSymbol` method determines the shape of the symbol. There are two classes: hardcoded symbols (prefixed ``hard:``) and SVG symbols (prefixed ``svg:``). The following hardcoded symbols are available: ``circle``, ``rectangle``, ``diamond``, ``pentagon``, ``cross``, ``cross2``, ``triangle``, ``equilateral_triangle``, ``star``, ``regular_star``, ``arrow``."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:952
+# 297ff63f4def4399a5327d30efd28396
+msgid "How to create an SVG symbol::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:958
+# 5f77c1b9abf743e2b13c1de5aa683d7e
+msgid "SVG symbols do not support setting colors, fill and line styles."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:960
+# 5fc75018efbe4b4c90c9486e39908f0b
+msgid "How to create a line symbol::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:964
+# 9b578de660434b909f17e3e431061c6a
+msgid "How to create a fill symbol::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:968
+# 39d72ddad36d442e80085ba02e4461a4
+msgid "Create a single symbol renderer::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:973
+# 64650f18925a470da9540a65e974cd95
+msgid "Assign the renderer to a layer::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:977
+# 2d402dfbda7a48308879bc17316858e1
+msgid "Create unique value renderer::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/03_vector.rst:981
+# b020ba6705824a62a450df765a93b646
+msgid "Create graduated symbol renderer::"
+msgstr ""
+

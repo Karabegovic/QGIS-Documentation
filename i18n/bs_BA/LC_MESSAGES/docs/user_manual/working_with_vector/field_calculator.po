@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/user_manual/working_with_vector/field_calculator.rst:12
+# ff8367e2d5684eb3b4a4b89ca3cb486c
+msgid "Field Calculator"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/field_calculator.rst:14
+# 44dbff0835134d9b930aab8e8b85b39c
+msgid "The |mActionCalculateField| :sup:`Field Calculator` button in the attribute table allows to perform calculations on basis of existing attribute values or defined functions, e.g to calculate length or area of geometry features. The results can be written to a new attribute column or it can be used to update values in an already existing column."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/field_calculator.rst:20
+# 86c9034c52a44cf99e3ad7bf440bbf64
+msgid "You have to bring the vector layer in editing mode, before you can click on the field calculator icon to open the dialog (see figure_attributes_3_). In the dialog you first have to select whether you want to only update selected features, create a new attribute field where the results of the calculation will be added or update an existing field."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/field_calculator.rst:38
+# 2c67812064b949fda2c3f324732f792d
+msgid "If you choose to add a new field, you need to enter a field name, a field type (integer, real or string), the total field width, and the field precision (see figure_attributes_3_) . For example, if you choose a field width of 10 and a field precision of 3 it means you have 6 signs before the dot, then the dot and another 3 signs for the precision."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/field_calculator.rst:44
+# 014d924c8d054694aab68eaa98f1f084
+msgid "The **Function List** contains functions as well as fields and values. View the help function in the **Selected Function Help**. In **Expression** you see the calculation expressions you create with the **Function List**. The most commonly used operators, see **Operators**."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/field_calculator.rst:46
+# 98acd14ebbb14ca9ac01ee058d99fc87
+msgid "In the **Function List**, click on :guilabel:`>-Fields and Values` to view all attributes of the attribute table to be searched. To add an attribute to the Field calculator **Expression** field, double click its name in the :guilabel:`>-Fields and Values` list. Generally you can use the various fields, values and functions to construct the calculation expression or you can just type it into the box. To display the values ​​of a field, you just right click on the appropriate field. You can choose between :guilabel:`Load top 10 unique values` and :guilabel:`Load all unique values`. On the right side opens the **Field Values** list with the unique values. To add a value to the Field calculator **Expression** box, double click its name in the **Field Values** list."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/field_calculator.rst:57
+# 8cd03355552a466f9f5f18790152e023
+msgid "The :guilabel:`>-Operators`, :guilabel:`>-Math`, :guilabel:`>-Conversions`, :guilabel:`>-String`, :guilabel:`>-Geometry` and :guilabel:`>-Record` menu provides several functions. In :guilabel:`>-Operators` you find mathematical operators. Find :guilabel:`>-Math` for mathematical functions. The :guilabel:`>-Conversions` group contains functions that convert one data type to another. The :guilabel:`>-String` group provides functions for data strings. In the :guilabel:`>-Geometry` group you find functions for geometry objects. With :guilabel:`>-Record` group functions you can add a numeration to your data set. To add a function to the Field calculator **Expression** box, click on the > and then double klick the function."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/field_calculator.rst:66
+# 6f7643c9da2a439d95417ef5e053b91a
+msgid "A short example illustrates how the field calculator works. We want to calculate the length of the ``railroads`` layer from the :file:`QGIS_example_dataset`:"
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/field_calculator.rst:70
+# 76e66debe4134d319417b7ca222524a4
+msgid "Load the Shapefile *railroads.shp* in |qg| and press |mActionOpenTable| :menuselection:`Open Attribute Table`."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/field_calculator.rst:71
+# 0018f54040b2442ebe2e6a2939bec1dc
+msgid "Click on |mActionToggleEditing| :sup:`Toggle editing mode` and open the |mActionCalculateField| :sup:`Field Calculator` dialog."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/field_calculator.rst:73
+# ca12e4694f7149e7a5345f2d5601df9a
+msgid "Select the |checkbox| :guilabel:`Create a new field` checkbox to safe the calculations into a new field."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/field_calculator.rst:74
+# 8539cb662fb046c08fecb8e7b5958f0e
+msgid "Add ``length`` as Output field name, ``real`` as Output field type and define Output field width 10 and a Precision of 3."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/field_calculator.rst:76
+# db068e8aad2f4c8b87dda6972bc32819
+msgid "Now click on function ``length`` in the :guilabel:`>-Geometry` group to add it as \\$length into the field calculator expression box and click **[Ok]**."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/field_calculator.rst:78
+# 5694925aa9b54e379bdce54e606686bd
+msgid "You can now find a new column ``length`` in the attribute table."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/field_calculator.rst:81
+# 660afca8ae25443393dcea4fa0fbe153
+msgid "The available functions are listed below."
+msgstr ""
+
+#: ../../source/docs/user_manual/working_with_vector/field_calculator.rst:147
+# fc6056b2cc29489594fd389d7ec95b63
+msgid "The field calculator **Function list** with the **Selected Function Help** , **Operators** and **Expression** menu are also available through the rule-based rendering in the Style tab of the Layer properties and the expression based labeling |browsebutton| in the |mActionLabeling| :sup:`Labeling` core application."
+msgstr ""
+

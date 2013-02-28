@@ -1,0 +1,628 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/user_manual/preamble/features.rst:9
+# b4d9b0663a694a84a863631ee430d2a4
+msgid "Features"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:11
+# 7ce1ef0db8824d758dbd2147c0dfac61
+msgid "|qg| offers many common GIS functionalities provided by core features and plugins. As a short summary they are presented in six categories to gain a first insight."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:16
+# b9ce5df7b019456992633789fcb58a2a
+msgid "View data"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:18
+# 7e76a977023d467cbbd8e535ad52d149
+msgid "You can view and overlay vector and raster data in different formats and projections without conversion to an internal or common format. Supported formats include:"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:22
+# eeb57f91d3c54f4f94750ad28b2f1b11
+msgid "Spatially-enabled tables and views using PostGIS, SpatiaLite and MSSQL Spatial, vector formats supported by the installed OGR library, including ESRI shapefiles, MapInfo, SDTS, GML and many more, see section :ref:`label_workingvector`."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:25
+# c68295ec4f9e4817908b3f6682c47348
+msgid "Raster and imagery formats supported by the installed GDAL (Geospatial Data Abstraction Library) library, such as GeoTiff, Erdas Img., ArcInfo Ascii Grid, JPEG, PNG and many more, see section :ref:`working_with_raster`."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:28
+# 8556d72369ba4264a321a81bea697730
+msgid "GRASS raster and vector data from GRASS databases (location/mapset), see section :ref:`sec_grass`."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:30
+# 45228c1449ef440d920ca85eaf59e067
+msgid "Online spatial data served as OGC-compliant Web Map Service (WMS) or Web Feature Service (WFS), see section :ref:`working_with_ogc`."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:32
+# 8de1572b6dbf40979e7cba8f78816bb6
+msgid "OpenStreetMap data, see section :ref:`plugins_osm`."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:35
+# 953229fe20c54adf96e7abf70c9358f3
+msgid "Explore data and compose maps"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:37
+# bd9b44a85ef447e78d16c94e592d40c4
+msgid "You can compose maps and interactively explore spatial data with a friendly GUI. The many helpful tools available in the GUI include:"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:40
+# a37e706ca4a049619dd64871014ef8b6
+msgid "QGIS browser"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:41
+# c3f333de8da241f585ac67c767d38757
+msgid "On the fly projection"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:42
+# 9c7af1fe62604d2795a772538d69a983
+msgid "Map composer"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:43
+# e359a73859024eb5a9c57f2f8a015d8e
+msgid "Overview panel"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:44
+# 7da076de936f4a449e72cee34ac02603
+msgid "Spatial bookmarks"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:45
+# 596f10c42cd94f7d992b40c55306cc10
+msgid "Identify/select features"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:46
+# 58e46d032a0d403eba710c40bea772e7
+msgid "Edit/view/search attributes"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:47
+# f92790b3678a4874a2ace8501082c8ad
+msgid "Feature labeling"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:48
+# 2289f62f3ba94746868c8bc85d9e4aab
+msgid "Change vector and raster symbology"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:49
+# 35074ea823634e5ba77a6573062360ed
+msgid "Add a graticule layer - now via fTools plugin and as decoration"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:50
+# 3fdf3fd0358a46329dc0a1fcc8aa3d4f
+msgid "Decorate your map with a north arrow scale bar and copyright label"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:51
+# 1f313bda2d844e6eaa7148706e502faa
+msgid "Save and restore projects"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:54
+# 57e82eda1ed649589f786d4edc6d27c4
+msgid "Create, edit, manage and export data"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:56
+# b2df76c8723e46299e588e661ec1f7ba
+msgid "You can create, edit, manage and export vector maps in several formats. Raster data have to be imported into GRASS to be able to edit and export them into other formats. QGIS offers the following:"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:60
+# f1ed3a1832b94924851587ad40bc9a1d
+msgid "Digitizing tools for OGR supported formats and GRASS vector layer."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:61
+# 2e444decbd5945e3b12acd04356c88d9
+msgid "Create and edit shapefiles and GRASS vector layers."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:62
+# 063e4fa688e94326b8b263151842d7e0
+msgid "Geocode images with the Georeferencer plugin."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:63
+# e997a918e0d140cfbb8f37c8ca91f5d9
+msgid "GPS tools to import and export GPX format, and convert other GPS formats to GPX or down/upload directly to a GPS unit (on Linux, usb: has been addedto list of GPS devices)."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:66
+# 0d915272f16147a6b81f4521604800fa
+msgid "Visualize and edit OpenStreetMap data."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:67
+# c6a3d4467d774a088daf8f985150d38b
+msgid "Create PostGIS layers from shapefiles with the SPIT plugin."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:68
+# 67ba5a5702aa4575b0b5ebdd772a59b5
+msgid "Improved handling of PostGIS tables."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:69
+# c1b416d598db4dd4ab2ed9ae1649198d
+msgid "Manage vector attribute tables with the new attribute table (see section :ref:`sec_attribute_table`) or Table Manager plugin."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:71
+# a13f9947050c46c4900469dbd74f7ad2
+msgid "Save screenshots as georeferenced images."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:74
+# 21b284e8d2c74a50b801d53460430822
+msgid "Analyse data"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:76
+# c523390a0cea495f9b834e87edba21fe
+msgid "You can perform spatial data analysis on PostgreSQL/PostGIS and other OGR supported formats using the fTools Python plugin. QGIS currently offers vector analysis, sampling, geoprocessing, geometry and database management tools. You can also use the integrated GRASS tools, which include the complete GRASS functionality of more than 400 modules (See Section :ref:`sec_grass`). Or you work with SEXTANTE, which provides powerful a geospatial analysis framework to call native and third party algorithms from QGIS, such as GDAL, SAGA, GRASS, fTools and more (see section :ref:`label_sextante`)."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:86
+# a7551172d655426991f5550e1e73fb31
+msgid "Publish maps on the Internet"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:88
+# 4720c5ee5a2d4aec9e28e8e805b52947
+msgid "QGIS can be used to export data to a mapfile and to publish them on the Internet using a webserver with UMN MapServer installed. QGIS can also be used as a WMS, WMS-C or WFS and WFS-T client, and as WMS or WFS server (see section :ref:`sec_ogc`)."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:94
+# cb410766811b47c7b7c95186f561f2b7
+msgid "Extend QGIS functionality through plugins"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:96
+# ace46bfdc4cd40509785330f43c84bb0
+msgid "QGIS can be adapted to your special needs with the extensible plugin architecture. QGIS provides libraries that can be used to create plugins.  You can even create new applications with C++ or Python!"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:101
+# 9cfcbb8be5894c5eba34d2516d36a9f2
+msgid "Core Plugins"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:103
+# 87dd38d84585450bab483f60cc0e0dc8
+msgid "Add Delimited Text Layer (Loads and displays delimited text files containing x,y coordinates)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:105
+# b0e9e404aac84312a35bb4fe7745aa3c
+msgid "Coordinate Capture (Capture mouse coordinates in different CRS)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:106
+# c2dfa4e06fbc46d6ad1bd4cf5565071e
+msgid "DB Manager (Exchange, edit and view layers and tables; execute SQL queries)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:107
+# 325e377d5d4b4d52881fe9d9e1fac031
+msgid "Diagram Overlay (Placing diagrams on vector layer)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:108
+# c9e3b5c1191741288a88b56364e4706e
+msgid "Dxf2Shp Converter (Convert DXF to Shape)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:109
+# bc6e0f92d12a48afa514d6877b6744af
+msgid "GPS Tools (Loading and importing GPS data)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:110
+# 66272d051eda4eb2b1753fc99818ea0c
+msgid "GRASS (GRASS GIS integration)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:111
+# c4897b3bf385473bb0274d6511a9cc42
+msgid "GDALTools (Integrate GDAL Tools into QGIS)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:112
+# 4e86a2a5d09b4938b8262a6e1326d3be
+msgid "Georeferencer GDAL (Adding projection information to raster using GDAL)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:113
+# e0e9d6480954438fbf2632f37849608b
+msgid "Heatmap tool (Generating raster heatmaps from point data)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:114
+# 1200b8ac6b4345b6bbd82a861fafae97
+msgid "Interpolation plugin (interpolate based on vertices of a vector layer)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:115
+# 2e35b48623fc4847852d1908d560b633
+msgid "Mapserver Export (Export QGIS project file to a MapServer map file)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:116
+# 543a1bba7e0843de90dec0af6d9a2c48
+msgid "Offline Editing (Allow offline editing and synchronizing with database)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:117
+# dc38a699d08a4ec1980ba12edc6ade07
+msgid "OpenStreetMap plugin (Viewer and editor for openstreetmap data)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:118
+# 770e5747f325423a88dd058cac4227c1
+msgid "Oracle Spatial GeoRaster support"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:119
+# 3505710f7d1c47f2bbf329887034bc2a
+msgid "Plugin Installer (Download and install QGIS python plugins)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:120
+# 63ccde8ffde34f28ac048f5a0463ee6b
+msgid "Raster terrain analysis (Raster based terrain analysis)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:121
+# 602818b702e64022b1adf250cd0048c9
+msgid "Road graph plugin (Shortest Path network analysis)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:122
+# 0bd8cb1fbd0447188ad545a86b636a7f
+msgid "SPIT (Import Shapefile to PostgreSQL/PostGIS)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:123
+# 79282c8e2ba34fb292db4d394ae2a9d1
+msgid "SQL Anywhere Plugin (Store vector layers within a SQL Anywhere database)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:124
+# 45d132fb0ad74019903716c050159e85
+msgid "Zonal statictics plugin (Calculate count, sum, mean of raster for each polygon of a vector layer)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:126
+# 104362e617384f96bcbc5730d7cceab6
+msgid "Spatial Query plugin (Makes spatial queries on vector layers)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:127
+# f76502d7cedd4bddba79cc48d8dc5d08
+msgid "eVIS (Event Visualization Tool)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:128
+# 0681e95d9c084f7c80a20a5c87261df5
+msgid "fTools (Tools for vector data analysis and management)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:131
+# 6d5789fb98d045abb4fb3ed53cb7f3b5
+msgid "External Python Plugins"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:133
+# 7be956ed12e246899aff40b092e18fd3
+msgid "QGIS offers a growing number of external python plugins that are provided by the community. These plugins reside in the official PyQGIS repository, and can be easily installed using the Python Plugin Installer (See Section :ref:`load_external_plugin`)."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:139
+# 4d8e4f82f98d4c3c950039ead5145852
+msgid "What's new in the version 1.8"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:141
+# 92418599a6b14d9fbf20c79af359753e
+msgid "Please note that this is a release in our 'cutting edge' release series. As such it contains new features and extends the programmatic interface over QGIS 1.0.x and QGIS 1.7.0. We recommend that you use this version over previous releases."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:145
+# b2fd0e57470942e3880f53fe8d0f0d51
+msgid "This release includes hundreds of bug fixes and many new features and enhancements that will be described in this manual."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:148
+# 5e8c7e9034464d11b69436fac27b58e9
+msgid "**QGIS Browser**"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:150
+# 553a1f837e6146b3a8f7061dcb22f5c2
+msgid "A stand alone app and a new panel in QGIS. The browser lets you easily navigate your file system and connection based (PostGIS, WFS etc.) datasets, preview them and drag and drop items into the canvas."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:154
+# fd2c38d59f8f48e89797abbf372c7d2e
+msgid "**DB Manager**"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:156
+# 5d8bd499ae974b4489c91fcb3c52f5b1
+msgid "The DB manager is now officially part of QGIS core. You can drag layers from the QGIS Browser into DB Manager and it will import your layer into your spatial database. Drag and drop tables between spatial databases and they will get imported. You can use the DB Manager to execute SQL queries against your spatial database and then view the spatial output for queries by adding the results to QGIS as a query layer. You can also create, edit, delete, and empty tables, and move them to another schema."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:164
+# 2d77e3595fa844c0ae8f759826d32bee
+msgid "**Terrain Analysis Plugin**"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:166
+# 0843463b3a584823afde38772f025ab8
+msgid "A new core plugin was added for doing terrain analysis (slope, aspect, hillshade, relief and ruggedness index)."
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:169
+# 949804e29f8f47beb873bbe15954feca
+msgid "**New symbol layer types**"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:171
+# 1e970d81ac014827abb44a0ce3b49725
+msgid "Line Pattern Fill"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:172
+# e051176daa17423694e393f202e5b190
+msgid "Point Pattern Fill"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:173
+# d9834205189245c0b4e50af8d802a0f7
+msgid "Ellipse renderer (render ellipse and also rectangles, triangles, crosses)"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:175
+# 7c5603302aa44f73904ce88ec6aaafd5
+msgid "**New plugin repository**"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:177
+# 3176a068f594493ebaf4cbc645f2735c
+msgid "Note that the old repository is now no longer supported by default; plugin authors are kindly requested to move their plugins to the new repository. Get the QGIS Plugins list at http://plugins.qgis.org/plugins/"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:181
+# e528e584b1f94be990cd6f0c3cf399ba
+msgid "**More new features**"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:183
+# 5a63c413cc924c54a0c6616e6b14af5d
+msgid "Support for nesting projects within other projects to embed content from other project files"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:185
+# dcdf7f4971fa459ab8e29e11eb60c53e
+msgid "Group Selected: Option to group layers to a group"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:186
+# ab8681d2b8364dd2a23c6b55977d968b
+msgid "Message log: Lets you keep an eye on the messages QGIS generates during loading and operation"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:188
+# 22d2a66b3ce048c3baa7c65140bdffcc
+msgid "GUI Customization: Allows setting up simplified QGIS interface by hiding various components of main window and widgets in dialogs"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:190
+# 4bfa4e0842fa4868abbd73c068601bbd
+msgid "Action Tool is now accessible from the map tools toolbar and allows you to click on a vector feature and execute an action"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:192
+# 3c03ccbd3b2740baac68c6fde2a59c16
+msgid "New scale selector: select from a list of predefined scales"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:193
+# e99bfc0c79c14df99007ba63c1d5605b
+msgid "Pan To Selected tool: Pans the map to selected feature(s); does not change the zoom level"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:195
+# cd89d5c375724d8bab5dd42d864c8b8e
+msgid "Copy and paste styles between layers"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:196
+# 3e0032b54a7c41be9adf56e13ea172bf
+msgid "Updated CRS selector dialog"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:197
+# aa713fac0c074206b9b175a38efe1ef6
+msgid "Define Legend-independent drawing order"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:198
+# b8a19758da054437b62f3f065df73207
+msgid "MSSQL Spatial Support - you can now connect to your Microsoft SQL Server spatial databases using QGIS"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:200
+# 65ee773d88934e219850f44146ee0a95
+msgid "Print Composers allows to have multiple lines on legend items using a specified character"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:202
+# 4f132160aedf4c13bd158cdd22aad2ea
+msgid "Expression based labeling"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:203
+# e83ccd32224841f2a87eed7953ef04f3
+msgid "Heatmap Plugin - a new core plugin has been added for generating raster heatmaps from point data"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:205
+# 0ab971c4c3494d95b8f8a75182fbefe5
+msgid "The GPS live tracking user interface was overhauled and many fixes and improvements were added to it"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:207
+# 77f69c18b34e4acc8098dc0c8b518c5d
+msgid "The menu was re-organised a little - we now have separate menus for Vector, Raster, Web and many plugins were updated to place their menus in the new Vector, Raster and Web top level menus"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:210
+# f48c0be3e65d4e6fa1edd42788f0213b
+msgid "Offset Curves - a new digitising tool for creating offset curves was added"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:211
+# 4e51b6fb451b4daa8d9d7f9a2dbd12d2
+msgid "New tools in the Vector menu to Densify geometries and Build spatial index"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:212
+# 3aa31dda6c794dbcb03fa88c259c22f1
+msgid "Export/add geometry column tool can export info using layer CRS, project CRS or ellipsoidal measurements"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:214
+# a379423e096241a5a02cfa2ffd1ce9c6
+msgid "Model/view based tree for rules in rule-based renderer"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:215
+# e24287fed0484a26a0fb5be8d50b2161
+msgid "Improvements in Spatial Bookmarks"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:216
+# 9853902528264af0a0c6a3c3ca70753c
+msgid "New Plugin metadata in metadata.txt"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:217
+# 4a54262e9881493484bf3b698cac044c
+msgid "Refactored postgres data provider: support for arbitrary key (including non-numeric and multi column), support for requesting a certain geometry type and/or srid in QgsDataSourceURI"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:220
+# 7dfac92ee8c54c6ba315050a7d50e93d
+msgid "Added gdal_fillnodata to GDALTools plugin"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:221
+# 3518f13b47ba4df092cefd2d90a0b3c2
+msgid "Support for PostGIS TopoGeometry datatype"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:222
+# 4b678c5c4c7b49f384709ed7adeff14f
+msgid "Python bindings for vector field symbol layer and general updates to the Python bindings"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:224
+# 115cff949e864a20bb75f228a9b3d2ca
+msgid "Added a Benchmark program"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:225
+# e0bcc8d9482a43c88cd1147f037b5cd3
+msgid "Added Row cache for attribute table"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:226
+# efc346909b694f28aafa8c177b9ca026
+msgid "UUID generation widget for attribute table"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:227
+# c7f2f733112745b9915fc36cfe45d8b6
+msgid "Added support of editable views in SpatiaLite databases"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:228
+# 6dedc277f8cd40f3951b6cc63aafc9d9
+msgid "added expression based widget in field calculator"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:229
+# bdf390c8bde34c00aaaacdc568e5e9c2
+msgid "Creation of event layers in analysis lib using linear referencing"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:230
+# 680141248e234f1dbb57afe597cdf214
+msgid "Load/save layer styles in the new symbology renderer from/to SLD document"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:231
+# 3520f2633a7e442fbf26b7beafdffb60
+msgid "QGIS Server can act as WFS Server"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:232
+# 4cd2b3b0e783480eafef0fa4c8049e1b
+msgid "WFS Client support is now a core feature in QGIS"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:233
+# 2033170013a14c42b82bd3f32be82925
+msgid "Option to skip WKT geometry when copying from attribute table"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:234
+# ff194f56558a4d7b945e71f47621e199
+msgid "Support loading of zipped and gzipped layers"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:235
+# b334b555796241109bd30a3990bde680
+msgid "The QGIS test suite now passes all tests on major platforms and nightly tests"
+msgstr ""
+
+#: ../../source/docs/user_manual/preamble/features.rst:236
+# 7708a1e6a46c47ab87a37e6095ad83f7
+msgid "You can set tile size for WMS layers"
+msgstr ""
+

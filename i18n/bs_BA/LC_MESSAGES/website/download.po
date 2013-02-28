@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/website/download.rst:9
+# 06737f19f7c74e41bc381d040a8a2097
+msgid "Downloading QGIS"
+msgstr ""
+
+#: ../../source/website/download.rst:11
+# e44766d747b74a368abfd49c44df4ccd
+msgid "How to obtain QGIS?"
+msgstr ""
+
+#: ../../source/website/download.rst:13
+# 16db766333f34f80884f5c6db80690a6
+msgid "You can download QGIS from ...."
+msgstr ""
+
+#: ../../source/website/download.rst:15
+# 1eabad713ad94ef388cbbc64fb43acfe
+msgid "QGIS is freely available on Windows, MacOS X, Linux and Android. Recommendend installers:"
+msgstr ""
+
+#: ../../source/website/download.rst:17
+# 83f5ec9fa713401f9b8371a6f335c49d
+msgid "`Windows <http://qgis.org/downloads/QGIS-OSGeo4W-1.8.0-2-Setup.exe>`_"
+msgstr ""
+
+#: ../../source/website/download.rst:18
+# 9323763e4db54182a496731b10bc19eb
+msgid "Linux"
+msgstr ""
+
+#: ../../source/website/download.rst:20
+# a1f0aff04e594039b0ec0684a6e7319f
+msgid "Debian"
+msgstr ""
+
+#: ../../source/website/download.rst:21
+# 98f704a6f544437093019d9f51e142d8
+msgid "Ubuntu"
+msgstr ""
+
+#: ../../source/website/download.rst:22
+# 950e590013974712899cd66d8d7ab093
+msgid "Fedora"
+msgstr ""
+
+#: ../../source/website/download.rst:23
+# 900114bce4814da08a89f34e7336833e
+msgid "RHEL, CentOS, Scientific Linux, ..."
+msgstr ""
+
+#: ../../source/website/download.rst:24
+# 836d63ea4dad4e9c8ead36140ee54187
+msgid "openSUSE"
+msgstr ""
+
+#: ../../source/website/download.rst:25
+# 628c28f4d7504312a9bbc5d4b3ae9948
+msgid "Mandriva"
+msgstr ""
+
+#: ../../source/website/download.rst:26
+# fca765601fd44830863f3acce80cfdfa
+msgid "Slackware"
+msgstr ""
+
+#: ../../source/website/download.rst:28
+# e3f8963bf9ee44c89fe69c443e52bd32
+msgid "BSD"
+msgstr ""
+
+#: ../../source/website/download.rst:30
+# b69a23a3532141ce9b176453474c6d37
+msgid "FreeBSD"
+msgstr ""
+
+#: ../../source/website/download.rst:32
+# 3125fa2359894ef0969d0c8c700e512d
+msgid "MacOS X"
+msgstr ""
+
+#: ../../source/website/download.rst:33
+# 1311552fd515492caef2b7d789b0ceae
+msgid "Android"
+msgstr ""
+
+#: ../../source/website/download.rst:36
+# 88ea3d297c4f4ca493c9a23634e59918
+msgid "Other installers"
+msgstr ""
+
+#: ../../source/website/download.rst:38
+# e8bd29cef544410da9c57465b427b2b4
+msgid "**Warning**: Development versions from master are provided for some platforms in addition to the released version. 'Master' contains unreleased software that is currently being worked on. As such they are unsupported and only provided for testing purposes to early adopters to check if bugs have been resolved and that no new bugs have been introduced. At any given time it may not work, or may do bad things to your data. Use at your own risk. You have been warned!"
+msgstr ""
+
+#: ../../source/website/download.rst:40
+# 487c8c69c96344c0a191b130ae0b8e33
+msgid "TODO"
+msgstr ""
+

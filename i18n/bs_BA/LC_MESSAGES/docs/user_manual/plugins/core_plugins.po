@@ -1,0 +1,524 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:14
+# 8cac688c292b4fec89be8938b3440dc1
+msgid "Using QGIS Core Plugins"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:16
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:18
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:20
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:44
+# afb9eeddf1694a05b6ae14dce3a256a7
+# 896a80e06a704ae6816454ad60f8ff92
+# 34fe73556b34480bb30cb76c40a70d89
+# 7374d7ad5c80468fa2b00232fe7222c8
+msgid "\\"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:23
+# 054fac11305a4ba3af3c342fc1b93762
+msgid "Icon"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:23
+# 0e14c06a30d24672bbcda7eeb7701dfd
+msgid "Plugin"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:23
+# 267f81bd540e4468a2155e88c98d1e3b
+msgid "Description"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:23
+# 49ba45c4d5f14397a759a0dfbabdcdbc
+msgid "Manual Reference"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:25
+# d6b63070f2984c0daba94c78afef7b83
+msgid "|delimited_text|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:25
+# 87e626625098412aacac1e963d1b6001
+msgid "Add Delimited Text Layer"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:25
+# 95dd3843878543349b0242e1acb6b3cf
+msgid "Loads text files containing x,y coordinates"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:25
+# b4da1dc2637343c7ac90fac8cda7b0df
+msgid ":ref:`label_dltext`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:26
+# 1347ceb31a9241c5b348c9f52acdf3b8
+msgid "|coordinate_capture|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:26
+# 1fd708d1a3bb40ef85575395ac3f6cd3
+msgid "Coordinate Capture"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:26
+# 786edac2522e4b00865c23bf53e3bc3d
+msgid "Capture mouse coordinate in different CRS"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:26
+# 51794fe7d4204fb9beefaa48446e36f5
+msgid ":ref:`coordcapt`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:27
+# b96b1ccb338a4182be09675640f813a4
+msgid "|icon_dbmanager|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:27
+# 8f6ee1e7042e4d379f9794b714e7a6c9
+msgid "DB Manager"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:27
+# 2c2b66f80c884912935db47818432557
+msgid "Manage your databases within QGIS"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:27
+# 47db6a248a2b47a68f30ce8df5854e32
+msgid ":ref:`dbmanager`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:28
+# 8b01ad6049de4b6b8f86e9229eda4233
+msgid "Diagram Overlay"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:28
+# 0f15e0e7b4cc461cac53331e8cef3519
+msgid "Add Diagrams for vectors"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:28
+# 77e604f105d648fe997fd9bd2a8d36a7
+msgid ":ref:`diagram_overlay`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:29
+# 1b403cd070614186b65bf02ddb757d58
+msgid "|dxf2shp_converter|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:29
+# 2216b1208d9c4cefb897006bd609279f
+msgid "DXF2Shape Converter"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:29
+# c8b58ef3d84f4992b3df5d4b45974eba
+msgid "Converts from DXF to SHP file format"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:29
+# d206c854d38544c3897b0aed8ed27fb2
+msgid ":ref:`dxf2shape`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:30
+# 1ad1cd90b5ba4c7db19a450da63c8db3
+msgid "|event_id|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:30
+# 3b74d5de45bc405887e63806f5a9453d
+msgid "eVis"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:30
+# ab4ce5f632fc4fb2bf13bfef04334147
+msgid "Event Visualization Tool"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:30
+# 11027f9b4fc9418b9539ce54f88a63be
+msgid ":ref:`evis`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:31
+# 3893294b56eb40d6a544b24c9760e672
+msgid "|ftools|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:31
+# 4237648217e6403d9e855c267f4c28db
+msgid "fTools"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:31
+# e3860fc162e94bb6a87cdc701bfaf3d0
+msgid "A suite of vector tools"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:31
+# 187ea8b445634fca8ab3b8577ede0ae7
+msgid ":ref:`ftools`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:32
+# d698a6bf7c99458ba8a49c765f30c01d
+msgid "|gps_importer|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:32
+# d2fb31827eb44e62a5514ee6758aadbd
+msgid "GPS Tools"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:32
+# e5773e44773245d9aea40690ac052e66
+msgid "Tools for loading and importing GPS data"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:32
+# 1c8c4102f64f4cf89e2ce92a27a08d79
+msgid ":ref:`plugin_gps`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:33
+# ed46722bf0274030ba5ccb034529baee
+msgid "|grass|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:33
+# 2d40ae0e4dde476bb311a62e64b2940a
+msgid "GRASS"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:33
+# 4a19baf1d9784ee49636c2bfd8f72822
+msgid "GRASS functionality"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:33
+# d498be56c89749f6b2e6d07ef1ca8de9
+msgid ":ref:`sec_grass`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:34
+# 289eecff34844ce6b3260b6d85e813e4
+msgid "|raster-info|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:34
+# 480a2913f31246ed9e22abc6b13ed425
+msgid "GDAL Tools"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:34
+# a7d92ae8ffee4eea8984f95ea2c9e302
+msgid "GDAL raster functionality"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:34
+# 870aac6ff3054258aa1035fa5a8f158f
+msgid ":ref:`label_plugingdaltools`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:35
+# f2c54f6b042f4a1a8c499d38faacdae8
+msgid "|georeferencer|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:35
+# 9918f0a77675457c86af90a272baf9cc
+msgid "Georeferencer GDAL"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:35
+# 4aaaa4aab26242de834a863da2c6faef
+msgid "Georeference Raster with GDAL"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:35
+# bc1862de419d4a568db7be8d075582e7
+msgid ":ref:`georef`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:36
+# df913c9bdd9a4ab5bc4bd2d10ba2b9c8
+msgid "|heatmap|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:36
+# 0e6ad72155be4f0aabe0ad621f5f17a2
+msgid "Heatmap"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:36
+# 989d122c02074221b869f9f985a3be20
+msgid "Create heatmap raster from input vector points"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:36
+# 781a16ccfa3b426a97856b0bbe281213
+msgid ":ref:`heatmap_plugin`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:37
+# f006e1062e2648c49774a9ee99ff9c98
+msgid "|interpolation|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:37
+# c2395e4b4a3748aeae49d6138c07b5f1
+msgid "Interpolation plugin"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:37
+# 7ac186ccd6834c0a9ffc7317b11e0f31
+msgid "Interpolation on base of vertices of a vector layer"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:37
+# 5e4bb089ad9e4dc29d2f1bb335d029b2
+msgid ":ref:`interpol`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:38
+# 5966a8e5ee1e430ead348f2d9e84f483
+msgid "|mapserver_export|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:38
+# 0ed8adebe4d64753bc49441376982d59
+msgid "MapServer Export Plugin"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:38
+# e6d0fc95dc0746dba9fb5ad55bbb8292
+msgid "Export a QGIS project file to a MapServer map file"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:38
+# 97b10c82b0ce4066b8b51adce0c91e29
+msgid ":ref:`mapserver_export`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:39
+# a623798c374b4f9ab5dd007b9c42742d
+msgid "|offline_editing_copy|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:39
+# c35765ae63924dd48ee3bd1e16adde82
+msgid "Offline Editing"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:39
+# 47d76e01cb9f460b9e050b4bb79b8c42
+msgid "Offline editing and synchronizing with database"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:39
+# 43eed9ce6d7e4564978d0fed70388613
+msgid ":ref:`offlinedit`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:40
+# 695fb69f50cf4b359f6510670dc1ff2b
+msgid "|osm_load|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:40
+# 056ee071cfb34c4199784aeb9950d565
+msgid "OpenStreetMap"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:40
+# 257d69808e7345e196fadb740eebc790
+msgid "Access OpenStreetMap"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:40
+# b016b672878444fcaa2894b947d76cb2
+msgid ":ref:`plugins_osm`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:41
+# fc5d79c921ba4c4197b4c22316022c50
+msgid "|oracle_raster|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:41
+# c84df045877540cd83760d2af3fcdef0
+msgid "Oracle Spatial Georaster"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:41
+# 05752df9933844f1b3e3b5467ac1dad5
+msgid "Access Oracle Spatial GeoRasters"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:41
+# d8068d0806164b0f917d29a2b4292237
+msgid ":ref:`oracle_raster`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:42
+# d7de84812f7c4b2191d6c6426ac52111
+msgid "|plugin_installer|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:42
+# a067fd0065144e1ab232794da6bfb6e5
+msgid "Plugin Installer"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:42
+# 29048db840ff4c75a64034dbcf8239f0
+msgid "Download and install python plugins"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:42
+# 00acfc1c44014817befcd1251e19c0dc
+msgid ":ref:`python_plugin_installer`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:43
+# 8490f7732152439f8b4ba6a108ff3461
+msgid "|raster_terrain|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:43
+# 82f79348520c45dba9685a60de07811c
+msgid "Raster Terrain Analysis"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:43
+# bab1f912bf194becaa02700fe1663584
+msgid "Compute geomorphological features from DEMs"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:43
+# c9cceac041d5401386a5d24311cce52a
+msgid ":ref:`rasterrain`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:44
+# b1a488e534f44dd0a10b40294eaeaeea
+msgid "Road graph Plugin"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:44
+# e3a3b9c23bcb4be69714bda37274eead
+msgid "Shortest path analysis"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:44
+# 2666af7334b347b6b290bcb805153f26
+msgid ":ref:`roadgraph`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:45
+# ec8940aeb8c84c869504c6cce18eb2c9
+msgid "|spiticon|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:45
+# 2f55c69846d14216893822c40272e5f5
+msgid "SPIT"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:45
+# 82ee4eafa42b4a25a255d2f8e0e83698
+msgid "Shapefile to PostGIS Import Tool"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:45
+# e2d14fa1a4a849e09fc7667869817f19
+msgid ":ref:`loading_postgis_data`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:46
+# c2f06f3010fb4a8ca7288bc337ca671b
+msgid "|icon_sqlanywhere|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:46
+# b84031a384f64a8296d074078282868d
+msgid "SQL Anywhere plugin"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:46
+# ec44342a6e1542b582d22cd74dfdc7b2
+msgid "Access SQL anywhere DB"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:46
+# 3646668352934ea0a4c0bf4e1e911c3d
+msgid ":ref:`sqlanywhere`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:47
+# 47f29b51a24a4ff0baa529bc2659d3b3
+msgid "|spatialquery|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:47
+# 53c4d60b768046018f9e92dbdbca586e
+msgid "Spatial Query"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:47
+# 2bd0e1b3dfa54cfa9436023af106cff6
+msgid "Spatial queries on vectors"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:47
+# 05066f0468aa4d05abebe354585041a0
+msgid ":ref:`spatial_query`"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:48
+# ef66c1f545e54df0a0c4335642cb0c41
+msgid "|raster-stats|"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:48
+# ca84396368ad4b8f8552b19c2ab10c51
+msgid "Zonal Statistics"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:48
+# ae46f788b7e3429c893174e887316208
+msgid "Calculate raster statistics for vector polygons"
+msgstr ""
+
+#: ../../source/docs/user_manual/plugins/core_plugins.rst:48
+# 65dd74d5092f43679fb57163d52461bf
+msgid ":ref:`zonal_statistics`"
+msgstr ""
+

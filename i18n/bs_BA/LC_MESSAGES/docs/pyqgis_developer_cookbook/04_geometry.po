@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, QGIS project
+# This file is distributed under the same license as the QGIS Documentation Project package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation Project 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 13:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:11
+# 15be4067311b4c638ec33a66118c7cda
+msgid "Geometry Handling"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:13
+# 7145bd024d7844bd866c44f89783445f
+msgid "Points, linestrings, polygons that represent a spatial feature are commonly referred to as geometries. In QGIS they are represented with :class:`QgsGeometry` class. All possible geometry types are nicely shown in `JTS discussion page <http://www.vividsolutions.com/jts/discussion.htm#spatialDataModel>`_."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:18
+# 8c6b6222cd134572b9b7f3bdd35220cb
+msgid "Sometimes one geometry is actually a collection of simple (single-part) geometries. Such a geometry is called multi-part geometry. If it contains just one type of simple geometry, we call it multi-point, multi-linestring or multi-polygon. For example, a country consisting of multiple islands can be represented as a multi-polygon."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:24
+# c5c416e3d45b4c98b93c5154a9db5f57
+msgid "The coordinates of geometries can be in any coordinate reference system (CRS). When fetching features from a layer, associated geometries will have coordinates in CRS of the layer."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:31
+# 43040d8b3983448ea797b35d325f87f5
+msgid "Geometry Construction"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:33
+# 460a6af82cd74277bbe324875cdf9242
+msgid "There are several options how to create a geometry:"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:35
+# ace6a5bc824f4cfbb0ea476155d045fd
+msgid "from coordinates::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:41
+# eb621f3f08054335b13c0882489b27d0
+msgid "Coordinates are given using :class:`QgsPoint` class."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:43
+# f794d6e6eeae4dcdaf1e8e324256c5f3
+msgid "Polyline (Linestring) is represented by a list of points. Polygon is represented by a list of linear rings (i.e. closed linestrings). First ring is outer ring (boundary), optional subsequent rings are holes in the polygon."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:47
+# c13b1743b69147f6ac067c25a35002f9
+msgid "Multi-part geometries go one level further: multi-point is a list of points, multi-linestring is a list of linestrings and multi-polygon is a list of polygons."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:51
+# aadb6fc119c94d349de6c1d68c3df715
+msgid "from well-known text (WKT)::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:55
+# e0be6d33fb7f4ac0acd10a30d80d718b
+msgid "from well-known binary (WKB)::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:64
+# ab3e0e63d8f043fd914f64d0d646daf0
+msgid "Access to Geometry"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:66
+# b3294a111a7647eb8adef0695e84d597
+msgid "First, you should find out geometry type, :func:`wkbType` method is the one to use --- it returns a value from QGis.WkbType enumeration::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:78
+# 3aacf5626c8b4eeba6a117bcef1360c0
+msgid "As an alternative, one can use :func:`type` method which returns a value from QGis.GeometryType enumeration. There is also a helper function :func:`isMultipart` to find out whether a geometry is multipart or not."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:82
+# 839737f2f7f644e4a2692f525562b1b9
+msgid "To extract information from geometry there are accessor functions for every vector type. How to use accessors::"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:92
+# 16d7f3c9bee2495fa65207939433577e
+msgid "Note: the tuples (x,y) are not real tuples, they are :class:`QgsPoint` objects, the values are accessible with :func:`x` and :func:`y` methods."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:95
+# beeb9a92767145a5975352f286883747
+msgid "For multipart geometries there are similar accessor functions: :func:`asMultiPoint`, :func:`asMultiPolyline`, :func:`asMultiPolygon()`."
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:101
+# b31d934dd7e54a40a21968e4b852b732
+msgid "Geometry Predicates and Operations"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:103
+# 105f7b25f19c4c72b74615fab0bd3eee
+msgid "QGIS uses GEOS library for advanced geometry operations such as geometry predicates (:func:`contains`, :func:`intersects`, ...) and set operations (:func:`union`, :func:`difference`, ...)"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:108
+# 2d1d2ad48c7c43babafc20afc0db65ba
+msgid "**TODO:**"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:110
+# e63630adf3554db2a88491112085dfab
+msgid ":func:`area`, :func:`length`, :func:`distance`"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:111
+# 1abd0b41b0f1479880ab0e32aa427c4e
+msgid ":func:`transform`"
+msgstr ""
+
+#: ../../source/docs/pyqgis_developer_cookbook/04_geometry.rst:112
+# 9ba3a0116a0248a8ba7bbf3cc46b1970
+msgid "available predicates and set operations"
+msgstr ""
+
